@@ -1,0 +1,36 @@
+---
+interface Props {
+  title: string;
+  price: number;
+  image: string;
+  category: string;
+  index: number;
+  id: number;
+  description?: string;
+}
+
+const { title, price, image, category, index, id, description } = Astro.props;
+
+const formattedPrice = price.toLocaleString('ru-RU');
+---
+
+<article
+  class="catalog-card"
+  role="listitem"
+  data-category={category}
+  data-index={index}
+  data-id={id}
+>
+  <div class="card-image">
+    <img
+      src={image}
+      alt={title}
+      loading="lazy"
+    />
+  </div>
+  <div class="card-body">
+    <h3 class="card-title">{title}</h3>
+    <p class="card-price">{formattedPrice} ₽</p>
+    <button class="btn-text" data-product-index={index}>Подробнее &rarr;</button>
+  </div>
+</article>

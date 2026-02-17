@@ -1,0 +1,171 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const previewProducts = [
+  {
+    id: 102,
+    title: 'Шикарная горжетка из рыжей лисы',
+    price: 4500,
+    category: 'furs',
+    images: ['https://sun9-82.userapi.com/s/v1/ig2/2oYdKySxVZPQKbvI8ZaVSIjr21QR81XFOt72zYRAyBPIg5P-mzkdf5Ap042KLnG8Yl6qqL55m2e-miKCXlvsWufH.jpg?quality=95&as=32x23,48x34,72x52,108x78,160x115,240x172,360x259,480x345,540x388,640x460,720x517,1080x776,1280x919,1440x1034,2560x1839&from=bu&cs=1280x0','https://sun9-31.userapi.com/impg/WQr776tNqBwYEC4_xUcr1fG_bCSKFNKvljtojQ/-RukVqEqcNY.jpg?size=689x472&quality=95&sign=362d7520893232308361b0c7819b254e&type=album','https://sun9-83.userapi.com/impg/tQEHiEzHY0jLY-p_wcj7BNSmAUI7RcZQOMo-eQ/QB7spv0oCMo.jpg?size=720x1080&quality=95&sign=c02b5db3474fc5c4c731e88a10febde7&type=album'],
+    description: 'ПРЕМИУМ. Шикарная горжетка из рыжей лисы на завязках.',
+    details: { 'Тип': 'Горжетка', 'Мех': 'Рыжая лиса', 'Размеры': 'Универсальный', 'Аренда': '4 500 ₽', 'Залог': 'Сопровождение костюмера', 'Особенности': 'ПРЕМИУМ' }
+  },
+  {
+    id: 201,
+    title: 'Свадебное платье 70-е "Снежана"',
+    price: 6500,
+    category: 'vintage',
+    images: ['https://sun9-34.userapi.com/s/v1/ig1/BtmVUFRjimlZyqjetPnVQvAv5dbab7xn0tqTiTxuKJmJs3fMiGWq1TDsfHo0OPJZvUaeoQ.jpg?quality=96&as=32x23,48x35,72x53,108x79,160x117,240x175,360x263,480x351,540x395,640x468,720x526,1077x787&from=bu&cs=1077x0','https://sun9-16.userapi.com/impg/c837424/v837424439/4770/AnLwgufYGsY.jpg?size=720x1080&quality=96&sign=3150074bd824ad193ab3159e07366ba4&type=album','https://sun9-49.userapi.com/impg/c837424/v837424439/4779/_Q_D-n6dvjY.jpg?size=682x1024&quality=96&sign=a92f112514677c4a2e9b63367128e3df&type=album'],
+    description: 'LUXE. Свадебное платье 70-х годов "Снежана". Шнуровка на спине, многослойный шлейф.',
+    details: { 'Тип': 'Свадебное платье', 'Эпоха': '70-е годы', 'Размеры': '38-44 (рост 168)', 'Аренда': '6 500 ₽', 'Залог': 'Сопровождение костюмера', 'Особенности': 'LUXE, шнуровка на спине, шлейф' }
+  },
+  {
+    id: 210,
+    title: 'Винтажное платье "Прованс"',
+    price: 4500,
+    category: 'vintage',
+    images: ['https://sun9-45.userapi.com/s/v1/ig2/2XFZ8IwHJCDMUFbuQ9uupr4VOUHxAvcmubvjVvCsBMxA5WfD92pB4BwPCxh2sl3te0VZnIYsqng1Ls6ELahY8tzs.jpg?quality=96&as=32x26,48x39,72x58,108x88,160x130,240x195,360x292,480x389,540x438,640x519,720x584,1080x876,1280x1038&from=bu&cs=1280x0','https://sun9-35.userapi.com/impg/9jjM0a1JNH-RmcEBB2MwYEwsDWDQZDvmXDrc_Q/19m8m9h6uNI.jpg?size=1280x937&quality=96&sign=720547dde43302c42c5c42927f559ffa&type=album','https://sun9-88.userapi.com/impg/O3d7KHARotSZvGjfMLGO2LUCT_qPsBuVr6b6ug/XUQdpRu5uUs.jpg?size=864x1080&quality=96&sign=ee07f7f94ecca5eb0bbf3021a136f38b&type=album'],
+    description: 'Винтажное платье "Прованс", около 1970-х годов.',
+    details: { 'Тип': 'Винтажное платье', 'Эпоха': '~1970-е', 'Размеры': '42-46 (рост 170)', 'Аренда': '4 500 ₽', 'Залог': '10 000 ₽' }
+  },
+];
+
+const schemaJson = {
+  "@context": "https://schema.org",
+  "@type": "RentalBusiness",
+  "name": "Прокат от Кет",
+  "image": "https://ketrent.ru/img/og-image.jpg",
+  "@id": "https://ketrent.ru/",
+  "url": "https://ketrent.ru/",
+  "telephone": "+79031831430",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Шипиловская ул., 58, корпус 1",
+    "addressLocality": "Москва",
+    "postalCode": "115580",
+    "addressCountry": "RU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 55.617329,
+    "longitude": 37.744105
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "10:00",
+    "closes": "22:00"
+  },
+  "sameAs": [
+    "https://vk.com/arendadresses",
+    "https://t.me/prokat_ot_ket"
+  ],
+  "priceRange": "1500 - 15000 RUB"
+};
+---
+
+<BaseLayout
+  title="Прокат от Кет | Аренда викторианских платьев в Москве"
+  description="Прокат от Кет — аренда роскошных викторианских, бальных и исторических платьев в Москве. Уникальная коллекция нарядов XIX века, винтажных платьев, японских кимоно и карнавальных костюмов для фотосессий и торжеств."
+  keywords="прокат платьев Москва, аренда платьев, викторианский стиль, исторические платья, бальное платье, платье 19 век, винтажные платья, кимоно, азиатские костюмы, карнавальные костюмы, прокат от Кет, прокат платьев для фотосессий"
+  canonicalUrl="https://ketrent.ru/"
+  ogTitle="Прокат от Кет | Аренда исторических платьев в Москве"
+  ogDescription="Погрузитесь в атмосферу XIX века. Прокат эксклюзивных исторических и бальных платьев, винтажных нарядов, кимоно и костюмов для съемок от Кет."
+  twitterTitle="Прокат от Кет | Аренда исторических платьев"
+  twitterDescription="Аренда исторических и бальных платьев, винтажных нарядов, кимоно и карнавальных костюмов в Москве. Идеально для фотосессий."
+  schemaJson={schemaJson}
+  currentPage="home"
+>
+  <Header currentPage="home" />
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-container">
+      <h1 class="hero-title">
+        Элегантность<br /><em>сквозь столетия</em>
+      </h1>
+      <p class="hero-subtitle">
+        Прокат костюмов <br />вдохновленных эстетикой XII—XX веков. Сочетание
+        изысканности прошлого и комфорта современности в студии «Прокат от Кет».
+      </p>
+      <div class="hero-actions">
+        <a href="/catalog" class="btn btn-hero">Смотреть коллекцию</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">Наследие и Мастерство</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Наша философия проста: красота не должна быть архаичной. Мы
+            берем лучшее из исторической моды — внимание к деталям,
+            изысканные силуэты, роскошные ткани — и адаптируем это для комфортного ношения.
+          </p>
+          <p>
+            Коллекция охватывает эпохи от XII до XX века и включает палтья, костюмы, кимоно, винтажные, мужские и женские образы.
+            Каждое платье создается вручную, по профессиональным лекалам с учетом современной посадки. Это не просто одежда, это произведения
+            искусства, рассказывающие истории элегантности и утонченности.
+          </p>
+        </div>
+        <div class="about-decorative-box">
+          <img
+            src="/img/img1.jpg"
+            alt="Процесс создания исторического платья"
+            class="about-image"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="catalog-preview" class="section catalog-preview">
+    <div class="container">
+      <h2 class="section-title">Избранные Артефакты</h2>
+      <p class="section-desc">
+        Малая часть нашей будущей большой коллекции.
+      </p>
+
+      <div class="cards-grid">
+        {previewProducts.map((product, i) => (
+          <article class="card" data-preview-index={i}>
+            <div class="card-image">
+              <img
+                src={product.images[0]}
+                alt={product.title}
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">{product.title}</h3>
+              <p class="card-price">{product.price.toLocaleString('ru-RU')} ₽</p>
+              <a href={`/catalog?category=${product.category}`} class="btn-text">Подробнее &rarr;</a>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <div class="center-btn">
+        <a href="/catalog" class="btn btn-outline">Открыть полный каталог</a>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+
+  <Fragment slot="scripts">
+    <script is:inline define:vars={{ previewProducts }}>
+      window.__previewProducts = previewProducts;
+    </script>
+    <script is:inline src="/scripts/shared.js"></script>
+    <script is:inline src="/scripts/mobile-nav.js"></script>
+    <script is:inline src="/scripts/index-preview.js"></script>
+    <script is:inline src="/scripts/parallax.js"></script>
+  </Fragment>
+</BaseLayout>

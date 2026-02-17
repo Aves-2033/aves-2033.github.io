@@ -1,0 +1,73 @@
+---
+interface Props {
+  currentPage: 'home' | 'catalog';
+}
+
+const { currentPage } = Astro.props;
+
+const categories = [
+  { slug: '', label: 'Все товары' },
+  { slug: 'furs', label: 'Меха' },
+  { slug: 'vintage', label: 'Vintage и Свадебные' },
+  { slug: 'ball', label: 'Бальные' },
+  { slug: 'fashion', label: 'Fashion и Будуар' },
+  { slug: 'riding', label: 'Верховая Езда' },
+  { slug: 'mens', label: 'Мужской Гардероб' },
+  { slug: 'accessories', label: 'Аксессуары' },
+  { slug: 'ethnic', label: 'Этнические украшения' },
+  { slug: 'headwear', label: 'Головные Уборы' },
+  { slug: 'kimono', label: 'Японские Кимоно' },
+];
+---
+
+<header class="header" slot="header">
+  <div class="container header-content">
+    <a href="/" class="logo">Прокат от Кет</a>
+    <button
+      class="burger-btn"
+      id="burgerBtn"
+      aria-label="Открыть меню"
+      aria-expanded="false"
+    >
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+    </button>
+    <div class="nav-container" id="navContainer">
+      <nav class="nav">
+        {currentPage === 'home' ? (
+          <>
+            <a href="#about" class="nav-link">О нас</a>
+            <a href="/catalog" class="nav-link">Каталог</a>
+            <a href="#contacts" class="nav-link js-open-contacts">Контакты</a>
+          </>
+        ) : (
+          <>
+            <a href="/" class="nav-link">Главная</a>
+            <a href="/catalog" class="nav-link">Каталог</a>
+            <a href="/#contacts" class="nav-link js-open-contacts">Контакты</a>
+          </>
+        )}
+      </nav>
+      <div class="header-actions">
+        <div class="catalog-dropdown">
+          {currentPage === 'home' ? (
+            <a href="/catalog" class="btn btn-primary btn-small">В каталог</a>
+          ) : (
+            <a href="/" class="btn btn-primary btn-small">На главную</a>
+          )}
+          <div class="catalog-dropdown-menu">
+            {categories.map(cat => (
+              <a
+                href={cat.slug ? `/catalog?category=${cat.slug}` : '/catalog'}
+                class="dropdown-item"
+              >
+                {cat.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

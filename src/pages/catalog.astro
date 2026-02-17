@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ProductCard from '../components/ProductCard.astro';
+import products from '../data/products.json';
+
+const categories = [
+  { slug: 'all', label: 'Все' },
+  { slug: 'furs', label: 'Меха' },
+  { slug: 'vintage', label: 'Vintage и Свадебные' },
+  { slug: 'ball', label: 'Бальные' },
+  { slug: 'medieval', label: 'Средневековые и Сказочные' },
+  { slug: 'fashion', label: 'Fashion и Будуар' },
+  { slug: 'riding', label: 'Верховая Езда' },
+  { slug: 'mens', label: 'Мужской Гардероб' },
+  { slug: 'accessories', label: 'Аксессуары' },
+  { slug: 'ethnic', label: 'Этнические украшения' },
+  { slug: 'headwear', label: 'Головные Уборы' },
+  { slug: 'kimono', label: 'Японские Кимоно' },
+];
+
+// Schema: BreadcrumbList
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://ketrent.ru/" },
+    { "@type": "ListItem", "position": 2, "name": "Каталог", "item": "https://ketrent.ru/catalog" }
+  ]
+};
+
+// Schema: ItemList for all products
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Каталог платьев — Прокат от Кет",
+  "numberOfItems": products.length,
+  "itemListElement": products.slice(0, 30).map((p: any, i: number) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "item": {
+      "@type": "Product",
+      "name": p.title,
+      "description": p.description || '',
+      "image": p.images?.[0] || '',
+      "offers": {
+        "@type": "Offer",
+        "price": p.price,
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  }))
+};
+
+const combinedSchema = [breadcrumbSchema, itemListSchema];
+---
+
+<BaseLayout
+  title="Каталог платьев | Прокат от Кет — Аренда в Москве"
+  description="Каталог исторических платьев Проката от Кет. Бальные, викторианские, винтажные и свадебные наряды, кимоно и карнавальные костюмы для аренды в Москве."
+  keywords="каталог платьев, аренда платьев Москва, викторианские платья, бальные платья, винтажные платья, кимоно, свадебные платья, прокат костюмов"
+  canonicalUrl="https://ketrent.ru/catalog"
+  ogTitle="Каталог платьев | Прокат от Кет"
+  ogDescription="Каталог исторических платьев для аренды в Москве. Бальные, викторианские, винтажные, свадебные наряды и костюмы."
+  currentPage="catalog"
+>
+  <Fragment slot="header">
+    <!-- Inline schema for catalog page -->
+    <script type="application/ld+json" set:html={JSON.stringify(combinedSchema)} />
+  </Fragment>
+
+  <Header currentPage="catalog" />
+
+  <section class="hero catalog-hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-container">
+      <h1 class="hero-title">Коллекция платьев</h1>
+      <p class="hero-subtitle">Изысканные платья в викторианском стиле</p>
+      <div class="catalog-filters" role="group" aria-label="Фильтры каталога">
+        {categories.map(cat => (
+          <button
+            class={`filter-btn${cat.slug === 'all' ? ' active' : ''}`}
+            data-filter={cat.slug}
+            aria-pressed={cat.slug === 'all' ? 'true' : 'false'}
+          >
+            {cat.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section catalog-section">
+    <div class="container">
+      <div class="catalog-grid" id="catalogGrid" role="list" aria-label="Каталог платьев">
+        {products.map((product: any, index: number) => (
+          <ProductCard
+            title={product.title}
+            price={product.price}
+            image={product.images?.[0] || ''}
+            category={product.category}
+            index={index}
+            id={product.id}
+            description={product.description}
+          />
+        ))}
+      </div>
+
+      <!-- Кнопка "Показать еще" -->
+      <div class="load-more-container" id="loadMoreContainer" style="display: none;">
+        <button class="btn btn-outline" id="loadMoreBtn">Показать еще</button>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+
+  <Fragment slot="scripts">
+    <script is:inline>
+      // Make the full products data available for the modal
+      window.__catalogProducts = null; // Will be fetched if needed for modal details
+    </script>
+    <script is:inline src="/scripts/shared.js"></script>
+    <script is:inline src="/scripts/mobile-nav.js"></script>
+    <script is:inline src="/scripts/catalog-client.js"></script>
+  </Fragment>
+</BaseLayout>
