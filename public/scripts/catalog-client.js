@@ -107,7 +107,7 @@ function openCatalogModal(index) {
         <button class="modal-nav-btn" id="prevBtn" ${prevDisabled ? 'disabled' : ''} aria-label="Предыдущий товар">
             ← Предыдущее
         </button>
-        <button class="modal-nav-btn btn-contact js-open-contacts" aria-label="Связаться">Связаться</button>
+        <button class="modal-nav-btn btn-contact js-open-contacts" id="contactBtn" aria-label="Связаться">Связаться</button>
         <button class="modal-nav-btn" id="nextBtn" ${nextDisabled ? 'disabled' : ''} aria-label="Следующий товар">
             Следующее →
         </button>
