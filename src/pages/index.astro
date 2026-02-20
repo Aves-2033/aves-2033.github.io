@@ -56,8 +56,8 @@ const schemaJson = {
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-    "opens": "10:00",
-    "closes": "22:00"
+    "opens": "11:00",
+    "closes": "21:00"
   },
   "sameAs": [
     "https://vk.com/arendadresses",
@@ -108,7 +108,7 @@ const schemaJson = {
             изысканные силуэты, роскошные ткани — и адаптируем это для комфортного ношения.
           </p>
           <p>
-            Коллекция охватывает эпохи от XII до XX века и включает палтья, костюмы, кимоно, винтажные, мужские и женские образы.
+            Коллекция охватывает эпохи от XII до XX века и включает платья, костюмы, кимоно, винтажные, мужские и женские образы.
             Каждое платье создается вручную, по профессиональным лекалам с учетом современной посадки. Это не просто одежда, это произведения
             искусства, рассказывающие истории элегантности и утонченности.
           </p>
@@ -144,6 +144,8 @@ const schemaJson = {
                 src={product.images[0]}
                 alt={product.title}
                 loading="lazy"
+                width="400"
+                height="500"
               />
             </div>
             <div class="card-body">
@@ -167,9 +169,11 @@ const schemaJson = {
     <script is:inline define:vars={{ previewProducts }}>
       window.__previewProducts = previewProducts;
     </script>
-    <script is:inline src="/scripts/shared.js"></script>
-    <script is:inline src="/scripts/mobile-nav.js"></script>
-    <script is:inline src="/scripts/index-preview.js"></script>
-    <script is:inline src="/scripts/parallax.js"></script>
+    <script>
+      import '../scripts/shared.js';
+      import '../scripts/mobile-nav.js';
+      import '../scripts/index-preview.js';
+      import '../scripts/parallax.js';
+    </script>
   </Fragment>
 </BaseLayout>

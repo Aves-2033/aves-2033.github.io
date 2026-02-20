@@ -1,18 +1,26 @@
 // ============================================================
-// index-preview.js — Превью карточек на главной странице (Astro)
-// Зависит от shared.js (подключается перед этим файлом)
+// index-preview.js — Превью карточек на главной странице (ES Module)
+// Зависит от shared.js
 // ============================================================
 
-// Данные о товарах для превью (переданы из Astro SSR)
+import {
+    state,
+    cleanupModalHandlers,
+    setupModal,
+    renderModalContent,
+    setNavigateModal,
+} from './shared.js';
+
+// Данные о товарах для превью (переданы из Astro через is:inline)
 const previewProducts = window.__previewProducts || [];
 
 // Открытие модального окна (главная)
 function openModal(index) {
-    previousActiveElement = document.activeElement;
+    state.previousActiveElement = document.activeElement;
     cleanupModalHandlers();
 
-    currentProductIndex = index;
-    currentImageIndex = 0;
+    state.currentProductIndex = index;
+    state.currentImageIndex = 0;
     const product = previewProducts[index];
 
     if (!product) return;
@@ -24,7 +32,6 @@ function openModal(index) {
     modal.setAttribute('aria-modal', 'true');
     modal.setAttribute('aria-labelledby', 'modal-title');
 
-    // Навигация главной: кнопки пред/след + ссылка на каталог
     const navHTML = `
         <button class="modal-nav-btn" id="prevBtn" ${index === 0 ? 'disabled' : ''} aria-label="Предыдущий товар">
             ← Предыдущее
@@ -44,9 +51,9 @@ function openModal(index) {
 
 // Навигация в модальном окне (главная)
 function navigateModal(direction) {
-    const newIndex = currentProductIndex + direction;
+    const newIndex = state.currentProductIndex + direction;
     if (newIndex >= 0 && newIndex < previewProducts.length) {
-        currentProductIndex = newIndex;
+        state.currentProductIndex = newIndex;
         openModal(newIndex);
     }
 }
@@ -56,6 +63,7 @@ function initPreview() {
     const cards = document.querySelectorAll('.catalog-preview .card');
 
     setupModal();
+    setNavigateModal(navigateModal);
 
     cards.forEach((card) => {
         const cardTitle = card.querySelector('.card-title');
@@ -75,5 +83,4 @@ function initPreview() {
     });
 }
 
-// Инициализация при загрузке страницы
 document.addEventListener('DOMContentLoaded', initPreview);

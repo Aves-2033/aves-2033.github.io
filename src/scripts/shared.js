@@ -1,9 +1,9 @@
 // ============================================================
-// shared.js — Общие утилиты и модальные окна
+// shared.js — Общие утилиты и модальные окна (ES Module)
 // Используется на всех страницах сайта
 // ============================================================
 
-const APP_VERSION = '2026.02.14.2';
+const APP_VERSION = '2026.02.20.1';
 
 // --- Проверка версии и очистка кэша при обновлении ---
 (function() {
@@ -16,7 +16,6 @@ const APP_VERSION = '2026.02.14.2';
             localStorage.removeItem('prokat_ket_products');
             localStorage.setItem('aves_app_version', APP_VERSION);
             
-            // Если это Telegram, делаем жесткую перезагрузку один раз для сброса агрессивного кэша
             if (isTelegram) {
                 console.log('Telegram browser detected. Forcing hard reload...');
                 location.reload(true);
@@ -30,24 +29,30 @@ const APP_VERSION = '2026.02.14.2';
 
 
 // --- Автообновление года в copyright ---
-// --- Автообновление года в copyright ---
 document.addEventListener('DOMContentLoaded', () => {
-    // Рендерим компоненты (футер, модалки)
     if (typeof Components !== 'undefined') {
         Components.render();
     }
-    
-    // После рендера пытаемся найти год (он теперь внутри динамического футера)
-    // Но так как мы уже вставили год в Components.getFooterHTML(), обновление через JS может быть не нужно,
-    // если мы там сразу ставим правильный год. Но оставим для надежности.
     const yearEl = document.getElementById('copyrightYear');
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 });
 
+// --- Shared state ---
+export const state = {
+    currentImageIndex: 0,
+    currentProductIndex: 0,
+    previousActiveElement: null,
+    currentLightboxIndex: 0,
+    currentLightboxImages: [],
+};
+
+// Кастомная функция навигации в модалке (переопределяется на каждой странице)
+let _navigateModalFn = () => {};
+export function setNavigateModal(fn) { _navigateModalFn = fn; }
+
 // --- Утилиты ---
 
-// Вспомогательная функция для получения изображения товара (поддержка старого и нового формата)
-function getProductImage(product, index = 0) {
+export function getProductImage(product, index = 0) {
     if (product.images && Array.isArray(product.images)) {
         return product.images[index] || product.images[0];
     }
@@ -57,8 +62,7 @@ function getProductImage(product, index = 0) {
     return 'img/placeholder.jpg';
 }
 
-// Вспомогательная функция для экранирования HTML
-function escapeHtml(text) {
+export function escapeHtml(text) {
     if (typeof text !== 'string') {
         return '';
     }
@@ -67,18 +71,7 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
-// --- Общее состояние модальных окон ---
-
-let currentImageIndex = 0;
-let currentProductIndex = 0;
-
-let previousActiveElement = null;
-
-// Lightbox state
-let currentLightboxIndex = 0;
-let currentLightboxImages = [];
-
-// Хранилище для обработчиков событий (для правильной очистки)
+// --- Хранилище обработчиков событий ---
 const eventHandlers = {
     modalKeyboard: null,
     lightboxKeyboard: null,
@@ -105,7 +98,7 @@ const eventHandlers = {
 
 // --- Очистка обработчиков ---
 
-function cleanupModalHandlers() {
+export function cleanupModalHandlers() {
     if (eventHandlers.modalKeyboard) {
         document.removeEventListener('keydown', eventHandlers.modalKeyboard);
         eventHandlers.modalKeyboard = null;
@@ -178,7 +171,6 @@ function cleanupLightboxHandlers() {
             lightboxModal.removeEventListener('click', eventHandlers.lightboxBackground);
             lightboxModal.removeEventListener('wheel', eventHandlers.lightboxWheel);
             
-            // Remove navigation buttons if injected
             const prevBtn = document.getElementById('lightboxPrev');
             const nextBtn = document.getElementById('lightboxNext');
             if (prevBtn) prevBtn.remove();
@@ -227,7 +219,7 @@ function cleanupContactModalHandlers() {
 
 // --- Модальное окно контактов ---
 
-function openContactModal() {
+export function openContactModal() {
     const contactModal = document.getElementById('contactModal');
     const contactCloseBtn = document.getElementById('contactModalClose');
 
@@ -266,16 +258,15 @@ function openLightbox(index, imageList, imageAlt) {
 
     if (!lightboxModal || !lightboxImage) return;
 
-    // Handle single image fallback or ensure list format
     if (!Array.isArray(imageList)) {
-        imageList = [imageList || index]; // If passed weirdly
+        imageList = [imageList || index];
         index = 0;
     }
 
-    currentLightboxImages = imageList;
-    currentLightboxIndex = index;
+    state.currentLightboxImages = imageList;
+    state.currentLightboxIndex = index;
 
-    lightboxImage.src = currentLightboxImages[currentLightboxIndex];
+    lightboxImage.src = state.currentLightboxImages[state.currentLightboxIndex];
     lightboxImage.alt = imageAlt || 'Изображение';
 
     lightboxModal.classList.add('active');
@@ -294,23 +285,20 @@ function openLightbox(index, imageList, imageAlt) {
         }
     };
 
-    // --- Навигация Lightbox ---
-
     function navigateLightbox(direction) {
-        if (!currentLightboxImages || currentLightboxImages.length <= 1) return;
+        if (!state.currentLightboxImages || state.currentLightboxImages.length <= 1) return;
 
-        let newIndex = currentLightboxIndex + direction;
+        let newIndex = state.currentLightboxIndex + direction;
         
-        // Circular navigation
-        if (newIndex < 0) newIndex = currentLightboxImages.length - 1;
-        if (newIndex >= currentLightboxImages.length) newIndex = 0;
+        if (newIndex < 0) newIndex = state.currentLightboxImages.length - 1;
+        if (newIndex >= state.currentLightboxImages.length) newIndex = 0;
 
-        currentLightboxIndex = newIndex;
+        state.currentLightboxIndex = newIndex;
         const lightboxImage = document.getElementById('lightboxImage');
         if (lightboxImage) {
-            lightboxImage.style.opacity = '0.5'; // Fade effect
+            lightboxImage.style.opacity = '0.5';
             setTimeout(() => {
-                lightboxImage.src = currentLightboxImages[newIndex];
+                lightboxImage.src = state.currentLightboxImages[newIndex];
                 lightboxImage.style.opacity = '1';
             }, 100);
         }
@@ -339,7 +327,7 @@ function openLightbox(index, imageList, imageAlt) {
     lightboxModal.addEventListener('wheel', eventHandlers.lightboxWheel, { passive: false });
     document.addEventListener('keydown', eventHandlers.lightboxKeyboard);
 
-    // --- Swipe Support ---
+    // Swipe Support
     let touchStartX = 0;
     let touchEndX = 0;
 
@@ -353,35 +341,31 @@ function openLightbox(index, imageList, imageAlt) {
 
     eventHandlers.lightboxTouchEnd = (e) => {
         touchEndX = e.changedTouches[0].screenX;
-        handleSwipe();
-    };
-
-    function handleSwipe() {
-        const swipeThreshold = 50; // Minimum distance for swipe
+        const swipeThreshold = 50;
         if (touchEndX < touchStartX - swipeThreshold) {
-            navigateLightbox(1); // Swipe Left -> Next
+            navigateLightbox(1);
         }
         if (touchEndX > touchStartX + swipeThreshold) {
-            navigateLightbox(-1); // Swipe Right -> Prev
+            navigateLightbox(-1);
         }
-    }
+    };
 
     lightboxModal.addEventListener('touchstart', eventHandlers.lightboxTouchStart, { passive: true });
     lightboxModal.addEventListener('touchmove', eventHandlers.lightboxTouchMove, { passive: true });
     lightboxModal.addEventListener('touchend', eventHandlers.lightboxTouchEnd, { passive: true });
 
-    // Inject Navigation Controls if multiple images
+    // Navigation Controls for multiple images
     if (imageList.length > 1) {
         const prevBtn = document.createElement('button');
         prevBtn.className = 'lightbox-nav-btn prev';
         prevBtn.id = 'lightboxPrev';
-        prevBtn.innerHTML = '&#10094;'; // Left Arrow
+        prevBtn.innerHTML = '&#10094;';
         prevBtn.onclick = (e) => { e.stopPropagation(); navigateLightbox(-1); };
         
         const nextBtn = document.createElement('button');
         nextBtn.className = 'lightbox-nav-btn next';
         nextBtn.id = 'lightboxNext';
-        nextBtn.innerHTML = '&#10095;'; // Right Arrow
+        nextBtn.innerHTML = '&#10095;';
         nextBtn.onclick = (e) => { e.stopPropagation(); navigateLightbox(1); };
 
         lightboxModal.appendChild(prevBtn);
@@ -394,9 +378,9 @@ function openLightbox(index, imageList, imageAlt) {
 // --- Переключение изображений в галерее ---
 
 function switchImage(newIndex, images, modalImage, thumbnails) {
-    if (newIndex === currentImageIndex) return;
+    if (newIndex === state.currentImageIndex) return;
 
-    currentImageIndex = newIndex;
+    state.currentImageIndex = newIndex;
 
     thumbnails.forEach((thumb, idx) => {
         thumb.classList.toggle('active', idx === newIndex);
@@ -412,17 +396,17 @@ function switchImage(newIndex, images, modalImage, thumbnails) {
 
 // --- Закрытие модального окна ---
 
-function closeModal() {
+export function closeModal() {
     const modal = document.getElementById('productModal');
     modal.classList.remove('active');
     document.body.style.overflow = '';
 
     cleanupModalHandlers();
 
-    if (previousActiveElement && typeof previousActiveElement.focus === 'function') {
-        previousActiveElement.focus();
+    if (state.previousActiveElement && typeof state.previousActiveElement.focus === 'function') {
+        state.previousActiveElement.focus();
     }
-    previousActiveElement = null;
+    state.previousActiveElement = null;
 }
 
 // --- Клавиатурная навигация в модальном окне ---
@@ -431,23 +415,21 @@ function handleModalKeyboard(e) {
     const modal = document.getElementById('productModal');
     const lightbox = document.getElementById('lightboxModal');
     
-    // Блокируем навигацию основного модального окна, если открыт Lightbox
     if (lightbox && lightbox.classList.contains('active')) return;
-
     if (!modal || !modal.classList.contains('active')) return;
 
     if (e.key === 'Escape') {
         closeModal();
     } else if (e.key === 'ArrowLeft') {
-        navigateModal(-1);
+        _navigateModalFn(-1);
     } else if (e.key === 'ArrowRight') {
-        navigateModal(1);
+        _navigateModalFn(1);
     }
 }
 
-// --- Настройка модального окна (кнопка закрытия, клик по бэкграунду) ---
+// --- Настройка модального окна ---
 
-function setupModal() {
+export function setupModal() {
     const modal = document.getElementById('productModal');
     const closeBtn = document.getElementById('modalClose');
 
@@ -465,7 +447,7 @@ function setupModal() {
 
 // --- Общая генерация HTML модального окна ---
 
-function renderModalContent(product, index, productsArray, navHTML) {
+export function renderModalContent(product, index, productsArray, navHTML) {
     const modalBody = document.getElementById('modalBody');
     if (!modalBody) return;
 
@@ -506,7 +488,6 @@ function renderModalContent(product, index, productsArray, navHTML) {
         </div>
     `;
 
-    // Настройка изображения
     const modalImageContainer = modalBody.querySelector('.modal-image');
     const modalImage = modalBody.querySelector('.modal-image img');
 
@@ -534,14 +515,14 @@ function renderModalContent(product, index, productsArray, navHTML) {
 
         eventHandlers.modalImageClick = (e) => {
             e.stopPropagation();
-            openLightbox(currentImageIndex, images, product.title);
+            openLightbox(state.currentImageIndex, images, product.title);
         };
         modalImageContainer.addEventListener('click', eventHandlers.modalImageClick);
         modalImageContainer.setAttribute('role', 'button');
         modalImageContainer.setAttribute('tabindex', '0');
         modalImageContainer.setAttribute('aria-label', 'Увеличить изображение');
 
-        // Эффект панорамирования (следования за мышью) без зума
+        // Эффект панорамирования
         eventHandlers.modalImageMouseMove = (e) => {
             const rect = modalImageContainer.getBoundingClientRect();
             const x = ((e.clientX - rect.left) / rect.width) * 100;
@@ -550,24 +531,21 @@ function renderModalContent(product, index, productsArray, navHTML) {
         };
         modalImageContainer.addEventListener('mousemove', eventHandlers.modalImageMouseMove);
         
-        // Сброс при уходе курсора
         eventHandlers.modalImageMouseLeave = () => {
             modalImage.style.transition = 'object-position 0.3s ease';
             modalImage.style.objectPosition = '50% 50%';
-            
             setTimeout(() => {
                 modalImage.style.transition = '';
             }, 300);
         };
         modalImageContainer.addEventListener('mouseleave', eventHandlers.modalImageMouseLeave);
 
-        // Убираем плавность при входе мыши, чтобы реакция была мгновенной
         eventHandlers.modalImageMouseEnter = () => {
              modalImage.style.transition = 'none';
         };
         modalImageContainer.addEventListener('mouseenter', eventHandlers.modalImageMouseEnter);
 
-        // --- Swipe Support for Modal Gallery ---
+        // Swipe Support for Modal Gallery
         if (hasMultipleImages) {
             let touchStartX = 0;
             let touchEndX = 0;
@@ -585,13 +563,11 @@ function renderModalContent(product, index, productsArray, navHTML) {
                 const thumbnails = modalBody.querySelectorAll('.thumbnail');
                 
                 if (touchEndX < touchStartX - swipeThreshold) {
-                    // Swipe Left -> Next Image
-                    let nextIdx = currentImageIndex + 1;
+                    let nextIdx = state.currentImageIndex + 1;
                     if (nextIdx >= images.length) nextIdx = 0;
                     switchImage(nextIdx, images, modalImage, thumbnails);
                 } else if (touchEndX > touchStartX + swipeThreshold) {
-                    // Swipe Right -> Prev Image
-                    let prevIdx = currentImageIndex - 1;
+                    let prevIdx = state.currentImageIndex - 1;
                     if (prevIdx < 0) prevIdx = images.length - 1;
                     switchImage(prevIdx, images, modalImage, thumbnails);
                 }
@@ -615,8 +591,8 @@ function renderModalContent(product, index, productsArray, navHTML) {
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
 
-    eventHandlers.prevBtn = () => navigateModal(-1);
-    eventHandlers.nextBtn = () => navigateModal(1);
+    eventHandlers.prevBtn = () => _navigateModalFn(-1);
+    eventHandlers.nextBtn = () => _navigateModalFn(1);
 
     if (prevBtn) prevBtn.addEventListener('click', eventHandlers.prevBtn);
     if (nextBtn) nextBtn.addEventListener('click', eventHandlers.nextBtn);
@@ -632,9 +608,7 @@ function renderModalContent(product, index, productsArray, navHTML) {
     document.addEventListener('keydown', eventHandlers.modalKeyboard);
 }
 
-// --- Обработка кликов по ссылке "Контакты" в меню ---
-// --- Обработка выпадающих меню (Dropdowns) ---
-// Добавляет поддержку тача для мобильных устройств
+// --- Обработка Dropdowns ---
 function setupDropdowns() {
     const dropdowns = document.querySelectorAll('.catalog-dropdown');
 
@@ -643,12 +617,9 @@ function setupDropdowns() {
         if (!btn) return;
 
         btn.addEventListener('click', (e) => {
-            // Проверка на touch устройство или ширину экрана
             const isMobile = window.matchMedia('(hover: none) and (pointer: coarse)').matches || window.innerWidth <= 1024;
 
             if (isMobile) {
-                // e.preventDefault(); // Removed to allow primary button clicks on mobile
-                // Закрываем другие открытые меню
                 dropdowns.forEach(d => {
                     if (d !== dropdown) d.classList.remove('active');
                 });
@@ -657,7 +628,6 @@ function setupDropdowns() {
         });
     });
 
-    // Закрытие при клике вне
     document.addEventListener('click', (e) => {
         if (!e.target.closest('.catalog-dropdown')) {
             dropdowns.forEach(d => d.classList.remove('active'));
@@ -669,7 +639,6 @@ function setupDropdowns() {
 document.addEventListener('DOMContentLoaded', () => {
     setupDropdowns();
     
-    // Обработка кликов по ссылке "Контакты" в меню
     const contactLinks = document.querySelectorAll('.js-open-contacts');
     
     contactLinks.forEach(link => {
@@ -677,7 +646,6 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             openContactModal();
             
-            // Если меню открыто (на мобильном), закроем его
             const navContainer = document.getElementById('navContainer');
             const burgerBtn = document.getElementById('burgerBtn');
             
@@ -685,7 +653,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 navContainer.classList.remove('open');
                 if (burgerBtn) burgerBtn.classList.remove('active');
                 
-                // Сбрасываем инлайновые стили мобильного меню
                 navContainer.style.visibility = 'hidden';
                 navContainer.style.pointerEvents = 'none';
                 navContainer.style.opacity = '0';

@@ -1,4 +1,7 @@
-// Мобильная навигация: hamburger-меню
+// ============================================================
+// mobile-nav.js — Мобильная навигация: hamburger-меню (ES Module)
+// ============================================================
+
 document.addEventListener('DOMContentLoaded', () => {
     const burgerBtn = document.getElementById('burgerBtn');
     const navContainer = document.getElementById('navContainer');
@@ -10,45 +13,43 @@ document.addEventListener('DOMContentLoaded', () => {
         if (navContainer.classList.contains('open')) {
             navContainer.classList.remove('open');
             burgerBtn.classList.remove('active');
-            burgerBtn.setAttribute('aria-expanded', 'false');
-            
             navContainer.style.visibility = 'hidden';
             navContainer.style.pointerEvents = 'none';
             navContainer.style.opacity = '0';
-            
             document.body.style.overflow = '';
         }
     }
 
-    // Переключение меню по клику на бургер
     burgerBtn.addEventListener('click', () => {
         const isOpen = navContainer.classList.toggle('open');
-        burgerBtn.classList.toggle('active');
-        burgerBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-        
-        // Переключаем стили только для мобильного эффекта
-        navContainer.style.visibility = isOpen ? 'visible' : 'hidden';
-        navContainer.style.pointerEvents = isOpen ? 'auto' : 'none';
-        navContainer.style.opacity = isOpen ? '1' : '0';
-        
-        document.body.style.overflow = isOpen ? 'hidden' : '';
+        burgerBtn.classList.toggle('active', isOpen);
+        if (isOpen) {
+            navContainer.style.visibility = 'visible';
+            navContainer.style.pointerEvents = 'auto';
+            navContainer.style.opacity = '1';
+            document.body.style.overflow = 'hidden';
+        } else {
+            closeMenu();
+        }
     });
 
-    // Закрытие меню при клике на nav-link
+    // Close on nav link click
     navContainer.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', () => {
-            // Закрываем меню только если оно открыто (мобильный режим)
-            if (navContainer.classList.contains('open')) {
-                closeMenu();
-            }
+            closeMenu();
         });
     });
 
-    // Закрытие меню при клике вне него
-    document.addEventListener('click', (e) => {
-        if (navContainer.classList.contains('open') && 
-            !navContainer.contains(e.target) && 
-            !burgerBtn.contains(e.target)) {
+    // Close on overlay click
+    navContainer.addEventListener('click', (e) => {
+        if (e.target === navContainer) {
+            closeMenu();
+        }
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
             closeMenu();
         }
     });

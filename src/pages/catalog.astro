@@ -119,11 +119,12 @@ const combinedSchema = [breadcrumbSchema, itemListSchema];
 
   <Fragment slot="scripts">
     <script is:inline>
-      // Make the full products data available for the modal
-      window.__catalogProducts = null; // Will be fetched if needed for modal details
+      window.__catalogProducts = null;
     </script>
-    <script is:inline src="/scripts/shared.js"></script>
-    <script is:inline src="/scripts/mobile-nav.js"></script>
-    <script is:inline src="/scripts/catalog-client.js"></script>
+    <script>
+      import '../scripts/shared.js';
+      import '../scripts/mobile-nav.js';
+      import '../scripts/catalog-client.js';
+    </script>
   </Fragment>
 </BaseLayout>

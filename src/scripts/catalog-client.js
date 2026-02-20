@@ -1,7 +1,16 @@
 // ============================================================
-// catalog-client.js — Клиентский JS для каталога (Astro версия)
+// catalog-client.js — Клиентский JS для каталога (ES Module)
 // Работает с уже отрендеренными в HTML карточками
 // ============================================================
+
+import {
+    state,
+    cleanupModalHandlers,
+    setupModal,
+    renderModalContent,
+    openContactModal,
+    setNavigateModal,
+} from './shared.js';
 
 // Параметры пагинации
 const ITEMS_PER_PAGE = 20;
@@ -35,27 +44,20 @@ function applyFilter(category) {
         filteredCards = allCards.filter(card => card.dataset.category === category);
     }
 
-    // Скрываем все карточки
     allCards.forEach(card => {
         card.style.display = 'none';
     });
 
-    // Показываем первые ITEMS_PER_PAGE карточек из отфильтрованных
     showPage();
     updateLoadMoreButton();
 }
 
 // Показать текущую страницу
 function showPage() {
-    const start = 0;
     const end = currentPage * ITEMS_PER_PAGE;
 
     filteredCards.forEach((card, index) => {
-        if (index < end) {
-            card.style.display = '';
-        } else {
-            card.style.display = 'none';
-        }
+        card.style.display = index < end ? '' : 'none';
     });
 }
 
@@ -65,11 +67,7 @@ function updateLoadMoreButton() {
     if (!container) return;
 
     const totalShown = currentPage * ITEMS_PER_PAGE;
-    if (totalShown < filteredCards.length) {
-        container.style.display = 'flex';
-    } else {
-        container.style.display = 'none';
-    }
+    container.style.display = totalShown < filteredCards.length ? 'flex' : 'none';
 }
 
 // Загрузить ещё
@@ -86,11 +84,11 @@ function openCatalogModal(index) {
     const product = products[index];
     if (!product) return;
 
-    previousActiveElement = document.activeElement;
+    state.previousActiveElement = document.activeElement;
     cleanupModalHandlers();
 
-    currentProductIndex = index;
-    currentImageIndex = 0;
+    state.currentProductIndex = index;
+    state.currentImageIndex = 0;
 
     const modal = document.getElementById('productModal');
     if (!modal) return;
@@ -99,7 +97,6 @@ function openCatalogModal(index) {
     modal.setAttribute('aria-modal', 'true');
     modal.setAttribute('aria-labelledby', 'modal-title');
 
-    // Навигация каталога: кнопки пред/след
     const prevDisabled = index === 0;
     const nextDisabled = index === filteredCards.length - 1;
 
@@ -122,14 +119,13 @@ function openCatalogModal(index) {
 
 // Навигация в модалке каталога
 function navigateCatalogModal(direction) {
-    // Найти текущий индекс среди отфильтрованных
-    const currentCard = filteredCards.find(c => parseInt(c.dataset.index) === currentProductIndex);
+    const currentCard = filteredCards.find(c => parseInt(c.dataset.index) === state.currentProductIndex);
     const currentFilteredIdx = filteredCards.indexOf(currentCard);
     const newFilteredIdx = currentFilteredIdx + direction;
 
     if (newFilteredIdx >= 0 && newFilteredIdx < filteredCards.length) {
         const newProductIndex = parseInt(filteredCards[newFilteredIdx].dataset.index);
-        currentProductIndex = newProductIndex;
+        state.currentProductIndex = newProductIndex;
         openCatalogModal(newProductIndex);
     }
 }
@@ -139,15 +135,12 @@ function initCatalog() {
     const grid = document.getElementById('catalogGrid');
     if (!grid) return;
 
-    // Собираем все уже отрендеренные карточки
     allCards = Array.from(grid.querySelectorAll('.catalog-card'));
     filteredCards = [...allCards];
 
-    // Проверяем URL параметры для начального фильтра
     const urlParams = new URLSearchParams(window.location.search);
     const urlCategory = urlParams.get('category');
 
-    // Настраиваем фильтры
     const filterBtns = document.querySelectorAll('.filter-btn');
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -161,13 +154,11 @@ function initCatalog() {
         });
     });
 
-    // Кнопка "Показать ещё"
     const loadMoreBtn = document.getElementById('loadMoreBtn');
     if (loadMoreBtn) {
         loadMoreBtn.addEventListener('click', loadMore);
     }
 
-    // Клики по карточкам
     allCards.forEach(card => {
         card.style.cursor = 'pointer';
         card.addEventListener('click', (e) => {
@@ -179,9 +170,7 @@ function initCatalog() {
         });
     });
 
-    // Загружаем полные данные для модалок
     fetchProducts().then(() => {
-        // Применяем URL-фильтр если есть
         if (urlCategory) {
             const targetBtn = document.querySelector(`.filter-btn[data-filter="${urlCategory}"]`);
             if (targetBtn) {
@@ -194,11 +183,10 @@ function initCatalog() {
         }
     });
 
-    // Настраиваем модалку
     setupModal();
 
-    // Переопределяем навигацию модалки для каталога
-    window.navigateModal = navigateCatalogModal;
+    // Устанавливаем навигацию модалки для каталога
+    setNavigateModal(navigateCatalogModal);
 }
 
 document.addEventListener('DOMContentLoaded', initCatalog);
