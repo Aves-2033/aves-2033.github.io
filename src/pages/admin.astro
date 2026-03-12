@@ -574,13 +574,18 @@ const title = "Админ-панель | Прокат от Кет";
         details: details
       };
 
-      const formData = new FormData();
-      formData.append('action', 'updateInfo');
-      formData.append('productId', currentProductId);
-      formData.append('metadata', JSON.stringify(metadata));
+      const payload = {
+        action: 'updateInfo',
+        productId: currentProductId,
+        metadata: metadata
+      };
 
       try {
-        const res = await fetch('/api/admin/products', { method: 'POST', body: formData });
+        const res = await fetch('/api/admin/products', { 
+          method: 'POST', 
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload) 
+        });
         const result = await res.json();
         if (result.success) {
           alert('Данные сохранены!');
@@ -597,14 +602,19 @@ const title = "Админ-панель | Прокат от Кет";
       const url = document.getElementById('imgUrlInput').value.trim();
       if (!url) return;
 
-      const formData = new FormData();
-      formData.append('action', 'addImage');
-      formData.append('productId', currentProductId);
-      formData.append('source', 'url');
-      formData.append('url', url);
+      const payload = {
+        action: 'addImage',
+        productId: currentProductId,
+        source: 'url',
+        url: url
+      };
 
       try {
-        const res = await fetch('/api/admin/products', { method: 'POST', body: formData });
+        const res = await fetch('/api/admin/products', { 
+          method: 'POST', 
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
         const result = await res.json();
         if (result.success) {
           document.getElementById('imgUrlInput').value = '';
@@ -622,25 +632,43 @@ const title = "Админ-панель | Прокат от Кет";
       const fileInput = document.getElementById('fileInput');
       if (!fileInput.files[0]) return;
 
-      const formData = new FormData();
-      formData.append('action', 'addImage');
-      formData.append('productId', currentProductId);
-      formData.append('source', 'file');
-      formData.append('file', fileInput.files[0]);
+      const file = fileInput.files[0];
+      const reader = new FileReader();
 
-      try {
-        const res = await fetch('/api/admin/products', { method: 'POST', body: formData });
-        const result = await res.json();
-        if (result.success) {
-          fileInput.value = '';
-          await loadData();
-          selectProduct(currentProductId);
-        } else {
-          alert('Ошибка: ' + result.error);
+      reader.onload = async function(e) {
+        const base64String = e.target.result;
+
+        const payload = {
+          action: 'addImage',
+          productId: currentProductId,
+          source: 'base64',
+          file: base64String
+        };
+
+        try {
+          const res = await fetch('/api/admin/products', { 
+            method: 'POST', 
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload) 
+          });
+          const result = await res.json();
+          if (result.success) {
+            fileInput.value = '';
+            await loadData();
+            selectProduct(currentProductId);
+          } else {
+            alert('Ошибка: ' + result.error);
+          }
+        } catch (err) {
+          alert('Ошибка при загрузке: ' + err.message);
         }
-      } catch (e) {
-        alert('Ошибка при загрузке: ' + e.message);
-      }
+      };
+      
+      reader.onerror = function() {
+        alert('Ошибка при чтении файла');
+      };
+
+      reader.readAsDataURL(file);
     }
 
     async function setMainImage(path) {
@@ -654,13 +682,18 @@ const title = "Админ-панель | Прокат от Кет";
         images: newImages
       };
 
-      const formData = new FormData();
-      formData.append('action', 'updateInfo');
-      formData.append('productId', currentProductId);
-      formData.append('metadata', JSON.stringify(metadata));
+      const payload = {
+        action: 'updateInfo',
+        productId: currentProductId,
+        metadata: metadata
+      };
 
       try {
-        const res = await fetch('/api/admin/products', { method: 'POST', body: formData });
+        const res = await fetch('/api/admin/products', { 
+          method: 'POST', 
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
         const result = await res.json();
         if (result.success) {
           await loadData();

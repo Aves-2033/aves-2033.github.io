@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "node scripts/hide-admin.js",
     "build": "astro build",
+    "postbuild": "node scripts/restore-admin.js",
     "preview": "astro preview",
     "astro": "astro"
   },

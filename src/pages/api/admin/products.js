@@ -1,3 +1,4 @@
+export const prerender = false;
 import { writeFileSync, readFileSync, existsSync, unlinkSync } from 'fs';
 import { join } from 'path';
 import { fileURLToPath } from 'url';
@@ -35,9 +36,15 @@ export async function POST({ request }) {
     }
 
     try {
-        const formData = await request.formData();
-        const action = formData.get('action');
-        const productId = parseInt(formData.get('productId'));
+        const rawText = await request.text();
+        writeFileSync('debug.json', JSON.stringify({ 
+          rawText,
+          contentLength: request.headers.get('content-length'),
+          headers: Object.fromEntries(request.headers.entries())
+        }, null, 2));
+        const payload = JSON.parse(rawText || '{}');
+        const action = payload.action;
+        const productId = parseInt(payload.productId);
 
         if (!productId) throw new Error('Product ID is required');
 
@@ -46,32 +53,21 @@ export async function POST({ request }) {
         if (productIndex === -1) throw new Error('Product not found');
 
         if (action === 'addImage') {
-            const source = formData.get('source'); // 'url' or 'file'
+            const source = payload.source; // 'url' or 'base64'
             let cloudinaryUrl = '';
 
             if (source === 'url') {
-                const url = formData.get('url');
+                const url = payload.url;
                 const result = await cloudinary.uploader.upload(url, {
                     folder: CLOUDINARY_FOLDER,
                     public_id: `product_${productId}_${Date.now()}`
                 });
                 cloudinaryUrl = result.secure_url;
-            } else if (source === 'file') {
-                const file = formData.get('file');
-                const buffer = Buffer.from(await file.arrayBuffer());
-                
-                const result = await new Promise((resolve, reject) => {
-                    const uploadStream = cloudinary.uploader.upload_stream(
-                        {
-                            folder: CLOUDINARY_FOLDER,
-                            public_id: `product_${productId}_${Date.now()}`
-                        },
-                        (error, result) => {
-                            if (error) reject(error);
-                            else resolve(result);
-                        }
-                    );
-                    uploadStream.end(buffer);
+            } else if (source === 'base64') {
+                const fileBase64 = payload.file; // data:image/jpeg;base64,...
+                const result = await cloudinary.uploader.upload(fileBase64, {
+                    folder: CLOUDINARY_FOLDER,
+                    public_id: `product_${productId}_${Date.now()}`
                 });
                 cloudinaryUrl = result.secure_url;
             }
@@ -84,7 +80,7 @@ export async function POST({ request }) {
         }
 
         if (action === 'updateInfo') {
-            const metadata = JSON.parse(formData.get('metadata'));
+            const metadata = payload.metadata;
             products[productIndex] = { ...products[productIndex], ...metadata };
             syncJson(products);
             return new Response(JSON.stringify({ success: true }));
@@ -93,9 +89,11 @@ export async function POST({ request }) {
         return new Response(JSON.stringify({ error: 'Unknown action' }), { status: 400 });
 
     } catch (e) {
+        console.error("API POST Error:", e);
         return new Response(JSON.stringify({ error: e.message }), { status: 500 });
     }
 }
+
 
 export async function DELETE({ request }) {
     if (import.meta.env.PROD) {
