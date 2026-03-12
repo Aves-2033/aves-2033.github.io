@@ -46,6 +46,34 @@ export const state = {
     currentLightboxImages: [],
 };
 
+// --- History API: закрытие модалки свайпом «назад» на мобильных ---
+let _popstateHandlerRegistered = false;
+
+function _registerPopstateHandler() {
+    if (_popstateHandlerRegistered) return;
+    _popstateHandlerRegistered = true;
+    window.addEventListener('popstate', (e) => {
+        const modal = document.getElementById('productModal');
+        if (modal && modal.classList.contains('active')) {
+            // Закрываем модалку без дополнительного history.back()
+            _closeModalInternal();
+        }
+    });
+}
+
+// Внутреннее закрытие без вызова history.back()
+function _closeModalInternal() {
+    const modal = document.getElementById('productModal');
+    if (!modal) return;
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+    cleanupModalHandlers();
+    if (state.previousActiveElement && typeof state.previousActiveElement.focus === 'function') {
+        state.previousActiveElement.focus();
+    }
+    state.previousActiveElement = null;
+}
+
 // Кастомная функция навигации в модалке (переопределяется на каждой странице)
 let _navigateModalFn = () => {};
 export function setNavigateModal(fn) { _navigateModalFn = fn; }
@@ -397,16 +425,13 @@ function switchImage(newIndex, images, modalImage, thumbnails) {
 // --- Закрытие модального окна ---
 
 export function closeModal() {
-    const modal = document.getElementById('productModal');
-    modal.classList.remove('active');
-    document.body.style.overflow = '';
-
-    cleanupModalHandlers();
-
-    if (state.previousActiveElement && typeof state.previousActiveElement.focus === 'function') {
-        state.previousActiveElement.focus();
+    // Если в истории есть наша модальная запись — убираем её
+    if (history.state && history.state.modal === true) {
+        history.back();
+        // popstate сам вызовет _closeModalInternal()
+    } else {
+        _closeModalInternal();
     }
-    state.previousActiveElement = null;
 }
 
 // --- Клавиатурная навигация в модальном окне ---
@@ -443,6 +468,9 @@ export function setupModal() {
             closeModal();
         }
     });
+
+    // Регистрируем обработчик popstate (один раз для всей страницы)
+    _registerPopstateHandler();
 }
 
 // --- Общая генерация HTML модального окна ---

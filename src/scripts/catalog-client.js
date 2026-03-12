@@ -112,6 +112,12 @@ function openCatalogModal(index) {
 
     renderModalContent(product, index, products, navHTML);
 
+    // Добавляем запись в историю браузера, чтобы свайп «назад»
+    // на мобильных закрывал модалку, а не уходил на предыдущую страницу
+    if (!history.state || history.state.modal !== true) {
+        history.pushState({ modal: true }, '');
+    }
+
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
     modal.focus();
