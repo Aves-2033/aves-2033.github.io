@@ -10,26 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Функция закрытия меню (вынесена для переиспользования)
     function closeMenu() {
-        if (navContainer.classList.contains('open')) {
-            navContainer.classList.remove('open');
-            burgerBtn.classList.remove('active');
-            navContainer.style.visibility = 'hidden';
-            navContainer.style.pointerEvents = 'none';
-            navContainer.style.opacity = '0';
-            document.body.style.overflow = '';
-        }
+        navContainer.classList.remove('open');
+        burgerBtn.classList.remove('active');
+        burgerBtn.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
     }
 
     burgerBtn.addEventListener('click', () => {
-        const isOpen = navContainer.classList.toggle('open');
-        burgerBtn.classList.toggle('active', isOpen);
-        if (isOpen) {
-            navContainer.style.visibility = 'visible';
-            navContainer.style.pointerEvents = 'auto';
-            navContainer.style.opacity = '1';
-            document.body.style.overflow = 'hidden';
-        } else {
+        if (navContainer.classList.contains('open')) {
             closeMenu();
+        } else {
+            navContainer.classList.add('open');
+            burgerBtn.classList.add('active');
+            burgerBtn.setAttribute('aria-expanded', 'true');
+            document.body.style.overflow = 'hidden';
         }
     });
 

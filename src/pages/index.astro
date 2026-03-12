@@ -3,35 +3,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
-const previewProducts = [
-  {
-    id: 102,
-    title: 'Шикарная горжетка из рыжей лисы',
-    price: 4500,
-    category: 'furs',
-    images: ['https://sun9-82.userapi.com/s/v1/ig2/2oYdKySxVZPQKbvI8ZaVSIjr21QR81XFOt72zYRAyBPIg5P-mzkdf5Ap042KLnG8Yl6qqL55m2e-miKCXlvsWufH.jpg?quality=95&as=32x23,48x34,72x52,108x78,160x115,240x172,360x259,480x345,540x388,640x460,720x517,1080x776,1280x919,1440x1034,2560x1839&from=bu&cs=1280x0','https://sun9-31.userapi.com/impg/WQr776tNqBwYEC4_xUcr1fG_bCSKFNKvljtojQ/-RukVqEqcNY.jpg?size=689x472&quality=95&sign=362d7520893232308361b0c7819b254e&type=album','https://sun9-83.userapi.com/impg/tQEHiEzHY0jLY-p_wcj7BNSmAUI7RcZQOMo-eQ/QB7spv0oCMo.jpg?size=720x1080&quality=95&sign=c02b5db3474fc5c4c731e88a10febde7&type=album'],
-    description: 'ПРЕМИУМ. Шикарная горжетка из рыжей лисы на завязках.',
-    details: { 'Тип': 'Горжетка', 'Мех': 'Рыжая лиса', 'Размеры': 'Универсальный', 'Аренда': '4 500 ₽', 'Залог': 'Сопровождение костюмера', 'Особенности': 'ПРЕМИУМ' }
-  },
-  {
-    id: 201,
-    title: 'Свадебное платье 70-е "Снежана"',
-    price: 6500,
-    category: 'vintage',
-    images: ['https://sun9-34.userapi.com/s/v1/ig1/BtmVUFRjimlZyqjetPnVQvAv5dbab7xn0tqTiTxuKJmJs3fMiGWq1TDsfHo0OPJZvUaeoQ.jpg?quality=96&as=32x23,48x35,72x53,108x79,160x117,240x175,360x263,480x351,540x395,640x468,720x526,1077x787&from=bu&cs=1077x0','https://sun9-16.userapi.com/impg/c837424/v837424439/4770/AnLwgufYGsY.jpg?size=720x1080&quality=96&sign=3150074bd824ad193ab3159e07366ba4&type=album','https://sun9-49.userapi.com/impg/c837424/v837424439/4779/_Q_D-n6dvjY.jpg?size=682x1024&quality=96&sign=a92f112514677c4a2e9b63367128e3df&type=album'],
-    description: 'LUXE. Свадебное платье 70-х годов "Снежана". Шнуровка на спине, многослойный шлейф.',
-    details: { 'Тип': 'Свадебное платье', 'Эпоха': '70-е годы', 'Размеры': '38-44 (рост 168)', 'Аренда': '6 500 ₽', 'Залог': 'Сопровождение костюмера', 'Особенности': 'LUXE, шнуровка на спине, шлейф' }
-  },
-  {
-    id: 210,
-    title: 'Винтажное платье "Прованс"',
-    price: 4500,
-    category: 'vintage',
-    images: ['https://sun9-45.userapi.com/s/v1/ig2/2XFZ8IwHJCDMUFbuQ9uupr4VOUHxAvcmubvjVvCsBMxA5WfD92pB4BwPCxh2sl3te0VZnIYsqng1Ls6ELahY8tzs.jpg?quality=96&as=32x26,48x39,72x58,108x88,160x130,240x195,360x292,480x389,540x438,640x519,720x584,1080x876,1280x1038&from=bu&cs=1280x0','https://sun9-35.userapi.com/impg/9jjM0a1JNH-RmcEBB2MwYEwsDWDQZDvmXDrc_Q/19m8m9h6uNI.jpg?size=1280x937&quality=96&sign=720547dde43302c42c5c42927f559ffa&type=album','https://sun9-88.userapi.com/impg/O3d7KHARotSZvGjfMLGO2LUCT_qPsBuVr6b6ug/XUQdpRu5uUs.jpg?size=864x1080&quality=96&sign=ee07f7f94ecca5eb0bbf3021a136f38b&type=album'],
-    description: 'Винтажное платье "Прованс", около 1970-х годов.',
-    details: { 'Тип': 'Винтажное платье', 'Эпоха': '~1970-е', 'Размеры': '42-46 (рост 170)', 'Аренда': '4 500 ₽', 'Залог': '10 000 ₽' }
-  },
-];
+import products from '../data/products.json';
+
+const previewIds = [102, 201, 210];
+const previewProducts = products.filter(p => previewIds.includes(p.id));
 
 const schemaJson = {
   "@context": "https://schema.org",
@@ -108,7 +83,7 @@ const schemaJson = {
             изысканные силуэты, роскошные ткани — и адаптируем это для комфортного ношения.
           </p>
           <p>
-            Коллекция охватывает эпохи от XII до XX века и включает платья, костюмы, кимоно, винтажные, мужские и женские образы.
+            Коллекция охватывает эпохи от XII до XX века и включает платья, сари, костюмы для верховой езды, конные амазонки, платья кринолины, кимоно, винтажные, мужские и женские образы.
             Каждое платье создается вручную, по профессиональным лекалам с учетом современной посадки. Это не просто одежда, это произведения
             искусства, рассказывающие истории элегантности и утонченности.
           </p>
@@ -131,9 +106,9 @@ const schemaJson = {
 
   <section id="catalog-preview" class="section catalog-preview">
     <div class="container">
-      <h2 class="section-title">Избранные Артефакты</h2>
+      <h2 class="section-title">Примеры образов</h2>
       <p class="section-desc">
-        Малая часть нашей будущей большой коллекции.
+        Малая часть нашей большой коллекции.
       </p>
 
       <div class="cards-grid">
@@ -150,7 +125,7 @@ const schemaJson = {
             </div>
             <div class="card-body">
               <h3 class="card-title">{product.title}</h3>
-              <p class="card-price">{product.price.toLocaleString('ru-RU')} ₽</p>
+              <p class="card-price">{product.price != null ? product.price.toLocaleString('ru-RU') + ' ₽' : 'Нет данных'}</p>
               <a href={`/catalog?category=${product.category}`} class="btn-text">Подробнее &rarr;</a>
             </div>
           </article>

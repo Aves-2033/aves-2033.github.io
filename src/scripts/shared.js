@@ -475,7 +475,7 @@ export function renderModalContent(product, index, productsArray, navHTML) {
         </div>
         <div class="modal-info">
             <h2 id="modal-title">${escapeHtml(product.title)}</h2>
-            <p class="modal-price">${product.price.toLocaleString('ru-RU')} ₽</p>
+            <p class="modal-price">${product.price != null ? product.price.toLocaleString('ru-RU') + '\u00a0₽' : 'Нет данных'}</p>
             <p class="modal-description">${escapeHtml(product.description)}</p>
             <ul class="modal-details">
                 ${product.details ? Object.entries(product.details).map(([key, value]) =>
@@ -653,9 +653,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 navContainer.classList.remove('open');
                 if (burgerBtn) burgerBtn.classList.remove('active');
                 
-                navContainer.style.visibility = 'hidden';
-                navContainer.style.pointerEvents = 'none';
-                navContainer.style.opacity = '0';
                 document.body.style.overflow = '';
             }
         });

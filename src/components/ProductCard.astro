@@ -1,7 +1,7 @@
 ---
 interface Props {
   title: string;
-  price: number;
+  price: number | null;
   image: string;
   category: string;
   index: number;
@@ -11,7 +11,7 @@ interface Props {
 
 const { title, price, image, category, index, id, description } = Astro.props;
 
-const formattedPrice = price.toLocaleString('ru-RU');
+const formattedPrice = price != null ? price.toLocaleString('ru-RU') + ' ₽' : 'Нет данных';
 ---
 
 <article
@@ -33,7 +33,7 @@ const formattedPrice = price.toLocaleString('ru-RU');
   </div>
   <div class="card-body">
     <h3 class="card-title">{title}</h3>
-    <p class="card-price">{formattedPrice} ₽</p>
+    <p class="card-price">{formattedPrice}</p>
     <button class="btn-text" data-product-index={index}>Подробнее &rarr;</button>
   </div>
 </article>
