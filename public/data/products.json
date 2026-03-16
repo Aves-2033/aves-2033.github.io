@@ -684,18 +684,18 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272173/aves-web/product_301_11.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272174/aves-web/product_301_12.jpg"
         ],
-        "description": "Бальное платье \"Голубой тюрнюр\".",
+        "description": "Платье выполнено в единственном экземпляре, подходит для балов и мероприятий. В комплекте все необходимые аксессуары.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "40-46 (рост 168)",
             "Аренда": "7 000 ₽",
             "Залог": "20 000 ₽",
-            "Особенности": "LUXE"
+            "Особенности": "LUXE. К платью идет специальный кринолин, стоимость 500 ₽. Шлейф можно подколоть, сделав его коротким. Бальное платье регулируется шнуровкой."
         }
     },
     {
         "id": 302,
-        "title": "Платье \"Нежное платье\"",
+        "title": "Бальное платье \"Нежное платье\"",
         "price": 5000,
         "category": "ball",
         "images": [
@@ -704,18 +704,18 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272176/aves-web/product_302_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272177/aves-web/product_302_4.jpg"
         ],
-        "description": "Нежное платье на романтизм. Носится без кринолина, имеет нижнюю юбку.",
+        "description": "Нежное платье на романтизм. Носится без кринолина, имеет нижнюю юбку. Можно носить с узким кринолином или на мягкую нижнюю юбку. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-44 (рост 165)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Романтизм, Без кринолина"
+            "Особенности": "Романтизм, Без кринолина. Подходит для балов и мероприятий, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
         "id": 303,
-        "title": "Платье \"Золушка\"",
+        "title": "Бальное платье \"Золушка\"",
         "price": 5000,
         "category": "ball",
         "images": [
@@ -723,13 +723,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272178/aves-web/product_303_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272179/aves-web/product_303_3.jpg"
         ],
-        "description": "Платье бальное \"Золушка\"",
+        "description": "Платье носится на не широкий кринолин. Шито по старинным лекалам из очень нежной ткани. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 172)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "ПРЕМИУМ"
+            "Особенности": "ПРЕМИУМ, в комплект можно добавить кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -743,18 +743,18 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272181/aves-web/product_304_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272182/aves-web/product_304_5.jpg"
         ],
-        "description": "Бальное платье \"Золушка мини\"",
+        "description": "Платье подходит для балов и мероприятий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "38-44 (рост 160)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Можно добавить кринолин, стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
         "id": 305,
-        "title": "Платье \"Фелиция\"",
+        "title": "Бальное платье \"Фелиция\"",
         "price": 5000,
         "category": "ball",
         "images": [
@@ -765,13 +765,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272185/aves-web/product_305_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272186/aves-web/product_305_6.jpg"
         ],
-        "description": "Платье \"Фелиция\" Размер:",
+        "description": "Подходит для балов и мероприятий. Можно носить на широкий или чуть более узкий кринолин. Без кринолина его носить нельзя.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 165)",
             "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "К платью имеются разнообразные кринолины, стоимость одного - 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -789,16 +789,15 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272192/aves-web/product_306_7.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272192/aves-web/product_306_8.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272193/aves-web/product_306_9.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272194/aves-web/product_306_10.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272194/aves-web/product_306_11.jpg"
         ],
-        "description": "Бальное платье \"Цвет ночи\" на мягкую юбку Размер",
+        "description": "Бальное платье подходит на неширокий кринолин или мягкую юбку. Подходит для балов и мероприятий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "44-50 (рост 168)",
             "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "На мягкую юбку или узкий кринолин"
+            "Особенности": "На мягкую юбку или узкий кринолин. Стоимость 500 ₽ штука. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -816,13 +815,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272199/aves-web/product_307_9.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272199/aves-web/product_307_10.jpg"
         ],
-        "description": "Бальное платье \"Скарлетт\"",
+        "description": "Бальное платье сшито из итальянского глубокого синего бархата. Носится только с кринолином. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "40-48 (рост 170)",
             "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "ПРЕМИУМ"
+            "Особенности": "Кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -835,13 +834,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272201/aves-web/product_308_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272202/aves-web/product_308_3.jpg"
         ],
-        "description": "Бальное платье \"Рапунцель\" Атлас. Талия утягивается до 55 см. На маленькую стройную фигуру.",
+        "description": "Бальное платье \"Рапунцель\" атлас. Талия утягивается до 55 см. На маленькую стройную фигуру. Подходит для балов и мероприятий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "38-44 (рост 162)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Атлас"
+            "Особенности": "Кринолин - 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -855,13 +854,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272204/aves-web/product_309_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272206/aves-web/product_309_5.jpg"
         ],
-        "description": "Нежное бальное платье \"Фиалка\". Дополнительно есть фатиновая юбка.",
+        "description": "Нежное бальное платье \"Фиалка\". Дополнительно есть фатиновая юбка. Платье подходит для балов и мероприятий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 166)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Кринолин - 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -877,13 +876,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272210/aves-web/product_310_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272211/aves-web/product_310_6.jpg"
         ],
-        "description": "Бальное платье \"Лаванда\".",
+        "description": "Бальное платье \"Лаванда\", подходит для балов, мероприятий и фотосессий. Сшито из тафты-хамелеон, может менять цвет в зависимости от освещения, красиво переливаясь.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 168)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -895,18 +894,18 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272211/aves-web/product_311_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272212/aves-web/product_311_2.jpg"
         ],
-        "description": "Бальное платье \"Брусника\"",
+        "description": "Подходит для балов и мероприятий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-44 (рост 168)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Кринолин - 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
         "id": 312,
-        "title": "Платье \"Нежный персик\"",
+        "title": "Бальное платье \"Нежный персик\"",
         "price": 5000,
         "category": "ball",
         "images": [
@@ -922,13 +921,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272219/aves-web/product_312_11.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272219/aves-web/product_312_12.jpg"
         ],
-        "description": "Платье \"Нежный персик\"",
+        "description": "Подходит для балов и мероприятий на размер +.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "48-52 (рост 166)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -945,13 +944,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272225/aves-web/product_313_9.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272225/aves-web/product_313_10.jpg"
         ],
-        "description": "Бальное платье \"Апрель\"",
+        "description": "Бальное платье \"Апрель\" Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "44-46 (рост 167)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Бальное платье, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -971,13 +970,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272231/aves-web/product_314_9.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272232/aves-web/product_314_10.jpg"
         ],
-        "description": "Бальное платье \"Принцесса Мария\"",
+        "description": "Бальное платье \"Принцесса. Мария\" Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-44 (рост 164)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Бальное платье, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -992,13 +991,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272235/aves-web/product_315_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272236/aves-web/product_315_6.jpg"
         ],
-        "description": "Бальное платье \"Нежный розовый\"",
+        "description": "Бальное платье \"Нежный розовый\" Подходит для балов, мероприятий и фотосессий, на маленькую стройную девочку, не выше 160 см.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "38-44 (рост 160)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Бальное платье, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1012,13 +1011,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272238/aves-web/product_316_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272238/aves-web/product_316_6.jpg"
         ],
-        "description": "Платье тюрнюр \"Розовый\"",
+        "description": "Бальное платье турнюр \"Розовый\" Подходит для балов, мероприятий и фотосессий. Шлейф подстегивается для удобства.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 170)",
             "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Бальное платье, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1031,16 +1030,15 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272240/aves-web/product_317_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272240/aves-web/product_317_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272241/aves-web/product_317_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272241/aves-web/product_317_6.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272242/aves-web/product_317_7.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272241/aves-web/product_317_6.jpg"
         ],
-        "description": "Бальное платье \"Сара\".",
+        "description": "Бальное платье \"Сара\", стилизация под героиню спектакля \"Бал. Вампиров\", украшена кристаллами. Сваровски и многими другими. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "40-46 (рост 165)",
             "Аренда": "7 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "LUXE"
+            "Особенности": "LUXE, кринолин и нижняя юбка 500 ₽ шт. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1066,38 +1064,37 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272253/aves-web/product_318_16.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272255/aves-web/product_318_17.jpg"
         ],
-        "description": "Бальное платье \"Rosa escarlata\"",
+        "description": "Бальное платье \"Rosa escarlata\", сшито из натурального шёлка и украшено брошью 19-го века. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-44 (рост 167)",
             "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
         "id": 319,
-        "title": "\"Аллегрия\"",
+        "title": "Бальное платье \"Аллегрия\"",
         "price": 5000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272256/aves-web/product_319_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272257/aves-web/product_319_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272258/aves-web/product_319_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272139/aves-web/product_204_6.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272258/aves-web/product_319_3.jpg"
         ],
-        "description": "\"Аллегрия\"",
+        "description": "\"Аллегрия\" Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 18-й век",
             "Размеры": "40-44 (рост 173)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Бальное платье, кринолин не широкий 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
         "id": 320,
-        "title": "Платье \"Аристократка\"",
+        "title": "Бальное платье \"Аристократка\"",
         "price": 5000,
         "category": "ball",
         "images": [
@@ -1119,13 +1116,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272276/aves-web/product_320_16.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272276/aves-web/product_320_17.jpg"
         ],
-        "description": "Платье \"Аристократка\" на период \"Бидермайер\" из тафты хамелеон.",
+        "description": "Платье \"Аристократка\" на период \"Бидермейер\" из тафты хамелеон. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-44 (рост 167)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Тафта"
+            "Особенности": "Тафта, узкий кринолин или узкая юбкая 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1136,13 +1133,13 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272277/aves-web/product_321_1.jpg"
         ],
-        "description": "Бальное платье \"Маркиза\" 168-170",
+        "description": "Бальное платье \"Маркиза\" размера + Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
-            "Размеры": "48-52 (рост 168)",
+            "Тип": "Бальные платья 19-й век",
+            "Размеры": "48-52 (рост не выше 172)",
             "Аренда": "6 000 ₽",
             "Залог": "20 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Бальное платье, кринолин + нижняя юбка, шт 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1156,13 +1153,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272279/aves-web/product_322_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272280/aves-web/product_322_4.jpg"
         ],
-        "description": "Бальное платье \"Тёмное золото\" на большую грудь",
+        "description": "У платья есть плотный профессиональный кринолин на металлических костях, украшенный оригинальным антикварным кружевом. Корсет создан очень известным мастером корсетником. Платье сшито из плотного итальянского. Атласа, украшено итальянским и французским кружевами.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 170)",
-            "Аренда": "5 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "LUXE"
+            "Особенности": "LUXE, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1175,13 +1172,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272281/aves-web/product_323_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272281/aves-web/product_323_3.jpg"
         ],
-        "description": "Бальное платье на кринолин \"Капучино\"",
+        "description": "Бальное платье на кринолин \"Капучино\" Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "46-50 (рост 168)",
             "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "На кринолин"
+            "Особенности": "Кринолин стоимость 500 ₽, юбка на кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1196,41 +1193,39 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272284/aves-web/product_324_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272285/aves-web/product_324_6.jpg"
         ],
-        "description": "Бальное платье \"Шафран\". Тафта и цветы ручной работы.",
+        "description": "Бальное платье \"Шафран\". Тафта и цветы ручной работы, съёмные. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "40-46 (рост 165)",
             "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "Тафта"
+            "Особенности": "Тафта, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
         "id": 325,
-        "title": "Платье \"Платье царицы Александры Фёдоровны\"",
-        "price": 5000,
+        "title": "Бальное платье \"Платье царицы Александры Фёдоровны\"",
+        "price": 10000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272286/aves-web/product_325_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272287/aves-web/product_325_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272287/aves-web/product_325_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272288/aves-web/product_325_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272289/aves-web/product_325_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272289/aves-web/product_325_8.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272290/aves-web/product_325_9.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272291/aves-web/product_325_10.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272292/aves-web/product_325_11.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272293/aves-web/product_325_13.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272294/aves-web/product_325_14.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272295/aves-web/product_325_15.jpg"
         ],
-        "description": "Платье царицы Александры Фёдоровны. Свадебный итальянский атлас, все детали выполнены вручную.",
+        "description": "Стилизация платья царицы. Александры. Фёдоровны. Платье было создано по оригинальному платью царицы. Александры. Фёдоровны, часть вышивки заменена лентами. Свадебный итальянский атлас, все детали выполнены вручную. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "38-46 (рост 175)",
-            "Аренда": "5 000 ₽",
-            "Залог": "Сопровождение костюмера",
-            "Особенности": "LUXE, Атлас"
+            "Аренда": "10 000 ₽",
+            "Залог": "Сопровождение костюмера от 2000 ₽",
+            "Особенности": "LUXE, Атлас. Кринолин или мягкая юбка 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1251,17 +1246,15 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272304/aves-web/product_326_11.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272304/aves-web/product_326_12.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272305/aves-web/product_326_13.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272305/aves-web/product_326_14.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272306/aves-web/product_326_15.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272307/aves-web/product_326_16.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272305/aves-web/product_326_14.jpg"
         ],
-        "description": "Бальное платье \"Бэль\" на романтизм 1830г. Шёлк полностью.",
+        "description": "Бальное платье \"Бэль\" \"Бидермейер\" на романтизм 1830г. Сшито из натурального шёлка. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-48 (рост 165)",
             "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "LUXE, Романтизм, Шёлк"
+            "Особенности": "LUXE. Кринолин или нижняя юбка 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1278,13 +1271,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272311/aves-web/product_327_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272311/aves-web/product_327_7.jpg"
         ],
-        "description": "\"Золотое время\" Бальное платье, атлас. Талия утягивается до 57 см.",
+        "description": "\"Золотое время\" Бальное платье, сшито из итальянского плотного атласа. Талия утягивается до 57 см. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "38-44 (рост 173)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Атлас"
+            "Особенности": "Бальное платье на очень узкую грудную клетку, кринолин не широкий 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1296,8 +1289,6 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272312/aves-web/product_328_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272312/aves-web/product_328_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272313/aves-web/product_328_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272314/aves-web/product_328_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272314/aves-web/product_328_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272315/aves-web/product_328_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272316/aves-web/product_328_7.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272317/aves-web/product_328_8.jpg",
@@ -1306,13 +1297,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272319/aves-web/product_328_11.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272319/aves-web/product_328_12.jpg"
         ],
-        "description": "Бальное платье \"Жемчужина\"",
+        "description": "Бальное платье \"Жемчужина\" сшито из необычной плотной ткани, имеющей фактурный рисунок. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-44 (рост 160)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Можно носить на мягкую юбку или маленький кринолин стоимость 500 ₽ шт. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1327,16 +1318,15 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272322/aves-web/product_329_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272323/aves-web/product_329_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272323/aves-web/product_329_7.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272324/aves-web/product_329_8.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272325/aves-web/product_329_9.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272324/aves-web/product_329_8.jpg"
         ],
-        "description": "Бальное платье \"Шампань\"",
+        "description": "Бальное платье \"Шампань\" Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "44-46 (рост 168)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Бальное платье, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1352,16 +1342,15 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272329/aves-web/product_330_7.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272330/aves-web/product_330_8.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272331/aves-web/product_330_9.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272332/aves-web/product_330_10.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272332/aves-web/product_330_11.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272332/aves-web/product_330_10.jpg"
         ],
-        "description": "Бальное платье \"Леди\"",
+        "description": "Бальное платье \"Леди\", было создано по примеру фарфоровой фигурки 19-го века. Было сшито из итальянских и французских материалов. На свадьбы не выдается. Было создано в единственном экземпляре. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 172)",
             "Аренда": "10 000 ₽",
             "Залог": "30 000 ₽",
-            "Особенности": "LUXE"
+            "Особенности": "LUXE, плотный кринолин стоимость 500 ₽. Можно добавить нижнюю юбку для объема. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1383,13 +1372,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272341/aves-web/product_331_13.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272342/aves-web/product_331_14.jpg"
         ],
-        "description": "Бальное платье \"Жасмин\" На мягкую юбку без кринолина.",
+        "description": "Бальное платье \"Жасмин\" сшито из итальянского атласа, украшено бантиком с подвесами, сзади на талии имеется бантик. Можно носить на мягкую юбку или узкий кринолин. На свадьбы не выдается. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-44 (рост 169)",
             "Аренда": "6 000 ₽",
             "Залог": "20 000 ₽",
-            "Особенности": "Без кринолина"
+            "Особенности": "Можно носить на мягкую юбку или узкий кринолин шт 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1405,16 +1394,15 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272345/aves-web/product_332_7.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272346/aves-web/product_332_8.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272347/aves-web/product_332_9.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272347/aves-web/product_332_10.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272348/aves-web/product_332_12.jpg"
         ],
-        "description": "Бальное платье \"Нежный молочный\" на не широкий кринолин.",
+        "description": "На не широкий кринолин. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "40-44 (рост 160)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "На кринолин"
+            "Особенности": "Кринолин и юбка на кринолин по 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1428,23 +1416,21 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272350/aves-web/product_333_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272351/aves-web/product_333_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272351/aves-web/product_333_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272352/aves-web/product_333_6.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272353/aves-web/product_333_7.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272353/aves-web/product_333_8.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272354/aves-web/product_333_9.jpg"
         ],
-        "description": "Бальное платье \"Ромашки\". Носится без кринолина.",
+        "description": "Бальное платье \"Ромашки\", можно носить без кринолина на мягкую юбку или с кринолином. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 165)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Без кринолина"
+            "Особенности": "Кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
         "id": 334,
-        "title": "Платье \"Пионы\"",
+        "title": "Бальное платье \"Пионы\"",
         "price": 6000,
         "category": "ball",
         "images": [
@@ -1455,13 +1441,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272358/aves-web/product_334_7.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272358/aves-web/product_334_8.jpg"
         ],
-        "description": "Платье белое \"Пионы\"",
+        "description": "Платье белое \"Пионы\", пышное, богато украшено кружевами. Подходит на высокий рост до 175 см. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "44-48 (рост 175)",
             "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Носится с кринолином и обязательна нижняя юбка поверх кринолина. По 500 ₽ шт. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1478,13 +1464,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272363/aves-web/product_335_8.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272364/aves-web/product_335_9.jpg"
         ],
-        "description": "Бальное платье \"Кэрол\" на мягкую юбку.",
+        "description": "Бальное платье \"Кэрол\" на мягкую юбку и неширокий кринолин, подходит на размер + Сшито из итальянского плотного серо-бежевого атласа. Богато украшено кружевами, бусами и не только. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "44-48 (рост 165)",
             "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "На мягкую юбку"
+            "Особенности": "На мягкую юбку или кринолин по 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1500,13 +1486,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272368/aves-web/product_336_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272369/aves-web/product_336_7.jpg"
         ],
-        "description": "Бальное платье \"Хакки\". На 1860-70гг.",
+        "description": "Бальное платье \"Хаки\". На 1860-70 гг. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 18-й век",
             "Размеры": "40-44 (рост 165)",
             "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "ПРЕМИУМ"
+            "Особенности": "ПРЕМИУМ, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1521,7 +1507,6 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272372/aves-web/product_337_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272373/aves-web/product_337_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272374/aves-web/product_337_6.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272375/aves-web/product_337_7.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272376/aves-web/product_337_8.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272376/aves-web/product_337_9.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272377/aves-web/product_337_10.jpg",
@@ -1533,13 +1518,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272382/aves-web/product_337_18.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272382/aves-web/product_337_19.jpg"
         ],
-        "description": "Бальное платье \"Ариана\" Атлас.",
+        "description": "Уникальное бальное платье \"Ариана\", стилизация 19-й век, сшито из итальянского атласа и добавлением золотистого кружева с пайетками. Красочно переливается. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "38-44 (рост 165)",
             "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "LUXE, Атлас"
+            "Особенности": "LUXE. кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1556,13 +1541,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272387/aves-web/product_338_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272388/aves-web/product_338_7.jpg"
         ],
-        "description": "Бальное платье \"Касадея\" , без кринолина 170. талия утягивается до 57см!",
+        "description": "Бальное платье \"Касадея\", носится на узкий кринолин или на мягкую юбку, талия утягивается до 57 см! Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 18-й век",
             "Размеры": "38-44 (рост 166)",
             "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "Без кринолина"
+            "Особенности": "Кринолин или мягкая юбка 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1575,36 +1560,34 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272389/aves-web/product_339_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272390/aves-web/product_339_5.jpg"
         ],
-        "description": "Бальное платье \"Кенди\"",
+        "description": "Бальное платье \"Кенди\" сшито в стиле 19-го века, можно использовать для косплея. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "40-46 (рост 167)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Бальное платье, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
         "id": 340,
-        "title": "Платье \"Весна\"",
+        "title": "Бальное платье \"Весна\"",
         "price": 5000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272390/aves-web/product_340_9.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272391/aves-web/product_340_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272391/aves-web/product_340_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272392/aves-web/product_340_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272393/aves-web/product_340_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272394/aves-web/product_340_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272394/aves-web/product_340_8.jpg"
         ],
-        "description": "Платье бальное \"Весна\"",
+        "description": "Платье бальное \"Весна\" является оригинальным винтажным бальным платьем, привезено из. США. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "42-44 (рост 163)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Бальное платье регулируется шнуровкой. кринолин стоимость 500 ₽."
         }
     },
     {
@@ -1617,13 +1600,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272395/aves-web/product_341_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272396/aves-web/product_341_4.jpg"
         ],
-        "description": "Бальное платье \"Мятное\" Стилизация на 1850-1860",
+        "description": "Бальное платье \"Мятное\" Стилизация на 1850-1860 гг. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "44-50 (рост 175)",
             "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Юбка поверх кринолина по 500 ₽ шт. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1644,32 +1627,31 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272403/aves-web/product_342_10.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272403/aves-web/product_342_11.jpg"
         ],
-        "description": "Бальное платье \"Шантильи\"",
+        "description": "Бальное платье \"Шантильи\", стилизация 19-й век. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "38-44 (рост 163)",
             "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Бальное платье, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
         "id": 343,
-        "title": "Платье \"Француженка\"",
+        "title": "Бальное платье \"Француженка\"",
         "price": 4500,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272404/aves-web/product_343_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272405/aves-web/product_343_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272406/aves-web/product_343_3.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272405/aves-web/product_343_2.jpg"
         ],
-        "description": "Платье \"Француженка\", без кринолина.",
+        "description": "Платье \"Француженка\", можно на узкий кринолин, но лучше смотрится без кринолина на плотную юбку. Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 18-й век",
             "Размеры": "42-46 (рост 172)",
             "Аренда": "4 500 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Без кринолина"
+            "Особенности": "Без кринолина, кринолин или мягкая юбка 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {
@@ -1683,13 +1665,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272407/aves-web/product_344_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272408/aves-web/product_344_4.jpg"
         ],
-        "description": "Бальное платье \"Чёрная орхидея\"",
+        "description": "Бальное платье \"Чёрная орхидея\" Подходит для балов, мероприятий и фотосессий.",
         "details": {
-            "Тип": "Бальное платье",
+            "Тип": "Бальные платья 19-й век",
             "Размеры": "40-44 (рост 170)",
             "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "Бальное платье"
+            "Особенности": "Бальное платье на очень узкую грудную клетку. кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         }
     },
     {

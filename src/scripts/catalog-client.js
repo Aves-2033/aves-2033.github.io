@@ -97,8 +97,9 @@ function openCatalogModal(index) {
     modal.setAttribute('aria-modal', 'true');
     modal.setAttribute('aria-labelledby', 'modal-title');
 
-    const prevDisabled = index === 0;
-    const nextDisabled = index === filteredCards.length - 1;
+    const currentFilteredIdx = filteredCards.findIndex(c => parseInt(c.dataset.index) === index);
+    const prevDisabled = currentFilteredIdx <= 0;
+    const nextDisabled = currentFilteredIdx === -1 || currentFilteredIdx === filteredCards.length - 1;
 
     const navHTML = `
         <button class="modal-nav-btn" id="prevBtn" ${prevDisabled ? 'disabled' : ''} aria-label="Предыдущий товар">
