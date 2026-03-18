@@ -12,6 +12,7 @@ const schemaJson = {
   "@context": "https://schema.org",
   "@type": "RentalBusiness",
   "name": "Прокат от Кет",
+  "description": "Прокат роскошных викторианских, бальных и исторических платьев в Москве. Более 100 образов: платья XIX века, винтаж, кимоно, карнавальные костюмы для фотосессий и торжеств.",
   "image": "https://ketrent.ru/img/og-image.jpg",
   "@id": "https://ketrent.ru/",
   "url": "https://ketrent.ru/",
@@ -22,6 +23,10 @@ const schemaJson = {
     "addressLocality": "Москва",
     "postalCode": "115580",
     "addressCountry": "RU"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Москва"
   },
   "geo": {
     "@type": "GeoCoordinates",
@@ -34,11 +39,52 @@ const schemaJson = {
     "opens": "11:00",
     "closes": "21:00"
   },
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Аренда бальных платьев" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Аренда викторианских платьев" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Аренда кимоно" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Аренда винтажных платьев" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Аренда карнавальных костюмов" } }
+  ],
+  "currenciesAccepted": "RUB",
+  "paymentAccepted": "Наличные, Банковская карта",
   "sameAs": [
     "https://vk.com/arendadresses",
     "https://t.me/prokat_ot_ket"
   ],
-  "priceRange": "1500 - 15000 RUB"
+  "priceRange": "1500€— 15000€€"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Сколько стоит прокат платья?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Цена проката зависит от модели и срока: от 1 500 до 15 000 ₽. Точную стоимость уточняйте у нас в Telegram или WhatsApp. " }
+    },
+    {
+      "@type": "Question",
+      "name": "Как забронировать платье?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Напишите нам в Telegram (@prokat_ot_ket) или WhatsApp +7 (903) 183-14-30. Мы обсудим варианты, подберём наряд и оформим бронь. " }
+    },
+    {
+      "@type": "Question",
+      "name": "Есть ли примерка?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Да, примерка возможна по предварительной записи. Примерка платная. " }
+    },
+    {
+      "@type": "Question",
+      "name": "Делаете ли вы доставку?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Да, есть свой курьер, доставка осуществляется по Москве. " }
+    },
+    {
+      "@type": "Question",
+      "name": "Какие размеры есть в коллекции?",
+      "acceptedAnswer": { "@type": "Answer", "text": "В нашей коллекции представлены размеры XS–XXL. Подробнее уточняйте по конкретным моделям. " }
+    }
+  ]
 };
 ---
 
@@ -51,7 +97,7 @@ const schemaJson = {
   ogDescription="Погрузитесь в атмосферу XIX века. Прокат эксклюзивных исторических и бальных платьев, винтажных нарядов, кимоно и костюмов для съемок от Кет."
   twitterTitle="Прокат от Кет | Аренда исторических платьев"
   twitterDescription="Аренда исторических и бальных платьев, винтажных нарядов, кимоно и карнавальных костюмов в Москве. Идеально для фотосессий."
-  schemaJson={schemaJson}
+  schemaJson={[schemaJson, faqSchema]}
   currentPage="home"
   preloadImage="/img/og-image.jpg"
 >
@@ -134,6 +180,34 @@ const schemaJson = {
 
       <div class="center-btn">
         <a href="/catalog" class="btn btn-outline">Открыть полный каталог</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section faq-section">
+    <div class="container">
+      <h2 class="section-title">Частые вопросы</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary class="faq-question">Сколько стоит прокат платья?</summary>
+          <div class="faq-answer">Цена проката зависит от модели и срока: от 1 500 до 15 000 ₽. Точную стоимость уточняйте у нас в Telegram или WhatsApp.</div>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-question">Как забронировать платье?</summary>
+          <div class="faq-answer">Напишите нам в Telegram (@prokat_ot_ket) или WhatsApp +7 (903) 183-14-30. Мы обсудим варианты, подберём наряд и оформим бронь.</div>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-question">Есть ли примерка?</summary>
+          <div class="faq-answer">Да, примерка возможна по предварительной записи. Примерка платная.</div>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-question">Делаете ли вы доставку?</summary>
+          <div class="faq-answer">Да, есть свой курьер, доставка осуществляется по Москве.</div>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-question">Какие размеры есть в коллекции?</summary>
+          <div class="faq-answer">В нашей коллекции представлены размеры XS–XXL. Подробнее уточняйте по конкретным моделям.</div>
+        </details>
       </div>
     </div>
   </section>
