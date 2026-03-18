@@ -9418,7 +9418,7 @@
         "id": 1401,
         "title": "Чёрный шёлковый веер, двусторонний, большой",
         "price": 600,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273345/aves-web/product_1401_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273346/aves-web/product_1401_2.jpg",
@@ -9437,7 +9437,7 @@
         "id": 1402,
         "title": "Красный шёлковый веер, двусторонний, большой",
         "price": 600,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273348/aves-web/product_1402_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273349/aves-web/product_1402_2.jpg",
@@ -9454,7 +9454,7 @@
         "id": 1403,
         "title": "Золотистый шёлковый веер, двусторонний, большой",
         "price": 600,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273350/aves-web/product_1403_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273351/aves-web/product_1403_2.jpg",
@@ -9472,7 +9472,7 @@
         "id": 1404,
         "title": "Белый шёлковый веер, двусторонний, большой",
         "price": 600,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273353/aves-web/product_1404_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273354/aves-web/product_1404_2.jpg"
@@ -9488,7 +9488,7 @@
         "id": 1405,
         "title": "Реквизит для фотосессии",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273355/aves-web/product_1405_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273355/aves-web/product_1405_2.jpg"
@@ -9504,7 +9504,7 @@
         "id": 1406,
         "title": "Реквизит для фотосессии",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273356/aves-web/product_1406_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273357/aves-web/product_1406_2.jpg"
@@ -9520,7 +9520,7 @@
         "id": 1407,
         "title": "Реквизит для фотосессии",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273358/aves-web/product_1407_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273358/aves-web/product_1407_2.jpg"
@@ -9536,7 +9536,7 @@
         "id": 1408,
         "title": "Реквизит для фотосессии",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273359/aves-web/product_1408_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273360/aves-web/product_1408_2.jpg"
@@ -9552,7 +9552,7 @@
         "id": 1409,
         "title": "веер салатовый с розовым",
         "price": 200,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273360/aves-web/product_1409_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273361/aves-web/product_1409_2.jpg"
@@ -9568,7 +9568,7 @@
         "id": 1411,
         "title": "Реквизит для фотосессии",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273362/aves-web/product_1411_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273363/aves-web/product_1411_2.jpg",
@@ -9585,7 +9585,7 @@
         "id": 1412,
         "title": "веер красный",
         "price": 200,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273364/aves-web/product_1412_1.jpg"
         ],
@@ -9600,7 +9600,7 @@
         "id": 1413,
         "title": "веер синий",
         "price": 200,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273365/aves-web/product_1413_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273365/aves-web/product_1413_2.jpg"
@@ -9616,7 +9616,7 @@
         "id": 1414,
         "title": "веер тканевый с клевером",
         "price": 200,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273366/aves-web/product_1414_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273367/aves-web/product_1414_2.jpg"
@@ -9632,7 +9632,7 @@
         "id": 1415,
         "title": "Гребень-бант средний",
         "price": 100,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273367/aves-web/product_1415_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273368/aves-web/product_1415_2.jpg",
@@ -9649,7 +9649,7 @@
         "id": 1416,
         "title": "Заколки-бантики маленькие",
         "price": 100,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273370/aves-web/product_1416_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273371/aves-web/product_1416_2.jpg",
@@ -9666,7 +9666,7 @@
         "id": 1417,
         "title": "Заколка малиновая с кисточкой",
         "price": 100,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273372/aves-web/product_1417_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273373/aves-web/product_1417_2.jpg"
@@ -9682,7 +9682,7 @@
         "id": 1418,
         "title": "заколки-цветы парные",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273374/aves-web/product_1418_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273375/aves-web/product_1418_3.jpg"
@@ -9698,7 +9698,7 @@
         "id": 1419,
         "title": "Реквизит для фотосессии",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273376/aves-web/product_1419_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273377/aves-web/product_1419_2.jpg",
@@ -9720,7 +9720,7 @@
         "id": 1420,
         "title": "украшение для волос лавандовое",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273381/aves-web/product_1420_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273382/aves-web/product_1420_2.jpg",
@@ -9738,7 +9738,7 @@
         "id": 1421,
         "title": "Украшение для волос красное",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273384/aves-web/product_1421_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273385/aves-web/product_1421_2.jpg",
@@ -9755,7 +9755,7 @@
         "id": 1422,
         "title": "Украшение для волос синее с фиолетовым",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273386/aves-web/product_1422_1.jpg"
         ],
@@ -9770,7 +9770,7 @@
         "id": 1423,
         "title": "Реквизит для фотосессии",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273387/aves-web/product_1423_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273387/aves-web/product_1423_2.jpg",
@@ -9788,7 +9788,7 @@
         "id": 1424,
         "title": "Реквизит для фотосессии",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273389/aves-web/product_1424_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273390/aves-web/product_1424_5.jpg",
@@ -9807,7 +9807,7 @@
         "id": 1425,
         "title": "Украшение для волос бирюзовое",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273393/aves-web/product_1425_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273393/aves-web/product_1425_2.jpg"
@@ -9823,7 +9823,7 @@
         "id": 1426,
         "title": "украшение для волос разноцветное",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273395/aves-web/product_1426_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273396/aves-web/product_1426_3.jpg",
@@ -9841,7 +9841,7 @@
         "id": 1427,
         "title": "Украшение для волос фиолетовое",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273398/aves-web/product_1427_1.jpg"
         ],
@@ -9856,7 +9856,7 @@
         "id": 1428,
         "title": "Реквизит для фотосессии",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273399/aves-web/product_1428_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273400/aves-web/product_1428_2.jpg",
@@ -9876,7 +9876,7 @@
         "id": 1429,
         "title": "украшение для волос бирюзовое с розовым",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273405/aves-web/product_1429_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273406/aves-web/product_1429_2.jpg",
@@ -9894,7 +9894,7 @@
         "id": 1430,
         "title": "Зонтик",
         "price": 500,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273409/aves-web/product_1430_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273410/aves-web/product_1430_2.jpg"
@@ -9910,7 +9910,7 @@
         "id": 1431,
         "title": "Зонтик",
         "price": 500,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273410/aves-web/product_1431_1.jpg"
         ],
@@ -9925,7 +9925,7 @@
         "id": 1432,
         "title": "Зонтик",
         "price": 500,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273411/aves-web/product_1432_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273411/aves-web/product_1432_2.jpg"
@@ -9941,7 +9941,7 @@
         "id": 1433,
         "title": "Японский складной зонт",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273412/aves-web/product_1433_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273413/aves-web/product_1433_2.jpg",
@@ -9960,7 +9960,7 @@
         "id": 1434,
         "title": "Зонтик",
         "price": 500,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273416/aves-web/product_1434_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273417/aves-web/product_1434_2.jpg"
@@ -9976,7 +9976,7 @@
         "id": 1435,
         "title": "Зонтик",
         "price": 500,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273418/aves-web/product_1435_1.jpg"
         ],
@@ -9991,7 +9991,7 @@
         "id": 1436,
         "title": "Зонтик",
         "price": 500,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273418/aves-web/product_1436_1.jpg"
         ],
@@ -10006,7 +10006,7 @@
         "id": 1437,
         "title": "Зонтик",
         "price": 500,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273419/aves-web/product_1437_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273420/aves-web/product_1437_2.jpg",
@@ -10023,7 +10023,7 @@
         "id": 1438,
         "title": "детский",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273421/aves-web/product_1438_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273421/aves-web/product_1438_3.jpg",
@@ -10040,7 +10040,7 @@
         "id": 1439,
         "title": "большой тайский зонт, около 110см",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273423/aves-web/product_1439_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273423/aves-web/product_1439_2.jpg"
@@ -10056,7 +10056,7 @@
         "id": 1440,
         "title": "Зонтик",
         "price": 500,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273424/aves-web/product_1440_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273425/aves-web/product_1440_2.jpg"
@@ -10072,7 +10072,7 @@
         "id": 1441,
         "title": "Зонтик",
         "price": 500,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273426/aves-web/product_1441_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273426/aves-web/product_1441_2.jpg"
@@ -10088,7 +10088,7 @@
         "id": 1442,
         "title": "Зонтик",
         "price": 500,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273427/aves-web/product_1442_1.jpg"
         ],
@@ -10103,7 +10103,7 @@
         "id": 1443,
         "title": "Реквизит для фотосессии",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273428/aves-web/product_1443_1.jpg"
         ],
@@ -10118,7 +10118,7 @@
         "id": 1444,
         "title": "Японская винтажная сумка",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273428/aves-web/product_1444_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273429/aves-web/product_1444_2.jpg",
@@ -10136,7 +10136,7 @@
         "id": 1445,
         "title": "Прекрасная винтажная сумочка из шёлковой парчи",
         "price": 500,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273432/aves-web/product_1445_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273434/aves-web/product_1445_2.jpg"
@@ -10152,7 +10152,7 @@
         "id": 1446,
         "title": "Винтажная сумка с японским бисером",
         "price": 0,
-        "category": "photo-accessories",
+        "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273434/aves-web/product_1446_1.jpg"
         ],
