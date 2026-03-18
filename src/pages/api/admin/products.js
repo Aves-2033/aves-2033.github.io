@@ -60,14 +60,16 @@ export async function POST({ request }) {
                 const url = payload.url;
                 const result = await cloudinary.uploader.upload(url, {
                     folder: CLOUDINARY_FOLDER,
-                    public_id: `product_${productId}_${Date.now()}`
+                    public_id: `product_${productId}_${Date.now()}`,
+                    timeout: 120000
                 });
                 cloudinaryUrl = result.secure_url;
             } else if (source === 'base64') {
                 const fileBase64 = payload.file; // data:image/jpeg;base64,...
                 const result = await cloudinary.uploader.upload(fileBase64, {
                     folder: CLOUDINARY_FOLDER,
-                    public_id: `product_${productId}_${Date.now()}`
+                    public_id: `product_${productId}_${Date.now()}`,
+                    timeout: 120000
                 });
                 cloudinaryUrl = result.secure_url;
             }
@@ -90,7 +92,8 @@ export async function POST({ request }) {
 
     } catch (e) {
         console.error("API POST Error:", e);
-        return new Response(JSON.stringify({ error: e.message }), { status: 500 });
+        const errMsg = e.message || (e.error && e.error.message) || (typeof e === 'object' ? JSON.stringify(e) : String(e));
+        return new Response(JSON.stringify({ error: errMsg }), { status: 500 });
     }
 }
 
@@ -154,6 +157,8 @@ export async function DELETE({ request }) {
 
         return new Response(JSON.stringify({ error: 'Unknown action' }), { status: 400 });
     } catch (e) {
-        return new Response(JSON.stringify({ error: e.message }), { status: 500 });
+        console.error("API DELETE Error:", e);
+        const errMsg = e.message || (e.error && e.error.message) || (typeof e === 'object' ? JSON.stringify(e) : String(e));
+        return new Response(JSON.stringify({ error: errMsg }), { status: 500 });
     }
 }

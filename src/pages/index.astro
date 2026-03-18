@@ -53,6 +53,7 @@ const schemaJson = {
   twitterDescription="Аренда исторических и бальных платьев, винтажных нарядов, кимоно и карнавальных костюмов в Москве. Идеально для фотосессий."
   schemaJson={schemaJson}
   currentPage="home"
+  preloadImage="/img/og-image.jpg"
 >
   <Header currentPage="home" />
 
@@ -93,8 +94,7 @@ const schemaJson = {
             src="/img/img1.jpg"
             alt="Процесс создания исторического платья"
             class="about-image"
-            loading="eager"
-            fetchpriority="high"
+            loading="lazy"
             decoding="async"
             width="600"
             height="800"

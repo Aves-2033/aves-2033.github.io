@@ -13,6 +13,7 @@ interface Props {
   twitterImage?: string;
   schemaJson?: object;
   currentPage?: 'home' | 'catalog';
+  preloadImage?: string;
 }
 
 const {
@@ -29,6 +30,7 @@ const {
   twitterImage,
   schemaJson,
   currentPage = 'home',
+  preloadImage,
 } = Astro.props;
 
 import '../styles/style.css';
@@ -66,6 +68,8 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
     {schemaJson && (
       <script type="application/ld+json" set:html={JSON.stringify(schemaJson)} />
     )}
+
+    {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />}
 
     <!-- Content Security Policy -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://mc.yandex.ru https://mc.yandex.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://res.cloudinary.com https://*.userapi.com https://*.vkuserphoto.ru https://mc.yandex.ru https://mc.yandex.com; connect-src 'self' https://mc.yandex.ru https://mc.yandex.com wss://mc.yandex.com wss://mc.yandex.ru; frame-ancestors 'none'" />

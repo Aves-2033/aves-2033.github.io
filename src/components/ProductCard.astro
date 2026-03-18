@@ -12,6 +12,10 @@ interface Props {
 const { title, price, image, category, index, id, description } = Astro.props;
 
 const formattedPrice = price != null ? price.toLocaleString('ru-RU') + ' ₽' : 'Нет данных';
+
+const optimizedImage = image.includes('/upload/') 
+  ? image.replace('/upload/', '/upload/f_auto,q_auto,w_500/') 
+  : image;
 ---
 
 <article
@@ -23,7 +27,7 @@ const formattedPrice = price != null ? price.toLocaleString('ru-RU') + ' ₽' :
 >
   <div class="card-image">
     <img
-      src={image}
+      src={optimizedImage}
       alt={title}
       loading="lazy"
       decoding="async"

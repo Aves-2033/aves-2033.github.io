@@ -1,0 +1,428 @@
+[
+  {
+    "id": 401,
+    "title": "Платье эльфийское \"Зелёная фея\"",
+    "price": 4000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272409/aves-web/product_401_9.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272409/aves-web/product_401_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272410/aves-web/product_401_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272411/aves-web/product_401_4.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272412/aves-web/product_401_5.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272413/aves-web/product_401_6.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272414/aves-web/product_401_8.jpg"
+    ],
+    "description": "Подходит для мероприятий и фотосессий",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "40-44-173",
+      "Аренда": "4000 ₽",
+      "Залог": "10000 ₽",
+      "Особенности": "Регулируется шнуровка"
+    }
+  },
+  {
+    "id": 402,
+    "title": "Платье \"Игра престолов\" по мотивам сериала",
+    "price": 4000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272415/aves-web/product_402_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272416/aves-web/product_402_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272417/aves-web/product_402_4.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272417/aves-web/product_402_5.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272418/aves-web/product_402_6.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272419/aves-web/product_402_9.jpg"
+    ],
+    "description": "Платье по мотивам сериала. Рукава-тесьма 19-го века",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "42-46-170",
+      "Аренда": "4000 ₽",
+      "Залог": "10000 ₽",
+      "Особенности": "Платье на молнии (не регулируется)"
+    }
+  },
+  {
+    "id": 403,
+    "title": "Эльфийское платье \"Бирюзовый\"",
+    "price": 4500,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272420/aves-web/product_403_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272421/aves-web/product_403_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272422/aves-web/product_403_4.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272422/aves-web/product_403_5.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272423/aves-web/product_403_6.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272423/aves-web/product_403_7.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272424/aves-web/product_403_8.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272425/aves-web/product_403_9.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272426/aves-web/product_403_10.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272426/aves-web/product_403_11.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272427/aves-web/product_403_12.jpg"
+    ],
+    "description": "Платье отлично подходит для фотосессий",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "40-46-172",
+      "Аренда": "4500 ₽",
+      "Залог": "10000 ₽",
+      "Особенности": "Регулируется шнуровкой, сшито из очень тонкой ткани"
+    }
+  },
+  {
+    "id": 404,
+    "title": "Эльф \"Бордовый\"",
+    "price": 5500,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272428/aves-web/product_404_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272428/aves-web/product_404_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272429/aves-web/product_404_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272430/aves-web/product_404_4.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272430/aves-web/product_404_5.jpg"
+    ],
+    "description": "Платье подходит только для фотосессий, желательно в фотостудии. Сшито из итальянской шерсти, ручная вышивка.",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "38-42-172",
+      "Аренда": "5500 ₽",
+      "Залог": "Сопровождение костюмера",
+      "Особенности": "Регулируется шнуровкой"
+    }
+  },
+  {
+    "id": 405,
+    "title": "Эльф \"Белый с серебром\"",
+    "price": 4000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272431/aves-web/product_405_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272432/aves-web/product_405_6.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272432/aves-web/product_405_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272433/aves-web/product_405_4.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272434/aves-web/product_405_5.jpg"
+    ],
+    "description": "Платье сшито из бархата, отлично тянется и имеет пояс корсет",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "40-50-170",
+      "Аренда": "4000 ₽",
+      "Залог": "10000 ₽",
+      "Особенности": "Нет регулировки, нет шнуровки, нет молнии"
+    }
+  },
+  {
+    "id": 406,
+    "title": "Платье эльф \"Синий\"",
+    "price": 4000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272435/aves-web/product_406_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272435/aves-web/product_406_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272436/aves-web/product_406_3.jpg"
+    ],
+    "description": "Платье сшито из хлопка, имеет вышивку на груди",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "42-46-172",
+      "Аренда": "4000 ₽",
+      "Залог": "10000 ₽",
+      "Особенности": "Регулируется шнуровкой на спине"
+    }
+  },
+  {
+    "id": 407,
+    "title": "Сказочное платье \"Миледи\"",
+    "price": 6000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272437/aves-web/product_407_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272438/aves-web/product_407_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773847601/aves-web/product_407_1773847599520.jpg"
+    ],
+    "description": "Шито из плотной, тяжелой ткани, на 1500-1515 гг.\nПодходит для мероприятий балов, фотосессий",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "42- 44-175",
+      "Аренда": "6000 ₽",
+      "Залог": "20000 ₽",
+      "Особенности": "Регулируется шнуровкой"
+    }
+  },
+  {
+    "id": 408,
+    "title": "Эльф-средневековье \"Молочный с золотом\"",
+    "price": 10000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272440/aves-web/product_408_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272441/aves-web/product_408_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272442/aves-web/product_408_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272443/aves-web/product_408_4.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272444/aves-web/product_408_5.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272445/aves-web/product_408_6.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272447/aves-web/product_408_8.jpg"
+    ],
+    "description": "Подходит для фотосессий. На свадьбы, мероприятия с приёмом пищи, вечеринки и прочее, не выдается\nФотосессии возможны как на улице так и в фотостудии.",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "40-46-172",
+      "Аренда": "10000 ₽",
+      "Залог": "35000 ₽",
+      "Особенности": "Регулируется шнуровкой на спине"
+    }
+  },
+  {
+    "id": 409,
+    "title": "Платье эльф \"Зелёно-белый\"",
+    "price": 4000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272448/aves-web/product_409_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272449/aves-web/product_409_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272450/aves-web/product_409_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272450/aves-web/product_409_4.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272451/aves-web/product_409_5.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272452/aves-web/product_409_6.jpg"
+    ],
+    "description": "Платье сшито из замши, регулируется шнуровкой на спине\nПодходит для мероприятий и фотосессий",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "38-44-163",
+      "Аренда": "4000 ₽",
+      "Залог": "10000 ₽",
+      "Особенности": "Регулируется шнуровкой на спине, имеется плащ"
+    }
+  },
+  {
+    "id": 410,
+    "title": "Сказочное платье \"Del luna\"",
+    "price": 5000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272453/aves-web/product_410_8.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272455/aves-web/product_410_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272455/aves-web/product_410_4.jpg"
+    ],
+    "description": "Платье имеет ручную вышивку, подходит для мероприятий, балов и конкурсов ",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "42-46-168",
+      "Аренда": "5000 ₽",
+      "Залог": "15000 ₽",
+      "Особенности": "К платью имеется плащ"
+    }
+  },
+  {
+    "id": 411,
+    "title": "Эльф-средневековье \"Розовый\"",
+    "price": 10000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272458/aves-web/product_411_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272459/aves-web/product_411_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272460/aves-web/product_411_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272460/aves-web/product_411_5.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272461/aves-web/product_411_6.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272462/aves-web/product_411_7.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272462/aves-web/product_411_8.jpg"
+    ],
+    "description": "Сшито из итальянского хлопкового жаккарда, рукава отстегиваются при желании, имеет очень длинные шлейф (более метра)\nПодходит для фотосессий, как в студии так и на улице",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "42-46-175",
+      "Аренда": "10000 ₽",
+      "Залог": "30000 ₽",
+      "Особенности": "Регулируется на спине шнуровкой, рукава отстегиваются"
+    }
+  },
+  {
+    "id": 412,
+    "title": "Эльф-средневековье \"Золотая принцесса\"",
+    "price": 8000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272463/aves-web/product_412_9.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272463/aves-web/product_412_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272464/aves-web/product_412_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272465/aves-web/product_412_4.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272465/aves-web/product_412_6.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272466/aves-web/product_412_7.jpg"
+    ],
+    "description": "Сшито из итальянского атласа, подходит для мероприятий и фотосессий. Имеет плотный профессиональный корсет с металлическими костями. Корсет украшен антикварным кружевом которому более ста лет",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "40-48-172",
+      "Аренда": "8000 ₽",
+      "Залог": "25000 ₽",
+      "Особенности": "LUXE, регулируется шнуровкой, можно добавить мягкую юбку 500 ₽"
+    }
+  },
+  {
+    "id": 413,
+    "title": "Платье \"Дворцовое средневековье\"",
+    "price": 15000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272467/aves-web/product_413_11.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272468/aves-web/product_413_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272468/aves-web/product_413_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272470/aves-web/product_413_6.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272470/aves-web/product_413_7.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272471/aves-web/product_413_8.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272472/aves-web/product_413_9.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272473/aves-web/product_413_10.jpg"
+    ],
+    "description": "Платье сшито из плотной, теплой ткани. Подходит для зимних съемок (до -15)\nИмеет объемную ручную вышивку, бережное отношение, выдается только на фотосессии  ",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "40-46-170",
+      "Аренда": "15000 ₽",
+      "Залог": "Сопровождение костюмера",
+      "Особенности": "Регулируется шнуровкой, к платью имеется теплый плащ, стоимость отдельная"
+    }
+  },
+  {
+    "id": 414,
+    "title": "Платье эльф \"Голубой\" замша",
+    "price": 4000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272474/aves-web/product_414_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272475/aves-web/product_414_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272476/aves-web/product_414_4.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272477/aves-web/product_414_5.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272479/aves-web/product_414_6.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272479/aves-web/product_414_7.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272480/aves-web/product_414_8.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272481/aves-web/product_414_9.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272481/aves-web/product_414_10.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272482/aves-web/product_414_11.jpg"
+    ],
+    "description": "Платье сшито из небесно-голубой замши. Подходит для фотосессий и мероприятий ",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "38-44-160",
+      "Аренда": "4000 ₽",
+      "Залог": "10000 ₽",
+      "Особенности": "Регулируется шнуровкой на спине, при желании можно взять плащ"
+    }
+  },
+  {
+    "id": 415,
+    "title": "Платье эльф \"Сказка\"",
+    "price": 4500,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272483/aves-web/product_415_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272484/aves-web/product_415_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272485/aves-web/product_415_4.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272485/aves-web/product_415_5.jpg"
+    ],
+    "description": "Сшито из атласа, украшено большим количеством фурнитуры и камней.\nВыдается на мероприятия, фотосессии, конкурсы и т.д. Размер +",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "52-64-172",
+      "Аренда": "4500 ₽",
+      "Залог": "10000 ₽",
+      "Особенности": "Регулируется шнуровкой на спине"
+    }
+  },
+  {
+    "id": 416,
+    "title": "Средневековое \"Бордовое с золотом\"",
+    "price": 4000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272487/aves-web/product_416_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272487/aves-web/product_416_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272488/aves-web/product_416_3.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272489/aves-web/product_416_4.jpg"
+    ],
+    "description": "Платье подходит для мероприятий и фотосессий ",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "46-50-170",
+      "Аренда": "4000 ₽",
+      "Залог": "10000 ₽",
+      "Особенности": "Регулируется шнуровкой"
+    }
+  },
+  {
+    "id": 417,
+    "title": "Платье Тёмно-синее, Берканар",
+    "price": 4000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272490/aves-web/product_417_4.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272491/aves-web/product_417_2.jpg"
+    ],
+    "description": "Подходит для мероприятий, фотосессий и конкурсов",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "42-48-170",
+      "Аренда": "4000 ₽",
+      "Залог": "10000 ₽",
+      "Особенности": "Регулируется шнуровкой по бокам"
+    }
+  },
+  {
+    "id": 418,
+    "title": "\"Офелия\" с отстегивающимся шлейфом и рукавами",
+    "price": 4000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272492/aves-web/product_418_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272493/aves-web/product_418_2.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773843017/aves-web/product_418_1773843015037.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773843037/aves-web/product_418_1773843036157.jpg"
+    ],
+    "description": "Винтажное сборное платье, имеет отстегивающиеся рукава и шлейф",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "40-46-168",
+      "Аренда": "4000 ₽",
+      "Залог": "5000 ₽",
+      "Особенности": "Регулируется шнуровкой"
+    }
+  },
+  {
+    "id": 419,
+    "title": "Платье \"Серебряное средневековье\"",
+    "price": 5000,
+    "category": "medieval",
+    "images": [
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272494/aves-web/product_419_1.jpg",
+      "https://res.cloudinary.com/dfphvshby/image/upload/v1773272495/aves-web/product_419_3.jpg"
+    ],
+    "description": "Имеет шлейф более 1 метра. Подходит в основном для фотосессий",
+    "details": {
+      "Тип": "Платье",
+      "Стиль": "Средневековый / Сказочный",
+      "Размеры": "42-48-180",
+      "Аренда": "5000 ₽",
+      "Залог": "10000 ₽",
+      "Особенности": "Регулируется шнуровкой"
+    }
+  }
+]

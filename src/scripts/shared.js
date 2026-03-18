@@ -80,16 +80,6 @@ export function setNavigateModal(fn) { _navigateModalFn = fn; }
 
 // --- Утилиты ---
 
-export function getProductImage(product, index = 0) {
-    if (product.images && Array.isArray(product.images)) {
-        return product.images[index] || product.images[0];
-    }
-    if (product.image) {
-        return product.image;
-    }
-    return 'img/placeholder.jpg';
-}
-
 export function escapeHtml(text) {
     if (typeof text !== 'string') {
         return '';
@@ -479,9 +469,15 @@ export function renderModalContent(product, index, productsArray, navHTML) {
     const modalBody = document.getElementById('modalBody');
     if (!modalBody) return;
 
-    const images = product.images && Array.isArray(product.images)
+    let baseImages = product.images && Array.isArray(product.images)
         ? product.images
         : [product.image || 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22600%22%20viewBox%3D%220%200%20400%20600%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23eee%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22serif%22%20font-size%3D%2224%22%20fill%3D%22%23999%22%20text-anchor%3D%22middle%22%3EAvesWeb%3C%2Ftext%3E%3C%2Fsvg%3E'];
+        
+    const images = baseImages.map(img => 
+        (typeof img === 'string' && img.includes('/upload/'))
+            ? img.replace('/upload/', '/upload/f_auto,q_auto,w_1200/')
+            : img
+    );
     const hasMultipleImages = images.length > 1;
 
     const thumbnailsHTML = hasMultipleImages ? `
