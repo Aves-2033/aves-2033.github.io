@@ -177,18 +177,27 @@ function initCatalog() {
         });
     });
 
-    fetchProducts().then(() => {
-        if (urlCategory) {
-            const targetBtn = document.querySelector(`.filter-btn[data-filter="${urlCategory}"]`);
-            if (targetBtn) {
-                targetBtn.click();
-            } else {
-                applyFilter('all');
-            }
+    // Применяем фильтр сразу — данные категорий уже есть в data-category атрибутах HTML.
+    // Это предотвращает layout shift при переходе по ссылке с ?category=...
+    if (urlCategory) {
+        const targetBtn = document.querySelector(`.filter-btn[data-filter="${urlCategory}"]`);
+        if (targetBtn) {
+            filterBtns.forEach(b => {
+                b.classList.remove('active');
+                b.setAttribute('aria-pressed', 'false');
+            });
+            targetBtn.classList.add('active');
+            targetBtn.setAttribute('aria-pressed', 'true');
+            applyFilter(urlCategory);
         } else {
             applyFilter('all');
         }
-    });
+    } else {
+        applyFilter('all');
+    }
+
+    // Загружаем данные товаров в фоне — нужны только для открытия модальных окон
+    fetchProducts();
 
     setupModal();
 

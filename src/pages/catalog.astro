@@ -66,13 +66,10 @@ const combinedSchema = [breadcrumbSchema, itemListSchema];
   canonicalUrl="https://ketrent.ru/catalog"
   ogTitle="Каталог платьев | Прокат от Кет"
   ogDescription="Каталог исторических платьев для аренды в Москве. Бальные, викторианские, винтажные, свадебные наряды и костюмы."
+  schemaJson={combinedSchema}
   currentPage="catalog"
   preloadImage="/img/img18.jpg"
 >
-  <Fragment slot="header">
-    <!-- Inline schema for catalog page -->
-    <script type="application/ld+json" set:html={JSON.stringify(combinedSchema)} />
-  </Fragment>
 
   <Header currentPage="catalog" />
 
