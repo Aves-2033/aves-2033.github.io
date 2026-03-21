@@ -1,0 +1,181 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import products from '../../data/products.json';
+
+export async function getStaticPaths() {
+  return products.map((product) => ({
+    params: { slug: product.slug },
+    props: { product },
+  }));
+}
+
+const { product } = Astro.props;
+
+// Подгружаем похожие товары из той же категории (макс 4)
+const similarProducts = products
+  .filter(p => p.category === product.category && p.id !== product.id)
+  .slice(0, 4);
+
+const formattedPrice = product.price != null ? product.price.toLocaleString('ru-RU') + ' ₽' : 'Нет данных';
+
+const images = product.images && Array.isArray(product.images)
+    ? product.images
+    : [product.image];
+
+const ogImage = images[0] ? images[0].replace('/upload/', '/upload/f_auto,q_auto,w_1200/') : '';
+const itemCondition = ['vintage', 'medieval'].includes(product.category) 
+    ? "https://schema.org/UsedCondition" 
+    : "https://schema.org/NewCondition";
+    
+const nextYear = new Date();
+nextYear.setFullYear(nextYear.getFullYear() + 1);
+const priceValidUntil = nextYear.toISOString().split('T')[0];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://ketrent.ru/" },
+    { "@type": "ListItem", "position": 2, "name": "Каталог", "item": "https://ketrent.ru/catalog" },
+    { "@type": "ListItem", "position": 3, "name": product.title, "item": `https://ketrent.ru/product/${product.slug}` }
+  ]
+};
+
+const productSchema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": product.title,
+  "image": images,
+  "description": product.description || `Аренда платья: ${product.title}`,
+  "sku": product.id.toString(),
+  "offers": {
+    "@type": "Offer",
+    "url": `https://ketrent.ru/product/${product.slug}`,
+    "priceCurrency": "RUB",
+    "price": product.price || 0,
+    "priceValidUntil": priceValidUntil,
+    "itemCondition": itemCondition,
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Прокат от Кет"
+    }
+  }
+};
+
+const combinedSchema = [breadcrumbSchema, productSchema];
+---
+
+<BaseLayout
+  title={`${product.title} — Аренда | Прокат от Кет`}
+  description={product.description || `Аренда ${product.title} в Москве. Прокат от Кет.`}
+  canonicalUrl={`https://ketrent.ru/product/${product.slug}`}
+  ogTitle={product.title}
+  ogImage={ogImage}
+  schemaJson={combinedSchema}
+>
+  <Header currentPage="catalog" />
+
+  <section class="section product-single-section pt-32 pb-16">
+    <div class="container">
+      
+      <div class="breadcrumbs text-sm text-gray-400 mb-8 mt-8">
+         <a href="/catalog" class="hover:text-white transition-colors">← Вернуться в каталог</a>
+      </div>
+
+      <div class="product-single-grid">
+         <!-- Галерея -->
+         <div class="product-gallery relative rounded-lg overflow-hidden glass-card">
+            {images.map((img: string, index: number) => (
+                <img 
+                    src={img.replace('/upload/', '/upload/f_auto,q_auto,w_800/')} 
+                    alt={`${product.title} - фото ${index + 1}`}
+                    class="w-full h-auto object-cover mb-4 rounded"
+                    loading={index === 0 ? "eager" : "lazy"}
+                />
+            ))}
+         </div>
+
+         <!-- Инфо -->
+         <div class="product-info glass-card p-8 rounded-lg sticky top-32 self-start">
+            <h1 class="text-3xl font-serif text-white mb-4">{product.title}</h1>
+            <p class="text-2xl text-accent font-medium mb-6">{formattedPrice}</p>
+            
+            <div class="prose prose-invert mb-8">
+                <p>{product.description}</p>
+            </div>
+
+            {product.details && Object.keys(product.details).length > 0 && (
+                <div class="product-details mb-8">
+                    <h3 class="text-xl text-white mb-4 border-b border-white/10 pb-2">Характеристики</h3>
+                    <ul class="space-y-2">
+                        {Object.entries(product.details).map(([key, value]) => (
+                            <li class="flex justify-between border-b border-white/5 pb-2 last:border-0">
+                                <span class="text-gray-400">{key}:</span>
+                                <span class="text-white text-right max-w-[60%]">{value}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )}
+
+            <button class="btn btn-primary w-full js-open-contacts">Забронировать</button>
+            <p class="text-xs text-gray-500 text-center mt-4">Нажимая кнопку, вы перейдете к выбору удобного мессенджера для связи</p>
+         </div>
+      </div>
+
+      <!-- Похожие товары -->
+      {similarProducts.length > 0 && (
+          <div class="similar-products mt-24">
+              <h2 class="text-2xl font-serif text-white mb-8 text-center">Похожие товары</h2>
+              <div class="catalog-grid">
+                  {similarProducts.map((p: any) => (
+                      <article class="catalog-card">
+                          <div class="card-image">
+                              <img
+                                  src={p.images?.[0] ? p.images[0].replace('/upload/', '/upload/f_auto,q_auto,w_500/') : ''}
+                                  alt={p.title}
+                                  loading="lazy"
+                                  width="400"
+                                  height="500"
+                              />
+                          </div>
+                          <div class="card-body">
+                              <h3 class="card-title">
+                                  <a href={`/product/${p.slug}`} class="seo-link">{p.title}</a>
+                              </h3>
+                              <p class="card-price">{p.price != null ? p.price.toLocaleString('ru-RU') + ' ₽' : 'Нет данных'}</p>
+                              <a href={`/product/${p.slug}`} class="btn-text inline-block mt-4">Подробнее &rarr;</a>
+                          </div>
+                      </article>
+                  ))}
+              </div>
+          </div>
+      )}
+    </div>
+  </section>
+  <Footer />
+
+  <Fragment slot="scripts">
+    <script>
+      import '../../scripts/shared.js';
+      import '../../scripts/mobile-nav.js';
+    </script>
+  </Fragment>
+
+  <style>
+      .product-single-grid {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 2rem;
+      }
+      @media (min-width: 1024px) {
+          .product-single-grid {
+              grid-template-columns: 1.2fr 1fr;
+              gap: 4rem;
+          }
+      }
+  </style>
+</BaseLayout>

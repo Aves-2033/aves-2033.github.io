@@ -169,6 +169,9 @@ function initCatalog() {
     allCards.forEach(card => {
         card.style.cursor = 'pointer';
         card.addEventListener('click', (e) => {
+            if (e.target.closest('a[href^="/product/"]')) {
+                return; // Let browser follow the SEO link
+            }
             if (e.target.closest('.btn-text')) {
                 e.preventDefault();
             }

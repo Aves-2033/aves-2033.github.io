@@ -6,10 +6,11 @@ interface Props {
   category: string;
   index: number;
   id: number;
+  slug: string;
   description?: string;
 }
 
-const { title, price, image, category, index, id, description } = Astro.props;
+const { title, price, image, category, index, id, slug, description } = Astro.props;
 
 const formattedPrice = price != null ? price.toLocaleString('ru-RU') + ' ₽' : 'Нет данных';
 
@@ -37,7 +38,9 @@ const optimizedImage = image.includes('/upload/')
     />
   </div>
   <div class="card-body">
-    <h3 class="card-title">{title}</h3>
+    <h3 class="card-title">
+      <a href={`/product/${slug}`} class="seo-link" aria-label={title}>{title}</a>
+    </h3>
     <p class="card-price">{formattedPrice}</p>
     <button class="btn-text" data-product-index={index}>Подробнее &rarr;</button>
   </div>

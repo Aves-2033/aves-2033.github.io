@@ -1,0 +1,42 @@
+﻿
+> avesweb@1.0.0 prebuild
+> node scripts/hide-admin.js
+
+
+> avesweb@1.0.0 build
+> astro build
+
+[2m12:57:34[22m [34m[content][39m Syncing content
+[2m12:57:34[22m [34m[content][39m Synced content
+[2m12:57:34[22m [34m[types][39m Generated [2m39ms[22m
+[2m12:57:34[22m [34m[build][39m output: [34m"static"[39m
+[2m12:57:34[22m [34m[build][39m mode: [34m"static"[39m
+[2m12:57:34[22m [34m[build][39m directory: [34mC:\Users\Aves\Desktop\AvesProject\aves-2033.github.io\dist\[39m
+[2m12:57:34[22m [34m[build][39m Collecting build info...
+[2m12:57:34[22m [34m[build][39m [32mтЬУ Completed in 59ms.[39m
+[2m12:57:34[22m [34m[build][39m Building static entrypoints...
+node.exe : [31m[1m12:57:34[22m [ERROR] [vite]
+[39m [31mтЬЧ[39m Build failed in 522ms
+строка:1 знак:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Progr
+am Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([ 
+   31m[1m12:57:...failed in 522ms:String) [],  
+   RemoteException
+    + FullyQualifiedErrorId : NativeCommandErro 
+   r
+ 
+Could not resolve "../layouts/BaseLayout.astro" 
+from "src/pages/catalog/index.astro"
+file: C:/Users/Aves/Desktop/AvesProject/aves-203
+3.github.io/src/pages/catalog/index.astro
+  [1mStack trace:[22m
+[2m    at getRollupError (file:///C:/Users/Aves
+/Desktop/AvesProject/aves-2033.github.io/node_mo
+dules/rollup/dist/es/shared/parseAst.js:402:41)
+    at ModuleLoader.handleInvalidResolvedId (fil
+e:///C:/Users/Aves/Desktop/AvesProject/aves-2033
+.github.io/node_modules/rollup/dist/es/shared/no
+de-entry.js:21687:24)[22m

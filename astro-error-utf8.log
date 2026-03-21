@@ -1,0 +1,2863 @@
+﻿node.exe : 2026-03-21T09:59:52.904Z astro:cli --
+verbose flag enabled! Enabling: DEBUG="astro:*,v
+ite:*"
+строка:1 знак:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Progr
+am Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (20 
+   26-03-21T09:5...astro:*,vite:*":String) [],  
+   RemoteException
+    + FullyQualifiedErrorId : NativeCommandErro 
+   r
+ 
+2026-03-21T09:59:52.905Z astro:cli Tip: Set the 
+DEBUG env variable directly for more control. Ex
+ample: "DEBUG=astro:*,vite:* astro build".
+2026-03-21T09:59:53.528Z astro:telemetry [notify
+] last notified on 1771364985567
+2026-03-21T09:59:54.290Z astro:telemetry {
+  context: {
+    isGit: true,
+    anonymousProjectId: 'de9969afc08b70443d1ddb4
+a97b4a126e53822680c9f67db87d1f1a72b71ca62',
+    packageManager: 'npm',
+    packageManagerVersion: '11.6.2',
+    anonymousId: '3c07ee7cfaf875c21485c083609a25
+53bc82145037a392534c149332f8e916ff',
+    anonymousSessionId: '4ba16ddc42c3650828b2c44
+5724c6c0e33ec607f31fb75f82803a8d0e58166f2'
+  },
+  meta: {
+    nodeVersion: '24.13.0',
+    viteVersion: '6.4.1',
+    astroVersion: '5.17.2',
+    systemPlatform: 'win32',
+    systemRelease: '10.0.26200',
+    systemArchitecture: 'x64',
+    cpuCount: 16,
+    cpuModel: 'AMD Ryzen 7 4800H with Radeon Gra
+phics         ',
+    cpuSpeed: 2894,
+    memoryInMb: 16253,
+    isDocker: false,
+    isTTY: undefined,
+    isWSL: false,
+    isCI: false,
+    ciName: null
+  }
+}
+2026-03-21T09:59:54.290Z astro:telemetry [
+  {
+    "eventName": "ASTRO_CLI_SESSION_STARTED",
+    "payload": {
+      "cliCommand": "build",
+      "config": {
+        "site": true,
+        "output": "static",
+        "integrations": [
+          "@astrojs/sitemap"
+        ],
+        "build": {},
+        "server": true,
+        "image": {},
+        "markdown": {},
+        "vite": {
+          "css": true
+        },
+        "experimental": {},
+        "legacy": {}
+      }
+    }
+  }
+]
+2026-03-21T09:59:54.301Z astro:build Initial set
+up...
+2026-03-21T09:59:54.323Z vite:env loading env fi
+les: [
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.local',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.production',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.production.local'
+]
+2026-03-21T09:59:54.324Z vite:env env files load
+ed in 1.33ms
+2026-03-21T09:59:54.326Z vite:env using resolved
+ env: {
+  CLOUDINARY_CLOUD_NAME: 'dfphvshby',
+  CLOUDINARY_API_KEY: '873784248487482',
+  CLOUDINARY_API_SECRET: 'R8s1LpY4u-gSJAE2jtQuud
+EgIMY',
+  ALLUSERSPROFILE: 'C:\\ProgramData',
+  ANTIGRAVITY_AGENT: '1',
+  ANTIGRAVITY_CLI_ALIAS: 'agy',
+  APPDATA: 'C:\\Users\\Aves\\AppData\\Roaming',
+  BUNDLED_DEBUGPY_PATH: 'c:\\Users\\Aves\\.antig
+ravity\\extensions\\ms-python.debugpy-2025.18.0-
+win32-x64\\bundled\\libs\\debugpy',
+  ChocolateyInstall: 'C:\\ProgramData\\chocolate
+y',
+  ChocolateyLastPathUpdate: '134136815386800160'
+,
+  CHROME_CRASHPAD_PIPE_NAME: '\\\\.\\pipe\\crash
+pad_22716_CNYBZUQUCSTHYGFW',
+  COLOR: '0',
+  COLORTERM: 'truecolor',
+  CommonProgramFiles: 'C:\\Program Files\\Common
+ Files',
+  'CommonProgramFiles(x86)': 'C:\\Program Files 
+(x86)\\Common Files',
+  CommonProgramW6432: 'C:\\Program Files\\Common
+ Files',
+  COMPUTERNAME: 'DESKTOP-H48LVNT',
+  ComSpec: 'C:\\Windows\\system32\\cmd.exe',
+  DEBUG: 'astro:*,vite:*',
+  DriverData: 'C:\\Windows\\System32\\Drivers\\D
+riverData',
+  EDITOR: 'C:\\Windows\\notepad.exe',
+  EFC_20116_1262719628: '1',
+  EFC_20116_1592913036: '1',
+  EFC_20116_2283032206: '1',
+  EFC_20116_3789132940: '1',
+  GIT_ASKPASS: 'c:\\Users\\Aves\\AppData\\Local\
+\Programs\\Antigravity\\resources\\app\\extensio
+ns\\git\\dist\\askpass.sh',
+  HOME: 'C:\\Users\\Aves',
+  HOMEDRIVE: 'C:',
+  HOMEPATH: '\\Users\\Aves',
+  INIT_CWD: 'C:\\Users\\Aves\\Desktop\\AvesProje
+ct\\aves-2033.github.io',
+  LANG: 'en_US.UTF-8',
+  LOCALAPPDATA: 'C:\\Users\\Aves\\AppData\\Local
+',
+  LOGONSERVER: '\\\\DESKTOP-H48LVNT',
+  NODE: 'C:\\Program Files\\nodejs\\node.exe',
+  NODE_ENV: 'production',
+  npm_command: 'exec',
+  npm_config_cache: 'C:\\Users\\Aves\\AppData\\L
+ocal\\npm-cache',
+  npm_config_globalconfig: 'C:\\Users\\Aves\\App
+Data\\Roaming\\npm\\etc\\npmrc',
+  npm_config_global_prefix: 'C:\\Users\\Aves\\Ap
+pData\\Roaming\\npm',
+  npm_config_init_module: 'C:\\Users\\Aves\\.npm
+-init.js',
+  npm_config_local_prefix: 'C:\\Users\\Aves\\Des
+ktop\\AvesProject\\aves-2033.github.io',
+  npm_config_node_gyp: 'C:\\Program Files\\nodej
+s\\node_modules\\npm\\node_modules\\node-gyp\\bi
+n\\node-gyp.js',
+  npm_config_noproxy: '',
+  npm_config_npm_version: '11.6.2',
+  npm_config_prefix: 'C:\\Users\\Aves\\AppData\\
+Roaming\\npm',
+  npm_config_userconfig: 'C:\\Users\\Aves\\.npmr
+c',
+  npm_config_user_agent: 'npm/11.6.2 node/v24.13
+.0 win32 x64 workspaces/false',
+  npm_execpath: 'C:\\Program Files\\nodejs\\node
+_modules\\npm\\bin\\npm-cli.js',
+  npm_lifecycle_event: 'npx',
+  npm_lifecycle_script: 'astro',
+  npm_node_execpath: 'C:\\Program Files\\nodejs\
+\node.exe',
+  npm_package_json: 'C:\\Users\\Aves\\Desktop\\A
+vesProject\\aves-2033.github.io\\package.json',
+  npm_package_name: 'avesweb',
+  npm_package_version: '1.0.0',
+  NUMBER_OF_PROCESSORS: '16',
+  OneDrive: 'C:\\Users\\Aves\\OneDrive',
+  OS: 'Windows_NT',
+  PAGER: 'cat',
+  Path: 'C:\\Users\\Aves\\Desktop\\AvesProject\\
+aves-2033.github.io\\node_modules\\.bin;C:\\User
+s\\Aves\\Desktop\\AvesProject\\aves-2033.github.
+io\\node_modules\\.bin;C:\\Users\\Aves\\Desktop\
+\AvesProject\\node_modules\\.bin;C:\\Users\\Aves
+\\Desktop\\node_modules\\.bin;C:\\Users\\Aves\\n
+ode_modules\\.bin;C:\\Users\\node_modules\\.bin;
+C:\\node_modules\\.bin;C:\\Program Files\\nodejs
+\\node_modules\\npm\\node_modules\\@npmcli\\run-
+script\\lib\\node-gyp-bin;C:\\Windows\\system32;
+C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Wind
+ows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Win
+dows\\System32\\OpenSSH\\;C:\\Program Files\\dot
+net\\;C:\\Program Files\\Git\\cmd;C:\\Program Fi
+les\\Microsoft VS Code\\bin;C:\\Program Files\\c
+ursor\\resources\\app\\bin;C:\\Program Files\\NV
+IDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Progra
+m Files (x86)\\NVIDIA Corporation\\PhysX\\Common
+;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ch
+ocolatey\\bin;C:\\Program Files\\Docker\\Docker\
+\resources\\bin;C:\\Users\\Aves\\AppData\\Local\
+\Microsoft\\WindowsApps;C:\\Users\\Aves\\AppData
+\\Local\\GitHubDesktop\\bin;C:\\Users\\Aves\\App
+Data\\Roaming\\npm;C:\\Users\\Aves\\AppData\\Loc
+al\\Programs\\Antigravity\\bin;C:\\Users\\Aves\\
+AppData\\Local\\Python\\bin;c:\\Users\\Aves\\.an
+tigravity\\extensions\\ms-python.debugpy-2025.18
+.0-win32-x64\\bundled\\scripts\\noConfigScripts'
+,
+  PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.J
+SE;.WSF;.WSH;.MSC;.CPL',
+  PROCESSOR_ARCHITECTURE: 'AMD64',
+  PROCESSOR_IDENTIFIER: 'AMD64 Family 23 Model 9
+6 Stepping 1, AuthenticAMD',
+  PROCESSOR_LEVEL: '23',
+  PROCESSOR_REVISION: '6001',
+  ProgramData: 'C:\\ProgramData',
+  ProgramFiles: 'C:\\Program Files',
+  'ProgramFiles(x86)': 'C:\\Program Files (x86)'
+,
+  ProgramW6432: 'C:\\Program Files',
+  PROMPT: '$P$G',
+  PSModulePath: 'C:\\Users\\Aves\\Documents\\Win
+dowsPowerShell\\Modules;C:\\Program Files\\Windo
+wsPowerShell\\Modules;C:\\Windows\\system32\\Win
+dowsPowerShell\\v1.0\\Modules',
+  PUBLIC: 'C:\\Users\\Public',
+  PYDEVD_DISABLE_FILE_VALIDATION: '1',
+  PYTHONSTARTUP: 'c:\\Users\\Aves\\AppData\\Roam
+ing\\Antigravity\\User\\workspaceStorage\\574118
+3b567d1e2417b248ff616d42ea\\ms-python.python\\py
+thonrc.py',
+  PYTHON_BASIC_REPL: '1',
+  SESSIONNAME: 'Console',
+  SystemDrive: 'C:',
+  SystemRoot: 'C:\\Windows',
+  TEMP: 'C:\\Users\\Aves\\AppData\\Local\\Temp',
+  TERM_PROGRAM: 'vscode',
+  TERM_PROGRAM_VERSION: '1.107.0',
+  TMP: 'C:\\Users\\Aves\\AppData\\Local\\Temp',
+  USERDOMAIN: 'DESKTOP-H48LVNT',
+  USERDOMAIN_ROAMINGPROFILE: 'DESKTOP-H48LVNT',
+  USERNAME: 'Aves',
+  USERPROFILE: 'C:\\Users\\Aves',
+  VSCODE_DEBUGPY_ADAPTER_ENDPOINTS: 'c:\\Users\\
+Aves\\.antigravity\\extensions\\ms-python.debugp
+y-2025.18.0-win32-x64\\.noConfigDebugAdapterEndp
+oints\\endpoint-189b7c8eb625b63a.txt',
+  VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+  VSCODE_GIT_ASKPASS_MAIN: 'c:\\Users\\Aves\\App
+Data\\Local\\Programs\\Antigravity\\resources\\a
+pp\\extensions\\git\\dist\\askpass-main.js',
+  VSCODE_GIT_ASKPASS_NODE: 'C:\\Users\\Aves\\App
+Data\\Local\\Programs\\Antigravity\\Antigravity.
+exe',
+  VSCODE_GIT_IPC_HANDLE: '\\\\.\\pipe\\vscode-gi
+t-bdf8b86cff-sock',
+  VSCODE_INJECTION: '1',
+  VSCODE_PYTHON_AUTOACTIVATE_GUARD: '1',
+  windir: 'C:\\Windows'
+}
+2026-03-21T09:59:54.333Z vite:env loading env fi
+les: [
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.local',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.production',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.production.local'
+]
+2026-03-21T09:59:54.333Z vite:env env files load
+ed in 0.51ms
+2026-03-21T09:59:54.334Z vite:env using resolved
+ env: {
+  CLOUDINARY_CLOUD_NAME: 'dfphvshby',
+  CLOUDINARY_API_KEY: '873784248487482',
+  CLOUDINARY_API_SECRET: 'R8s1LpY4u-gSJAE2jtQuud
+EgIMY',
+  ALLUSERSPROFILE: 'C:\\ProgramData',
+  ANTIGRAVITY_AGENT: '1',
+  ANTIGRAVITY_CLI_ALIAS: 'agy',
+  APPDATA: 'C:\\Users\\Aves\\AppData\\Roaming',
+  BUNDLED_DEBUGPY_PATH: 'c:\\Users\\Aves\\.antig
+ravity\\extensions\\ms-python.debugpy-2025.18.0-
+win32-x64\\bundled\\libs\\debugpy',
+  ChocolateyInstall: 'C:\\ProgramData\\chocolate
+y',
+  ChocolateyLastPathUpdate: '134136815386800160'
+,
+  CHROME_CRASHPAD_PIPE_NAME: '\\\\.\\pipe\\crash
+pad_22716_CNYBZUQUCSTHYGFW',
+  COLOR: '0',
+  COLORTERM: 'truecolor',
+  CommonProgramFiles: 'C:\\Program Files\\Common
+ Files',
+  'CommonProgramFiles(x86)': 'C:\\Program Files 
+(x86)\\Common Files',
+  CommonProgramW6432: 'C:\\Program Files\\Common
+ Files',
+  COMPUTERNAME: 'DESKTOP-H48LVNT',
+  ComSpec: 'C:\\Windows\\system32\\cmd.exe',
+  DEBUG: 'astro:*,vite:*',
+  DriverData: 'C:\\Windows\\System32\\Drivers\\D
+riverData',
+  EDITOR: 'C:\\Windows\\notepad.exe',
+  EFC_20116_1262719628: '1',
+  EFC_20116_1592913036: '1',
+  EFC_20116_2283032206: '1',
+  EFC_20116_3789132940: '1',
+  GIT_ASKPASS: 'c:\\Users\\Aves\\AppData\\Local\
+\Programs\\Antigravity\\resources\\app\\extensio
+ns\\git\\dist\\askpass.sh',
+  HOME: 'C:\\Users\\Aves',
+  HOMEDRIVE: 'C:',
+  HOMEPATH: '\\Users\\Aves',
+  INIT_CWD: 'C:\\Users\\Aves\\Desktop\\AvesProje
+ct\\aves-2033.github.io',
+  LANG: 'en_US.UTF-8',
+  LOCALAPPDATA: 'C:\\Users\\Aves\\AppData\\Local
+',
+  LOGONSERVER: '\\\\DESKTOP-H48LVNT',
+  NODE: 'C:\\Program Files\\nodejs\\node.exe',
+  NODE_ENV: 'production',
+  npm_command: 'exec',
+  npm_config_cache: 'C:\\Users\\Aves\\AppData\\L
+ocal\\npm-cache',
+  npm_config_globalconfig: 'C:\\Users\\Aves\\App
+Data\\Roaming\\npm\\etc\\npmrc',
+  npm_config_global_prefix: 'C:\\Users\\Aves\\Ap
+pData\\Roaming\\npm',
+  npm_config_init_module: 'C:\\Users\\Aves\\.npm
+-init.js',
+  npm_config_local_prefix: 'C:\\Users\\Aves\\Des
+ktop\\AvesProject\\aves-2033.github.io',
+  npm_config_node_gyp: 'C:\\Program Files\\nodej
+s\\node_modules\\npm\\node_modules\\node-gyp\\bi
+n\\node-gyp.js',
+  npm_config_noproxy: '',
+  npm_config_npm_version: '11.6.2',
+  npm_config_prefix: 'C:\\Users\\Aves\\AppData\\
+Roaming\\npm',
+  npm_config_userconfig: 'C:\\Users\\Aves\\.npmr
+c',
+  npm_config_user_agent: 'npm/11.6.2 node/v24.13
+.0 win32 x64 workspaces/false',
+  npm_execpath: 'C:\\Program Files\\nodejs\\node
+_modules\\npm\\bin\\npm-cli.js',
+  npm_lifecycle_event: 'npx',
+  npm_lifecycle_script: 'astro',
+  npm_node_execpath: 'C:\\Program Files\\nodejs\
+\node.exe',
+  npm_package_json: 'C:\\Users\\Aves\\Desktop\\A
+vesProject\\aves-2033.github.io\\package.json',
+  npm_package_name: 'avesweb',
+  npm_package_version: '1.0.0',
+  NUMBER_OF_PROCESSORS: '16',
+  OneDrive: 'C:\\Users\\Aves\\OneDrive',
+  OS: 'Windows_NT',
+  PAGER: 'cat',
+  Path: 'C:\\Users\\Aves\\Desktop\\AvesProject\\
+aves-2033.github.io\\node_modules\\.bin;C:\\User
+s\\Aves\\Desktop\\AvesProject\\aves-2033.github.
+io\\node_modules\\.bin;C:\\Users\\Aves\\Desktop\
+\AvesProject\\node_modules\\.bin;C:\\Users\\Aves
+\\Desktop\\node_modules\\.bin;C:\\Users\\Aves\\n
+ode_modules\\.bin;C:\\Users\\node_modules\\.bin;
+C:\\node_modules\\.bin;C:\\Program Files\\nodejs
+\\node_modules\\npm\\node_modules\\@npmcli\\run-
+script\\lib\\node-gyp-bin;C:\\Windows\\system32;
+C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Wind
+ows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Win
+dows\\System32\\OpenSSH\\;C:\\Program Files\\dot
+net\\;C:\\Program Files\\Git\\cmd;C:\\Program Fi
+les\\Microsoft VS Code\\bin;C:\\Program Files\\c
+ursor\\resources\\app\\bin;C:\\Program Files\\NV
+IDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Progra
+m Files (x86)\\NVIDIA Corporation\\PhysX\\Common
+;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ch
+ocolatey\\bin;C:\\Program Files\\Docker\\Docker\
+\resources\\bin;C:\\Users\\Aves\\AppData\\Local\
+\Microsoft\\WindowsApps;C:\\Users\\Aves\\AppData
+\\Local\\GitHubDesktop\\bin;C:\\Users\\Aves\\App
+Data\\Roaming\\npm;C:\\Users\\Aves\\AppData\\Loc
+al\\Programs\\Antigravity\\bin;C:\\Users\\Aves\\
+AppData\\Local\\Python\\bin;c:\\Users\\Aves\\.an
+tigravity\\extensions\\ms-python.debugpy-2025.18
+.0-win32-x64\\bundled\\scripts\\noConfigScripts'
+,
+  PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.J
+SE;.WSF;.WSH;.MSC;.CPL',
+  PROCESSOR_ARCHITECTURE: 'AMD64',
+  PROCESSOR_IDENTIFIER: 'AMD64 Family 23 Model 9
+6 Stepping 1, AuthenticAMD',
+  PROCESSOR_LEVEL: '23',
+  PROCESSOR_REVISION: '6001',
+  ProgramData: 'C:\\ProgramData',
+  ProgramFiles: 'C:\\Program Files',
+  'ProgramFiles(x86)': 'C:\\Program Files (x86)'
+,
+  ProgramW6432: 'C:\\Program Files',
+  PROMPT: '$P$G',
+  PSModulePath: 'C:\\Users\\Aves\\Documents\\Win
+dowsPowerShell\\Modules;C:\\Program Files\\Windo
+wsPowerShell\\Modules;C:\\Windows\\system32\\Win
+dowsPowerShell\\v1.0\\Modules',
+  PUBLIC: 'C:\\Users\\Public',
+  PYDEVD_DISABLE_FILE_VALIDATION: '1',
+  PYTHONSTARTUP: 'c:\\Users\\Aves\\AppData\\Roam
+ing\\Antigravity\\User\\workspaceStorage\\574118
+3b567d1e2417b248ff616d42ea\\ms-python.python\\py
+thonrc.py',
+  PYTHON_BASIC_REPL: '1',
+  SESSIONNAME: 'Console',
+  SystemDrive: 'C:',
+  SystemRoot: 'C:\\Windows',
+  TEMP: 'C:\\Users\\Aves\\AppData\\Local\\Temp',
+  TERM_PROGRAM: 'vscode',
+  TERM_PROGRAM_VERSION: '1.107.0',
+  TMP: 'C:\\Users\\Aves\\AppData\\Local\\Temp',
+  USERDOMAIN: 'DESKTOP-H48LVNT',
+  USERDOMAIN_ROAMINGPROFILE: 'DESKTOP-H48LVNT',
+  USERNAME: 'Aves',
+  USERPROFILE: 'C:\\Users\\Aves',
+  VSCODE_DEBUGPY_ADAPTER_ENDPOINTS: 'c:\\Users\\
+Aves\\.antigravity\\extensions\\ms-python.debugp
+y-2025.18.0-win32-x64\\.noConfigDebugAdapterEndp
+oints\\endpoint-189b7c8eb625b63a.txt',
+  VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+  VSCODE_GIT_ASKPASS_MAIN: 'c:\\Users\\Aves\\App
+Data\\Local\\Programs\\Antigravity\\resources\\a
+pp\\extensions\\git\\dist\\askpass-main.js',
+  VSCODE_GIT_ASKPASS_NODE: 'C:\\Users\\Aves\\App
+Data\\Local\\Programs\\Antigravity\\Antigravity.
+exe',
+  VSCODE_GIT_IPC_HANDLE: '\\\\.\\pipe\\vscode-gi
+t-bdf8b86cff-sock',
+  VSCODE_INJECTION: '1',
+  VSCODE_PYTHON_AUTOACTIVATE_GUARD: '1',
+  windir: 'C:\\Windows'
+}
+2026-03-21T09:59:54.338Z vite:env loading env fi
+les: [
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.local',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.production',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.production.local'
+]
+2026-03-21T09:59:54.339Z vite:env env files load
+ed in 0.54ms
+2026-03-21T09:59:54.339Z vite:env using resolved
+ env: {}
+2026-03-21T09:59:54.348Z vite:config using resol
+ved config: {
+  configFile: undefined,
+  mode: 'production',
+  cacheDir: 'C:/Users/Aves/Desktop/AvesProject/a
+ves-2033.github.io/node_modules/.vite',
+  clearScreen: false,
+  customLogger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function: warn],
+    warnOnce: [Function: warnOnce],
+    error: [Function: error],
+    clearScreen: [Function: clearScreen],
+    hasErrorLogged: [Function: hasErrorLogged]
+  },
+  appType: 'custom',
+  optimizeDeps: {
+    include: [
+      'astro > cssesc',
+      'astro > aria-query',
+      'astro > axobject-query'
+    ],
+    exclude: [ 'astro', 'node-fetch' ],
+    needsInterop: [],
+    extensions: [],
+    disabled: undefined,
+    holdUntilCrawlEnd: true,
+    force: false,
+    noDiscovery: true,
+    esbuildOptions: { preserveSymlinks: false },
+    entries: [
+      'C:/Users/Aves/Desktop/AvesProject/aves-20
+33.github.io/src/**/*.{jsx,tsx,vue,svelte,html,a
+stro}'
+    ]
+  },
+  plugins: [
+    'vite:optimized-deps',
+    'vite:watch-package-data',
+    'vite:pre-alias',
+    'alias',
+    'astro-manifest-plugin',
+    'astro:build',
+    'astro-env-plugin',
+    'astro:markdown',
+    'astro:head-metadata',
+    'astro-content-virtual-mod-plugin',
+    'astro:content-asset-propagation',
+    'astro:assets:esm',
+    'astro:vite-plugin-file-url',
+    'astro:i18n',
+    'astro:actions',
+    'astro:container',
+    'vite:modulepreload-polyfill',
+    'vite:resolve',
+    'vite:html-inline-proxy',
+    'vite:css',
+    'vite:esbuild',
+    'vite:json',
+    'vite:wasm-helper',
+    'vite:worker',
+    'vite:asset',
+    'astro:build:normal',
+    'astro:scripts',
+    'astro:adapter-config',
+    'astro:html',
+    'astro:postprocess',
+    'astro:integration-container',
+    'astro:content-imports',
+    '@astro/plugin-middleware',
+    'astro:assets',
+    'astro:fonts:fallback',
+    'astro:prefetch',
+    'astro:transitions',
+    'astro:dev-toolbar',
+    'vite:wasm-fallback',
+    'astro:vite-plugin-env',
+    'vite:define',
+    'vite:css-post',
+    'vite:worker-import-meta-url',
+    'vite:asset-import-meta-url',
+    'vite:dynamic-import-vars',
+    'vite:import-glob',
+    'astro:scripts:page-ssr',
+    'astro:scanner',
+    '@astrojs/vite-plugin-astro-ssr-manifest',
+    'astro:server-islands',
+    'astro:hmr-reload',
+    'vite:client-inject',
+    'vite:css-analysis',
+    'vite:import-analysis'
+  ],
+  publicDir: 'C:/Users/Aves/Desktop/AvesProject/
+aves-2033.github.io/public',
+  root: 'C:/Users/Aves/Desktop/AvesProject/aves-
+2033.github.io',
+  envPrefix: 'PUBLIC_',
+  define: {
+    'import.meta.env.SITE': '"https://ketrent.ru
+"',
+    'import.meta.env.BASE_URL': '"/"',
+    'import.meta.env.ASSETS_PREFIX': 'undefined'
+,
+    __ASTRO_INTERNAL_I18N_CONFIG__: '{"base":"/"
+,"format":"directory","site":"https://ketrent.ru
+","trailingSlash":"ignore","isBuild":false}'
+  },
+  server: {
+    port: 5173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localh
+ost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {},
+    warmup: { clientFiles: [], ssrFiles: [] },
+    middlewareMode: true,
+    fs: {
+      strict: true,
+      deny: [ '.env', '.env.*', '*.{crt,pem}', '
+**/.git/**' ],
+      allow: [ 'C:/Users/Aves/Desktop/AvesProjec
+t/aves-2033.github.io' ]
+    },
+    preTransformRequests: true,
+    perEnvironmentStartEndDuringDev: false,
+    sourcemapIgnoreList: [Function: isInNodeModu
+les$1],
+    hmr: false,
+    watch: { ignored: [ '**' ] },
+    ws: false
+  },
+  resolve: {
+    externalConditions: [ 'node' ],
+    extensions: [
+      '.mjs',  '.js',
+      '.mts',  '.ts',
+      '.jsx',  '.tsx',
+      '.json'
+    ],
+    dedupe: [ 'astro' ],
+    noExternal: [],
+    external: [],
+    preserveSymlinks: false,
+    alias: [
+      { find: 'randombytes', replacement: 'rando
+mbytes/browser' },
+      {
+        find: /^astro$/,
+        replacement: 'C:\\Users\\Aves\\Desktop\\
+AvesProject\\aves-2033.github.io\\node_modules\\
+astro\\dist\\types\\public\\index.js'
+      },
+      {
+        find: 'astro:middleware',
+        replacement: 'astro/virtual-modules/midd
+leware.js'
+      },
+      { find: 'astro:schema', replacement: 'astr
+o/zod' },
+      { find: 'astro:components', replacement: '
+astro/components' },
+      {
+        find: /^\/?@vite\/env/,
+        replacement: '/@fs/C:/Users/Aves/Desktop
+/AvesProject/aves-2033.github.io/node_modules/vi
+te/dist/client/env.mjs'
+      },
+      {
+        find: /^\/?@vite\/client/,
+        replacement: '/@fs/C:/Users/Aves/Desktop
+/AvesProject/aves-2033.github.io/node_modules/vi
+te/dist/client/client.mjs'
+      }
+    ],
+    mainFields: [ 'browser', 'module', 'jsnext:m
+ain', 'jsnext' ],
+    conditions: [ 'module', 'browser', 'developm
+ent|production', 'astro' ],
+    builtins: []
+  },
+  ssr: {
+    target: 'node',
+    optimizeDeps: {
+      esbuildOptions: { preserveSymlinks: false 
+},
+      include: [],
+      exclude: [],
+      needsInterop: [],
+      extensions: [],
+      holdUntilCrawlEnd: true,
+      force: false,
+      noDiscovery: true
+    },
+    noExternal: [
+      'astro',
+      'astro/components',
+      '@nanostores/preact',
+      '@fontsource/*',
+      '@astrojs/sitemap'
+    ],
+    external: [],
+    resolve: {
+      conditions: [ 'module', 'node', 'developme
+nt|production', 'astro' ],
+      externalConditions: [ 'node' ]
+    }
+  },
+  build: {
+    target: [ 'es2020', 'edge88', 'firefox78', '
+chrome87', 'safari14' ],
+    polyfillModulePreload: true,
+    modulePreload: { polyfill: true },
+    outDir: 'dist',
+    assetsDir: '_astro',
+    assetsInlineLimit: 4096,
+    sourcemap: false,
+    terserOptions: {},
+    rollupOptions: {},
+    commonjsOptions: { include: [ /node_modules/
+ ], extensions: [ '.js', '.cjs' ] },
+    dynamicImportVarsOptions: { warnOnError: tru
+e, exclude: [ /node_modules/ ] },
+    write: true,
+    emptyOutDir: null,
+    copyPublicDir: true,
+    manifest: false,
+    lib: false,
+    ssrManifest: false,
+    ssrEmitAssets: false,
+    reportCompressedSize: true,
+    chunkSizeWarningLimit: 500,
+    watch: null,
+    cssCodeSplit: true,
+    minify: 'esbuild',
+    ssr: false,
+    emitAssets: false,
+    createEnvironment: [Function: createEnvironm
+ent],
+    cssTarget: [ 'es2020', 'edge88', 'firefox78'
+, 'chrome87', 'safari14' ],
+    cssMinify: true
+  },
+  css: {
+    transformer: 'postcss',
+    preprocessorMaxWorkers: 0,
+    devSourcemap: true
+  },
+  logLevel: 'silent',
+  environments: {
+    client: {
+      define: {
+        'import.meta.env.SITE': '"https://ketren
+t.ru"',
+        'import.meta.env.BASE_URL': '"/"',
+        'import.meta.env.ASSETS_PREFIX': 'undefi
+ned',
+        __ASTRO_INTERNAL_I18N_CONFIG__: '{"base"
+:"/","format":"directory","site":"https://ketren
+t.ru","trailingSlash":"ignore","isBuild":false}'
+      },
+      resolve: {
+        externalConditions: [ 'node' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [ 'astro' ],
+        noExternal: [],
+        external: [],
+        preserveSymlinks: false,
+        alias: [
+          { find: 'randombytes', replacement: 'r
+andombytes/browser' },
+          {
+            find: /^astro$/,
+            replacement: 'C:\\Users\\Aves\\Deskt
+op\\AvesProject\\aves-2033.github.io\\node_modul
+es\\astro\\dist\\types\\public\\index.js'
+          },
+          {
+            find: 'astro:middleware',
+            replacement: 'astro/virtual-modules/
+middleware.js'
+          },
+          { find: 'astro:schema', replacement: '
+astro/zod' },
+          { find: 'astro:components', replacemen
+t: 'astro/components' },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/C:/Users/Aves/Des
+ktop/AvesProject/aves-2033.github.io/node_module
+s/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/C:/Users/Aves/Des
+ktop/AvesProject/aves-2033.github.io/node_module
+s/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'browser', 'module', 'jsne
+xt:main', 'jsnext' ],
+        conditions: [ 'module', 'browser', 'deve
+lopment|production', 'astro' ],
+        builtins: []
+      },
+      keepProcessEnv: false,
+      consumer: 'client',
+      optimizeDeps: {
+        include: [
+          'astro > cssesc',
+          'astro > aria-query',
+          'astro > axobject-query'
+        ],
+        exclude: [ 'astro', 'node-fetch' ],
+        needsInterop: [],
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        noDiscovery: true,
+        esbuildOptions: { preserveSymlinks: fals
+e },
+        entries: [
+          'C:/Users/Aves/Desktop/AvesProject/ave
+s-2033.github.io/src/**/*.{jsx,tsx,vue,svelte,ht
+ml,astro}'
+        ]
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNode
+Modules$1],
+        preTransformRequests: true,
+        createEnvironment: [Function: defaultCre
+ateClientDevEnvironment],
+        recoverable: true,
+        moduleRunnerTransform: false
+      },
+      build: {
+        target: [ 'es2020', 'edge88', 'firefox78
+', 'chrome87', 'safari14' ],
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: true },
+        outDir: 'dist',
+        assetsDir: '_astro',
+        assetsInlineLimit: 4096,
+        sourcemap: false,
+        terserOptions: {},
+        rollupOptions: {},
+        commonjsOptions: { include: [ /node_modu
+les/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { warnOnError:
+ true, exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: null,
+        copyPublicDir: true,
+        manifest: false,
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: false,
+        reportCompressedSize: true,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: 'esbuild',
+        ssr: false,
+        emitAssets: true,
+        createEnvironment: [Function: createEnvi
+ronment],
+        cssTarget: [ 'es2020', 'edge88', 'firefo
+x78', 'chrome87', 'safari14' ],
+        cssMinify: true
+      }
+    },
+    ssr: {
+      define: {
+        'import.meta.env.SITE': '"https://ketren
+t.ru"',
+        'import.meta.env.BASE_URL': '"/"',
+        'import.meta.env.ASSETS_PREFIX': 'undefi
+ned',
+        __ASTRO_INTERNAL_I18N_CONFIG__: '{"base"
+:"/","format":"directory","site":"https://ketren
+t.ru","trailingSlash":"ignore","isBuild":false}'
+      },
+      resolve: {
+        externalConditions: [ 'node' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [ 'astro' ],
+        noExternal: [
+          'astro',
+          'astro/components',
+          '@nanostores/preact',
+          '@fontsource/*',
+          '@astrojs/sitemap'
+        ],
+        external: [],
+        preserveSymlinks: false,
+        alias: [
+          { find: 'randombytes', replacement: 'r
+andombytes/browser' },
+          {
+            find: /^astro$/,
+            replacement: 'C:\\Users\\Aves\\Deskt
+op\\AvesProject\\aves-2033.github.io\\node_modul
+es\\astro\\dist\\types\\public\\index.js'
+          },
+          {
+            find: 'astro:middleware',
+            replacement: 'astro/virtual-modules/
+middleware.js'
+          },
+          { find: 'astro:schema', replacement: '
+astro/zod' },
+          { find: 'astro:components', replacemen
+t: 'astro/components' },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/C:/Users/Aves/Des
+ktop/AvesProject/aves-2033.github.io/node_module
+s/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/C:/Users/Aves/Des
+ktop/AvesProject/aves-2033.github.io/node_module
+s/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'module', 'jsnext:main', '
+jsnext' ],
+        conditions: [ 'module', 'node', 'develop
+ment|production', 'astro' ],
+        builtins: [
+          '_http_agent',         '_http_client',
+        '_http_common',
+          '_http_incoming',      '_http_outgoing
+',      '_http_server',
+          '_stream_duplex',      '_stream_passth
+rough', '_stream_readable',
+          '_stream_transform',   '_stream_wrap',
+        '_stream_writable',
+          '_tls_common',         '_tls_wrap',   
+        'assert',
+          'assert/strict',       'async_hooks', 
+        'buffer',
+          'child_process',       'cluster',     
+        'console',
+          'constants',           'crypto',      
+        'dgram',
+          'diagnostics_channel', 'dns',         
+        'dns/promises',
+          'domain',              'events',      
+        'fs',
+          'fs/promises',         'http',        
+        'http2',
+          'https',               'inspector',   
+        'inspector/promises',
+          'module',              'net',         
+        'os',
+          'path',                'path/posix',  
+        'path/win32',
+          'perf_hooks',          'process',     
+        'punycode',
+          'querystring',         'readline',    
+        'readline/promises',
+          'repl',                'stream',      
+        'stream/consumers',
+          'stream/promises',     'stream/web',  
+        'string_decoder',
+          'sys',                 'timers',      
+        'timers/promises',
+          'tls',                 'trace_events',
+        'tty',
+          'url',                 'util',        
+        'util/types',
+          'v8',                  'vm',          
+        'wasi',
+          'worker_threads',      'zlib',        
+        /^node:/,
+          /^npm:/,               /^bun:/
+        ]
+      },
+      keepProcessEnv: true,
+      consumer: 'server',
+      optimizeDeps: {
+        include: [],
+        exclude: [],
+        needsInterop: [],
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        noDiscovery: true,
+        esbuildOptions: { preserveSymlinks: fals
+e }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNode
+Modules$1],
+        preTransformRequests: false,
+        createEnvironment: [Function: defaultCre
+ateDevEnvironment],
+        recoverable: false,
+        moduleRunnerTransform: true
+      },
+      build: {
+        target: [ 'es2020', 'edge88', 'firefox78
+', 'chrome87', 'safari14' ],
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: true },
+        outDir: 'dist',
+        assetsDir: '_astro',
+        assetsInlineLimit: 4096,
+        sourcemap: false,
+        terserOptions: {},
+        rollupOptions: {},
+        commonjsOptions: { include: [ /node_modu
+les/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { warnOnError:
+ true, exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: null,
+        copyPublicDir: true,
+        manifest: false,
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: false,
+        reportCompressedSize: true,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: false,
+        ssr: true,
+        emitAssets: false,
+        createEnvironment: [Function: createEnvi
+ronment],
+        cssTarget: [ 'es2020', 'edge88', 'firefo
+x78', 'chrome87', 'safari14' ],
+        cssMinify: 'esbuild'
+      }
+    }
+  },
+  configFileDependencies: [],
+  inlineConfig: {
+    configFile: false,
+    mode: 'production',
+    cacheDir: 'C:\\Users\\Aves\\Desktop\\AvesPro
+ject\\aves-2033.github.io\\node_modules\\.vite\\
+',
+    clearScreen: false,
+    customLogger: {
+      hasWarned: false,
+      info: [Function: info],
+      warn: [Function: warn],
+      warnOnce: [Function: warnOnce],
+      error: [Function: error],
+      clearScreen: [Function: clearScreen],
+      hasErrorLogged: [Function: hasErrorLogged]
+    },
+    appType: 'custom',
+    optimizeDeps: {
+      entries: [
+        'C:/Users/Aves/Desktop/AvesProject/aves-
+2033.github.io/src/**/*.{jsx,tsx,vue,svelte,html
+,astro}'
+      ],
+      exclude: [ 'astro', 'node-fetch' ],
+      noDiscovery: true
+    },
+    plugins: [
+      {
+        enforce: 'pre',
+        name: 'astro-manifest-plugin',
+        resolveId: [Function: resolveId],
+        load: [Function: load]
+      },
+      null,
+      false,
+      [
+        {
+          name: 'astro:build',
+          enforce: 'pre',
+          configEnvironment: [AsyncFunction: con
+figEnvironment],
+          configResolved: [Function: configResol
+ved],
+          configureServer: [Function: configureS
+erver],
+          buildStart: [Function: buildStart],
+          load: [AsyncFunction: load],
+          transform: [AsyncFunction: transform],
+          handleHotUpdate: [AsyncFunction: handl
+eHotUpdate]
+        },
+        {
+          name: 'astro:build:normal',
+          resolveId: [Function: resolveId]
+        }
+      ],
+      {
+        name: 'astro:scripts',
+        config: [Function: config],
+        resolveId: [AsyncFunction: resolveId],
+        load: [AsyncFunction: load],
+        buildStart: [Function: buildStart]
+      },
+      false,
+      {
+        name: 'astro:vite-plugin-env',
+        config: [Function: config],
+        configResolved: [Function: configResolve
+d],
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro-env-plugin',
+        enforce: 'pre',
+        config: [Function: config],
+        buildStart: [Function: buildStart],
+        resolveId: [Function: resolveId],
+        load: [Function: load]
+      },
+      {
+        name: 'astro:adapter-config',
+        resolveId: [Function: resolveId],
+        load: [Function: load]
+      },
+      {
+        enforce: 'pre',
+        name: 'astro:markdown',
+        buildEnd: [Function: buildEnd],
+        resolveId: [AsyncFunction: resolveId],
+        load: [AsyncFunction: load]
+      },
+      {
+        name: 'astro:html',
+        options: [Function: options],
+        transform: [AsyncFunction: transform]
+      },
+      {
+        name: 'astro:postprocess',
+        transform: [AsyncFunction: transform]
+      },
+      {
+        name: 'astro:integration-container',
+        configureServer: [AsyncFunction: configu
+reServer],
+        buildStart: [AsyncFunction: buildStart]
+      },
+      {
+        name: 'astro:scripts:page-ssr',
+        enforce: 'post',
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro:head-metadata',
+        enforce: 'pre',
+        apply: 'serve',
+        configureServer: [Function: configureSer
+ver],
+        resolveId: [Function: resolveId],
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro:scanner',
+        enforce: 'post',
+        transform: [AsyncFunction: transform],
+        handleHotUpdate: [AsyncFunction: handleH
+otUpdate]
+      },
+      {
+        name: 'astro-content-virtual-mod-plugin'
+,
+        enforce: 'pre',
+        config: [Function: config],
+        buildStart: [Function: buildStart],
+        resolveId: [AsyncFunction: resolveId],
+        load: [AsyncFunction: load],
+        configureServer: [Function: configureSer
+ver]
+      },
+      [
+        {
+          name: 'astro:content-imports',
+          config: [Function: config],
+          buildStart: [AsyncFunction: buildStart
+],
+          transform: [AsyncFunction: transform],
+          configureServer: [Function: configureS
+erver]
+        }
+      ],
+      {
+        name: 'astro:content-asset-propagation',
+        enforce: 'pre',
+        resolveId: [AsyncFunction: resolveId],
+        configureServer: [Function: configureSer
+ver],
+        transform: [AsyncFunction: transform]
+      },
+      {
+        name: '@astro/plugin-middleware',
+        resolveId: [AsyncFunction: resolveId],
+        load: [AsyncFunction: load]
+      },
+      {
+        name: '@astrojs/vite-plugin-astro-ssr-ma
+nifest',
+        enforce: 'post',
+        resolveId: [Function: resolveId],
+        load: [Function: load]
+      },
+      [
+        {
+          name: 'astro:assets',
+          config: [Function: config],
+          resolveId: [AsyncFunction: resolveId],
+          load: [Function: load],
+          buildStart: [Function: buildStart],
+          renderChunk: [AsyncFunction: renderChu
+nk]
+        },
+        {
+          name: 'astro:assets:esm',
+          enforce: 'pre',
+          config: [Function: config],
+          configResolved: [Function: configResol
+ved],
+          load: [AsyncFunction: load]
+        },
+        {
+          name: 'astro:fonts:fallback',
+          resolveId: [Function: resolveId],
+          load: [Function: load]
+        }
+      ],
+      {
+        name: 'astro:prefetch',
+        resolveId: [AsyncFunction: resolveId],
+        load: [Function: load],
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro:transitions',
+        config: [Function: config],
+        resolveId: [AsyncFunction: resolveId],
+        load: [Function: load],
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro:dev-toolbar',
+        config: [Function: config],
+        resolveId: [Function: resolveId],
+        configureServer: [Function: configureSer
+ver],
+        load: [AsyncFunction: load]
+      },
+      {
+        name: 'astro:vite-plugin-file-url',
+        enforce: 'pre',
+        resolveId: [Function: resolveId]
+      },
+      {
+        name: 'astro:i18n',
+        enforce: 'pre',
+        config: [Function: config],
+        resolveId: [Function: resolveId]
+      },
+      {
+        name: 'astro:actions',
+        enforce: 'pre',
+        resolveId: [AsyncFunction: resolveId],
+        configureServer: [AsyncFunction: configu
+reServer],
+        load: [AsyncFunction: load]
+      },
+      {
+        name: 'astro:server-islands',
+        enforce: 'post',
+        config: [Function: config],
+        configureServer: [Function: configureSer
+ver],
+        resolveId: [Function: resolveId],
+        load: [Function: load],
+        transform: [Function: transform],
+        renderChunk: [Function: renderChunk]
+      },
+      {
+        name: 'astro:container',
+        enforce: 'pre',
+        resolveId: [Function: resolveId]
+      },
+      {
+        name: 'astro:hmr-reload',
+        enforce: 'post',
+        hotUpdate: { order: 'post', handler: [Fu
+nction: handler] }
+      }
+    ],
+    publicDir: 'C:\\Users\\Aves\\Desktop\\AvesPr
+oject\\aves-2033.github.io\\public\\',
+    root: 'C:\\Users\\Aves\\Desktop\\AvesProject
+\\aves-2033.github.io\\',
+    envPrefix: 'PUBLIC_',
+    define: {
+      'import.meta.env.SITE': '"https://ketrent.
+ru"',
+      'import.meta.env.BASE_URL': '"/"',
+      'import.meta.env.ASSETS_PREFIX': 'undefine
+d'
+    },
+    server: {
+      hmr: false,
+      watch: { ignored: [ '**' ] },
+      middlewareMode: true,
+      ws: false
+    },
+    resolve: {
+      alias: [
+        { find: 'randombytes', replacement: 'ran
+dombytes/browser' },
+        {
+          find: /^astro$/,
+          replacement: 'C:\\Users\\Aves\\Desktop
+\\AvesProject\\aves-2033.github.io\\node_modules
+\\astro\\dist\\types\\public\\index.js'
+        },
+        {
+          find: 'astro:middleware',
+          replacement: 'astro/virtual-modules/mi
+ddleware.js'
+        },
+        { find: 'astro:schema', replacement: 'as
+tro/zod' },
+        { find: 'astro:components', replacement:
+ 'astro/components' }
+      ],
+      dedupe: [ 'astro' ],
+      conditions: [ 'module', 'browser', 'develo
+pment|production', 'astro' ],
+      mainFields: undefined
+    },
+    ssr: {
+      noExternal: [
+        'astro',
+        'astro/components',
+        '@nanostores/preact',
+        '@fontsource/*',
+        '@astrojs/sitemap'
+      ],
+      external: []
+    },
+    build: { assetsDir: '_astro' },
+    css: { devSourcemap: true },
+    logLevel: 'silent'
+  },
+  base: '/',
+  decodedBase: '/',
+  rawBase: '/',
+  command: 'serve',
+  isWorker: false,
+  mainConfig: null,
+  bundleChain: [],
+  isProduction: true,
+  json: { namedExports: true, stringify: 'auto' 
+},
+  esbuild: { jsxDev: false },
+  builder: undefined,
+  preview: {
+    port: 4173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localh
+ost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {}
+  },
+  envDir: 'C:/Users/Aves/Desktop/AvesProject/ave
+s-2033.github.io',
+  env: { BASE_URL: '/', MODE: 'production', DEV:
+ false, PROD: true },
+  assetsInclude: [Function: assetsInclude],
+  logger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function: warn],
+    warnOnce: [Function: warnOnce],
+    error: [Function: error],
+    clearScreen: [Function: clearScreen],
+    hasErrorLogged: [Function: hasErrorLogged]
+  },
+  packageCache: Map(1) {
+    'fnpd_C:/Users/Aves/Desktop/AvesProject/aves
+-2033.github.io' => {
+      dir: 'C:/Users/Aves/Desktop/AvesProject/av
+es-2033.github.io',
+      data: {
+        name: 'avesweb',
+        type: 'module',
+        version: '1.0.0',
+        scripts: {
+          dev: 'astro dev',
+          prebuild: 'node scripts/hide-admin.js'
+,
+          build: 'astro build',
+          postbuild: 'node scripts/restore-admin
+.js',
+          preview: 'astro preview',
+          astro: 'astro'
+        },
+        dependencies: {
+          '@astrojs/sitemap': '^3.2.0',
+          astro: '^5.3.0',
+          cloudinary: '^2.9.0',
+          dotenv: '^17.3.1'
+        },
+        devDependencies: { sharp: '^0.34.5' }
+      },
+      hasSideEffects: [Function: hasSideEffects]
+,
+      setResolvedCache: [Function: setResolvedCa
+che],
+      getResolvedCache: [Function: getResolvedCa
+che]
+    },
+    set: [Function (anonymous)]
+  },
+  worker: { format: 'iife', plugins: '() => plug
+ins', rollupOptions: {} },
+  experimental: { importGlobRestoreExtension: fa
+lse, hmrPartialAccept: false },
+  future: undefined,
+  dev: {
+    warmup: [],
+    sourcemap: { js: true },
+    sourcemapIgnoreList: [Function: isInNodeModu
+les$1],
+    preTransformRequests: false,
+    createEnvironment: [Function: defaultCreateD
+evEnvironment],
+    recoverable: false,
+    moduleRunnerTransform: false
+  },
+  webSocketToken: 'HyumUDY2JUxd',
+  getSortedPlugins: [Function: getSortedPlugins]
+,
+  getSortedPluginHooks: [Function: getSortedPlug
+inHooks],
+  createResolver: [Function: createResolver],
+  fsDenyGlob: [Function: arrayMatcher],
+  safeModulePaths: Set(0) {},
+  additionalAllowedHosts: [],
+  Symbol(vite:resolved-config): true
+}
+2026-03-21T09:59:54.408Z vite:deps (client) Hash
+ is consistent. Skipping. Use --force to overrid
+e.
+[2m12:59:54[22m [34m[content][39m Syncing content
+[2m12:59:54[22m [34m[content][39m Synced content
+[2m12:59:54[22m [34m[types][39m Generated [2m90ms[22m
+[2m12:59:54[22m [34m[build][39m output: [34m"static"[39m
+[2m12:59:54[22m [34m[build][39m mode: [34m"static"[39m
+[2m12:59:54[22m [34m[build][39m directory: [34mC:\Users\Aves\Desktop\AvesProject\aves-2033.github.io\dist\[39m
+[2m12:59:54[22m [34m[build][39m Collecting build info...
+2026-03-21T09:59:54.420Z astro:build тФЬтФАтФА 
+[1m[32mтЬФ[39m[22m src/pages/404.astro тЖТ [
+33m/404/index.html[39m
+2026-03-21T09:59:54.420Z astro:build тФЬтФАтФА 
+[1m[32mтЬФ[39m[22m src/pages/catalog/index.as
+tro тЖТ [33m/catalog/index.html[39m
+2026-03-21T09:59:54.420Z astro:build тФЬтФАтФА 
+[1m[32mтЬФ[39m[22m src/pages/index.astro тЖТ 
+[33m/index.html[39m
+2026-03-21T09:59:54.420Z astro:build All pages l
+oaded   [2m1774087192.8s[22m
+[2m12:59:54[22m [34m[build][39m [32mтЬУ Completed in 119ms.[39m
+[2m12:59:54[22m [34m[build][39m Building static entrypoints...
+2026-03-21T09:59:54.423Z vite:env loading env fi
+les: [
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.local',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.production',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.production.local'
+]
+2026-03-21T09:59:54.424Z vite:env env files load
+ed in 0.43ms
+2026-03-21T09:59:54.424Z vite:env using resolved
+ env: {}
+2026-03-21T09:59:54.432Z vite:config using resol
+ved config: {
+  configFile: undefined,
+  mode: 'production',
+  cacheDir: 'C:/Users/Aves/Desktop/AvesProject/a
+ves-2033.github.io/node_modules/.vite',
+  clearScreen: false,
+  customLogger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function: warn],
+    warnOnce: [Function: warnOnce],
+    error: [Function: error],
+    clearScreen: [Function: clearScreen],
+    hasErrorLogged: [Function: hasErrorLogged]
+  },
+  appType: 'custom',
+  optimizeDeps: {
+    include: [
+      'astro > cssesc',
+      'astro > aria-query',
+      'astro > axobject-query'
+    ],
+    exclude: [ 'astro', 'node-fetch' ],
+    needsInterop: [],
+    extensions: [],
+    disabled: undefined,
+    holdUntilCrawlEnd: true,
+    force: false,
+    noDiscovery: false,
+    esbuildOptions: { preserveSymlinks: false },
+    entries: [
+      'C:/Users/Aves/Desktop/AvesProject/aves-20
+33.github.io/src/**/*.{jsx,tsx,vue,svelte,html,a
+stro}'
+    ]
+  },
+  plugins: [
+    'vite:build-metadata',
+    'vite:watch-package-data',
+    'alias',
+    'astro-manifest-plugin',
+    'astro:build',
+    'astro-env-plugin',
+    'astro:markdown',
+    'astro-content-virtual-mod-plugin',
+    'astro:content-asset-propagation',
+    'astro:assets:esm',
+    'astro:vite-plugin-file-url',
+    'astro:i18n',
+    'astro:actions',
+    'astro:container',
+    'vite:resolve',
+    'vite:html-inline-proxy',
+    'vite:css',
+    'vite:esbuild',
+    'vite:json',
+    'vite:wasm-helper',
+    'vite:worker',
+    'vite:asset',
+    '@astro/rollup-plugin-astro-analyzer',
+    '@astro/plugin-build-internals',
+    '@astro/plugin-renderers',
+    '@astro/plugin-middleware-build',
+    '@astro/plugin-actions-build',
+    '@astro/plugin-build-pages',
+    'astro:rollup-plugin-build-css',
+    'astro:head-metadata-build',
+    'astro:chunks',
+    'astro:build:normal',
+    'astro:scripts',
+    'astro:adapter-config',
+    'astro:html',
+    'astro:postprocess',
+    'astro:integration-container',
+    'astro:content-imports',
+    '@astro/plugin-middleware',
+    'astro:assets',
+    'astro:fonts:fallback',
+    'astro:prefetch',
+    'astro:transitions',
+    'astro:dev-toolbar',
+    'vite:wasm-fallback',
+    'astro:vite-plugin-env',
+    'vite:define',
+    'vite:css-post',
+    'vite:build-html',
+    'vite:worker-import-meta-url',
+    'vite:asset-import-meta-url',
+    'vite:force-systemjs-wrap-complete',
+    'commonjs',
+    'vite:data-uri',
+    'vite:rollup-options-plugins',
+    'vite:dynamic-import-vars',
+    'vite:import-glob',
+    '@astro/plugin-build-manifest',
+    'astro:rollup-plugin-single-css',
+    'astro:rollup-plugin-inline-stylesheets',
+    '@astrojs/vite-plugin-astro-adapter',
+    'astro:scripts:page-ssr',
+    'astro:scanner',
+    '@astrojs/vite-plugin-astro-ssr-manifest',
+    'astro:server-islands',
+    'astro:hmr-reload',
+    'vite:build-import-analysis',
+    'vite:esbuild-transpile',
+    'vite:terser',
+    'vite:manifest',
+    'vite:ssr-manifest',
+    'vite:reporter',
+    'vite:load-fallback'
+  ],
+  publicDir: 'C:/Users/Aves/Desktop/AvesProject/
+aves-2033.github.io/public',
+  root: 'C:/Users/Aves/Desktop/AvesProject/aves-
+2033.github.io',
+  envPrefix: 'PUBLIC_',
+  define: {
+    'import.meta.env.SITE': '"https://ketrent.ru
+"',
+    'import.meta.env.BASE_URL': '"/"',
+    'import.meta.env.ASSETS_PREFIX': 'undefined'
+,
+    __ASTRO_INTERNAL_I18N_CONFIG__: '{"base":"/"
+,"format":"directory","site":"https://ketrent.ru
+","trailingSlash":"ignore","isBuild":true}'
+  },
+  server: {
+    port: 5173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localh
+ost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {},
+    warmup: { clientFiles: [], ssrFiles: [] },
+    middlewareMode: true,
+    fs: {
+      strict: true,
+      deny: [ '.env', '.env.*', '*.{crt,pem}', '
+**/.git/**' ],
+      allow: [ 'C:/Users/Aves/Desktop/AvesProjec
+t/aves-2033.github.io' ]
+    },
+    preTransformRequests: true,
+    perEnvironmentStartEndDuringDev: false,
+    sourcemapIgnoreList: [Function: isInNodeModu
+les$1],
+    hmr: false,
+    watch: { ignored: [ '**' ] }
+  },
+  resolve: {
+    externalConditions: [ 'node' ],
+    extensions: [
+      '.mjs',  '.js',
+      '.mts',  '.ts',
+      '.jsx',  '.tsx',
+      '.json'
+    ],
+    dedupe: [ 'astro' ],
+    noExternal: [],
+    external: [],
+    preserveSymlinks: false,
+    alias: [
+      { find: 'randombytes', replacement: 'rando
+mbytes/browser' },
+      {
+        find: /^astro$/,
+        replacement: 'C:\\Users\\Aves\\Desktop\\
+AvesProject\\aves-2033.github.io\\node_modules\\
+astro\\dist\\types\\public\\index.js'
+      },
+      {
+        find: 'astro:middleware',
+        replacement: 'astro/virtual-modules/midd
+leware.js'
+      },
+      { find: 'astro:schema', replacement: 'astr
+o/zod' },
+      { find: 'astro:components', replacement: '
+astro/components' },
+      {
+        find: /^\/?@vite\/env/,
+        replacement: '/@fs/C:/Users/Aves/Desktop
+/AvesProject/aves-2033.github.io/node_modules/vi
+te/dist/client/env.mjs'
+      },
+      {
+        find: /^\/?@vite\/client/,
+        replacement: '/@fs/C:/Users/Aves/Desktop
+/AvesProject/aves-2033.github.io/node_modules/vi
+te/dist/client/client.mjs'
+      }
+    ],
+    mainFields: [ 'browser', 'module', 'jsnext:m
+ain', 'jsnext' ],
+    conditions: [ 'module', 'browser', 'developm
+ent|production', 'astro' ],
+    builtins: []
+  },
+  ssr: {
+    target: 'node',
+    optimizeDeps: {
+      esbuildOptions: { preserveSymlinks: false 
+},
+      include: [],
+      exclude: [],
+      needsInterop: [],
+      extensions: [],
+      holdUntilCrawlEnd: true,
+      force: false,
+      noDiscovery: true
+    },
+    noExternal: [
+      'astro',
+      'astro/components',
+      '@nanostores/preact',
+      '@fontsource/*',
+      '@astrojs/sitemap',
+      'astro'
+    ],
+    external: [ 'sharp' ],
+    resolve: {
+      conditions: [ 'module', 'node', 'developme
+nt|production', 'astro' ],
+      externalConditions: [ 'node' ]
+    }
+  },
+  build: {
+    target: 'esnext',
+    polyfillModulePreload: true,
+    modulePreload: { polyfill: false },
+    outDir: 'C:\\Users\\Aves\\Desktop\\AvesProje
+ct\\aves-2033.github.io\\dist\\',
+    assetsDir: '_astro',
+    assetsInlineLimit: 4096,
+    sourcemap: false,
+    terserOptions: {},
+    rollupOptions: {
+      preserveEntrySignatures: 'exports-only',
+      input: [],
+      output: {
+        hoistTransitiveImports: false,
+        format: 'esm',
+        minifyInternalExports: true,
+        chunkFileNames: [Function: chunkFileName
+s],
+        assetFileNames: '_astro/[name].[hash][ex
+tname]',
+        entryFileNames: [Function: entryFileName
+s]
+      }
+    },
+    commonjsOptions: { include: [ /node_modules/
+ ], extensions: [ '.js', '.cjs' ] },
+    dynamicImportVarsOptions: { warnOnError: tru
+e, exclude: [ /node_modules/ ] },
+    write: true,
+    emptyOutDir: false,
+    copyPublicDir: true,
+    manifest: false,
+    lib: false,
+    ssrManifest: false,
+    ssrEmitAssets: true,
+    reportCompressedSize: false,
+    chunkSizeWarningLimit: 500,
+    watch: null,
+    cssCodeSplit: true,
+    minify: false,
+    ssr: true,
+    emitAssets: true,
+    createEnvironment: [Function: createEnvironm
+ent],
+    cssMinify: true,
+    cssTarget: 'esnext'
+  },
+  css: {
+    transformer: 'postcss',
+    preprocessorMaxWorkers: 0,
+    devSourcemap: true
+  },
+  logLevel: 'error',
+  base: '/',
+  environments: {
+    client: {
+      define: {
+        'import.meta.env.SITE': '"https://ketren
+t.ru"',
+        'import.meta.env.BASE_URL': '"/"',
+        'import.meta.env.ASSETS_PREFIX': 'undefi
+ned',
+        __ASTRO_INTERNAL_I18N_CONFIG__: '{"base"
+:"/","format":"directory","site":"https://ketren
+t.ru","trailingSlash":"ignore","isBuild":true}'
+      },
+      resolve: {
+        externalConditions: [ 'node' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [ 'astro' ],
+        noExternal: [],
+        external: [],
+        preserveSymlinks: false,
+        alias: [
+          { find: 'randombytes', replacement: 'r
+andombytes/browser' },
+          {
+            find: /^astro$/,
+            replacement: 'C:\\Users\\Aves\\Deskt
+op\\AvesProject\\aves-2033.github.io\\node_modul
+es\\astro\\dist\\types\\public\\index.js'
+          },
+          {
+            find: 'astro:middleware',
+            replacement: 'astro/virtual-modules/
+middleware.js'
+          },
+          { find: 'astro:schema', replacement: '
+astro/zod' },
+          { find: 'astro:components', replacemen
+t: 'astro/components' },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/C:/Users/Aves/Des
+ktop/AvesProject/aves-2033.github.io/node_module
+s/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/C:/Users/Aves/Des
+ktop/AvesProject/aves-2033.github.io/node_module
+s/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'browser', 'module', 'jsne
+xt:main', 'jsnext' ],
+        conditions: [ 'module', 'browser', 'deve
+lopment|production', 'astro' ],
+        builtins: []
+      },
+      keepProcessEnv: false,
+      consumer: 'client',
+      optimizeDeps: {
+        include: [
+          'astro > cssesc',
+          'astro > aria-query',
+          'astro > axobject-query'
+        ],
+        exclude: [ 'astro', 'node-fetch' ],
+        needsInterop: [],
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        noDiscovery: false,
+        esbuildOptions: { preserveSymlinks: fals
+e },
+        entries: [
+          'C:/Users/Aves/Desktop/AvesProject/ave
+s-2033.github.io/src/**/*.{jsx,tsx,vue,svelte,ht
+ml,astro}'
+        ]
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNode
+Modules$1],
+        preTransformRequests: true,
+        createEnvironment: [Function: defaultCre
+ateClientDevEnvironment],
+        recoverable: true,
+        moduleRunnerTransform: false
+      },
+      build: {
+        target: 'esnext',
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: false },
+        outDir: 'C:\\Users\\Aves\\Desktop\\AvesP
+roject\\aves-2033.github.io\\dist\\',
+        assetsDir: '_astro',
+        assetsInlineLimit: 4096,
+        sourcemap: false,
+        terserOptions: {},
+        rollupOptions: {
+          preserveEntrySignatures: 'exports-only
+',
+          input: [],
+          output: {
+            hoistTransitiveImports: false,
+            format: 'esm',
+            minifyInternalExports: true,
+            chunkFileNames: [Function: chunkFile
+Names],
+            assetFileNames: '_astro/[name].[hash
+][extname]',
+            entryFileNames: [Function: entryFile
+Names]
+          }
+        },
+        commonjsOptions: { include: [ /node_modu
+les/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { warnOnError:
+ true, exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: false,
+        copyPublicDir: true,
+        manifest: false,
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: true,
+        reportCompressedSize: false,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: false,
+        ssr: true,
+        emitAssets: true,
+        createEnvironment: [Function: createEnvi
+ronment],
+        cssMinify: true,
+        cssTarget: 'esnext'
+      }
+    },
+    ssr: {
+      define: {
+        'import.meta.env.SITE': '"https://ketren
+t.ru"',
+        'import.meta.env.BASE_URL': '"/"',
+        'import.meta.env.ASSETS_PREFIX': 'undefi
+ned',
+        __ASTRO_INTERNAL_I18N_CONFIG__: '{"base"
+:"/","format":"directory","site":"https://ketren
+t.ru","trailingSlash":"ignore","isBuild":true}'
+      },
+      resolve: {
+        externalConditions: [ 'node' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [ 'astro' ],
+        noExternal: [
+          'astro',
+          'astro/components',
+          '@nanostores/preact',
+          '@fontsource/*',
+          '@astrojs/sitemap',
+          'astro'
+        ],
+        external: [ 'sharp' ],
+        preserveSymlinks: false,
+        alias: [
+          { find: 'randombytes', replacement: 'r
+andombytes/browser' },
+          {
+            find: /^astro$/,
+            replacement: 'C:\\Users\\Aves\\Deskt
+op\\AvesProject\\aves-2033.github.io\\node_modul
+es\\astro\\dist\\types\\public\\index.js'
+          },
+          {
+            find: 'astro:middleware',
+            replacement: 'astro/virtual-modules/
+middleware.js'
+          },
+          { find: 'astro:schema', replacement: '
+astro/zod' },
+          { find: 'astro:components', replacemen
+t: 'astro/components' },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/C:/Users/Aves/Des
+ktop/AvesProject/aves-2033.github.io/node_module
+s/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/C:/Users/Aves/Des
+ktop/AvesProject/aves-2033.github.io/node_module
+s/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'module', 'jsnext:main', '
+jsnext' ],
+        conditions: [ 'module', 'node', 'develop
+ment|production', 'astro' ],
+        builtins: [
+          '_http_agent',         '_http_client',
+        '_http_common',
+          '_http_incoming',      '_http_outgoing
+',      '_http_server',
+          '_stream_duplex',      '_stream_passth
+rough', '_stream_readable',
+          '_stream_transform',   '_stream_wrap',
+        '_stream_writable',
+          '_tls_common',         '_tls_wrap',   
+        'assert',
+          'assert/strict',       'async_hooks', 
+        'buffer',
+          'child_process',       'cluster',     
+        'console',
+          'constants',           'crypto',      
+        'dgram',
+          'diagnostics_channel', 'dns',         
+        'dns/promises',
+          'domain',              'events',      
+        'fs',
+          'fs/promises',         'http',        
+        'http2',
+          'https',               'inspector',   
+        'inspector/promises',
+          'module',              'net',         
+        'os',
+          'path',                'path/posix',  
+        'path/win32',
+          'perf_hooks',          'process',     
+        'punycode',
+          'querystring',         'readline',    
+        'readline/promises',
+          'repl',                'stream',      
+        'stream/consumers',
+          'stream/promises',     'stream/web',  
+        'string_decoder',
+          'sys',                 'timers',      
+        'timers/promises',
+          'tls',                 'trace_events',
+        'tty',
+          'url',                 'util',        
+        'util/types',
+          'v8',                  'vm',          
+        'wasi',
+          'worker_threads',      'zlib',        
+        /^node:/,
+          /^npm:/,               /^bun:/
+        ]
+      },
+      keepProcessEnv: true,
+      consumer: 'server',
+      optimizeDeps: {
+        include: [],
+        exclude: [],
+        needsInterop: [],
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        noDiscovery: true,
+        esbuildOptions: { preserveSymlinks: fals
+e }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNode
+Modules$1],
+        preTransformRequests: false,
+        createEnvironment: [Function: defaultCre
+ateDevEnvironment],
+        recoverable: false,
+        moduleRunnerTransform: true
+      },
+      build: {
+        target: 'esnext',
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: false },
+        outDir: 'C:\\Users\\Aves\\Desktop\\AvesP
+roject\\aves-2033.github.io\\dist\\',
+        assetsDir: '_astro',
+        assetsInlineLimit: 4096,
+        sourcemap: false,
+        terserOptions: {},
+        rollupOptions: {
+          preserveEntrySignatures: 'exports-only
+',
+          input: [],
+          output: {
+            hoistTransitiveImports: false,
+            format: 'esm',
+            minifyInternalExports: true,
+            chunkFileNames: [Function: chunkFile
+Names],
+            assetFileNames: '_astro/[name].[hash
+][extname]',
+            entryFileNames: [Function: entryFile
+Names]
+          }
+        },
+        commonjsOptions: { include: [ /node_modu
+les/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { warnOnError:
+ true, exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: false,
+        copyPublicDir: true,
+        manifest: false,
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: true,
+        reportCompressedSize: false,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: false,
+        ssr: true,
+        emitAssets: true,
+        createEnvironment: [Function: createEnvi
+ronment],
+        cssMinify: true,
+        cssTarget: 'esnext'
+      }
+    }
+  },
+  configFileDependencies: [],
+  inlineConfig: {
+    configFile: false,
+    mode: 'production',
+    cacheDir: 'C:\\Users\\Aves\\Desktop\\AvesPro
+ject\\aves-2033.github.io\\node_modules\\.vite\\
+',
+    clearScreen: false,
+    customLogger: {
+      hasWarned: false,
+      info: [Function: info],
+      warn: [Function: warn],
+      warnOnce: [Function: warnOnce],
+      error: [Function: error],
+      clearScreen: [Function: clearScreen],
+      hasErrorLogged: [Function: hasErrorLogged]
+    },
+    appType: 'custom',
+    optimizeDeps: {
+      entries: [
+        'C:/Users/Aves/Desktop/AvesProject/aves-
+2033.github.io/src/**/*.{jsx,tsx,vue,svelte,html
+,astro}'
+      ],
+      exclude: [ 'astro', 'node-fetch' ]
+    },
+    plugins: [
+      {
+        name: '@astro/rollup-plugin-astro-analyz
+er',
+        generateBundle: [AsyncFunction: generate
+Bundle]
+      },
+      {
+        name: '@astro/plugin-build-internals',
+        config: [Function: config],
+        generateBundle: [AsyncFunction: generate
+Bundle]
+      },
+      {
+        name: '@astro/plugin-build-manifest',
+        enforce: 'post',
+        options: [Function: options],
+        resolveId: [Function: resolveId],
+        augmentChunkHash: [Function: augmentChun
+kHash],
+        load: [Function: load],
+        generateBundle: [AsyncFunction: generate
+Bundle]
+      },
+      {
+        name: '@astro/plugin-renderers',
+        options: [Function: options],
+        resolveId: [Function: resolveId],
+        load: [AsyncFunction: load]
+      },
+      {
+        name: '@astro/plugin-middleware-build',
+        options: [Function: options],
+        writeBundle: [Function: writeBundle]
+      },
+      {
+        name: '@astro/plugin-actions-build',
+        options: [Function: options],
+        writeBundle: [Function: writeBundle]
+      },
+      {
+        name: '@astro/plugin-build-pages',
+        options: [Function: options],
+        resolveId: [Function: resolveId],
+        load: [AsyncFunction: load]
+      },
+      [
+        {
+          name: 'astro:rollup-plugin-build-css',
+          outputOptions: [Function: outputOption
+s],
+          generateBundle: [AsyncFunction: genera
+teBundle]
+        },
+        {
+          name: 'astro:rollup-plugin-single-css'
+,
+          enforce: 'post',
+          configResolved: [Function: configResol
+ved],
+          generateBundle: [Function: generateBun
+dle]
+        },
+        {
+          name: 'astro:rollup-plugin-inline-styl
+esheets',
+          enforce: 'post',
+          configResolved: [Function: configResol
+ved],
+          generateBundle: [AsyncFunction: genera
+teBundle]
+        }
+      ],
+      {
+        name: 'astro:head-metadata-build',
+        generateBundle: [Function: generateBundl
+e]
+      },
+      [
+        {
+          name: '@astrojs/vite-plugin-astro-adap
+ter',
+          enforce: 'post',
+          resolveId: [Function: resolveId],
+          load: [AsyncFunction: load]
+        }
+      ],
+      {
+        name: 'astro:chunks',
+        outputOptions: [Function: outputOptions]
+      },
+      {
+        enforce: 'pre',
+        name: 'astro-manifest-plugin',
+        resolveId: [Function: resolveId],
+        load: [Function: load]
+      },
+      null,
+      false,
+      [
+        {
+          name: 'astro:build',
+          enforce: 'pre',
+          configEnvironment: [AsyncFunction: con
+figEnvironment],
+          configResolved: [Function: configResol
+ved],
+          configureServer: [Function: configureS
+erver],
+          buildStart: [Function: buildStart],
+          load: [AsyncFunction: load],
+          transform: [AsyncFunction: transform],
+          handleHotUpdate: [AsyncFunction: handl
+eHotUpdate]
+        },
+        {
+          name: 'astro:build:normal',
+          resolveId: [Function: resolveId]
+        }
+      ],
+      {
+        name: 'astro:scripts',
+        config: [Function: config],
+        resolveId: [AsyncFunction: resolveId],
+        load: [AsyncFunction: load],
+        buildStart: [Function: buildStart]
+      },
+      false,
+      {
+        name: 'astro:vite-plugin-env',
+        config: [Function: config],
+        configResolved: [Function: configResolve
+d],
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro-env-plugin',
+        enforce: 'pre',
+        config: [Function: config],
+        buildStart: [Function: buildStart],
+        resolveId: [Function: resolveId],
+        load: [Function: load]
+      },
+      {
+        name: 'astro:adapter-config',
+        resolveId: [Function: resolveId],
+        load: [Function: load]
+      },
+      {
+        enforce: 'pre',
+        name: 'astro:markdown',
+        buildEnd: [Function: buildEnd],
+        resolveId: [AsyncFunction: resolveId],
+        load: [AsyncFunction: load]
+      },
+      {
+        name: 'astro:html',
+        options: [Function: options],
+        transform: [AsyncFunction: transform]
+      },
+      {
+        name: 'astro:postprocess',
+        transform: [AsyncFunction: transform]
+      },
+      {
+        name: 'astro:integration-container',
+        configureServer: [AsyncFunction: configu
+reServer],
+        buildStart: [AsyncFunction: buildStart]
+      },
+      {
+        name: 'astro:scripts:page-ssr',
+        enforce: 'post',
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro:head-metadata',
+        enforce: 'pre',
+        apply: 'serve',
+        configureServer: [Function: configureSer
+ver],
+        resolveId: [Function: resolveId],
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro:scanner',
+        enforce: 'post',
+        transform: [AsyncFunction: transform],
+        handleHotUpdate: [AsyncFunction: handleH
+otUpdate]
+      },
+      {
+        name: 'astro-content-virtual-mod-plugin'
+,
+        enforce: 'pre',
+        config: [Function: config],
+        buildStart: [Function: buildStart],
+        resolveId: [AsyncFunction: resolveId],
+        load: [AsyncFunction: load],
+        configureServer: [Function: configureSer
+ver]
+      },
+      [
+        {
+          name: 'astro:content-imports',
+          config: [Function: config],
+          buildStart: [AsyncFunction: buildStart
+],
+          transform: [AsyncFunction: transform],
+          configureServer: [Function: configureS
+erver]
+        }
+      ],
+      {
+        name: 'astro:content-asset-propagation',
+        enforce: 'pre',
+        resolveId: [AsyncFunction: resolveId],
+        configureServer: [Function: configureSer
+ver],
+        transform: [AsyncFunction: transform]
+      },
+      {
+        name: '@astro/plugin-middleware',
+        resolveId: [AsyncFunction: resolveId],
+        load: [AsyncFunction: load]
+      },
+      {
+        name: '@astrojs/vite-plugin-astro-ssr-ma
+nifest',
+        enforce: 'post',
+        resolveId: [Function: resolveId],
+        load: [Function: load]
+      },
+      [
+        {
+          name: 'astro:assets',
+          config: [Function: config],
+          resolveId: [AsyncFunction: resolveId],
+          load: [Function: load],
+          buildStart: [Function: buildStart],
+          renderChunk: [AsyncFunction: renderChu
+nk]
+        },
+        {
+          name: 'astro:assets:esm',
+          enforce: 'pre',
+          config: [Function: config],
+          configResolved: [Function: configResol
+ved],
+          load: [AsyncFunction: load]
+        },
+        {
+          name: 'astro:fonts:fallback',
+          resolveId: [Function: resolveId],
+          load: [Function: load]
+        }
+      ],
+      {
+        name: 'astro:prefetch',
+        resolveId: [AsyncFunction: resolveId],
+        load: [Function: load],
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro:transitions',
+        config: [Function: config],
+        resolveId: [AsyncFunction: resolveId],
+        load: [Function: load],
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro:dev-toolbar',
+        config: [Function: config],
+        resolveId: [Function: resolveId],
+        configureServer: [Function: configureSer
+ver],
+        load: [AsyncFunction: load]
+      },
+      {
+        name: 'astro:vite-plugin-file-url',
+        enforce: 'pre',
+        resolveId: [Function: resolveId]
+      },
+      {
+        name: 'astro:i18n',
+        enforce: 'pre',
+        config: [Function: config],
+        resolveId: [Function: resolveId]
+      },
+      {
+        name: 'astro:actions',
+        enforce: 'pre',
+        resolveId: [AsyncFunction: resolveId],
+        configureServer: [AsyncFunction: configu
+reServer],
+        load: [AsyncFunction: load]
+      },
+      {
+        name: 'astro:server-islands',
+        enforce: 'post',
+        config: [Function: config],
+        configureServer: [Function: configureSer
+ver],
+        resolveId: [Function: resolveId],
+        load: [Function: load],
+        transform: [Function: transform],
+        renderChunk: [Function: renderChunk]
+      },
+      {
+        name: 'astro:container',
+        enforce: 'pre',
+        resolveId: [Function: resolveId]
+      },
+      {
+        name: 'astro:hmr-reload',
+        enforce: 'post',
+        hotUpdate: { order: 'post', handler: [Fu
+nction: handler] }
+      }
+    ],
+    publicDir: 'C:\\Users\\Aves\\Desktop\\AvesPr
+oject\\aves-2033.github.io\\public\\',
+    root: 'C:\\Users\\Aves\\Desktop\\AvesProject
+\\aves-2033.github.io\\',
+    envPrefix: 'PUBLIC_',
+    define: {
+      'import.meta.env.SITE': '"https://ketrent.
+ru"',
+      'import.meta.env.BASE_URL': '"/"',
+      'import.meta.env.ASSETS_PREFIX': 'undefine
+d'
+    },
+    server: { hmr: false, watch: { ignored: [ '*
+*' ] }, middlewareMode: true },
+    resolve: {
+      alias: [
+        { find: 'randombytes', replacement: 'ran
+dombytes/browser' },
+        {
+          find: /^astro$/,
+          replacement: 'C:\\Users\\Aves\\Desktop
+\\AvesProject\\aves-2033.github.io\\node_modules
+\\astro\\dist\\types\\public\\index.js'
+        },
+        {
+          find: 'astro:middleware',
+          replacement: 'astro/virtual-modules/mi
+ddleware.js'
+        },
+        { find: 'astro:schema', replacement: 'as
+tro/zod' },
+        { find: 'astro:components', replacement:
+ 'astro/components' }
+      ],
+      dedupe: [ 'astro' ],
+      conditions: [ 'module', 'browser', 'develo
+pment|production', 'astro' ],
+      mainFields: undefined
+    },
+    ssr: {
+      noExternal: [
+        'astro',
+        'astro/components',
+        '@nanostores/preact',
+        '@fontsource/*',
+        '@astrojs/sitemap'
+      ],
+      external: []
+    },
+    build: {
+      target: 'esnext',
+      cssMinify: true,
+      assetsDir: '_astro',
+      emptyOutDir: false,
+      manifest: false,
+      outDir: 'C:\\Users\\Aves\\Desktop\\AvesPro
+ject\\aves-2033.github.io\\dist\\',
+      copyPublicDir: true,
+      rollupOptions: {
+        preserveEntrySignatures: 'exports-only',
+        input: [],
+        output: {
+          hoistTransitiveImports: false,
+          format: 'esm',
+          minifyInternalExports: true,
+          chunkFileNames: [Function: chunkFileNa
+mes],
+          assetFileNames: '_astro/[name].[hash][
+extname]',
+          entryFileNames: [Function: entryFileNa
+mes]
+        }
+      },
+      ssr: true,
+      ssrEmitAssets: true,
+      minify: false,
+      modulePreload: { polyfill: false },
+      reportCompressedSize: false
+    },
+    css: { devSourcemap: true },
+    logLevel: 'error',
+    base: '/'
+  },
+  decodedBase: '/',
+  rawBase: '/',
+  command: 'build',
+  isWorker: false,
+  mainConfig: null,
+  bundleChain: [],
+  isProduction: true,
+  json: { namedExports: true, stringify: 'auto' 
+},
+  esbuild: { jsxDev: false },
+  builder: undefined,
+  preview: {
+    port: 4173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localh
+ost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {}
+  },
+  envDir: 'C:/Users/Aves/Desktop/AvesProject/ave
+s-2033.github.io',
+  env: { BASE_URL: '/', MODE: 'production', DEV:
+ false, PROD: true },
+  assetsInclude: [Function: assetsInclude],
+  logger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function: warn],
+    warnOnce: [Function: warnOnce],
+    error: [Function: error],
+    clearScreen: [Function: clearScreen],
+    hasErrorLogged: [Function: hasErrorLogged]
+  },
+  packageCache: Map(1) {
+    'fnpd_C:/Users/Aves/Desktop/AvesProject/aves
+-2033.github.io' => {
+      dir: 'C:/Users/Aves/Desktop/AvesProject/av
+es-2033.github.io',
+      data: {
+        name: 'avesweb',
+        type: 'module',
+        version: '1.0.0',
+        scripts: {
+          dev: 'astro dev',
+          prebuild: 'node scripts/hide-admin.js'
+,
+          build: 'astro build',
+          postbuild: 'node scripts/restore-admin
+.js',
+          preview: 'astro preview',
+          astro: 'astro'
+        },
+        dependencies: {
+          '@astrojs/sitemap': '^3.2.0',
+          astro: '^5.3.0',
+          cloudinary: '^2.9.0',
+          dotenv: '^17.3.1'
+        },
+        devDependencies: { sharp: '^0.34.5' }
+      },
+      hasSideEffects: [Function: hasSideEffects]
+,
+      setResolvedCache: [Function: setResolvedCa
+che],
+      getResolvedCache: [Function: getResolvedCa
+che]
+    },
+    set: [Function (anonymous)]
+  },
+  worker: { format: 'iife', plugins: '() => plug
+ins', rollupOptions: {} },
+  experimental: { importGlobRestoreExtension: fa
+lse, hmrPartialAccept: false },
+  future: undefined,
+  dev: {
+    warmup: [],
+    sourcemap: { js: true },
+    sourcemapIgnoreList: [Function: isInNodeModu
+les$1],
+    preTransformRequests: false,
+    createEnvironment: [Function: defaultCreateD
+evEnvironment],
+    recoverable: false,
+    moduleRunnerTransform: false
+  },
+  webSocketToken: 'O0XShhoC8kka',
+  getSortedPlugins: [Function: getSortedPlugins]
+,
+  getSortedPluginHooks: [Function: getSortedPlug
+inHooks],
+  createResolver: [Function: createResolver],
+  fsDenyGlob: [Function: arrayMatcher],
+  safeModulePaths: Set(0) {},
+  additionalAllowedHosts: [],
+  Symbol(vite:resolved-config): true
+}
+2026-03-21T09:59:54.499Z vite:env loading env fi
+les: [
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.local',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.production',
+  'C:/Users/Aves/Desktop/AvesProject/aves-2033.g
+ithub.io/.env.production.local'
+]
+2026-03-21T09:59:54.499Z vite:env env files load
+ed in 0.48ms
+2026-03-21T09:59:54.500Z vite:env using resolved
+ env: {
+  CLOUDINARY_CLOUD_NAME: 'dfphvshby',
+  CLOUDINARY_API_KEY: '873784248487482',
+  CLOUDINARY_API_SECRET: 'R8s1LpY4u-gSJAE2jtQuud
+EgIMY',
+  ALLUSERSPROFILE: 'C:\\ProgramData',
+  ANTIGRAVITY_AGENT: '1',
+  ANTIGRAVITY_CLI_ALIAS: 'agy',
+  APPDATA: 'C:\\Users\\Aves\\AppData\\Roaming',
+  BUNDLED_DEBUGPY_PATH: 'c:\\Users\\Aves\\.antig
+ravity\\extensions\\ms-python.debugpy-2025.18.0-
+win32-x64\\bundled\\libs\\debugpy',
+  ChocolateyInstall: 'C:\\ProgramData\\chocolate
+y',
+  ChocolateyLastPathUpdate: '134136815386800160'
+,
+  CHROME_CRASHPAD_PIPE_NAME: '\\\\.\\pipe\\crash
+pad_22716_CNYBZUQUCSTHYGFW',
+  COLOR: '0',
+  COLORTERM: 'truecolor',
+  CommonProgramFiles: 'C:\\Program Files\\Common
+ Files',
+  'CommonProgramFiles(x86)': 'C:\\Program Files 
+(x86)\\Common Files',
+  CommonProgramW6432: 'C:\\Program Files\\Common
+ Files',
+  COMPUTERNAME: 'DESKTOP-H48LVNT',
+  ComSpec: 'C:\\Windows\\system32\\cmd.exe',
+  DEBUG: 'astro:*,vite:*',
+  DriverData: 'C:\\Windows\\System32\\Drivers\\D
+riverData',
+  EDITOR: 'C:\\Windows\\notepad.exe',
+  EFC_20116_1262719628: '1',
+  EFC_20116_1592913036: '1',
+  EFC_20116_2283032206: '1',
+  EFC_20116_3789132940: '1',
+  GIT_ASKPASS: 'c:\\Users\\Aves\\AppData\\Local\
+\Programs\\Antigravity\\resources\\app\\extensio
+ns\\git\\dist\\askpass.sh',
+  HOME: 'C:\\Users\\Aves',
+  HOMEDRIVE: 'C:',
+  HOMEPATH: '\\Users\\Aves',
+  INIT_CWD: 'C:\\Users\\Aves\\Desktop\\AvesProje
+ct\\aves-2033.github.io',
+  LANG: 'en_US.UTF-8',
+  LOCALAPPDATA: 'C:\\Users\\Aves\\AppData\\Local
+',
+  LOGONSERVER: '\\\\DESKTOP-H48LVNT',
+  NODE: 'C:\\Program Files\\nodejs\\node.exe',
+  NODE_ENV: 'production',
+  npm_command: 'exec',
+  npm_config_cache: 'C:\\Users\\Aves\\AppData\\L
+ocal\\npm-cache',
+  npm_config_globalconfig: 'C:\\Users\\Aves\\App
+Data\\Roaming\\npm\\etc\\npmrc',
+  npm_config_global_prefix: 'C:\\Users\\Aves\\Ap
+pData\\Roaming\\npm',
+  npm_config_init_module: 'C:\\Users\\Aves\\.npm
+-init.js',
+  npm_config_local_prefix: 'C:\\Users\\Aves\\Des
+ktop\\AvesProject\\aves-2033.github.io',
+  npm_config_node_gyp: 'C:\\Program Files\\nodej
+s\\node_modules\\npm\\node_modules\\node-gyp\\bi
+n\\node-gyp.js',
+  npm_config_noproxy: '',
+  npm_config_npm_version: '11.6.2',
+  npm_config_prefix: 'C:\\Users\\Aves\\AppData\\
+Roaming\\npm',
+  npm_config_userconfig: 'C:\\Users\\Aves\\.npmr
+c',
+  npm_config_user_agent: 'npm/11.6.2 node/v24.13
+.0 win32 x64 workspaces/false',
+  npm_execpath: 'C:\\Program Files\\nodejs\\node
+_modules\\npm\\bin\\npm-cli.js',
+  npm_lifecycle_event: 'npx',
+  npm_lifecycle_script: 'astro',
+  npm_node_execpath: 'C:\\Program Files\\nodejs\
+\node.exe',
+  npm_package_json: 'C:\\Users\\Aves\\Desktop\\A
+vesProject\\aves-2033.github.io\\package.json',
+  npm_package_name: 'avesweb',
+  npm_package_version: '1.0.0',
+  NUMBER_OF_PROCESSORS: '16',
+  OneDrive: 'C:\\Users\\Aves\\OneDrive',
+  OS: 'Windows_NT',
+  PAGER: 'cat',
+  Path: 'C:\\Users\\Aves\\Desktop\\AvesProject\\
+aves-2033.github.io\\node_modules\\.bin;C:\\User
+s\\Aves\\Desktop\\AvesProject\\aves-2033.github.
+io\\node_modules\\.bin;C:\\Users\\Aves\\Desktop\
+\AvesProject\\node_modules\\.bin;C:\\Users\\Aves
+\\Desktop\\node_modules\\.bin;C:\\Users\\Aves\\n
+ode_modules\\.bin;C:\\Users\\node_modules\\.bin;
+C:\\node_modules\\.bin;C:\\Program Files\\nodejs
+\\node_modules\\npm\\node_modules\\@npmcli\\run-
+script\\lib\\node-gyp-bin;C:\\Windows\\system32;
+C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Wind
+ows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Win
+dows\\System32\\OpenSSH\\;C:\\Program Files\\dot
+net\\;C:\\Program Files\\Git\\cmd;C:\\Program Fi
+les\\Microsoft VS Code\\bin;C:\\Program Files\\c
+ursor\\resources\\app\\bin;C:\\Program Files\\NV
+IDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Progra
+m Files (x86)\\NVIDIA Corporation\\PhysX\\Common
+;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ch
+ocolatey\\bin;C:\\Program Files\\Docker\\Docker\
+\resources\\bin;C:\\Users\\Aves\\AppData\\Local\
+\Microsoft\\WindowsApps;C:\\Users\\Aves\\AppData
+\\Local\\GitHubDesktop\\bin;C:\\Users\\Aves\\App
+Data\\Roaming\\npm;C:\\Users\\Aves\\AppData\\Loc
+al\\Programs\\Antigravity\\bin;C:\\Users\\Aves\\
+AppData\\Local\\Python\\bin;c:\\Users\\Aves\\.an
+tigravity\\extensions\\ms-python.debugpy-2025.18
+.0-win32-x64\\bundled\\scripts\\noConfigScripts'
+,
+  PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.J
+SE;.WSF;.WSH;.MSC;.CPL',
+  PROCESSOR_ARCHITECTURE: 'AMD64',
+  PROCESSOR_IDENTIFIER: 'AMD64 Family 23 Model 9
+6 Stepping 1, AuthenticAMD',
+  PROCESSOR_LEVEL: '23',
+  PROCESSOR_REVISION: '6001',
+  ProgramData: 'C:\\ProgramData',
+  ProgramFiles: 'C:\\Program Files',
+  'ProgramFiles(x86)': 'C:\\Program Files (x86)'
+,
+  ProgramW6432: 'C:\\Program Files',
+  PROMPT: '$P$G',
+  PSModulePath: 'C:\\Users\\Aves\\Documents\\Win
+dowsPowerShell\\Modules;C:\\Program Files\\Windo
+wsPowerShell\\Modules;C:\\Windows\\system32\\Win
+dowsPowerShell\\v1.0\\Modules',
+  PUBLIC: 'C:\\Users\\Public',
+  PYDEVD_DISABLE_FILE_VALIDATION: '1',
+  PYTHONSTARTUP: 'c:\\Users\\Aves\\AppData\\Roam
+ing\\Antigravity\\User\\workspaceStorage\\574118
+3b567d1e2417b248ff616d42ea\\ms-python.python\\py
+thonrc.py',
+  PYTHON_BASIC_REPL: '1',
+  SESSIONNAME: 'Console',
+  SystemDrive: 'C:',
+  SystemRoot: 'C:\\Windows',
+  TEMP: 'C:\\Users\\Aves\\AppData\\Local\\Temp',
+  TERM_PROGRAM: 'vscode',
+  TERM_PROGRAM_VERSION: '1.107.0',
+  TMP: 'C:\\Users\\Aves\\AppData\\Local\\Temp',
+  USERDOMAIN: 'DESKTOP-H48LVNT',
+  USERDOMAIN_ROAMINGPROFILE: 'DESKTOP-H48LVNT',
+  USERNAME: 'Aves',
+  USERPROFILE: 'C:\\Users\\Aves',
+  VSCODE_DEBUGPY_ADAPTER_ENDPOINTS: 'c:\\Users\\
+Aves\\.antigravity\\extensions\\ms-python.debugp
+y-2025.18.0-win32-x64\\.noConfigDebugAdapterEndp
+oints\\endpoint-189b7c8eb625b63a.txt',
+  VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+  VSCODE_GIT_ASKPASS_MAIN: 'c:\\Users\\Aves\\App
+Data\\Local\\Programs\\Antigravity\\resources\\a
+pp\\extensions\\git\\dist\\askpass-main.js',
+  VSCODE_GIT_ASKPASS_NODE: 'C:\\Users\\Aves\\App
+Data\\Local\\Programs\\Antigravity\\Antigravity.
+exe',
+  VSCODE_GIT_IPC_HANDLE: '\\\\.\\pipe\\vscode-gi
+t-bdf8b86cff-sock',
+  VSCODE_INJECTION: '1',
+  VSCODE_PYTHON_AUTOACTIVATE_GUARD: '1',
+  windir: 'C:\\Windows'
+}
+[31m[1m12:59:55[22m [ERROR] [vite][39m [31m
+тЬЧ[39m Build failed in 512ms
+2026-03-21T09:59:55.013Z astro:telemetry {
+  context: {
+    isGit: true,
+    anonymousProjectId: 'de9969afc08b70443d1ddb4
+a97b4a126e53822680c9f67db87d1f1a72b71ca62',
+    packageManager: 'npm',
+    packageManagerVersion: '11.6.2',
+    anonymousId: '3c07ee7cfaf875c21485c083609a25
+53bc82145037a392534c149332f8e916ff',
+    anonymousSessionId: '4ba16ddc42c3650828b2c44
+5724c6c0e33ec607f31fb75f82803a8d0e58166f2'
+  },
+  meta: {
+    nodeVersion: '24.13.0',
+    viteVersion: '6.4.1',
+    astroVersion: '5.17.2',
+    systemPlatform: 'win32',
+    systemRelease: '10.0.26200',
+    systemArchitecture: 'x64',
+    cpuCount: 16,
+    cpuModel: 'AMD Ryzen 7 4800H with Radeon Gra
+phics         ',
+    cpuSpeed: 2894,
+    memoryInMb: 16253,
+    isDocker: false,
+    isTTY: undefined,
+    isWSL: false,
+    isCI: false,
+    ciName: null
+  }
+}
+2026-03-21T09:59:55.013Z astro:telemetry [
+  {
+    "eventName": "ASTRO_CLI_ERROR",
+    "payload": {
+      "name": "RollupError",
+      "cliCommand": "build",
+      "isFatal": true,
+      "anonymousMessageHint": "Could not resolve
+"
+    }
+  }
+]
+Could not resolve "../layouts/BaseLayout.astro" 
+from "src/pages/catalog/index.astro"
+file: C:/Users/Aves/Desktop/AvesProject/aves-203
+3.github.io/src/pages/catalog/index.astro
+  [1mStack trace:[22m
+[2m    at getRollupError (file:///C:/Users/Aves
+/Desktop/AvesProject/aves-2033.github.io/node_mo
+dules/rollup/dist/es/shared/parseAst.js:402:41)
+    at ModuleLoader.handleInvalidResolvedId (fil
+e:///C:/Users/Aves/Desktop/AvesProject/aves-2033
+.github.io/node_modules/rollup/dist/es/shared/no
+de-entry.js:21687:24)[22m
