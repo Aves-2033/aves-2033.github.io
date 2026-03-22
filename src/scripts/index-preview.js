@@ -75,7 +75,16 @@ function initPreview() {
         if (productIndex !== -1) {
             card.style.cursor = 'pointer';
             card.addEventListener('click', (e) => {
-                if (e.target.closest('.btn-text')) return;
+                const isImageLink = e.target.closest('a.image-seo-link');
+                const isTitleLink = e.target.closest('a.seo-link');
+                const isBtnText = e.target.closest('.btn-text');
+
+                if (isImageLink) {
+                    e.preventDefault(); // intercept and open modal
+                } else if (isTitleLink || isBtnText) {
+                    return; // let browser follow the link to the product
+                }
+
                 e.preventDefault();
                 openModal(productIndex);
             });

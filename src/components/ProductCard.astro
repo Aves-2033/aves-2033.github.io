@@ -27,15 +27,17 @@ const optimizedImage = image.includes('/upload/')
   data-id={id}
 >
   <div class="card-image">
-    <img
-      src={optimizedImage}
-      alt={title}
-      loading="lazy"
-      decoding="async"
-      width="400"
-      height="500"
-      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
-    />
+    <a href={`/product/${slug}`} class="image-seo-link" tabindex="-1" aria-hidden="true">
+      <img
+        src={optimizedImage}
+        alt={title}
+        loading="lazy"
+        decoding="async"
+        width="400"
+        height="500"
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
+      />
+    </a>
   </div>
   <div class="card-body">
     <h3 class="card-title">

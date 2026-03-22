@@ -161,18 +161,22 @@ const faqSchema = {
         {previewProducts.map((product, i) => (
           <article class="card" data-preview-index={i}>
             <div class="card-image">
-              <img
-                src={product.images[0]}
-                alt={product.title}
-                loading="lazy"
-                width="400"
-                height="500"
-              />
+              <a href={`/product/${product.slug}`} class="image-seo-link" tabindex="-1" aria-hidden="true">
+                <img
+                  src={product.images[0]}
+                  alt={product.title}
+                  loading="lazy"
+                  width="400"
+                  height="500"
+                />
+              </a>
             </div>
             <div class="card-body">
-              <h3 class="card-title">{product.title}</h3>
+              <h3 class="card-title">
+                <a href={`/product/${product.slug}`} class="seo-link">{product.title}</a>
+              </h3>
               <p class="card-price">{product.price != null ? product.price.toLocaleString('ru-RU') + ' ₽' : 'Нет данных'}</p>
-              <a href={`/catalog?category=${product.category}`} class="btn-text">Подробнее &rarr;</a>
+              <a href={`/product/${product.slug}`} class="btn-text">Подробнее &rarr;</a>
             </div>
           </article>
         ))}

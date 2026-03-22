@@ -169,9 +169,15 @@ function initCatalog() {
     allCards.forEach(card => {
         card.style.cursor = 'pointer';
         card.addEventListener('click', (e) => {
-            if (e.target.closest('a[href^="/product/"]')) {
+            const isImageLink = e.target.closest('a.image-seo-link');
+            const isTitleLink = e.target.closest('a.seo-link');
+            
+            if (isImageLink) {
+                e.preventDefault(); // Show modal instead
+            } else if (isTitleLink || e.target.closest('a[href^="/product/"]')) {
                 return; // Let browser follow the SEO link
             }
+            
             if (e.target.closest('.btn-text')) {
                 e.preventDefault();
             }
