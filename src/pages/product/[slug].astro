@@ -159,6 +159,12 @@ const combinedSchema = [breadcrumbSchema, productSchema];
   <Footer />
 
   <Fragment slot="scripts">
+    <script define:vars={{ slug: product.slug }}>
+      // Если это не бот и не переход через iframe, перенаправляем в каталог с открытием модалки
+      if (!navigator.userAgent.includes('bot') && window.self === window.top) {
+        window.location.replace('/catalog?product=' + slug);
+      }
+    </script>
     <script>
       import '../../scripts/shared.js';
       import '../../scripts/mobile-nav.js';
@@ -166,6 +172,14 @@ const combinedSchema = [breadcrumbSchema, productSchema];
   </Fragment>
 
   <style>
+      .glass-card {
+          background: rgba(255, 255, 255, 0.6);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          border: 1px solid rgba(197, 160, 89, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
       .product-single-grid {
           display: grid;
           grid-template-columns: 1fr;
