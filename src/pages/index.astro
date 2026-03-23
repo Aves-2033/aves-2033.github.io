@@ -5,8 +5,23 @@ import Footer from '../components/Footer.astro';
 
 import products from '../data/products.json';
 
-const previewIds = [102, 201, 210];
+const previewIds = [301, 303, 201, 210, 401, 402];
 const previewProducts = products.filter(p => previewIds.includes(p.id));
+
+// Filter pool for randomization (Ball, Medieval, Vintage)
+const eligibleCategories = ['ball', 'medieval', 'vintage'];
+const allEligibleProducts = products
+  .filter(p => eligibleCategories.includes(p.category))
+  .map(p => ({
+    id: p.id,
+    title: p.title,
+    price: p.price,
+    images: p.images,
+    description: p.description,
+    details: p.details,
+    slug: p.slug,
+    category: p.category
+  }));
 
 const schemaJson = {
   "@context": "https://schema.org",
@@ -219,8 +234,9 @@ const faqSchema = {
   <Footer />
 
   <Fragment slot="scripts">
-    <script is:inline define:vars={{ previewProducts }}>
+    <script is:inline define:vars={{ previewProducts, allEligibleProducts }}>
       window.__previewProducts = previewProducts;
+      window.__allEligibleProducts = allEligibleProducts;
     </script>
     <script>
       import '../scripts/shared.js';
