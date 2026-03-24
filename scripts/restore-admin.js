@@ -1,14 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
-const filesToRestore = [
-    'src/pages/admin.astro.hidden',
-    'src/pages/api/admin/products.js.hidden'
-];
+const SRC_PAGES = 'src/pages';
+const ADMIN_PAGE_BAK = 'admin.astro.bak';
+const API_DIR_BAK = 'api_dir.bak';
 
-filesToRestore.forEach(file => {
-    if (fs.existsSync(file)) {
-        console.log(`Restoring ${file.replace('.hidden', '')}...`);
-        fs.renameSync(file, file.replace('.hidden', ''));
-    }
-});
+if (fs.existsSync(ADMIN_PAGE_BAK)) {
+    fs.renameSync(ADMIN_PAGE_BAK, path.join(SRC_PAGES, 'admin.astro'));
+}
+
+if (fs.existsSync(API_DIR_BAK)) {
+    fs.renameSync(API_DIR_BAK, path.join(SRC_PAGES, 'api'));
+}
+
+console.log('Admin & API restored after build.');

@@ -1,0 +1,472 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const title = "Правила Аренды | Прокат от Кет";
+const description = "Правила и условия аренды исторических костюмов, платьев и аксессуаров в Москве. Залог, сроки, бронирование и дополнительные услуги.";
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalUrl="https://ketrent.ru/rules"
+  currentPage="catalog"
+>
+  <Header currentPage="catalog" />
+
+  <section class="rules-hero">
+    <div class="rules-hero-overlay"></div>
+    <div class="container hero-container">
+      <h1 class="hero-title">Правила <em>Аренды</em></h1>
+      <p class="hero-subtitle">Условия проката, залога и бережного отношения к истории</p>
+    </div>
+  </section>
+
+  <div class="rules-page">
+    <div class="container">
+      <div class="rules-grid">
+        <!-- Сроки и условия -->
+        <article class="rules-card">
+          <div class="rules-card-icon">📅</div>
+          <h3>Сроки и условия</h3>
+          <p>Аренда платьев и костюмов осуществляется на срок от 1 до 3 дней. Дополнительные дни обговариваются отдельно.</p>
+        </article>
+
+        <!-- Залог и наличные -->
+        <article class="rules-card">
+          <div class="rules-card-icon">💸</div>
+          <h3>Залог и оплата</h3>
+          <p>Залог принимается только в рублях и <strong>только наличными</strong>. Для оформления договора аренды обязательно иметь при себе паспорт РФ.</p>
+        </article>
+
+        <!-- Сохранность вещей -->
+        <section class="rules-section-full">
+          <div class="section-accent-line"></div>
+          <h2>Сохранность и возврат</h2>
+          <p>Залог возвращается после возврата костюма в студию в чистом виде и полной сохранности. При порче (пятна, грязь, следы животных, прожиги или разрывы) часть суммы удерживается на ремонт. Просим вас быть максимально аккуратными!</p>
+          <div class="rules-alert">
+            <span class="alert-icon">⚠️</span>
+            <p>Если платье не возвращено в срок, начисляется штраф <strong>1000 ₽</strong> за каждые последующие сутки из суммы залога.</p>
+          </div>
+        </section>
+
+        <!-- Виды съемок -->
+        <article class="rules-card">
+          <div class="rules-card-icon">📸</div>
+          <h3>Где можно снимать?</h3>
+          <p>Цены в альбомах рассчитаны только на фотосессии в чистой студии. Аренда на вечеринки, свадьбы, съемки на улице или с животными обговаривается отдельно. Стоимость может быть выше на 1000–5000 ₽.</p>
+        </article>
+
+        <!-- Бронирование -->
+        <article class="rules-card">
+          <div class="rules-card-icon">🎟️</div>
+          <h3>Бронирование</h3>
+          <p>Для бронирования свяжитесь с администратором и внесите <strong>1000 ₽</strong> за бронь. В случае отмены аренды с вашей стороны бронь не возвращается.</p>
+        </article>
+
+        <!-- Запрет на дым -->
+        <section class="rules-section-full warning-box">
+          <h2>Строгий запрет на цветной дым</h2>
+          <p>Категорически запрещается использовать цветные дымы при съёмке в наших платьях! Разрешён только белый дым на расстоянии не менее 1 метра. Будьте аккуратны.</p>
+        </section>
+
+        <!-- Дополнительные услуги -->
+        <section class="rules-list-section">
+          <h2>Дополнительные услуги</h2>
+          <div class="services-grid">
+            <div class="service-item">
+              <span class="service-price">700 ₽</span>
+              <span class="service-name">Курьер по Москве (до 2 платьев)</span>
+            </div>
+            <div class="service-item">
+              <span class="service-price">от 1500 ₽</span>
+              <span class="service-name">Курьер по Московской области</span>
+            </div>
+            <div class="service-item">
+              <span class="service-price">700 ₽</span>
+              <span class="service-name">Помощь в облачении (кимоно/сари)</span>
+            </div>
+            <div class="service-item">
+              <span class="service-price">2500 ₽</span>
+              <span class="service-name">Сопровождение костюмера (1-й час)</span>
+            </div>
+          </div>
+          <p class="service-note">В обязанности курьера/костюмера входит: доставка, помощь в облачении, раскладывание шлейфов и возврат костюмов. <strong>При заказе сопровождения залог не требуется.</strong></p>
+        </section>
+
+        <!-- Договор и примерка -->
+        <article class="rules-card">
+          <div class="rules-card-icon">📋</div>
+          <h3>Договор аренды</h3>
+          <p>На каждый комплект оформляется договор с указанием сроков, паспортных данных и залога. По запросу выдаётся электронный чек.</p>
+        </article>
+
+        <article class="rules-card">
+          <div class="rules-card-icon">✨</div>
+          <h3>Примерка и подбор</h3>
+          <p>Примерка в студии (11-21) по записи — 500 ₽ за 30 минут. Дистанционный подбор по параметрам — 200 ₽ за час.</p>
+        </article>
+
+        <!-- PREMIUM -->
+        <section class="rules-premium-box">
+          <div class="premium-badge">PREMIUM / LUXE</div>
+          <h2>Костюмы высшей категории</h2>
+          <p>Костюмы серий PREMIUM и LUXE сдаются, как правило, только с сопровождением нашего костюмера, так как их залоговая стоимость составляет от <strong>200 000</strong> до <strong>700 000 ₽</strong>.</p>
+        </section>
+
+        <!-- Важные ограничения -->
+        <footer class="rules-footer-info">
+          <p>Доставка в другие города, выездные примерки, продажа и пошив не осуществляются. Максимальный срок проката — 3 дня. Мы работаем, чтобы вы сияли в ваших самых смелых образах!</p>
+          <div class="center-btn">
+             <a href="/catalog" class="btn btn-primary">Перейти в каталог</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <Footer />
+
+  <style>
+    .rules-hero {
+      height: 40vh;
+      min-height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      background-image: url("/img/img18.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .rules-hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(0,0,0,0.45));
+      z-index: 1;
+    }
+
+    .rules-page {
+      padding-bottom: 100px;
+    }
+
+    .rules-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+
+    .rules-card {
+      background: rgba(255, 255, 255, 0.5);
+      border: 1px solid rgba(197, 160, 89, 0.3);
+      padding: 40px;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+    }
+
+    .rules-card:hover {
+      background: #fff;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      transform: translateY(-5px);
+      border-color: var(--gold-color);
+    }
+
+    .rules-card-icon {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+
+    .rules-card h3 {
+      font-size: 1.6rem;
+      color: var(--accent-color);
+      letter-spacing: 0.02em;
+    }
+
+    .rules-card p {
+      font-size: 1.15rem;
+      line-height: 1.7;
+      color: var(--text-muted);
+    }
+
+    .rules-section-full {
+      grid-column: span 2;
+      background: #fff;
+      padding: 60px;
+      border: 1px solid rgba(197, 160, 89, 0.2);
+      text-align: center;
+      position: relative;
+    }
+
+    .section-accent-line {
+      width: 60px;
+      height: 3px;
+      background: var(--gold-color);
+      margin: 0 auto 30px;
+    }
+
+    .rules-section-full h2 {
+      font-size: 2.5rem;
+      margin-bottom: 25px;
+      font-family: var(--font-heading);
+    }
+
+    .rules-section-full p {
+      max-width: 850px;
+      margin: 0 auto 30px;
+      font-size: 1.3rem;
+    }
+
+    .rules-alert {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      background: rgba(46, 70, 52, 0.05);
+      padding: 25px 40px;
+      border-top: 5px solid var(--accent-color);
+      text-align: center;
+    }
+
+    .rules-alert p {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+
+    .warning-box {
+      background: #faf3f3;
+      border: 1px solid #eecaca;
+    }
+
+    .warning-box h2 {
+      color: #8b0000;
+    }
+
+    .rules-list-section {
+      grid-column: span 2;
+      padding: 40px 0;
+    }
+
+    .rules-list-section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+      font-family: var(--font-heading);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .service-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 25px 30px;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      gap: 10px;
+    }
+
+    .service-price {
+      font-weight: 700;
+      color: var(--accent-color);
+      font-size: 1.3rem;
+    }
+
+    .service-name {
+      color: var(--text-main);
+      font-size: 1.1rem;
+    }
+
+    .service-note {
+      text-align: center;
+      font-size: 1rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .rules-premium-box {
+      grid-column: span 2;
+      background: var(--accent-color);
+      color: #fff;
+      padding: 70px;
+      text-align: center;
+      border-radius: 4px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .rules-premium-box h2 {
+      color: #fff;
+      margin-bottom: 25px;
+      font-family: var(--font-heading);
+      font-size: 2.2rem;
+    }
+
+    .rules-premium-box p {
+      max-width: 750px;
+      margin: 0 auto;
+      font-size: 1.3rem;
+      opacity: 0.95;
+      line-height: 1.8;
+    }
+
+    .premium-badge {
+      display: inline-block;
+      background: var(--gold-color);
+      color: #000;
+      padding: 6px 20px;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      margin-bottom: 25px;
+    }
+
+    .rules-footer-info {
+      grid-column: span 2;
+      text-align: center;
+      padding-top: 60px;
+      border-top: 1px solid #eee;
+    }
+
+    .rules-footer-info p {
+      max-width: 800px;
+      margin: 0 auto 50px;
+      font-style: italic;
+      color: var(--text-muted);
+      font-size: 1.15rem;
+    }
+
+    @media screen and (max-width: 992px) {
+      .rules-grid, 
+      .services-grid {
+        display: block !important;
+        width: 100% !important;
+      }
+      
+      .rules-section-full, 
+      .rules-card, 
+      .rules-premium-box {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 20px !important;
+        padding: 30px 15px !important;
+        box-sizing: border-box !important;
+      }
+
+      .rules-hero {
+          height: 35vh;
+          background-attachment: scroll;
+      }
+
+      .hero-title {
+        font-size: 1.8rem;
+      }
+
+      .hero-subtitle {
+        font-size: 0.85rem;
+        padding: 0 10px;
+      }
+
+      .rules-section-full h2 {
+        font-size: 1.6rem !important;
+        margin-bottom: 12px !important;
+      }
+
+      .rules-section-full p {
+        font-size: 1.1rem !important;
+        margin-bottom: 20px !important;
+      }
+
+      .rules-card h3 {
+        font-size: 1.35rem !important;
+        margin-bottom: 10px !important;
+      }
+
+      .rules-card p {
+        font-size: 1.05rem !important;
+      }
+
+      .rules-card-icon {
+        font-size: 30px !important;
+        margin-bottom: 5px !important;
+      }
+
+      .rules-alert {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important;
+        padding: 20px !important;
+        text-align: center !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+      }
+
+      .rules-alert p {
+        font-size: 1rem !important;
+      }
+
+      .service-item {
+        display: flex !important;
+        padding: 15px 20px !important;
+        flex-direction: column !important;
+        text-align: center !important;
+        gap: 5px !important;
+        margin-bottom: 10px !important;
+        border: 1px solid #eee !important;
+      }
+
+      .service-price {
+        font-size: 1.1rem !important;
+        padding-right: 0 !important;
+      }
+
+      .rules-premium-box {
+        padding: 50px 15px !important;
+      }
+
+      .rules-premium-box h2 {
+        font-size: 1.7rem !important;
+        margin-bottom: 15px !important;
+      }
+
+      .rules-premium-box p {
+        font-size: 1.1rem !important;
+        line-height: 1.6 !important;
+      }
+
+      .rules-footer-info {
+        padding: 40px 10px 0 !important;
+        display: block !important;
+        width: 100% !important;
+      }
+
+      .rules-footer-info p {
+        font-size: 1.05rem !important;
+        margin-bottom: 25px !important;
+      }
+    }
+  </style>
+
+  <script>
+    import '../scripts/shared.js';
+    import '../scripts/mobile-nav.js';
+    import '../scripts/parallax.js';
+  </script>
+</BaseLayout>

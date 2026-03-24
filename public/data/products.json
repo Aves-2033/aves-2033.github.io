@@ -86,7 +86,7 @@
     },
     {
         "id": 105,
-        "title": "Узкая норковая горжетка \"Шоколад\"",
+        "title": "Узкая норковая горжетка «Шоколад»",
         "price": 1500,
         "category": "furs",
         "images": [
@@ -2209,16 +2209,15 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272496/aves-web/product_420_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272497/aves-web/product_420_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272498/aves-web/product_420_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272499/aves-web/product_420_4.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272498/aves-web/product_420_3.jpg"
         ],
-        "description": "Пеньюар-накидка. \"Алая\". Подходит для съёмок беременным.",
+        "description": "Пеньюар-накидка. \"Алая\", подходит для съёмок",
         "details": {
             "Тип": "Платье/Пеньюар",
             "Размеры": "38-44",
             "Аренда": "2000 ₽",
             "Залог": "5000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, имеет длинный шлейф"
         },
         "slug": "penyuar-nakidka-alaya"
     },
@@ -2231,16 +2230,15 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272499/aves-web/product_421_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272500/aves-web/product_421_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272501/aves-web/product_421_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272502/aves-web/product_421_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272503/aves-web/product_421_5.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272502/aves-web/product_421_4.jpg"
         ],
-        "description": "Платье \"Вишнёвый вечер\". Подходит для съёмки беременным подходит для съёмок на лошади.",
+        "description": "Платье \"Вишнёвый вечер\". Подходит для съёмок",
         "details": {
             "Тип": "Платье/Пеньюар",
-            "Размеры": "40-46",
+            "Размеры": "40-44",
             "Аренда": "3500 ₽",
             "Залог": "10000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, имеет длинный шлейф, хорошо тянется"
         },
         "slug": "plate-vishnevyy-vecher"
     },
@@ -2250,44 +2248,17 @@
         "price": 3500,
         "category": "fashion",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272504/aves-web/product_422_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272504/aves-web/product_422_2.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272504/aves-web/product_422_1.jpg"
         ],
-        "description": "Платье \"Вишнёвый вечер бархат\". Подходит для съёмки беременным подходит для съёмок на лошади.",
+        "description": "Платье \"Вишнёвый вечер бархат\". Подходит для съемок, имеет длинный шлейф, сшито из бархата",
         "details": {
             "Тип": "Платье/Пеньюар",
-            "Размеры": "40-48",
+            "Размеры": "42-48",
             "Аренда": "3500 ₽",
             "Залог": "10000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, хорошо тянется"
         },
         "slug": "plate-vishnevyy-vecher-barhat"
-    },
-    {
-        "id": 424,
-        "title": "Пеньюар, розовый",
-        "price": 1500,
-        "category": "fashion",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272505/aves-web/product_424_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272506/aves-web/product_424_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272506/aves-web/product_424_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272507/aves-web/product_424_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272508/aves-web/product_424_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272508/aves-web/product_424_6.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272509/aves-web/product_424_7.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272510/aves-web/product_424_8.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272511/aves-web/product_424_9.jpg"
-        ],
-        "description": "Пеньюар. Розовый. Подходит для съёмок беременным.",
-        "details": {
-            "Тип": "Платье/Пеньюар",
-            "Размеры": "38-46-175",
-            "Аренда": "1500 ₽",
-            "Залог": "5000 ₽",
-            "Особенности": "Fashion & Будуар"
-        },
-        "slug": "penyuar-rozovyy"
     },
     {
         "id": 425,
@@ -2298,7 +2269,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272511/aves-web/product_425_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272512/aves-web/product_425_2.jpg"
         ],
-        "description": "Комплект \"Фиолетовые сны\".",
+        "description": "Комплект \"Фиолетовые сны\", юбка сшита из фатина, корсет на косточках, подходит на несколько размером, имеет шнуровку",
         "details": {
             "Тип": "Платье/Пеньюар",
             "Размеры": "38-44-170",
@@ -2310,7 +2281,7 @@
     },
     {
         "id": 426,
-        "title": "Платье в стиле \"Бохо чёрный\"",
+        "title": "Платье в стиле Бохо «Чёрная»",
         "price": 3500,
         "category": "fashion",
         "images": [
@@ -2318,16 +2289,15 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272513/aves-web/product_426_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272514/aves-web/product_426_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272515/aves-web/product_426_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272515/aves-web/product_426_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272516/aves-web/product_426_6.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272515/aves-web/product_426_5.jpg"
         ],
-        "description": "Платье в стиле \"Бохо чёрный\". Италия.",
+        "description": "Платье подходит для съемок и мероприятий. И далее",
         "details": {
             "Тип": "Платье/Пеньюар",
             "Размеры": "42-46-173",
             "Аренда": "3500 ₽",
             "Залог": "10000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, на молнии, нет регулировки"
         },
         "slug": "plate-v-stile-boho-chernyy"
     },
@@ -2338,22 +2308,21 @@
         "category": "fashion",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272517/aves-web/product_427_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272517/aves-web/product_427_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272518/aves-web/product_427_4.jpg"
         ],
-        "description": "Современное платье \"Чёрный фатин\".",
+        "description": "Имеет длинный шлейф, сшито из фатина",
         "details": {
             "Тип": "Платье/Пеньюар",
             "Размеры": "42-46",
             "Аренда": "4000 ₽",
             "Залог": "10000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, регулируется шнуровкой, есть плащ в комплекте"
         },
         "slug": "sovremennoe-plate-chernyy-fatin"
     },
     {
         "id": 428,
-        "title": "Пеньюар черный, не прозрачный",
+        "title": "Пеньюар черный",
         "price": 1500,
         "category": "fashion",
         "images": [
@@ -2362,45 +2331,43 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272520/aves-web/product_428_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272520/aves-web/product_428_4.jpg"
         ],
-        "description": "Пеньюар черный. Не прозрачный. Подходит для съёмок на лошади. Подходит для съёмок беременным.",
+        "description": "Пеньюар черный, не прозрачный. Подходит для съёмок",
         "details": {
             "Тип": "Платье/Пеньюар",
             "Размеры": "44-60-170",
             "Аренда": "1500 ₽",
             "Залог": "5000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, имеет длинный шлейф"
         },
         "slug": "penyuar-chernyy-ne-prozrachnyy"
     },
     {
         "id": 430,
-        "title": "Шикарное платье от Хелен Миллер",
+        "title": "Свадебное вечернее платье \"Хелен Миллер\"",
         "price": 5000,
         "category": "fashion",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272521/aves-web/product_430_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272522/aves-web/product_430_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272522/aves-web/product_430_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272523/aves-web/product_430_6.jpg"
         ],
-        "description": "Шикарное платье от Хелен Миллер. Шлейф 2. 80 метра. Очень широкий. Студия.",
+        "description": "Шикарное платье от Хелен Миллер. Шлейф 2. 80 метра. Очень широкий. Подходит только для съемок в студии, выдается на свадебные фото-сессии в помещении",
         "details": {
             "Тип": "Платье/Пеньюар",
             "Размеры": "44-50",
             "Аренда": "5000 ₽",
             "Залог": "25000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, регулируется шнуровкой"
         },
         "slug": "shikarnoe-plate-ot-helen-miller"
     },
     {
         "id": 431,
-        "title": "Платье в стиле \"Бохо белый\" от VALENTINO Италия",
+        "title": "Платье в стиле Бохо «Белый»",
         "price": 2500,
         "category": "fashion",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272523/aves-web/product_431_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272525/aves-web/product_431_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272525/aves-web/product_431_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272526/aves-web/product_431_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272527/aves-web/product_431_5.jpg",
@@ -2408,31 +2375,13 @@
         ],
         "description": "Платье в стиле \"Бохо белый\" от VALENTINO Италия.",
         "details": {
-            "Тип": "Платье/Пеньюар",
+            "Тип": "Платье",
             "Размеры": "42-46-170",
             "Аренда": "2500 ₽",
             "Залог": "10000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, не регулируется, на молнии"
         },
         "slug": "plate-v-stile-boho-belyy-ot-valentino-italiya"
-    },
-    {
-        "id": 432,
-        "title": "Современное вечернее платье",
-        "price": 2500,
-        "category": "fashion",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272530/aves-web/product_432_1.jpg"
-        ],
-        "description": "Современное вечернее платье.",
-        "details": {
-            "Тип": "Платье/Пеньюар",
-            "Размеры": "40-44-175",
-            "Аренда": "2500 ₽",
-            "Залог": "5000 ₽",
-            "Особенности": "Fashion & Будуар"
-        },
-        "slug": "sovremennoe-vechernee-plate"
     },
     {
         "id": 433,
@@ -2442,35 +2391,34 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272531/aves-web/product_433_1.jpg"
         ],
-        "description": "Платье вечернее.",
+        "description": "Платье вечернее, белое, на одно плечо",
         "details": {
             "Тип": "Платье/Пеньюар",
             "Размеры": "42-44",
             "Аренда": "3000 ₽",
             "Залог": "10000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, на молнии"
         },
         "slug": "plate-vechernee"
     },
     {
         "id": 434,
-        "title": "Пеньюар-накидка, белая",
+        "title": "Пеньюар-накидка, \"Белая\"",
         "price": 1500,
         "category": "fashion",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272532/aves-web/product_434_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272533/aves-web/product_434_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272535/aves-web/product_434_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272536/aves-web/product_434_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272537/aves-web/product_434_5.jpg"
         ],
-        "description": "Пеньюар-накидка. Белая. Подходит для съёмок беременным.",
+        "description": "Пеньюар-накидка \"Белая\". Подходит для фотосессий",
         "details": {
             "Тип": "Платье/Пеньюар",
             "Размеры": "38-46",
             "Аренда": "1500 ₽",
             "Залог": "5000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, длинный шлейф"
         },
         "slug": "penyuar-nakidka-belaya"
     },
@@ -2486,13 +2434,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272540/aves-web/product_435_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272540/aves-web/product_435_6.jpg"
         ],
-        "description": "Будуарное платье \" Белый Ангел\" ручная работа. Сзади регулируется шнуровкой.",
+        "description": "Будуарное платье \" Белый Ангел\" ручная работа. Сзади регулируется шнуровкой, имеет шлейф, прозрачное. Подходит только для фотосессий",
         "details": {
             "Тип": "Платье/Пеньюар",
             "Размеры": "38-44-170",
             "Аренда": "3500 ₽",
             "Залог": "15000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, имеет  шлейф"
         },
         "slug": "buduarnoe-plate-belyy-angel"
     },
@@ -2506,13 +2454,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272542/aves-web/product_436_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272542/aves-web/product_436_3.jpg"
         ],
-        "description": "Платье бархатное \"Средневековье\". Подходит для съёмки беременным. Подходит для съёмок на лошади.",
+        "description": "Платье бархатное \"Средневековье\". Подходит для фотосессий. Подходит для съёмок на лошади, имеет длинный шлейф, хорошо тянется",
         "details": {
             "Тип": "Платье/Пеньюар",
             "Размеры": "42-55",
             "Аренда": "4000 ₽",
             "Залог": "10000 ₽",
-            "Особенности": "Fashion & Будуар"
+            "Особенности": "Fashion & Будуар, длинный шлейф, хорошо тянется"
         },
         "slug": "plate-barhatnoe-srednevekove"
     },
@@ -2527,10 +2475,9 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272544/aves-web/product_437_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272545/aves-web/product_437_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272546/aves-web/product_437_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272546/aves-web/product_437_6.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272547/aves-web/product_437_7.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272546/aves-web/product_437_6.jpg"
         ],
-        "description": "Вечернее платье.",
+        "description": "Вечернее блестящее платье, на молнии",
         "details": {
             "Тип": "Платье/Пеньюар",
             "Размеры": "40-42",
@@ -4008,20 +3955,20 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272754/aves-web/product_701_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272754/aves-web/product_701_7.jpg"
         ],
-        "description": "LUXЕ Костюм серии БОХО \"Ковбойка\". Комплект для верховой езды.",
+        "description": "Luxe Костюм серии БОХО \"Ковбойка\". Комплект для съемок верхом, сшит по дизайну \"Прокат от Кет\", эксклюзив",
         "details": {
             "Тип": "Костюм (комплект)",
             "Размеры": "38-50",
             "Аренда": "7 000 ₽",
             "Залог": "Сопровождение костюмера",
-            "Особенности": "LUXE, БОХО"
+            "Особенности": "LUXE, БОХО, есть два вида блузок, регулируется шнуровкой, всё что на фотографии можно взять в аренду"
         },
         "slug": "kostyum-serii-boho-kovboyka"
     },
     {
         "id": 702,
         "title": "Костюм серии БОХО «Испанка»",
-        "price": 6000,
+        "price": 7000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272756/aves-web/product_702_1.jpg",
@@ -4029,20 +3976,20 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272757/aves-web/product_702_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272758/aves-web/product_702_6.jpg"
         ],
-        "description": "LUXЕ Костюм серии БОХО \"Испанка\". Эффектный образ для фотосессий на лошади.",
+        "description": "Luxe Костюм серии БОХО \"Испанка\". Эффектный образ для фотосессий на лошади и не только. Сшит по эксклюзивному дизайну студии \"Прокат от Кет\"",
         "details": {
             "Тип": "Костюм (комплект)",
             "Размеры": "38-50",
-            "Аренда": "6 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "Сопровождение костюмера",
-            "Особенности": "LUXE, БОХО"
+            "Особенности": "LUXE, БОХО, все что на фото можно взять в аренду, регулируется шнуровкой"
         },
         "slug": "kostyum-serii-boho-ispanka"
     },
     {
         "id": 703,
         "title": "Костюм серии БОХО «Песнь севера»",
-        "price": 6000,
+        "price": 7000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272759/aves-web/product_703_1.jpg",
@@ -4050,19 +3997,19 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272760/aves-web/product_703_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272761/aves-web/product_703_4.jpg"
         ],
-        "description": "LUXЕ Костюм серии БОХО \"Песнь севера\". Аутентичный стиль для верховой езды.",
+        "description": "Luxe Костюм серии БОХО \"Песнь севера\". Сшит по эксклюзивному дизайну студии \"Прокат от Кет\". Подходит для съемок и мероприятий",
         "details": {
             "Тип": "Костюм (комплект)",
             "Размеры": "40-54 (рост 175)",
-            "Аренда": "6 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "Сопровождение костюмера",
-            "Особенности": "LUXE, БОХО"
+            "Особенности": "LUXE, БОХО, корсет регулируется шнуровкой"
         },
         "slug": "kostyum-serii-boho-pesn-severa"
     },
     {
         "id": 704,
-        "title": "Комплект «В стиле бохо», дамское седло",
+        "title": "Комплект «в стиле Бохо»",
         "price": 4000,
         "category": "riding",
         "images": [
@@ -4070,13 +4017,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272762/aves-web/product_704_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272764/aves-web/product_704_3.jpg"
         ],
-        "description": "Комплект \"В стиле бохо\", адаптированный для дамского седла.",
+        "description": "Комплект \"В стиле бохо\", собран из платья, головного убора и украшения для лошади",
         "details": {
             "Тип": "Комплект",
             "Размеры": "40-46 (рост 175)",
             "Аренда": "4 000 ₽",
             "Залог": "Сопровождение",
-            "Особенности": "БОХО, Дамское седло"
+            "Особенности": "БОХО"
         },
         "slug": "komplekt-v-stile-boho-damskoe-sedlo"
     },
@@ -4090,13 +4037,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272766/aves-web/product_705_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272767/aves-web/product_705_3.jpg"
         ],
-        "description": "Классическое платье-амазонка \"Графиня\". В комплекте платье и цилиндр.",
+        "description": "Платье-амазонка в стиле \"Графиня\". Платье регулируется шнуровкой, в комплекте платье и цилиндр.",
         "details": {
             "Тип": "Платье + Цилиндр",
             "Размеры": "40-48 (рост 170)",
             "Аренда": "4 500 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "Классическая амазонка"
+            "Особенности": "В комплекте идёт цилиндр"
         },
         "slug": "plate-amazonka-grafinya"
     },
@@ -4110,12 +4057,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272768/aves-web/product_706_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272769/aves-web/product_706_3.jpg"
         ],
-        "description": "Комплект \"Чёрная амазонка\". Жакет, кофта, юбка, цилиндр и жабо.",
+        "description": "Комплект \"Чёрная амазонка\". Состоит из жакета, кофты, юбки, цилиндра и жабо\nМожно добавить к комплекту перчатки",
         "details": {
             "Тип": "Комплект (5 предметов)",
             "Размеры": "40-44 (рост 170)",
             "Аренда": "5 500 ₽",
-            "Залог": "15 000 ₽"
+            "Залог": "15 000 ₽",
+            "Особенности": "Классический костюм, регулируется по талии"
         },
         "slug": "komplekt-chernaya-amazonka"
     },
@@ -4129,19 +4077,19 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272770/aves-web/product_707_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272771/aves-web/product_707_3.jpg"
         ],
-        "description": "LUXЕ Зимняя амазонка, комплект \"Чёрная леди\". Жакет, кофта, юбка, цилиндр.",
+        "description": "Luxe амазонка, комплект \"Чёрная леди\" состоит из : жакета, кофты, юбки и цилиндра. Можно добавить перчатки",
         "details": {
             "Тип": "Зимний комплект",
             "Размеры": "40-44 (рост 170)",
             "Аренда": "6 000 ₽",
             "Залог": "20 000 ₽",
-            "Особенности": "LUXE"
+            "Особенности": "LUXE, выдерживает мороз до -25"
         },
         "slug": "zimnyaya-amazonka-chernaya-ledi"
     },
     {
         "id": 708,
-        "title": "Винтажный викторианский костюм для верховой езды",
+        "title": "Костюм в стиле викторианской эпохи",
         "price": 5500,
         "category": "riding",
         "images": [
@@ -4149,39 +4097,39 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272773/aves-web/product_708_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272774/aves-web/product_708_3.jpg"
         ],
-        "description": "ПРЕМИУМ Винтажный костюм в викторианском стиле. Отлично подходит для съёмок верхом.",
+        "description": "ПРЕМИУМ Винтажный костюм в стиле викторианской эпохи. Подходит для фотосессий, мероприятий и верховой езды",
         "details": {
             "Тип": "Викторианский костюм",
             "Размеры": "42-50 (рост 170)",
             "Аренда": "5 500 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "ПРЕМИУМ"
+            "Особенности": "ПРЕМИУМ, всё регулируется по размеру, есть плащ накидка"
         },
         "slug": "vintazhnyy-viktorianskiy-kostyum-dlya-verhovoy-ezdy"
     },
     {
         "id": 709,
         "title": "Зимняя амазонка с лисой",
-        "price": 6000,
+        "price": 7000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272774/aves-web/product_709_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272775/aves-web/product_709_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272776/aves-web/product_709_3.jpg"
         ],
-        "description": "LUXЕ Зимняя амазонка с отделкой из лисы. Комплект: жакет, юбка, 2 муфты, шапочка.",
+        "description": "Luxe Зимняя амазонка с отделкой из лисы. Комплект: жакет, юбка, 2 муфты, шапочка.",
         "details": {
             "Тип": "Зимняя амазонка",
             "Размеры": "44-48",
-            "Аренда": "6 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "25 000 ₽",
-            "Особенности": "LUXE, мех лисы"
+            "Особенности": "LUXE, подходит для съемок на улице до -25"
         },
         "slug": "zimnyaya-amazonka-s-lisoy"
     },
     {
         "id": 710,
-        "title": "Английский твидовый редингот",
+        "title": "Комплект в Английском стиле",
         "price": 4500,
         "category": "riding",
         "images": [
@@ -4189,9 +4137,9 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272777/aves-web/product_710_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272779/aves-web/product_710_3.jpg"
         ],
-        "description": "ПРЕМИУМ Английский твидовый редингот горчичного цвета.",
+        "description": "ПРЕМИУМ Английский твидовый редингот горчичного цвета. В комплект входит : твидовый жакет, бриджи, сапоги, перчатки, шляпа на выбор",
         "details": {
-            "Тип": "Редингот",
+            "Тип": "Костюм для верховой езды",
             "Размеры": "40-42",
             "Аренда": "4 500 ₽",
             "Залог": "10 000 ₽",
@@ -4209,7 +4157,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272781/aves-web/product_711_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272781/aves-web/product_711_3.jpg"
         ],
-        "description": "Женский ковбойский костюм \"Чёрный\". Комплект куртка, топ, казаки и шляпа.",
+        "description": "Женский ковбойский костюм \"Чёрный\". Комплект : куртка, топ, казаки и шляпа.",
         "details": {
             "Тип": "Ковбойский костюм",
             "Размеры": "40-44",
@@ -4220,7 +4168,7 @@
     },
     {
         "id": 712,
-        "title": "Шоколадный фрак для выездки Avanti",
+        "title": "Фрак для верховой езды «Шоколадный»",
         "price": 4000,
         "category": "riding",
         "images": [
@@ -4228,9 +4176,9 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272783/aves-web/product_712_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272783/aves-web/product_712_4.jpg"
         ],
-        "description": "ПРЕМИУМ Фрак шоколадный для выступлений по выездке Avanti. Комплект с бриджами, сапогами и цилиндром.",
+        "description": "ПРЕМИУМ Фрак шоколадного цвета для выступлений по выездке, фирмы Avanti. Подходит для съемок и любых мероприятий. Комплект с бриджами, сапогами и цилиндром",
         "details": {
-            "Тип": "Фрак (полный комплект)",
+            "Тип": "Фрак",
             "Размеры": "40-44",
             "Аренда": "4 000 ₽",
             "Залог": "15 000 ₽",
@@ -4240,7 +4188,7 @@
     },
     {
         "id": 713,
-        "title": "Чёрный фрак для выездки Avanti",
+        "title": "Фрак для верховой езды \"Чёрный\"",
         "price": 4500,
         "category": "riding",
         "images": [
@@ -4248,9 +4196,9 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272785/aves-web/product_713_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272786/aves-web/product_713_3.jpg"
         ],
-        "description": "ПРЕМИУМ Фрак чёрный для выступлений по выездке Avanti. Два экземпляра в наличии.",
+        "description": "ПРЕМИУМ Фрак, чёрного цвета для выступлений по выездке фирмы Avanti. Есть в наличии 2 шт. Комплект : бриджи, сапоги, шлем, перчатки, цилиндр",
         "details": {
-            "Тип": "Фрак (полный комплект)",
+            "Тип": "Одежда для верховой езды",
             "Размеры": "40-44",
             "Аренда": "4 500 ₽",
             "Залог": "15 000 ₽",
@@ -4260,16 +4208,16 @@
     },
     {
         "id": 714,
-        "title": "Женский чёрный фрак InterTex",
+        "title": "Фрак для верховой езды, компании InterTex",
         "price": 4500,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272786/aves-web/product_714_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272787/aves-web/product_714_3.jpg"
         ],
-        "description": "Прекрасный женский фрак чёрного цвета от InterTex.",
+        "description": "Прекрасный женский фрак чёрного цвета от InterTex. Комплект с бриджами, сапогами и цилиндром",
         "details": {
-            "Тип": "Фрак",
+            "Тип": "Одежда для верховой езды",
             "Размеры": "40-44",
             "Аренда": "4 500 ₽",
             "Залог": "15 000 ₽"
@@ -4278,7 +4226,7 @@
     },
     {
         "id": 715,
-        "title": "Синий фрак для выездки Pfiff (44-46)",
+        "title": "Фрак для верховой езды \"Синий\" Pfiff",
         "price": 4500,
         "category": "riding",
         "images": [
@@ -4286,7 +4234,7 @@
         ],
         "description": "Фрак синий для выступлений по выездке Pfiff. Комплект: бриджи, фрак, сапоги.",
         "details": {
-            "Тип": "Фрак (полный комплект)",
+            "Тип": "Фрак",
             "Размеры": "44-46",
             "Аренда": "4 500 ₽",
             "Залог": "15 000 ₽"
@@ -4303,9 +4251,9 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272789/aves-web/product_716_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272790/aves-web/product_716_3.jpg"
         ],
-        "description": "Фрак синий для выступлений по выездке Pfiff. Большой размер.",
+        "description": "Фрак синий для выступлений по выездке Pfiff, размер большой. Комплект: бриджи, фрак, сапоги.",
         "details": {
-            "Тип": "Фрак (полный комплект)",
+            "Тип": "Костюм для верховой езды",
             "Размеры": "46-48",
             "Аreнда": "4 500 ₽",
             "Залог": "15 000 ₽"
@@ -4314,7 +4262,7 @@
     },
     {
         "id": 717,
-        "title": "Редингот Felix Bühler «Чёрный»",
+        "title": "Редингот для верховой езды Felix Bühler «Чёрный»",
         "price": 4000,
         "category": "riding",
         "images": [
@@ -4323,9 +4271,9 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272792/aves-web/product_717_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272793/aves-web/product_717_4.jpg"
         ],
-        "description": "Редингот компании Felix Bühler, чёрный. Полный комплект.",
+        "description": "Редингот компании Felix Bühler, чёрный. Подходит для фотосессий, выступлений и т.д. Полный комплект",
         "details": {
-            "Тип": "Редингот (комплект)",
+            "Тип": "Редингот",
             "Размеры": "42-44",
             "Аренда": "4 000 ₽",
             "Залог": "10 000 ₽"
@@ -4334,14 +4282,14 @@
     },
     {
         "id": 718,
-        "title": "Редингот ELT «Чёрный»",
+        "title": "Редингот для верховой езды «Чёрный»",
         "price": 4000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272794/aves-web/product_718_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272794/aves-web/product_718_2.jpg"
         ],
-        "description": "Редингот фирмы ELT, Германия. Чёрный классический стиль.",
+        "description": "Редингот фирмы ELT, Германия. Чёрный классический стиль. Комплект : бриджи, сапоги, шлем, перчатки, шлем",
         "details": {
             "Тип": "Редингот",
             "Размеры": "42-44",
@@ -4352,7 +4300,7 @@
     },
     {
         "id": 719,
-        "title": "Немецкий редингот LIVREEO",
+        "title": "Редингот для верховой езды LIVREEO",
         "price": 4000,
         "category": "riding",
         "images": [
@@ -4360,7 +4308,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272797/aves-web/product_719_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272797/aves-web/product_719_3.jpg"
         ],
-        "description": "Стильный немецкий редингот фирмы \"LIVREEO\".",
+        "description": "Стильный немецкий редингот фирмы \"LIVREEO\". Комплект : бриджи, сапоги, шлем, перчатки, цилиндр. Подходит для фотосессий и мероприятий",
         "details": {
             "Тип": "Редингот",
             "Размеры": "44-46 (рост 170)",
@@ -4371,7 +4319,7 @@
     },
     {
         "id": 720,
-        "title": "Редингот Alexandre Mason «Светло-серый»",
+        "title": "Редингот для верховой езды «Светло-серый»",
         "price": 4500,
         "category": "riding",
         "images": [
@@ -4379,7 +4327,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272799/aves-web/product_720_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272800/aves-web/product_720_3.jpg"
         ],
-        "description": "LUXЕ Стильный редингот Alexandre Mason в светло-сером цвете.",
+        "description": "Luxe Стильный редингот от Alexandre Mason в светло-сером цвете. Комплект : бриджи, сапоги, шлем, перчатки",
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-42",
@@ -4391,7 +4339,7 @@
     },
     {
         "id": 721,
-        "title": "Редингот Alexandre Mason «Сливовый»",
+        "title": "Редингот для верховой езды «Сливовый»",
         "price": 4000,
         "category": "riding",
         "images": [
@@ -4399,7 +4347,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272801/aves-web/product_721_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272802/aves-web/product_721_3.jpg"
         ],
-        "description": "Очень стильный редингот Alexandre Mason уникального сливового цвета.",
+        "description": "Очень стильный редингот от Alexandre Mason уникального сливового цвета. Комплект : бриджи, сапоги, шлем, перчатки, шлем",
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-42",
@@ -4429,7 +4377,7 @@
     },
     {
         "id": 723,
-        "title": "Редингот Horse Pilot «Алый»",
+        "title": "Редингот для верховой езды «Алый»",
         "price": 4000,
         "category": "riding",
         "images": [
@@ -4437,7 +4385,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272806/aves-web/product_723_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272806/aves-web/product_723_3.jpg"
         ],
-        "description": "Стильный редингот Horse Pilot (Франция) алого цвета.",
+        "description": "Стильный редингот от французской компании Horse Pilot алого цвета. Комплект : бриджи, сапоги, шлем, перчатки, цилиндр",
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-42",
@@ -4449,7 +4397,7 @@
     },
     {
         "id": 724,
-        "title": "Красный редингот Avanti",
+        "title": "Редингот для верховой езды \"Красный\"",
         "price": 4000,
         "category": "riding",
         "images": [
@@ -4457,7 +4405,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272808/aves-web/product_724_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272810/aves-web/product_724_3.jpg"
         ],
-        "description": "ПРЕМИУМ Красный редингот компании Avanti.",
+        "description": "Премиальный красный редингот кампании Avanti. Комплект : бриджи, сапоги, шлем, перчатки",
         "details": {
             "Тип": "Редингот",
             "Размеры": "44-46",
@@ -4469,7 +4417,7 @@
     },
     {
         "id": 725,
-        "title": "Небесно-голубой редингот Spooks",
+        "title": "Небесно-голубой редингот от компании Spooks",
         "price": 4500,
         "category": "riding",
         "images": [
@@ -4477,7 +4425,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272811/aves-web/product_725_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272812/aves-web/product_725_3.jpg"
         ],
-        "description": "Прекрасный качественный редингот редкого небесно-голубого цвета от Spooks (Германия).",
+        "description": "Прекрасный качественный редингот редкого небесно-голубого цвета от Spooks (Германия). Небесно-голубой. Комплект с бриджами, сапогами и цилиндром",
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-44",
@@ -7603,7 +7551,7 @@
     {
         "id": 1101,
         "title": "Цилиндр летний с вуалью",
-        "price": 0,
+        "price": 1000,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273146/aves-web/product_1101_1.jpg",
@@ -7612,15 +7560,15 @@
         "description": "Цилиндр летний с вуалью.",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "5000 ₽"
         },
         "slug": "tsilindr-letniy-s-vualyu"
     },
     {
         "id": 1102,
         "title": "Черный выездковый цилиндр",
-        "price": 0,
+        "price": 1000,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273147/aves-web/product_1102_1.jpg",
@@ -7629,8 +7577,8 @@
         "description": "Черный выездковый цилиндр. Размер 54см, 55см. и 58см.",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "5000 ₽"
         },
         "slug": "chernyy-vyezdkovyy-tsilindr"
     },
@@ -7642,11 +7590,11 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273148/aves-web/product_1103_1.jpg"
         ],
-        "description": "шляпка ручной работы к костюму \"Графиня\" Аренда-1500р",
+        "description": "шляпка ручной работы к костюму \"Графиня\" ",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "1 500 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "1500 ₽",
+            "Залог": "3000 ₽"
         },
         "slug": "shlyapka-ruchnoy-raboty-k-kostyumu-grafinya"
     },
@@ -7663,15 +7611,15 @@
         "description": "",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "1000",
-            "Залог": "5000"
+            "Аренда": "1000 ₽",
+            "Залог": "5000 ₽"
         },
         "slug": "tsilindr"
     },
     {
         "id": 1105,
         "title": "Цилиндр ручной работы, коричневый",
-        "price": 0,
+        "price": 1000,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273151/aves-web/product_1105_1.jpg",
@@ -7680,8 +7628,8 @@
         "description": "Цилиндр ручной работы, коричневый.",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "5000 ₽"
         },
         "slug": "tsilindr-ruchnoy-raboty-korichnevyy"
     },
@@ -7706,7 +7654,7 @@
     {
         "id": 1107,
         "title": "кивер",
-        "price": 0,
+        "price": 500,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273155/aves-web/product_1107_1.jpg"
@@ -7714,26 +7662,26 @@
         "description": "кивер",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1000 ₽"
         },
         "slug": "kiver"
     },
     {
         "id": 1108,
-        "title": "Шлемсм",
-        "price": 0,
+        "title": "Шлем",
+        "price": 1000,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273156/aves-web/product_1108_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273157/aves-web/product_1108_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273157/aves-web/product_1108_3.jpg"
         ],
-        "description": "Шлем Размер 57см",
+        "description": "",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "3000 ₽"
         },
         "slug": "shlemsm"
     },
@@ -7750,15 +7698,15 @@
         "description": "",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "1500",
-            "Залог": "5000"
+            "Аренда": "1500 ₽",
+            "Залог": "5000 ₽"
         },
         "slug": "vintazhnaya-shlyapa-s-peryami"
     },
     {
         "id": 1110,
         "title": "фетровая шляпа чёрная",
-        "price": 0,
+        "price": 1000,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273160/aves-web/product_1110_1.jpg"
@@ -7766,15 +7714,15 @@
         "description": "фетровая шляпа чёрная",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "5000 ₽"
         },
         "slug": "fetrovaya-shlyapa-chernaya"
     },
     {
         "id": 1111,
         "title": "Шляпа винтаж",
-        "price": 0,
+        "price": 500,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273161/aves-web/product_1111_1.jpg",
@@ -7784,15 +7732,15 @@
         "description": "Шляпа винтаж",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1000 ₽"
         },
         "slug": "shlyapa-vintazh"
     },
     {
         "id": 1112,
         "title": "Фетровая шляпка с вуалью",
-        "price": 0,
+        "price": 1000,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273163/aves-web/product_1112_1.jpg"
@@ -7800,8 +7748,8 @@
         "description": "Фетровая шляпка с вуалью. Англия, винтаж 80-е.",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "3000 ₽"
         },
         "slug": "fetrovaya-shlyapka-s-vualyu"
     },
@@ -7843,7 +7791,7 @@
     {
         "id": 1115,
         "title": "Ковбойская шляпа",
-        "price": 0,
+        "price": 1000,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273168/aves-web/product_1115_1.jpg"
@@ -7851,8 +7799,8 @@
         "description": "Ковбойская шляпа размер 57",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "2000 ₽"
         },
         "slug": "kovboyskaya-shlyapa-1115"
     },
@@ -7893,7 +7841,7 @@
     {
         "id": 1118,
         "title": "Красная шляпа",
-        "price": 0,
+        "price": 1000,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273170/aves-web/product_1118_1.jpg"
@@ -7901,8 +7849,8 @@
         "description": "Красная шляпа",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "5000 ₽"
         },
         "slug": "krasnaya-shlyapa"
     },
@@ -7942,7 +7890,7 @@
     {
         "id": 1121,
         "title": "шапочка из голубой норки",
-        "price": 0,
+        "price": 1000,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273173/aves-web/product_1121_1.jpg"
@@ -7950,15 +7898,15 @@
         "description": "шапочка из голубой норки",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "3000 ₽"
         },
         "slug": "shapochka-iz-goluboy-norki"
     },
     {
         "id": 1122,
         "title": "шапочка из лисы",
-        "price": 0,
+        "price": 1000,
         "category": "headwear",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273173/aves-web/product_1122_1.jpg"
@@ -7966,8 +7914,8 @@
         "description": "шапочка из лисы",
         "details": {
             "Тип": "Головные уборы",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "3000 ₽"
         },
         "slug": "shapochka-iz-lisy"
     },
@@ -11398,9 +11346,9 @@
     },
     {
         "id": 1611,
-        "title": "Плащ двухсторонний \"Бохо\"",
+        "title": "Плащ двухсторонний «Бохо»",
         "price": 2000,
-        "category": "cloaks",
+        "category": "",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980525/aves-web/pvbo2iphh7aul54p6hth.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980526/aves-web/ihes1cnclsbk86nfexnf.jpg",

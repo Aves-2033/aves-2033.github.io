@@ -12,12 +12,10 @@ const APP_VERSION = '2026.03.20.3';
         const isTelegram = /Telegram/i.test(navigator.userAgent);
         
         if (storedVersion !== APP_VERSION) {
-            // console.log('Detected version mismatch. Clearing old cache...');
             localStorage.removeItem('prokat_ket_products');
             localStorage.setItem('aves_app_version', APP_VERSION);
             
             if (isTelegram) {
-                // console.log('Telegram browser detected. Forcing hard reload...');
                 location.reload(true);
                 return;
             }
