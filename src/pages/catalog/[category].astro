@@ -79,11 +79,24 @@ const combinedSchema = [breadcrumbSchema, itemListSchema];
 // Чтобы модалка на странице категории тоже работала (она зависит от глобального индекса allCards),
 // мы передадим в ProductCard правильный index из ИСХОДНОГО массива products, а не отфильтрованного.
 // Но скрипт catalog-client жестко фильтрует карточки по dataset-category.
+const categoryKeywords: Record<string, string> = {
+  ball: 'бальные платья, вечерние платья, пышные платья, платья 19 век, кринолины',
+  vintage: 'винтажные платья, свадебные платья, ретро платья, 70-е, 60-е',
+  medieval: 'средневековые платья, сказочные образы, косплей, фэнтези костюмы',
+  riding: 'костюмы для верховой езды, амазонки, конные прогулки, исторические костюмы',
+  kimono: 'японские кимоно, юката, азиатские образы, восточные костюмы',
+  ethnic: 'этнические украшения, сари, индийские украшения, бохо стиль',
+  mens: 'мужской гардероб, фраки, сюртуки, мужские исторические костюмы'
+};
+
+const extraKeywords = categoryKeywords[category as string] || '';
+const baseKeywords = 'прокат от Кет, аренда платьев Москва, исторические костюмы';
 ---
 
 <BaseLayout
   title={`${categoryLabel} | Каталог | Прокат от Кет`}
   description={`Аренда: ${categoryLabel}. В наличии ${categoryProducts.length} вариантов для фотосессий и торжеств в Москве.`}
+  keywords={extraKeywords ? `${extraKeywords}, ${baseKeywords}` : baseKeywords}
   canonicalUrl={`https://ketrent.ru/catalog/${category}`}
   schemaJson={combinedSchema}
   currentPage="catalog"
