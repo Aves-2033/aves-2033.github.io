@@ -90,12 +90,12 @@ const categoryKeywords: Record<string, string> = {
 };
 
 const extraKeywords = categoryKeywords[category as string] || '';
-const baseKeywords = 'прокат от Кет, аренда платьев Москва, исторические костюмы';
+const baseKeywords = 'прокат от Кет, аренда платьев Москва, аренда костюмов, прокат костюмов, исторические образы';
 ---
 
 <BaseLayout
-  title={`${categoryLabel} | Каталог | Прокат от Кет`}
-  description={`Аренда: ${categoryLabel}. В наличии ${categoryProducts.length} вариантов для фотосессий и торжеств в Москве.`}
+  title={`Аренда: ${categoryLabel} — Каталог платьев и костюмов | Прокат от Кет`}
+  description={`Аренда и прокат в категории ${categoryLabel}. В нашей коллекции более 400 образов для фотосессий и мероприятий в Москве.`}
   keywords={extraKeywords ? `${extraKeywords}, ${baseKeywords}` : baseKeywords}
   canonicalUrl={`https://ketrent.ru/catalog/${category}`}
   schemaJson={combinedSchema}
@@ -109,7 +109,7 @@ const baseKeywords = 'прокат от Кет, аренда платьев Мо
       <div class="breadcrumbs text-sm text-gray-300 mb-4 inline-block">
         <a href="/catalog" class="hover:text-white transition-colors">← Весь каталог</a>
       </div>
-      <h1 class="hero-title">{categoryLabel}</h1>
+      <h1 class="hero-title">Аренда: {categoryLabel}</h1>
       <p class="hero-subtitle">В наличии {categoryProducts.length} вариантов</p>
     </div>
   </section>

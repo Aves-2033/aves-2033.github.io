@@ -65,7 +65,7 @@ const categories = [
           <div class="catalog-dropdown-menu">
             {categories.map(cat => (
               <a
-                href={cat.slug ? `/catalog?category=${cat.slug}` : '/catalog'}
+                href={cat.slug ? `/catalog/${cat.slug}` : '/catalog'}
                 class="dropdown-item"
               >
                 {cat.label}

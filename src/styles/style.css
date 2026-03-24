@@ -623,6 +623,26 @@ img {
   margin-bottom: 12px;
 }
 
+.footer-links-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 20px;
+}
+
+.footer-links-grid a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-links-grid a:hover {
+  color: var(--gold-color);
+}
+
 .footer-bottom {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
