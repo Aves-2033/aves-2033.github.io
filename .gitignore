@@ -18,3 +18,7 @@ Thumbs.db
 
 # temp images
 public/img/tmp/
+
+# admin panel temp files (from build scripts)
+admin.astro.bak
+api_dir.bak

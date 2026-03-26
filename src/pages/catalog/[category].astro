@@ -15,6 +15,7 @@ const categories = [
   { slug: 'mens', label: 'Мужской Гардероб' },
   { slug: 'accessories', label: 'Аксессуары' },
   { slug: 'ethnic', label: 'Этнические украшения' },
+  { slug: 'ethnic-costumes', label: 'Этнические костюмы' },
   { slug: 'headwear', label: 'Головные Уборы' },
   { slug: 'kimono', label: 'Японские Кимоно' },
   { slug: 'belt-shoes', label: 'Пояса и Обувь' },
@@ -25,7 +26,7 @@ const categories = [
 export async function getStaticPaths() {
   const cats = [
       'furs', 'vintage', 'ball', 'medieval', 'fashion', 'riding', 'mens', 
-      'accessories', 'ethnic', 'headwear', 'kimono', 'belt-shoes', 'gloves-fans', 'cloaks'
+      'accessories', 'ethnic', 'ethnic-costumes', 'headwear', 'kimono', 'belt-shoes', 'gloves-fans', 'cloaks'
   ];
   return cats.map((category) => ({
     params: { category },
@@ -85,7 +86,8 @@ const categoryKeywords: Record<string, string> = {
   medieval: 'средневековые платья, сказочные образы, косплей, фэнтези костюмы',
   riding: 'костюмы для верховой езды, амазонки, конные прогулки, исторические костюмы',
   kimono: 'японские кимоно, юката, азиатские образы, восточные костюмы',
-  ethnic: 'этнические украшения, сари, индийские украшения, бохо стиль',
+  ethnic: 'этнические украшения, индийские украшения, бохо стиль',
+  'ethnic-costumes': 'этнические костюмы, индийские сари, восточные платья, мексиканское платье, бохо платья',
   mens: 'мужской гардероб, фраки, сюртуки, мужские исторические костюмы'
 };
 
@@ -106,8 +108,13 @@ const baseKeywords = 'прокат от Кет, аренда платьев Мо
   <section class="hero catalog-hero">
     <div class="hero-overlay"></div>
     <div class="container hero-container">
-      <div class="breadcrumbs text-sm text-gray-300 mb-4 inline-block">
-        <a href="/catalog" class="hover:text-white transition-colors">← Весь каталог</a>
+      <div class="breadcrumbs mb-6 inline-block">
+        <a href="/catalog" class="btn btn-hero btn-catalog-back">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+          </svg>
+          Весь каталог
+        </a>
       </div>
       <h1 class="hero-title">Аренда: {categoryLabel}</h1>
       <p class="hero-subtitle">В наличии {categoryProducts.length} вариантов</p>
