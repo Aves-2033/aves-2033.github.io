@@ -1,8 +1,11 @@
 # dependencies
 node_modules/
 
-# build output
+# build and cache
 dist/
+.astro/
+.vite/
+tsconfig.tsbuildinfo
 
 # environment
 .env
@@ -15,6 +18,7 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
+*.log
 
 # temp images
 public/img/tmp/
