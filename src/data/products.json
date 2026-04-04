@@ -1394,7 +1394,7 @@
     {
         "id": 330,
         "title": "Бальное платье \"Леди\"",
-        "price": 10000,
+        "price": 12000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272326/aves-web/product_330_2.jpg",
@@ -1410,7 +1410,7 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 172)",
-            "Аренда": "10 000 ₽",
+            "Аренда": "12 000 ₽",
             "Залог": "30 000 ₽",
             "Особенности": "LUXE, плотный кринолин стоимость 500 ₽. Можно добавить нижнюю юбку для объема. Бальное платье регулируется шнуровкой."
         },
@@ -4094,8 +4094,7 @@
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272772/aves-web/product_708_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272773/aves-web/product_708_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272774/aves-web/product_708_3.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272773/aves-web/product_708_2.jpg"
         ],
         "description": "Премиальный винтажный костюм в викторианском стиле. Регулируется по",
         "details": {
@@ -4212,8 +4211,7 @@
         "price": 4500,
         "category": "riding",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272786/aves-web/product_714_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272787/aves-web/product_714_3.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272786/aves-web/product_714_1.jpg"
         ],
         "description": "Элегантный женский фрак чёрного цвета от компании InterTex. В комплекте: фрак, бриджи, сапоги и цилиндр.",
         "details": {
@@ -4243,7 +4241,7 @@
     },
     {
         "id": 716,
-        "title": "Фрак для верховой езды «Синий» (Pfiff, 46-48)",
+        "title": "Фрак для верховой езды «Синий»",
         "price": 4500,
         "category": "riding",
         "images": [
@@ -4305,7 +4303,6 @@
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272795/aves-web/product_719_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272797/aves-web/product_719_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272797/aves-web/product_719_3.jpg"
         ],
         "description": "Стильный немецкий редингот фирмы Livreeo. В комплекте: редингот, бриджи, сапоги, шлем, перчатки и цилиндр.",
@@ -4344,8 +4341,7 @@
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272801/aves-web/product_721_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272801/aves-web/product_721_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272802/aves-web/product_721_3.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272801/aves-web/product_721_2.jpg"
         ],
         "description": "Стильный редингот фирмы Alexandre Mason уникального сливового цвета. В комплекте: редингот, бриджи, сапоги, шлем и перчатки.",
         "details": {
@@ -4417,7 +4413,7 @@
     },
     {
         "id": 725,
-        "title": "Редингот для верховой езды «Небесно-голубой» (Spooks)",
+        "title": "Редингот для верховой езды «Небесно-голубой»",
         "price": 4500,
         "category": "riding",
         "images": [
@@ -4437,15 +4433,14 @@
     },
     {
         "id": 801,
-        "title": "Красный камзол в комплекте",
+        "title": "Костюм с красным камзолом",
         "price": 5000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272813/aves-web/product_801_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272813/aves-web/product_801_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272814/aves-web/product_801_3.jpg"
         ],
-        "description": "Комплект: камзол, белая рубашка, брюки, белые перчатки. Алексеевская",
+        "description": "Комплект: камзол, белая рубашка, брюки, белые перчатки. Находится в филиале на м. Алексеевская (фотостудия \"Граф\")",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "46-52-185",
@@ -4457,7 +4452,7 @@
     },
     {
         "id": 802,
-        "title": "Стилизация на европейское возрождение",
+        "title": "Мужской костюм в стиле европейского возраждения",
         "price": 5000,
         "category": "mens",
         "images": [
@@ -4465,7 +4460,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272815/aves-web/product_802_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272816/aves-web/product_802_4.jpg"
         ],
-        "description": "LUXE *№2 Стилизация на европейское возрождение. Комплект из жакета, штанов, берета, чёрной рубашки, чёрных гольфов и чёрных кожаных туфель размера 41. Шилось под влиянием \"Отблесков Этерны\". Штаны и куртка с буффами. Вероятно, пойдет и на Ваху или Испанию 16 века",
+        "description": "Стилизация на европейское возрождение. Комплект из жакета, штанов, берета, чёрной рубашки, чёрных гольфов и чёрных кожаных туфель размера 41. Шилось под влиянием \"Отблесков Этерны\". Штаны и куртка с буффами. Вероятно, пойдет и на Ваху или Испанию 16 века",
         "details": {
             "Тип": "Мужской гардероб",
             "Особенности": "LUXE",
@@ -4477,28 +4472,27 @@
     },
     {
         "id": 803,
-        "title": "Стилизация на 18 век",
+        "title": "Мужской костюм \"Граф\"",
         "price": 5000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272817/aves-web/product_803_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272818/aves-web/product_803_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272819/aves-web/product_803_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272819/aves-web/product_803_4.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272819/aves-web/product_803_3.jpg"
         ],
-        "description": "ПРЕМИУМ *№3 Стилизация на 18 век. Комплект: камзол, жилет, бриджи. Камзол из полушерстяной костюмной ткани. Алексеевская",
+        "description": "Стилизация на 18 век. Комплект: камзол, жилет, бриджи. Камзол из полушерстяной костюмной ткани. Находится в филиале на м. Алексеевская (фотостудия \"Граф\")",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "50-54-190",
             "Аренда": "5 000 ₽",
             "Залог": "17 000 ₽",
-            "Особенности": "ПРЕМИУМ"
+            "Особенности": "LUXE"
         },
         "slug": "stilizatsiya-na-18-vek"
     },
     {
         "id": 804,
-        "title": "Мужской костюм на 18 век",
+        "title": "Мужской костюм \"Маркиз\"",
         "price": 5000,
         "category": "mens",
         "images": [
@@ -4508,19 +4502,19 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272822/aves-web/product_804_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272823/aves-web/product_804_5.jpg"
         ],
-        "description": "Комплект: камзол, жилет, бриджи, белая рубашка, белое жабо с брошью, белые гольфы, туфли до 41",
+        "description": "Костюм стилизован под 18 век. Комплект: камзол, жилет, бриджи, белая рубашка, белое жабо с брошью, белые гольфы, туфли до 41. Находится в филиале на м. Алексеевская (фотостудия \"Граф\")",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "46-48-185",
             "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "ПРЕМИУМ"
+            "Особенности": "LUXE"
         },
         "slug": "muzhskoy-kostyum-na-18-vek"
     },
     {
         "id": 805,
-        "title": "Мужская рубашка 160-е",
+        "title": "Мужская рубашка",
         "price": 1500,
         "category": "mens",
         "images": [
@@ -4528,7 +4522,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272825/aves-web/product_805_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272825/aves-web/product_805_3.jpg"
         ],
-        "description": "Несколько штук",
+        "description": "Различные рубашки. Несколько штук",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "60-179",
@@ -4539,7 +4533,7 @@
     },
     {
         "id": 806,
-        "title": "Праздничный \"Золотой\" индийский костюм",
+        "title": "Индийский праздничный костюм \"Золотой\"",
         "price": 5500,
         "category": "mens",
         "images": [
@@ -4547,19 +4541,19 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272827/aves-web/product_806_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272827/aves-web/product_806_3.jpg"
         ],
-        "description": "LUXE *№6 Праздничный \"Золотой\",индийский костюм. В комплекте: верх, штаны, шарф, можно на 48 без животика",
+        "description": "Праздничный индийский (восточный) костюм. В комплекте: верх, штаны, шарф",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "44-46",
             "Аренда": "5 500 ₽",
             "Залог": "25 000 ₽",
-            "Особенности": "LUXE"
+            "Особенности": "LUXE, можно на 48, если нет большого животика"
         },
         "slug": "prazdnichnyy-zolotoy-indiyskiy-kostyum"
     },
     {
         "id": 807,
-        "title": "Мужской, свадебный Индийский костюм \"Светлый\"",
+        "title": "Свадебный Индийский костюм \"Светлый\"",
         "price": 5000,
         "category": "mens",
         "images": [
@@ -4571,7 +4565,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272834/aves-web/product_807_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272834/aves-web/product_807_7.jpg"
         ],
-        "description": "№7 Мужской, свадебный Индийский костюм \"Светлый\". В комплекте: верх, штаны, шарф, обувь, головной убор.",
+        "description": "Свадебный Индийский костюм. В комплекте: верх, штаны, шарф, обувь, головной убор.",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "46-48",
@@ -4582,7 +4576,7 @@
     },
     {
         "id": 808,
-        "title": "Мужской, свадебный Индийский костюм \"Эконом\"",
+        "title": "Праздничный Индийский костюм \"Махараджи\"",
         "price": 4000,
         "category": "mens",
         "images": [
@@ -4592,12 +4586,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272837/aves-web/product_808_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272839/aves-web/product_808_5.jpg"
         ],
-        "description": "№8 Мужской, свадебный Индийский костюм \"Эконом\". В комплекте: верх и штаны. Полуобхват груди 55см, длина 120см",
+        "description": "Мужской, праздничный Индийский костюм. В комплекте: верх и штаны.",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "46-50",
             "Аренда": "4 000 ₽",
-            "Залог": "15 000 ₽"
+            "Залог": "15 000 ₽",
+            "Особенности": "Полуобхват груди 55см, длина 120см. Подходит на высокий рост"
         },
         "slug": "muzhskoy-svadebnyy-indiyskiy-kostyum-ekonom"
     },
@@ -4612,7 +4607,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272841/aves-web/product_810_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272841/aves-web/product_810_4.jpg"
         ],
-        "description": "№10 Шёлковое коричневое кимоно. Длина 137см, размах 134см",
+        "description": "Шёлковое коричневое кимоно. Длина 137см, размах 134см",
         "details": {
             "Тип": "Мужской гардероб",
             "Аренда": "3 000 ₽",
@@ -4622,8 +4617,8 @@
     },
     {
         "id": 811,
-        "title": "Мужское антикварное кимоно из японского шёлка, чёрное",
-        "price": 0,
+        "title": "Мужское кимоно из японского шёлка, чёрное",
+        "price": 3500,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272842/aves-web/product_811_1.jpg",
@@ -4632,33 +4627,35 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272844/aves-web/product_811_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272845/aves-web/product_811_5.jpg"
         ],
-        "description": "Длина 135см, размах рукавов 134см, передняя планка 25см",
+        "description": "Антикварное кимоно из японского шёлка. ",
         "details": {
-            "Тип": "Мужской гардероб"
+            "Тип": "Мужской гардероб",
+            "Размер": "Длина 135см, размах рукавов 134см, передняя планка 25см"
         },
         "slug": "muzhskoe-antikvarnoe-kimono-iz-yaponskogo-shelka-chernoe"
     },
     {
         "id": 812,
-        "title": "Зелёное кимоно",
+        "title": "Мужское кимоно \"Зелёное\"",
         "price": 3500,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272847/aves-web/product_812_1.jpg"
         ],
-        "description": "ПРЕМИУМ №12 Зелёное кимоно. Шерсть цумуги. Длина кимоно 137см, размах рукавов 131см",
+        "description": "Винтажное кимоно из шерсти цумуги",
         "details": {
             "Тип": "Мужской гардероб",
             "Аренда": "3 500 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "ПРЕМИУМ"
+            "Особенности": "ПРЕМИУМ",
+            "Размер": "Длина кимоно 137см, размах рукавов 131см"
         },
         "slug": "zelenoe-kimono"
     },
     {
         "id": 813,
-        "title": "Шёлковое серое кимоно",
-        "price": 3000,
+        "title": "Мужское кимоно \"Серое\"",
+        "price": 3500,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272847/aves-web/product_813_1.jpg",
@@ -4666,17 +4663,18 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272848/aves-web/product_813_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272849/aves-web/product_813_4.jpg"
         ],
-        "description": "№13 Шёлковое серое кимоно. Цумуги. Длина 140см, размах 138см",
+        "description": "Шёлковое серое кимоно из шерсти цумуги",
         "details": {
             "Тип": "Мужской гардероб",
             "Аренда": "3 000 ₽",
-            "Залог": "10 000 ₽"
+            "Залог": "10 000 ₽",
+            "Размер": "Длина 140см, размах 138см"
         },
         "slug": "shelkovoe-seroe-kimono"
     },
     {
         "id": 814,
-        "title": "Мужское синее кимоно, 6 предметов",
+        "title": "Мужское кимоно \"Синее\"",
         "price": 3000,
         "category": "mens",
         "images": [
@@ -4688,7 +4686,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272854/aves-web/product_814_7.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272855/aves-web/product_814_8.jpg"
         ],
-        "description": "Япония",
+        "description": "Винтажное кимоно \"Синее\" из шёлка",
         "details": {
             "Тип": "Мужской гардероб",
             "Аренда": "3 000 ₽",
@@ -4698,7 +4696,7 @@
     },
     {
         "id": 815,
-        "title": "Мужское хлопковое кимоно",
+        "title": "Мужское кимоно их хлопка",
         "price": 2500,
         "category": "mens",
         "images": [
@@ -4716,7 +4714,7 @@
     },
     {
         "id": 816,
-        "title": "Чёрное мужское кимоно",
+        "title": "Мужское кимоно \"Черное\"",
         "price": 3500,
         "category": "mens",
         "images": [
@@ -4726,7 +4724,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272862/aves-web/product_816_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272863/aves-web/product_816_5.jpg"
         ],
-        "description": "№16 Чёрное мужское кимоно. Длина 137см",
+        "description": "Чёрное винтажное кимоно из шёлка. Япония. Длина 137см",
         "details": {
             "Тип": "Мужской гардероб",
             "Аренда": "3 500 ₽",
@@ -4736,13 +4734,13 @@
     },
     {
         "id": 817,
-        "title": "Чёрное шёлковое кимоно на низкий рост",
+        "title": "Мужское кимоно \"Черное\"",
         "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272864/aves-web/product_817_1.jpg"
         ],
-        "description": "№17 Чёрное шёлковое кимоно на низкий рост",
+        "description": "Кимоно из чёрного шёлка, подходит на низкий рост. Япония",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "44-48-160",
@@ -4753,7 +4751,7 @@
     },
     {
         "id": 818,
-        "title": "Шёлковое чёрное кимоно",
+        "title": "Шёлковое кимоно \"Чёрное\"",
         "price": 3000,
         "category": "mens",
         "images": [
@@ -4761,7 +4759,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272866/aves-web/product_818_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272867/aves-web/product_818_3.jpg"
         ],
-        "description": "№18 Шёлковое чёрное кимоно. Длина 130см, размах 131см",
+        "description": "Чёрное кимоно из японского шёлка. Длина 130см, размах 131см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
             "Аренда": "3 000 ₽",
@@ -4778,7 +4776,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272867/aves-web/product_819_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272868/aves-web/product_819_2.jpg"
         ],
-        "description": "Размер 136 по груди, 130см длина изделия, XXL",
+        "description": "Размер 136 по груди, 130см длина изделия, XXL. Китай",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "136 по груди",
@@ -4788,81 +4786,63 @@
         "slug": "muzhskoy-halat-s-drakonami"
     },
     {
-        "id": 820,
-        "title": "Китайское хаори чёрное с серым",
-        "price": 1000,
-        "category": "mens",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272868/aves-web/product_820_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272870/aves-web/product_820_2.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Мужской гардероб",
-            "Размеры": "XXL",
-            "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
-        },
-        "slug": "kitayskoe-haori-chernoe-s-serym"
-    },
-    {
         "id": 821,
-        "title": "Китайское хаори",
-        "price": 1500,
+        "title": "Мужское хаори \"Дракон\"",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272871/aves-web/product_821_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272872/aves-web/product_821_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Китай",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "XL",
-            "Аренда": "1 500 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "3000 ₽",
+            "Залог": "10000 ₽"
         },
         "slug": "kitayskoe-haori"
     },
     {
         "id": 822,
         "title": "Китайское хаори с драконом",
-        "price": 1500,
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272873/aves-web/product_822_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272874/aves-web/product_822_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Хаори с драконом. Китай",
         "details": {
             "Тип": "Мужской гардероб",
-            "Размеры": "6XL Аренда-1500 Залог-3000",
-            "Аренда": "1 500 ₽",
-            "Залог": "3 000 ₽"
+            "Размеры": "6XL",
+            "Аренда": "3000 ₽",
+            "Залог": "10000 ₽"
         },
         "slug": "kitayskoe-haori-s-drakonom"
     },
     {
         "id": 824,
-        "title": "Винтажное Хаори из шёлка",
-        "price": 2000,
+        "title": "Комплект, Хаори + Кимоно",
+        "price": 5000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272875/aves-web/product_824_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272875/aves-web/product_824_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272876/aves-web/product_824_4.jpg"
         ],
-        "description": "Имеет красивый рисунок на подкладке. Цвет-коричневый. Длина 86см, размах рукавов 132см",
+        "description": "Комплект коричневого хаори и кимоно коричневого цвета. Имеет красивый рисунок на подкладке. Китай",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "2 000 ₽",
-            "Залог": "10 000 ₽"
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽"
         },
         "slug": "vintazhnoe-haori-iz-shelka-824"
     },
     {
         "id": 825,
-        "title": "Винтажное мужское Хаори из Японии",
-        "price": 0,
+        "title": "Мужское Хаори",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272876/aves-web/product_825_1.jpg",
@@ -4870,15 +4850,17 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272878/aves-web/product_825_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272878/aves-web/product_825_5.jpg"
         ],
-        "description": "Шёлк в отличном состоянии. Красивая роспись на шёлковом подкладке. Цвет земляной. Длина 93см, размах рукавов 140см",
+        "description": "Винтажное мужское хаори в отличном состоянии. Красивая роспись на шёлковом подкладке. Цвет земляной. Длина 93см, размах рукавов 140см. Япония",
         "details": {
-            "Тип": "Мужской гардероб"
+            "Тип": "Мужской гардероб",
+            "Аренда": "3000 ₽",
+            "Залог": "10000 ₽"
         },
         "slug": "vintazhnoe-muzhskoe-haori-iz-yaponii"
     },
     {
         "id": 826,
-        "title": "Комплект для мужчины из зелёного кимоно и Хаори",
+        "title": "Комплект из зелёного Хаори + Кимоно",
         "price": 5000,
         "category": "mens",
         "images": [
@@ -4889,7 +4871,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272881/aves-web/product_826_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272882/aves-web/product_826_6.jpg"
         ],
-        "description": "Шерсть цумуги. Длина кимоно 137см, размах рукавов 131см. Длина хаори 86см, размах рукавов 133см",
+        "description": "Комплект выполнен из японской шерсти цумуги. Длина кимоно 137см, размах рукавов 131см. Длина хаори 86см, размах рукавов 133см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
             "Аренда": "5 000 ₽",
@@ -4900,27 +4882,25 @@
     },
     {
         "id": 827,
-        "title": "Винтажное Хаори из шёлка",
-        "price": 2500,
+        "title": "Мужское Хаори",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272882/aves-web/product_827_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272883/aves-web/product_827_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272884/aves-web/product_827_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272884/aves-web/product_827_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272885/aves-web/product_827_5.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272884/aves-web/product_827_3.jpg"
         ],
-        "description": "Имеет красивый рисунок на подкладке в виде орла",
+        "description": "Винтажное Хаори из японского шёлка. Имеет красивый рисунок на подкладке в виде орла. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "2 500 ₽",
-            "Залог": "10 000 ₽"
+            "Аренда": "3000 ₽",
+            "Залог": "10000 ₽"
         },
         "slug": "vintazhnoe-haori-iz-shelka-827"
     },
     {
         "id": 828,
-        "title": "Мужское кимоно+джюбан (синее, шерсть)-8 предметов",
+        "title": "Комплект Хаори + Кимоно",
         "price": 5000,
         "category": "mens",
         "images": [
@@ -4931,12 +4911,12 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272889/aves-web/product_828_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272889/aves-web/product_828_7.jpg"
         ],
-        "description": "ПРЕМИУМ №29 Мужское кимоно+джюбан (синее, шерсть)-8 предметов. Япония, г.Киото",
+        "description": "Мужское кимоно и хаори. Выполнено из японской шерсти, синего цвета. Япония, г.Киото",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "52",
             "Аренда": "5 000 ₽",
-            "Залог": "10 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
         "slug": "muzhskoe-kimono-dzhyuban-sinee-sherst-8-predmetov"
@@ -4944,7 +4924,7 @@
     {
         "id": 829,
         "title": "Шёлковое хаори \"Синее\"",
-        "price": 1500,
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272890/aves-web/product_829_6.jpg",
@@ -4956,60 +4936,62 @@
         "description": "№30 Шёлковое хаори \"Синее\"",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "1 500 ₽",
-            "Залог": "5 000 ₽"
+            "Аренда": "3000 ₽",
+            "Залог": "10000 ₽"
         },
         "slug": "shelkovoe-haori-sinee"
     },
     {
         "id": 830,
         "title": "Винтажное мужское хаори из японской шерсти",
-        "price": 0,
+        "price": 3000,
         "category": "mens",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272894/aves-web/product_830_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272894/aves-web/product_830_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272895/aves-web/product_830_3.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272896/aves-web/product_830_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272895/aves-web/product_830_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272896/aves-web/product_830_5.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272894/aves-web/product_830_2.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272894/aves-web/product_830_1.jpg"
         ],
-        "description": "Состояние нового. Длина 75см, размах рукавов 138см",
+        "description": "Состояние новое. Длина 75см, размах рукавов 138см",
         "details": {
             "Тип": "Мужской гардероб",
-            "Особенности": "LUXE"
+            "Особенности": "LUXE",
+            "Аренда": "3000 ₽",
+            "Залог": "10000 ₽"
         },
         "slug": "vintazhnoe-muzhskoe-haori-iz-yaponskoy-shersti"
     },
     {
         "id": 831,
-        "title": "Шёлковое удлиненное Хаори \"Тёмно-серое\"",
-        "price": 1500,
+        "title": "Комплект Кимоно + Хаори \"Тёмно-серый\"",
+        "price": 5000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272897/aves-web/product_831_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272897/aves-web/product_831_2.jpg"
         ],
-        "description": "№32 Шёлковое удлиненное Хаори \"Тёмно-серое\". Длина 104см, размах 138см",
+        "description": "Шёлковое удлиненное Хаори, поверх кимоно тёмно-серого цвета. Длина 104см, размах 138см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "1 500 ₽",
-            "Залог": "5 000 ₽"
+            "Аренда": "5 500 ₽",
+            "Залог": "15 000 ₽"
         },
         "slug": "shelkovoe-udlinennoe-haori-temno-seroe"
     },
     {
         "id": 832,
         "title": "Винтажное Хаори из шёлка",
-        "price": 2500,
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272898/aves-web/product_832_1.jpg"
         ],
-        "description": "Имеет красивый рисунок на подкладке. Длина 97см, размах рукавов 137см",
+        "description": "Имеет красивый рисунок на подкладке с орлами. Длина 97см, размах рукавов 137см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "2 500 ₽",
-            "Залог": "10 000 ₽",
+            "Аренда": "3000 ₽",
+            "Залог": "10000 ₽",
             "Особенности": "LUXE"
         },
         "slug": "vintazhnoe-haori-iz-shelka-832"
@@ -5017,140 +4999,142 @@
     {
         "id": 833,
         "title": "Винтажное шёлковое Хаори",
-        "price": 2500,
+        "price": 3000,
         "category": "mens",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272899/aves-web/product_833_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272899/aves-web/product_833_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272900/aves-web/product_833_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272900/aves-web/product_833_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272901/aves-web/product_833_5.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272900/aves-web/product_833_3.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272901/aves-web/product_833_5.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272899/aves-web/product_833_1.jpg"
         ],
-        "description": "№34 Винтажное шёлковое Хаори. Длина 98см, размах 134см",
+        "description": "Винтажное шёлковое Хаори из японского шёлка. Длина 98см, размах 134см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "2 500 ₽",
-            "Залог": "10 000 ₽"
+            "Аренда": "3000 ₽",
+            "Залог": "10000 ₽"
         },
         "slug": "vintazhnoe-shelkovoe-haori"
     },
     {
         "id": 835,
         "title": "Шёлковое хаори \"Чёрное\"",
-        "price": 1500,
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272902/aves-web/product_835_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272902/aves-web/product_835_2.jpg"
         ],
-        "description": "ПРЕМИУМ *№36 Шёлковое хаори \"Чёрное\"",
+        "description": "Шёлковое хаори из японского шелка, винтаж. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "1 500 ₽",
-            "Залог": "5 000 ₽",
+            "Аренда": "3000 ₽",
+            "Залог": "10000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
         "slug": "shelkovoe-haori-chernoe"
     },
     {
         "id": 836,
-        "title": "Красивое нижнее винтажное кимоно из шелка",
-        "price": 1000,
+        "title": "Мужской Джубан",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272903/aves-web/product_836_1.jpg"
         ],
-        "description": "Длина 140см, размах рукавов 144см",
+        "description": "Красивое нижнее винтажное кимоно из японского шелка. Длина 140см, размах рукавов 144см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "krasivoe-nizhnee-vintazhnoe-kimono-iz-shelka"
     },
     {
         "id": 837,
-        "title": "Винтажный мужской джубан, синтетика",
-        "price": 1500,
+        "title": "Мужской Джубан",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272904/aves-web/product_837_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Винтажный мужской джубан из синтетики",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "1 500 ₽",
-            "Залог": "5 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "vintazhnyy-muzhskoy-dzhuban-sintetika"
     },
     {
         "id": 838,
-        "title": "Винтажный мужской джубан, шерсть",
-        "price": 1500,
+        "title": "Мужской джубан из шерсти",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272904/aves-web/product_838_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272905/aves-web/product_838_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Винтажный мужской джубан из японской шерсти. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "1 500 ₽",
-            "Залог": "5 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "vintazhnyy-muzhskoy-dzhuban-sherst"
     },
     {
         "id": 839,
-        "title": "Прекрасное японское нижнее кимоно",
-        "price": 0,
+        "title": "Мужское кимоно",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272905/aves-web/product_839_1.jpg"
         ],
-        "description": "Японский шёлк. Длина 130см",
+        "description": "Прекрасное японское нижнее кимоно из японского шелка. Длина 130см",
         "details": {
-            "Тип": "Мужской гардероб"
+            "Тип": "Мужской гардероб",
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "prekrasnoe-yaponskoe-nizhnee-kimono"
     },
     {
         "id": 840,
-        "title": "Винтажный мужской джубан, шерсть",
-        "price": 1500,
+        "title": "Джубан мужской из шерсти",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272906/aves-web/product_840_1.jpg"
         ],
-        "description": "Длина 138см, размах 135см",
+        "description": "Винтажный мужской джубан из японской шерсти. Длина 138см, размах 135см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "1 500 ₽",
-            "Залог": "5 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "vintazhnyy-muzhskoy-dzhuban-sherst-840"
     },
     {
         "id": 841,
-        "title": "Винтажный мужской джубан, шерсть",
-        "price": 1500,
+        "title": "Мужской джубан из шерсти",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272907/aves-web/product_841_1.jpg"
         ],
-        "description": "Длина 138см, размах 130см",
+        "description": "Винтажный мужской джубан из японской шерсти. Длина 138см, размах 130см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "1 500 ₽",
-            "Залог": "5 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "vintazhnyy-muzhskoy-dzhuban-sherst-841"
     },
     {
         "id": 842,
-        "title": "Очень мягкий мужской джубан из японской шерсти",
-        "price": 2500,
+        "title": "Мужской джубан",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272907/aves-web/product_842_8.jpg",
@@ -5160,46 +5144,46 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272911/aves-web/product_842_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272912/aves-web/product_842_7.jpg"
         ],
-        "description": "Длина 154см, размах рукавов 156см",
+        "description": "Очень мягкий мужской джубан из японской шерсти. Длина 154см, размах рукавов 156см",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "2 500 ₽",
-            "Залог": "8 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "ochen-myagkiy-muzhskoy-dzhuban-iz-yaponskoy-shersti"
     },
     {
         "id": 843,
-        "title": "Винтажный мужской джубан, синтетика",
-        "price": 1500,
+        "title": "Мужской джубан",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272913/aves-web/product_843_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Винтажный мужской джубан, синтетика. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "1 500 ₽",
-            "Залог": "5 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "vintazhnyy-muzhskoy-dzhuban-sintetika-843"
     },
     {
         "id": 844,
-        "title": "Хакама из искусственного шелка \"Молочная\"",
+        "title": "Хакама мужская \"Молочная\"",
         "price": 1500,
         "category": "mens",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272913/aves-web/product_844_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272914/aves-web/product_844_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272915/aves-web/product_844_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272915/aves-web/product_844_4.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272915/aves-web/product_844_3.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272913/aves-web/product_844_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272917/aves-web/product_844_5.jpg"
         ],
-        "description": "ПРЕМИУМ №45 Хакама из искусственного шелка \"Молочная\". Длина 91см",
+        "description": "Хакама из искусственного шелка молочного цвета. Длина 91см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "1 500 ₽",
+            "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
@@ -5207,20 +5191,19 @@
     },
     {
         "id": 845,
-        "title": "Хакама из искусственного шелка \"Золотой рисунок\"",
-        "price": 2500,
+        "title": "Мужская Хакама \"Золотой рисунок\"",
+        "price": 3000,
         "category": "mens",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272918/aves-web/product_845_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272918/aves-web/product_845_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272919/aves-web/product_845_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272920/aves-web/product_845_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272921/aves-web/product_845_5.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272919/aves-web/product_845_3.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272918/aves-web/product_845_1.jpg"
         ],
-        "description": "LUXE *№46 Хакама из искусственного шелка \"Золотой рисунок\". Длина 80см",
+        "description": "Хакама из искусственного шелка с золотым рисунком. Длина 80см",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "2 500 ₽",
+            "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "LUXE"
         },
@@ -5228,16 +5211,16 @@
     },
     {
         "id": 846,
-        "title": "Хакама из парчи\"Золотые линии\"",
-        "price": 2000,
+        "title": "Мужская хакама из парчи \"Золотые линии\"",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272922/aves-web/product_846_1.jpg"
         ],
-        "description": "LUXE *№47 Хакама из парчи\"Золотые линии\". Длина 75см",
+        "description": "Хакама из парчи \"Золотые линии\". Длина 75см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "2 000 ₽",
+            "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "LUXE"
         },
@@ -5245,43 +5228,45 @@
     },
     {
         "id": 847,
-        "title": "Мужская винтажная хакама, тип \"уманори\"",
-        "price": 1500,
+        "title": "Мужская Хакама \"Уманори\"",
+        "price": 3000,
         "category": "mens",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272923/aves-web/product_847_1.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272925/aves-web/product_847_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272924/aves-web/product_847_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272925/aves-web/product_847_3.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272923/aves-web/product_847_1.jpg"
         ],
-        "description": "Шёлк \"Землистый\"",
+        "description": "Мужская винтажная хакама из шёлка, тип \"уманори\". Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "1 500 ₽",
+            "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
         "slug": "muzhskaya-vintazhnaya-hakama-tip-umanori"
     },
     {
         "id": 849,
-        "title": "Антикварная мужская хакама Плотный шёлк в рубчик",
-        "price": 0,
+        "title": "Мужская Антикварная Хакама",
+        "price": 3000,
         "category": "mens",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272926/aves-web/product_849_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272926/aves-web/product_849_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272927/aves-web/product_849_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272927/aves-web/product_849_4.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272926/aves-web/product_849_2.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272927/aves-web/product_849_4.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272926/aves-web/product_849_1.jpg"
         ],
-        "description": "Длина 86см",
+        "description": "Антикварная мужская Хакама Плотный шёлк в рубчик. Длина 86см. Япония",
         "details": {
-            "Тип": "Мужской гардероб"
+            "Тип": "Мужской гардероб",
+            "Аренда": "3000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "antikvarnaya-muzhskaya-hakama-plotnyy-shelk-v-rubchik"
     },
     {
         "id": 850,
-        "title": "Хакама из искусственного шелка \"Перламутровая\"",
-        "price": 2000,
+        "title": "Мужская Хакама \"Перламутровая\"",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272928/aves-web/product_850_2.jpg",
@@ -5290,10 +5275,10 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272930/aves-web/product_850_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272931/aves-web/product_850_6.jpg"
         ],
-        "description": "LUXE *№51 Хакама из искусственного шелка \"Перламутровая\". Длина 93см",
+        "description": "Хакама из искусственного шелка \"Перламутровая\". Длина 93см",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "2 000 ₽",
+            "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "LUXE"
         },
@@ -5301,17 +5286,17 @@
     },
     {
         "id": 851,
-        "title": "Хакама из искусственного шелка \"Серебристо-фиолетовая\"",
-        "price": 2000,
+        "title": "Мужская Хакама \"Серебристо-фиолетовая\"",
+        "price": 3000,
         "category": "mens",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272932/aves-web/product_851_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272933/aves-web/product_851_2.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272933/aves-web/product_851_2.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272932/aves-web/product_851_1.jpg"
         ],
-        "description": "LUXE *№52 Хакама из искусственного шелка \"Серебристо-фиолетовая\". Длина 88см",
+        "description": "Хакама из искусственного шелка \"Серебристо-фиолетовая\". Длина 88см. Россия",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "2 000 ₽",
+            "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "LUXE"
         },
@@ -5319,62 +5304,64 @@
     },
     {
         "id": 852,
-        "title": "Современная мужская хакама",
-        "price": 2000,
+        "title": "Мужская Хакама Современная",
+        "price": 3000,
         "category": "mens",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272934/aves-web/product_852_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272934/aves-web/product_852_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272935/aves-web/product_852_3.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272935/aves-web/product_852_3.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272934/aves-web/product_852_1.jpg"
         ],
-        "description": "Чёрная в горизонтальный рубчик.",
+        "description": "Чёрная мужская современная Хакама в горизонтальный рубчик",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "52-56-190",
-            "Аренда": "2 000 ₽",
-            "Залог": "7 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽",
+            "Особенности": "Подходит на высокий рост"
         },
         "slug": "sovremennaya-muzhskaya-hakama"
     },
     {
         "id": 853,
-        "title": "Чёрная и белая китайские хакамы на рост 1см",
-        "price": 2000,
+        "title": "Мужские черная и белая хакамы",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272936/aves-web/product_853_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272937/aves-web/product_853_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272937/aves-web/product_853_3.jpg"
         ],
-        "description": "№54 Чёрная и белая китайские хакамы на рост 185-188см. XXL",
+        "description": "Чёрная и белая китайские хакамы на рост 185-188см. XXL. Китай",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "85-188",
-            "Аренда": "2 000 ₽",
-            "Залог": "7 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "chernaya-i-belaya-kitayskie-hakamy-na-rost-1sm"
     },
     {
         "id": 854,
-        "title": "Чёрная хакама на высокий рост 190см",
-        "price": 2000,
+        "title": "Мужская Хакама \"Черная\"",
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272938/aves-web/product_854_1.jpg"
         ],
-        "description": "№55 Чёрная хакама на высокий рост 190см",
+        "description": "Чёрная хакама на высокий рост 190см. Россия",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "2 000 ₽",
-            "Залог": "7 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽",
+            "Особенности": "Подходит на высокий рост"
         },
         "slug": "chernaya-hakama-na-vysokiy-rost-190sm"
     },
     {
         "id": 901,
         "title": "Диадема «Простая»",
-        "price": 500,
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272939/aves-web/product_901_1.jpg",
@@ -5383,11 +5370,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272941/aves-web/product_901_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272942/aves-web/product_901_6.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Диадема ручной работы, изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Диадема",
-            "Аренда": "500 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "1000 ₽",
+            "Залог": "5 000 ₽"
         },
         "slug": "diadema-prostaya"
     },
@@ -5401,7 +5388,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272944/aves-web/product_902_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272945/aves-web/product_902_3.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Диадема ручной работы. Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Диадема",
             "Аренда": "1 000 ₽",
@@ -5412,7 +5399,7 @@
     {
         "id": 903,
         "title": "Диадема «Эльфийская с молочным камнем и серебряными листьями»",
-        "price": 1000,
+        "price": 1500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272945/aves-web/product_903_9.jpg",
@@ -5424,11 +5411,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272950/aves-web/product_903_7.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272951/aves-web/product_903_8.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Диадема ручной работы. Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Диадема",
-            "Аренда": "1 000 ₽",
-            "Залог": "7 000 ₽"
+            "Аренда": "1 500 ₽",
+            "Залог": "5 000 ₽"
         },
         "slug": "diadema-elfiyskaya-s-molochnym-kamnem-i-serebryanymi-listyami"
     },
@@ -5457,11 +5444,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272953/aves-web/product_905_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272953/aves-web/product_905_2.jpg"
         ],
-        "description": "Серебряная диадема",
+        "description": "Диадема, серебряная ручной работы. Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Диадема",
             "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Залог": "5 000 ₽"
         },
         "slug": "diadema-serebro"
     },
@@ -5480,7 +5467,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272958/aves-web/product_906_7.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272959/aves-web/product_906_8.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Диадема ручной работы. Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Диадема",
             "Аренда": "1 000 ₽",
@@ -5557,41 +5544,43 @@
     },
     {
         "id": 911,
-        "title": "Головной «Убор №3»",
-        "price": 1500,
+        "title": "Головной «Сказочный»",
+        "price": 2000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272964/aves-web/product_911_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "1 500 ₽",
-            "Залог": "7 000 ₽"
+            "Аренда": "2 000 ₽",
+            "Залог": "10 000 ₽",
+            "Особенности": "Головной убор ручной работы, создан из винтажных и антикварных аксессуаров"
         },
         "slug": "golovnoy-ubor-3"
     },
     {
         "id": 912,
-        "title": "Головной «Убор №4»",
-        "price": 1000,
+        "title": "Головной «Восточный»",
+        "price": 2000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272965/aves-web/product_912_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272966/aves-web/product_912_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272967/aves-web/product_912_5.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "1 000 ₽",
-            "Залог": "7 000 ₽"
+            "Аренда": "2 000 ₽",
+            "Залог": "10 000 ₽",
+            "Особенности": "Головной убор ручной работы, создан из винтажных и антикварных аксессуаров"
         },
         "slug": "golovnoy-ubor-4"
     },
     {
         "id": 913,
-        "title": "Янтарный «Гребень»",
+        "title": "Янтарный гребень",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -5602,22 +5591,22 @@
         "details": {
             "Тип": "Аксессуар",
             "Аренда": "1 000 ₽",
-            "Залог": "1 500 ₽"
+            "Залог": "2 000 ₽"
         },
         "slug": "yantarnyy-greben"
     },
     {
         "id": 914,
         "title": "Венецианская «Маска чёрно-золотая»",
-        "price": 500,
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272969/aves-web/product_914_1.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Изящный аксессуар ручной работы, дополняющий ваш образ",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "500 ₽",
+            "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
         "slug": "venetsianskaya-maska-cherno-zolotaya"
@@ -5625,7 +5614,7 @@
     {
         "id": 916,
         "title": "Колье «Рубиновый каскад»",
-        "price": 400,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272970/aves-web/product_916_1.jpg"
@@ -5633,21 +5622,21 @@
         "description": "Золотистое колье с пятью крупными рубиновыми камнями в ажурной оправе",
         "details": {
             "Тип": "Колье",
-            "Аренда": "400 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "2 000 ₽"
         },
         "slug": "kole-rubinovyy-kaskad"
     },
     {
         "id": 917,
-        "title": "Колье «Из натурального граната»",
+        "title": "Колье из натурального граната",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272970/aves-web/product_917_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272971/aves-web/product_917_2.jpg"
         ],
-        "description": "Очень красивое колье из натурального граната. Цвет насыщенный, гранатовый, с надёжным замком карабин пр-во Корея",
+        "description": "Очень красивое колье из натурального граната, ручной работы",
         "details": {
             "Тип": "Колье",
             "Аренда": "500 ₽",
@@ -5657,23 +5646,23 @@
     },
     {
         "id": 918,
-        "title": "Колье",
-        "price": 400,
+        "title": "Колье чёрное",
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272972/aves-web/product_918_1.jpg"
         ],
-        "description": "400р",
+        "description": "Изящное колье ручной работы",
         "details": {
             "Тип": "Колье",
-            "Аренда": "400 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "2 000"
         },
         "slug": "kole"
     },
     {
         "id": 919,
-        "title": "Колье",
+        "title": "Колье барокко чёрное",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -5681,18 +5670,18 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272973/aves-web/product_919_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272974/aves-web/product_919_3.jpg"
         ],
-        "description": "Чёрное колье",
+        "description": "Чёрное колье в стиле барокко, черного цвета",
         "details": {
             "Тип": "Колье",
             "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Залог": "2 000 ₽"
         },
         "slug": "kole-919"
     },
     {
         "id": 920,
         "title": "Колье «Лесной олень»",
-        "price": 500,
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272975/aves-web/product_920_1.jpg",
@@ -5701,15 +5690,15 @@
         "description": "Оригинальное колье с головой оленя и изящными рогами",
         "details": {
             "Тип": "Колье",
-            "Аренда": "500 ₽",
-            "Залог": "1 500 ₽"
+            "Аренда": "1 000 ₽",
+            "Залог": "2 000 ₽"
         },
         "slug": "kole-lesnoy-olen"
     },
     {
         "id": 921,
-        "title": "Жемчужный «Комплект»",
-        "price": 700,
+        "title": "Жемчужный комплект",
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272976/aves-web/product_921_1.jpg"
@@ -5717,31 +5706,15 @@
         "description": "Комплект серьги и колье, жемчуг",
         "details": {
             "Тип": "Комплект",
-            "Аренда": "700 ₽",
+            "Аренда": "1 000 ₽",
             "Залог": "2 000 ₽"
         },
         "slug": "zhemchuzhnyy-komplekt"
     },
     {
-        "id": 922,
-        "title": "Комплект «С жемчугом»",
-        "price": 700,
-        "category": "accessories",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272976/aves-web/product_921_1.jpg"
-        ],
-        "description": "Изящное дополнение к вашему образу",
-        "details": {
-            "Тип": "Комплект",
-            "Аренда": "700 ₽",
-            "Залог": "2 000 ₽"
-        },
-        "slug": "komplekt-s-zhemchugom"
-    },
-    {
         "id": 923,
-        "title": "Колье «Антик»",
-        "price": 300,
+        "title": "Комплект «Антик»",
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272978/aves-web/product_923_1.jpg",
@@ -5749,33 +5722,33 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272979/aves-web/product_923_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272980/aves-web/product_923_4.jpg"
         ],
-        "description": "Массивное колье в винтажном стиле с бирюзовыми камнями и стразами",
+        "description": "Жемчужный комплект ",
         "details": {
             "Тип": "Колье",
-            "Аренда": "300 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "2 000  ₽"
         },
         "slug": "kole-antik"
     },
     {
         "id": 924,
-        "title": "Кулон «Золотой диск»",
-        "price": 300,
+        "title": "Комплект с жемчугом",
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272981/aves-web/product_924_1.jpg"
         ],
-        "description": "Изящная золотистая цепочка с минималистичным круглым кулоном",
+        "description": "Жемчужный комплект, изящно дополняющий ваш образ в винтажном стиле",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "300 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "1000 ₽",
+            "Залог": "2 000  ₽"
         },
         "slug": "kulon-zolotoy-disk"
     },
     {
         "id": 925,
-        "title": "Колье «С серьгами»",
+        "title": "Колье с серьгами",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -5785,46 +5758,46 @@
         "details": {
             "Тип": "Колье",
             "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Залог": "2 000 ₽"
         },
         "slug": "kole-s-sergami"
     },
     {
         "id": 926,
         "title": "Колье «Кристалл»",
-        "price": 300,
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272982/aves-web/product_926_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272982/aves-web/product_926_2.jpg"
         ],
-        "description": "Тонкая серебристая цепочка с одиночным сверкающим кристаллом",
+        "description": "Красивое колье с цветами, изящно дополняющее ваш образ",
         "details": {
             "Тип": "Колье",
-            "Аренда": "300 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "1 000 ₽",
+            "Залог": "2 000 ₽"
         },
         "slug": "kole-kristall"
     },
     {
         "id": 927,
         "title": "Комплект «Жемчужная лилия»",
-        "price": 300,
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272984/aves-web/product_927_1.jpg"
         ],
-        "description": "Роскошный свадебный гарнитур из колье и сережек с жемчугом и флоральным узором из страз",
+        "description": " Прекрасный комплект, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Комплект",
-            "Аренда": "300 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "1 000 ₽",
+            "Залог": "2 0000 ₽"
         },
         "slug": "komplekt-zhemchuzhnaya-liliya"
     },
     {
         "id": 928,
-        "title": "Комплект, «Колье с серьгами»",
+        "title": "Комплект с серьгами",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -5834,14 +5807,14 @@
         "description": "Изящное дополнение к вашему образу",
         "details": {
             "Тип": "Колье",
-            "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "1 000 ₽",
+            "Залог": "2 000 ₽"
         },
         "slug": "komplekt-kole-s-sergami"
     },
     {
         "id": 929,
-        "title": "Комплект «С жемчугом»",
+        "title": "Комплект с жемчугом",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -5852,13 +5825,13 @@
         "details": {
             "Тип": "Комплект",
             "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Залог": "2 000 ₽"
         },
         "slug": "komplekt-s-zhemchugom-929"
     },
     {
         "id": 930,
-        "title": "Комплект, «Колье и серьги»",
+        "title": "Комплект, колье и серьги",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -5870,7 +5843,7 @@
         "details": {
             "Тип": "Колье",
             "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Залог": "2 000 ₽"
         },
         "slug": "komplekt-kole-i-sergi"
     },
@@ -5886,19 +5859,19 @@
         "details": {
             "Тип": "Комплект",
             "Аренда": "500 ₽",
-            "Залог": "1 000 ₽"
+            "Залог": "2 000 ₽"
         },
         "slug": "vintazhnyy-komplekt"
     },
     {
         "id": 932,
-        "title": "Винтажное «Колье»",
+        "title": "Винтажное колье",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272989/aves-web/product_932_1.jpg"
         ],
-        "description": "Чехословакия",
+        "description": "Изящное колье дополняющее ваш образ",
         "details": {
             "Тип": "Колье",
             "Аренда": "500 ₽",
@@ -6025,7 +5998,7 @@
     },
     {
         "id": 940,
-        "title": "Колье «С жемчугом»",
+        "title": "Колье с жемчугом",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -6035,8 +6008,8 @@
         "description": "Изящное дополнение к вашему образу",
         "details": {
             "Тип": "Колье",
-            "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "1 000 ₽",
+            "Залог": "2 000 ₽"
         },
         "slug": "kole-s-zhemchugom"
     },
@@ -6051,14 +6024,14 @@
         "description": "Изящное дополнение к вашему образу",
         "details": {
             "Тип": "Колье",
-            "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "1 000 ₽",
+            "Залог": "2 000 ₽"
         },
         "slug": "kole-941"
     },
     {
         "id": 942,
-        "title": "Винтажное «Колье»",
+        "title": "Винтажное колье",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -6068,7 +6041,7 @@
         "details": {
             "Тип": "Колье",
             "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Залог": "2 000 ₽"
         },
         "slug": "vintazhnoe-kole-942"
     },
@@ -6084,14 +6057,14 @@
         "details": {
             "Тип": "Колье",
             "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Залог": "2 000 ₽"
         },
         "slug": "kole-943"
     },
     {
         "id": 944,
         "title": "Колье",
-        "price": 2000,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273000/aves-web/product_944_1.jpg",
@@ -6100,14 +6073,14 @@
         "description": "Изящное дополнение к вашему образу",
         "details": {
             "Тип": "Колье",
-            "Аренда": "2 000 ₽",
-            "Залог": "5 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "2 000 ₽"
         },
         "slug": "kole-944"
     },
     {
         "id": 945,
-        "title": "Комплект, «Колье и серьги»",
+        "title": "Комплект, колье и серьги",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -6117,13 +6090,13 @@
         "details": {
             "Тип": "Колье",
             "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Залог": "2 000 ₽"
         },
         "slug": "komplekt-kole-i-sergi-945"
     },
     {
         "id": 946,
-        "title": "Комплект «С жемчугом»",
+        "title": "Комплект с жемчугом",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -6134,7 +6107,7 @@
         "details": {
             "Тип": "Комплект",
             "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
+            "Залог": "2 000 ₽"
         },
         "slug": "komplekt-s-zhemchugom-946"
     },
@@ -6173,13 +6146,13 @@
     },
     {
         "id": 949,
-        "title": "Кринолин «Не пышный 5 колец»",
+        "title": "Кринолин «Белый»",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273005/aves-web/product_949_1.jpg"
         ],
-        "description": "Изящное дополнение к вашему образу",
+        "description": "Кринолин пышный на 5 колец",
         "details": {
             "Тип": "Кринолин",
             "Аренда": "500 ₽",
@@ -6196,18 +6169,18 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273006/aves-web/product_950_1.jpg"
         ],
-        "description": "Изящное дополнение к вашему праздничному образу.",
+        "description": "Изящное дополнение к вашему праздничному образу",
         "details": {
             "Тип": "Кринолин",
             "Аренда": "500 ₽",
-            "Залог": "10 000 ₽",
+            "Залог": "3 000 ₽",
             "Особенности": "с платьем без залога 500 ₽, без платья 1000 ₽"
         },
         "slug": "krinolin-bolshoy"
     },
     {
         "id": 951,
-        "title": "Чудесный «Кринолин»",
+        "title": "Кринолин \"Чудесный\"",
         "price": 500,
         "category": "accessories",
         "images": [
@@ -6243,7 +6216,7 @@
     },
     {
         "id": 953,
-        "title": "Украшение «Для головы»",
+        "title": "Украшение для головы",
         "price": 500,
         "category": "accessories",
         "images": [
@@ -6414,7 +6387,7 @@
         "description": "Жабо/Галстук для создания завершенного образа",
         "details": {
             "Тип": "Жабо/Галстук",
-            "Аренда": "5 000 ₽",
+            "Аренда": "500 ₽",
             "Залог": "3 000 ₽",
             "Особенности": "В комплекте с костюмом без залога"
         },
@@ -6441,14 +6414,14 @@
     },
     {
         "id": 964,
-        "title": "Галстук «Жабо»",
+        "title": "Галстук",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273028/aves-web/product_964_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273029/aves-web/product_964_2.jpg"
         ],
-        "description": "Жабо/Галстук для создания завершенного образа",
+        "description": "Галстук для создания завершенного образа",
         "details": {
             "Тип": "Жабо/Галстук",
             "Аренда": "500 ₽",
@@ -6459,14 +6432,14 @@
     },
     {
         "id": 965,
-        "title": "Галстук «Жабо»",
+        "title": "Спортивный «Галстук для верховой езды»",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273030/aves-web/product_965_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273031/aves-web/product_965_2.jpg"
         ],
-        "description": "Жабо/Галстук для создания завершенного образа",
+        "description": "Галстук для создания завершенного образа",
         "details": {
             "Тип": "Жабо/Галстук",
             "Аренда": "500 ₽",
@@ -6586,24 +6559,8 @@
         "slug": "galstuk-s-koltsom"
     },
     {
-        "id": 973,
-        "title": "Катана «\"Золотая\"»",
-        "price": 5000,
-        "category": "accessories",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773273045/aves-web/product_973_1.jpg"
-        ],
-        "description": "Катана \"Золотая\". Не бутафория, заточена",
-        "details": {
-            "Тип": "Оружие",
-            "Аренда": "5 000 ₽",
-            "Залог": "15 000 ₽"
-        },
-        "slug": "katana-zolotaya"
-    },
-    {
         "id": 974,
-        "title": "Катана «Белая, не боевая»",
+        "title": "Катана «Белая»",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -6621,7 +6578,7 @@
     },
     {
         "id": 975,
-        "title": "Катана «Для фотосессий \"чёрная с синим\"»",
+        "title": "Катана «Синяя»",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -6641,7 +6598,7 @@
     },
     {
         "id": 976,
-        "title": "Катана «Сувенирная \"Чёрная\"»",
+        "title": "Катана «Черная»",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -6658,7 +6615,7 @@
     },
     {
         "id": 977,
-        "title": "Катана «Для фотосессий \"красная\"»",
+        "title": "Катана «Красная»",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -6668,7 +6625,7 @@
         "details": {
             "Тип": "Оружие",
             "Аренда": "1 000 ₽",
-            "Залог": "2 000 ₽"
+            "Залог": "3 000 ₽"
         },
         "slug": "katana-dlya-fotosessiy-krasnaya"
     },
@@ -6690,7 +6647,7 @@
     },
     {
         "id": 979,
-        "title": "Зонтик «От солнца»",
+        "title": "Зонтик «Винтажный»",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -6709,7 +6666,7 @@
     },
     {
         "id": 980,
-        "title": "Зонтик «От солнца»",
+        "title": "Зонтик «Винтажный»",
         "price": 1000,
         "category": "accessories",
         "images": [
@@ -9894,7 +9851,7 @@
     },
     {
         "id": 1401,
-        "title": "Чёрный «Шёлковый веер, двусторонний, большой»",
+        "title": "Веер «Чёрный»",
         "price": 600,
         "category": "accessories",
         "images": [
@@ -9904,7 +9861,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273347/aves-web/product_1401_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273348/aves-web/product_1401_5.jpg"
         ],
-        "description": "Чёрный шёлковый веер, двусторонний, большой, шёлк+дерево",
+        "description": "Чёрный шёлковый веер, двусторонний, большой, шёлк+дерево. Китай",
         "details": {
             "Тип": "Веер",
             "Аренда": "600 ₽",
@@ -9914,7 +9871,7 @@
     },
     {
         "id": 1402,
-        "title": "Красный «Шёлковый веер, двусторонний, большой»",
+        "title": "Веер «Красный»",
         "price": 600,
         "category": "accessories",
         "images": [
@@ -9922,7 +9879,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273349/aves-web/product_1402_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273350/aves-web/product_1402_3.jpg"
         ],
-        "description": "Красный шёлковый веер, двусторонний, большой, шёлк+дерево",
+        "description": "Красный шёлковый веер, двусторонний, большой, шёлк+дерево. Китай",
         "details": {
             "Тип": "Веер",
             "Аренда": "600 ₽",
@@ -9932,7 +9889,7 @@
     },
     {
         "id": 1403,
-        "title": "Золотистый «Шёлковый веер, двусторонний, большой»",
+        "title": "Веер «Золотистый»",
         "price": 600,
         "category": "accessories",
         "images": [
@@ -9941,7 +9898,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273352/aves-web/product_1403_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273353/aves-web/product_1403_4.jpg"
         ],
-        "description": "Золотистый шёлковый веер, двусторонний, большой, шёлк+дерево",
+        "description": "Золотистый шёлковый веер, двусторонний, большой, шёлк+дерево. Китай",
         "details": {
             "Тип": "Веер",
             "Аренда": "600 ₽",
@@ -9951,14 +9908,14 @@
     },
     {
         "id": 1404,
-        "title": "Белый «Шёлковый веер, двусторонний, большой»",
+        "title": "Веер «Белый»",
         "price": 600,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273353/aves-web/product_1404_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273354/aves-web/product_1404_2.jpg"
         ],
-        "description": "Белый шёлковый веер, двусторонний, большой, шёлк+дерево",
+        "description": "Белый шёлковый веер, двусторонний, большой, шёлк+дерево. Китай",
         "details": {
             "Тип": "Веер",
             "Аренда": "600 ₽",
@@ -10037,16 +9994,16 @@
     {
         "id": 1409,
         "title": "Веер «Салатовый с розовым»",
-        "price": 200,
+        "price": 600,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273360/aves-web/product_1409_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273361/aves-web/product_1409_2.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Изящный аксессуар, дополняющий ваш образ. Япония",
         "details": {
             "Тип": "Веер",
-            "Аренда": "200 ₽",
+            "Аренда": "600 ₽",
             "Залог": "2 000 ₽"
         },
         "slug": "veer-salatovyy-s-rozovym"
@@ -10065,7 +10022,7 @@
         "details": {
             "Тип": "Веер",
             "Аренда": "600 ₽",
-            "Залог": "3 000 ₽"
+            "Залог": "2 000 ₽"
         },
         "slug": "veer-lavandovyy-sad"
     },
@@ -10080,7 +10037,7 @@
         "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Веер",
-            "Аренда": "200 ₽",
+            "Аренда": "600 ₽",
             "Залог": "2 000 ₽"
         },
         "slug": "veer-krasnyy"
@@ -10121,18 +10078,18 @@
     },
     {
         "id": 1415,
-        "title": "Гребень-бант «Средний»",
-        "price": 100,
+        "title": "Гребень-бант «Красный»",
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273367/aves-web/product_1415_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273368/aves-web/product_1415_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273369/aves-web/product_1415_3.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Изящный аксессуар, дополняющий ваш образ. Япония",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "100 ₽",
+            "Аренда": "500 ₽",
             "Залог": "1 000 ₽"
         },
         "slug": "greben-bant-sredniy"
@@ -10140,34 +10097,34 @@
     {
         "id": 1416,
         "title": "Заколки-бантики «Маленькие»",
-        "price": 100,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273370/aves-web/product_1416_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273371/aves-web/product_1416_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273372/aves-web/product_1416_3.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Изящный аксессуар, дополняющий ваш образ. Япония, винтаж",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "100 ₽",
-            "Залог": "500 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "1 000 ₽"
         },
         "slug": "zakolki-bantiki-malenkie"
     },
     {
         "id": 1417,
         "title": "Заколка «Малиновая с кисточкой»",
-        "price": 100,
+        "price": 300,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273372/aves-web/product_1417_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273373/aves-web/product_1417_2.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Изящный аксессуар, дополняющий ваш образ. Япония, винтаж",
         "details": {
             "Тип": "Украшение для волос",
-            "Аренда": "100 ₽",
+            "Аренда": "300 ₽",
             "Залог": "500 ₽"
         },
         "slug": "zakolka-malinovaya-s-kistochkoy"
@@ -10181,7 +10138,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273374/aves-web/product_1418_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273375/aves-web/product_1418_3.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Изящный аксессуар, дополняющий ваш образ. Япония, винтаж",
         "details": {
             "Тип": "Аксессуар",
             "Аренда": "500 ₽",
@@ -10214,8 +10171,8 @@
     },
     {
         "id": 1420,
-        "title": "Украшение «Для волос лавандовое»",
-        "price": 500,
+        "title": "Украшение для волос «Лавандовое»",
+        "price": 600,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273381/aves-web/product_1420_1.jpg",
@@ -10226,15 +10183,15 @@
         "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "500 ₽",
-            "Залог": "1 000 ₽"
+            "Аренда": "600 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "ukrashenie-dlya-volos-lavandovoe"
     },
     {
         "id": 1421,
-        "title": "Украшение «Для волос красное»",
-        "price": 500,
+        "title": "Украшение для волос «Красное»",
+        "price": 600,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273384/aves-web/product_1421_1.jpg",
@@ -10244,8 +10201,8 @@
         "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "500 ₽",
-            "Залог": "1 000 ₽"
+            "Аренда": "600 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "ukrashenie-dlya-volos-krasnoe"
     },
@@ -10306,8 +10263,8 @@
     },
     {
         "id": 1425,
-        "title": "Украшение «Для волос бирюзовое»",
-        "price": 500,
+        "title": "Украшение для волос «Бирюзовое»",
+        "price": 600,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273393/aves-web/product_1425_1.jpg",
@@ -10316,15 +10273,15 @@
         "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "500 ₽",
-            "Залог": "1 000 ₽"
+            "Аренда": "600 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "ukrashenie-dlya-volos-biryuzovoe"
     },
     {
         "id": 1426,
-        "title": "Украшение «Для волос разноцветное»",
-        "price": 500,
+        "title": "Украшение для волос «Разноцветное»",
+        "price": 600,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273395/aves-web/product_1426_1.jpg",
@@ -10335,15 +10292,15 @@
         "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "500 ₽",
-            "Залог": "1 000 ₽"
+            "Аренда": "600 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "ukrashenie-dlya-volos-raznotsvetnoe"
     },
     {
         "id": 1427,
-        "title": "Украшение «Для волос фиолетовое»",
-        "price": 500,
+        "title": "Украшение для волос «Фиолетовое»",
+        "price": 600,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273398/aves-web/product_1427_1.jpg"
@@ -10351,8 +10308,8 @@
         "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "500 ₽",
-            "Залог": "1 000 ₽"
+            "Аренда": "600 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "ukrashenie-dlya-volos-fioletovoe"
     },
@@ -10379,8 +10336,8 @@
     },
     {
         "id": 1429,
-        "title": "Украшение «Для волос бирюзовое с розовым»",
-        "price": 500,
+        "title": "Украшение для волос «Бирюзовое с розовым»",
+        "price": 600,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273405/aves-web/product_1429_1.jpg",
@@ -10391,14 +10348,14 @@
         "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Аксессуар",
-            "Аренда": "500 ₽",
-            "Залог": "1 000 ₽"
+            "Аренда": "600 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "ukrashenie-dlya-volos-biryuzovoe-s-rozovym"
     },
     {
         "id": 1430,
-        "title": "Зонтик",
+        "title": "Зонтик «Черный»",
         "price": 500,
         "category": "accessories",
         "images": [
@@ -10415,7 +10372,7 @@
     },
     {
         "id": 1431,
-        "title": "Зонтик",
+        "title": "Зонтик «Черный с лентами»",
         "price": 500,
         "category": "accessories",
         "images": [
@@ -10431,14 +10388,14 @@
     },
     {
         "id": 1432,
-        "title": "Зонтик",
+        "title": "Зонтик «Красный»",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273411/aves-web/product_1432_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273411/aves-web/product_1432_2.jpg"
         ],
-        "description": "Изящное дополнение к вашему образу",
+        "description": "Изящное дополнение к вашему образу. Китай",
         "details": {
             "Тип": "Зонт",
             "Аренда": "500 ₽",
@@ -10448,8 +10405,8 @@
     },
     {
         "id": 1433,
-        "title": "Японский «Складной зонт»",
-        "price": 500,
+        "title": "Зонтик «Розовый»",
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273412/aves-web/product_1433_1.jpg",
@@ -10458,24 +10415,24 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273415/aves-web/product_1433_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273416/aves-web/product_1433_5.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Японский складной зонт, антикварный. Изящный аксессуар, дополняющий ваш образ. Япония",
         "details": {
             "Тип": "Зонт",
-            "Аренда": "500 ₽",
+            "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
         "slug": "yaponskiy-skladnoy-zont"
     },
     {
         "id": 1434,
-        "title": "Зонтик",
+        "title": "Зонтик «Розовый»",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273416/aves-web/product_1434_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273417/aves-web/product_1434_2.jpg"
         ],
-        "description": "Изящное дополнение к вашему образу",
+        "description": "Зонтик «Розовый» с кисточками. Изящное дополнение к вашему образу. Китай",
         "details": {
             "Тип": "Зонт",
             "Аренда": "500 ₽",
@@ -10485,29 +10442,29 @@
     },
     {
         "id": 1435,
-        "title": "Зонтик",
-        "price": 500,
+        "title": "Зонтик «Вишнёвый»",
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273418/aves-web/product_1435_1.jpg"
         ],
-        "description": "Изящное дополнение к вашему образу",
+        "description": "Бордовый антикварный зонт. Изящное дополнение к вашему образу. Китай",
         "details": {
             "Тип": "Зонт",
-            "Аренда": "500 ₽",
+            "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
         "slug": "zontik-1435"
     },
     {
         "id": 1436,
-        "title": "Зонтик",
+        "title": "Зонтик «Прозрачный-Лавандовый»",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273418/aves-web/product_1436_1.jpg"
         ],
-        "description": "Изящное дополнение к вашему образу",
+        "description": "Лавандовый прозрачный зонтик. Изящное дополнение к вашему образу. Китай",
         "details": {
             "Тип": "Зонт",
             "Аренда": "500 ₽",
@@ -10517,7 +10474,7 @@
     },
     {
         "id": 1437,
-        "title": "Зонтик",
+        "title": "Зонтик «Белый»",
         "price": 500,
         "category": "accessories",
         "images": [
@@ -10525,7 +10482,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273420/aves-web/product_1437_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273420/aves-web/product_1437_3.jpg"
         ],
-        "description": "Изящное дополнение к вашему образу",
+        "description": "Изящное дополнение к вашему образу. Китай",
         "details": {
             "Тип": "Зонт",
             "Аренда": "500 ₽",
@@ -10543,7 +10500,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273421/aves-web/product_1438_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273422/aves-web/product_1438_4.jpg"
         ],
-        "description": "Традиционный масляный зонт с росписью в виде дракона и феникса",
+        "description": "Традиционный масляный зонт с росписью в виде дракона и феникса. Китай, антикварный",
         "details": {
             "Тип": "Зонт",
             "Аренда": "1 000 ₽",
@@ -10553,31 +10510,31 @@
     },
     {
         "id": 1439,
-        "title": "Большой «Тайский зонт, около 110см»",
+        "title": "Большой «Тайский зонт»",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273423/aves-web/product_1439_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273423/aves-web/product_1439_2.jpg"
         ],
-        "description": "Изящный аксессуар, дополняющий ваш образ",
+        "description": "Изящный аксессуар, дополняющий ваш образ, около 110 см. Винтажный",
         "details": {
             "Тип": "Зонт",
-            "Аренда": "500 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "1 500 ₽",
+            "Залог": "5 000 ₽"
         },
         "slug": "bolshoy-tayskiy-zont-okolo-110sm"
     },
     {
         "id": 1440,
-        "title": "Зонтик",
+        "title": "Зонтик «Салатовый»",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273424/aves-web/product_1440_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273425/aves-web/product_1440_2.jpg"
         ],
-        "description": "Изящное дополнение к вашему образу",
+        "description": "Изящное дополнение к вашему образу. Китай",
         "details": {
             "Тип": "Зонт",
             "Аренда": "500 ₽",
@@ -10587,14 +10544,14 @@
     },
     {
         "id": 1441,
-        "title": "Зонтик",
+        "title": "Зонтик «Голубой»",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273426/aves-web/product_1441_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273426/aves-web/product_1441_2.jpg"
         ],
-        "description": "Изящное дополнение к вашему образу",
+        "description": "Изящное дополнение к вашему образу. Китай",
         "details": {
             "Тип": "Зонт",
             "Аренда": "500 ₽",
@@ -10604,13 +10561,13 @@
     },
     {
         "id": 1442,
-        "title": "Зонтик",
+        "title": "Зонтик «Синий»",
         "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273427/aves-web/product_1442_1.jpg"
         ],
-        "description": "Изящное дополнение к вашему образу",
+        "description": "Изящное дополнение к вашему образу. Китай",
         "details": {
             "Тип": "Зонт",
             "Аренда": "500 ₽",
@@ -10621,15 +10578,15 @@
     {
         "id": 1443,
         "title": "Сумка «Хризантема»",
-        "price": 600,
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273428/aves-web/product_1443_1.jpg"
         ],
-        "description": "Элегантная чёрная сумка-клатч с вытканным узором хризантем",
+        "description": "Элегантная чёрная винтажная сумка-клатч с вытканным узором хризантем. Япония",
         "details": {
             "Тип": "Сумка",
-            "Аренда": "600 ₽",
+            "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
         "slug": "sumka-hrizantema"
@@ -10637,7 +10594,7 @@
     {
         "id": 1444,
         "title": "Японская «Винтажная сумка»",
-        "price": 500,
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273428/aves-web/product_1444_1.jpg",
@@ -10648,15 +10605,15 @@
         "description": "Новая. Высота 27см, длина 38см, ширина 10см",
         "details": {
             "Тип": "Сумка",
-            "Аренда": "500 ₽",
+            "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
         "slug": "yaponskaya-vintazhnaya-sumka"
     },
     {
         "id": 1445,
-        "title": "Прекрасная «Винтажная сумочка из шёлковой парчи»",
-        "price": 500,
+        "title": "Прекрасная. Винтажная сумочка из шёлковой парчи",
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273432/aves-web/product_1445_1.jpg",
@@ -10665,24 +10622,24 @@
         "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Сумка",
-            "Аренда": "500 ₽",
-            "Залог": "4 000 ₽"
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
         },
         "slug": "prekrasnaya-vintazhnaya-sumochka-iz-shelkovoy-parchi"
     },
     {
         "id": 1446,
-        "title": "Винтажная «Сумка с японским бисером»",
-        "price": 500,
+        "title": "Винтажная сумка с японским бисером",
+        "price": 1000,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273434/aves-web/product_1446_1.jpg"
         ],
-        "description": "24 на 10",
+        "description": "Сумочка с японским бисером, винтажная, 24см на 10см",
         "details": {
             "Тип": "Сумка",
-            "Аренда": "500 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
         },
         "slug": "vintazhnaya-sumka-s-yaponskim-biserom"
     },

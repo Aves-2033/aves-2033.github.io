@@ -1,0 +1,23 @@
+{
+  "rawText": "{\"action\":\"updateInfo\",\"productId\":1446,\"metadata\":{\"title\":\"Винтажная сумка с японским бисером\",\"price\":1000,\"category\":\"accessories\",\"description\":\"Сумочка с японским бисером, винтажная, 24см на 10см\",\"details\":{\"Тип\":\"Сумка\",\"Аренда\":\"1 000 ₽\",\"Залог\":\"5 000 ₽\"}}}",
+  "contentLength": "359",
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "ru-RU,ru;q=0.8",
+    "connection": "keep-alive",
+    "content-length": "359",
+    "content-type": "application/json",
+    "host": "localhost:4321",
+    "origin": "http://localhost:4321",
+    "referer": "http://localhost:4321/admin",
+    "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Brave\";v=\"146\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+  }
+}
