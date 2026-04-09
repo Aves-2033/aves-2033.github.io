@@ -25,12 +25,12 @@ const title = "Админ-панель | Прокат от Кет";
           <input type="text" id="productSearch" placeholder="Поиск по названию или ID..." />
           <select id="categoryFilter">
             <option value="all">Все категории</option>
-            <option value="ball">Бальные</option>
-            <option value="vintage">Винтаж и Свадебные</option>
+            <option value="ball">Бальные платья XVIII-XIX век</option>
+            <option value="vintage">Винтажные и свадебные платья</option>
             <option value="fashion">Фэшн и Будуар</option>
             <option value="medieval">Средневековые и Сказочные платья</option>
             <option value="ethnic-costumes">Этнические Костюмы</option>
-            <option value="kimono">Японские Кимоно</option>
+            <option value="kimono">Японские кимоно женские</option>
             <option value="riding">Костюмы для Верховой езды</option>
             <option value="mens">Мужской Гардероб</option>
             <option value="cloaks">Плащи и Накидки</option>
@@ -78,12 +78,12 @@ const title = "Админ-панель | Прокат от Кет";
                 <div class="form-group">
                   <label>Категория</label>
                   <select name="category" id="editCategory">
-                    <option value="ball">Бальные</option>
-                    <option value="vintage">Винтаж и Свадебные</option>
+                    <option value="ball">Бальные платья XVIII-XIX век</option>
+                    <option value="vintage">Винтажные и свадебные платья</option>
                     <option value="fashion">Фэшн и Будуар</option>
                     <option value="medieval">Средневековые и Сказочные платья</option>
                     <option value="ethnic-costumes">Этнические Костюмы</option>
-                    <option value="kimono">Японские Кимоно</option>
+                    <option value="kimono">Японские кимоно женские</option>
                     <option value="riding">Костюмы для Верховой езды</option>
                     <option value="mens">Мужской Гардероб</option>
                     <option value="cloaks">Плащи и Накидки</option>
@@ -339,6 +339,8 @@ const title = "Админ-панель | Прокат от Кет";
       transition: background 0.2s;
     }
     .btn-primary:hover { background: #1f3023; }
+    .btn-success { background: #28a745 !important; }
+    .btn-success:hover { background: #218838 !important; }
     .btn-danger {
       background: #ff4444;
       color: #fff;
@@ -472,11 +474,16 @@ const title = "Админ-панель | Прокат от Кет";
 
       productItems.forEach(item => {
         item.addEventListener('click', () => {
-          productItems.forEach(i => i.classList.remove('active'));
-          item.classList.add('active');
           selectProduct(parseInt(item.dataset.id));
         });
       });
+      
+      // Auto-open product from URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlId = urlParams.get('id');
+      if (urlId) {
+        selectProduct(parseInt(urlId), { scroll: true });
+      }
       
       document.getElementById('infoForm').addEventListener('submit', saveInfo);
       document.getElementById('addDetailBtn').addEventListener('click', () => addDetailRow('', ''));
@@ -496,10 +503,27 @@ const title = "Админ-панель | Прокат от Кет";
       });
     }
 
-    function selectProduct(id) {
+    function selectProduct(id, options = {}) {
       currentProductId = id;
       const product = products.find(p => p.id === id);
       if (!product) return;
+
+      // Update URL
+      const url = new URL(window.location);
+      url.searchParams.set('id', id);
+      window.history.replaceState({}, '', url);
+
+      // Sidebar highlighting
+      const items = document.querySelectorAll('.product-item');
+      items.forEach(i => i.classList.remove('active'));
+      
+      const activeItem = document.querySelector(`.product-item[data-id="${id}"]`);
+      if (activeItem) {
+        activeItem.classList.add('active');
+        if (options.scroll) {
+            activeItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
 
       document.getElementById('noSelection').classList.add('hidden');
       document.getElementById('editor').classList.remove('hidden');
@@ -559,6 +583,9 @@ const title = "Админ-панель | Прокат от Кет";
 
     async function saveInfo(e) {
       e.preventDefault();
+      const saveBtn = e.submitter;
+      const originalBtnText = saveBtn.textContent;
+      
       const details = {};
       document.querySelectorAll('.detail-row').forEach(row => {
         const key = row.querySelector('.detail-key').value.trim();
@@ -581,20 +608,50 @@ const title = "Админ-панель | Прокат от Кет";
       };
 
       try {
+        saveBtn.disabled = true;
+        saveBtn.textContent = 'Сохранение...';
+        
         const res = await fetch('/api/admin/products', { 
           method: 'POST', 
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload) 
         });
         const result = await res.json();
+        
         if (result.success) {
-          alert('Данные сохранены!');
+          // Индикация успеха
+          saveBtn.textContent = 'Сохранено! ✓';
+          saveBtn.classList.add('btn-success');
+          
           await loadData();
+          
+          // Обновляем элемент в сайдбаре
+          const sidebarItem = document.querySelector(`.product-item[data-id="${currentProductId}"]`);
+          if (sidebarItem) {
+            sidebarItem.dataset.title = metadata.title.toLowerCase();
+            sidebarItem.dataset.category = metadata.category;
+            sidebarItem.querySelector('.p-title').textContent = metadata.title;
+            sidebarItem.querySelector('.p-cat-tag').textContent = metadata.category;
+          }
+          
+          // Перевыбираем товар, чтобы обновить все поля (включая возможные серверные изменения)
+          selectProduct(currentProductId);
+          
+          setTimeout(() => {
+            saveBtn.textContent = originalBtnText;
+            saveBtn.classList.remove('btn-success');
+            saveBtn.disabled = false;
+          }, 2000);
+          
         } else {
           alert('Ошибка: ' + result.error);
+          saveBtn.textContent = originalBtnText;
+          saveBtn.disabled = false;
         }
       } catch (e) {
         alert('Ошибка сети: ' + e.message);
+        saveBtn.textContent = originalBtnText;
+        saveBtn.disabled = false;
       }
     }
 

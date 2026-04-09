@@ -2768,8 +2768,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5500 ₽",
-            "Залог": "25000 ₽",
+            "Аренда": "5 500 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-skladnoy-veer"
@@ -2996,8 +2996,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Синтетика",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "3 500 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-veera"
@@ -3014,8 +3014,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "4 500 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-veera-i-utochki"
@@ -3077,8 +3077,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "4 500 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-veera-i-hrizantemy"
@@ -3154,8 +3154,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5000 ₽",
-            "Залог": "20000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-chernoe-s-veerami-i-tsvetami"
@@ -6699,7 +6699,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273067/aves-web/product_1001_10.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273068/aves-web/product_1001_11.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "5 500 ₽",
@@ -6713,10 +6713,9 @@
         "price": 4500,
         "category": "ethnic",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773273068/aves-web/product_1002_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773273069/aves-web/product_1002_2.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773273068/aves-web/product_1002_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "4 500 ₽",
@@ -6733,7 +6732,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273070/aves-web/product_1003_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273071/aves-web/product_1003_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "5 000 ₽",
@@ -6751,7 +6750,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273072/aves-web/product_1004_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273073/aves-web/product_1004_3.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "1 500 ₽",
@@ -6767,46 +6766,45 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273074/aves-web/product_1005_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "1 500 ₽",
-            "Залог": "10000 ₽"
+            "Залог": "10 000 ₽"
         },
         "slug": "malyy-komplekt-indiyskih-ukrasheniy"
     },
     {
         "id": 1006,
         "title": "Этническое украшение",
-        "price": 1000,
+        "price": 1500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273075/aves-web/product_1006_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 500",
+            "Залог": "10 000"
         },
         "slug": "etnicheskoe-ukrashenie"
     },
     {
         "id": 1007,
         "title": "Большой сэт индийских украшений",
-        "price": 4500,
+        "price": 5000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273076/aves-web/product_1007_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273077/aves-web/product_1007_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773273078/aves-web/product_1007_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773273079/aves-web/product_1007_5.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773273078/aves-web/product_1007_3.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "4 500 ₽",
-            "Залог": "20000 ₽"
+            "Аренда": "5 000 ₽",
+            "Залог": "20 000 ₽"
         },
         "slug": "bolshoy-set-indiyskih-ukrasheniy-1007"
     },
@@ -6825,57 +6823,56 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273083/aves-web/product_1008_7.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273084/aves-web/product_1008_8.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273085/aves-web/product_1008_9.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773273086/aves-web/product_1008_10.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273086/aves-web/product_1008_11.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "5 000 ₽",
-            "Залог": "20000 ₽"
+            "Залог": "20 000 ₽"
         },
         "slug": "bolshoy-set-indiyskih-ukrasheniy-zolotoy-metall-serebristye-kamni"
     },
     {
         "id": 1009,
         "title": "Малый комплект индийских украшений \"Серебро\"",
-        "price": 2500,
+        "price": 4000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273087/aves-web/product_1009_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273088/aves-web/product_1009_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273089/aves-web/product_1009_4.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "2 500 ₽",
-            "Залог": "10000 ₽"
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "malyy-komplekt-indiyskih-ukrasheniy-serebro"
     },
     {
         "id": 1010,
         "title": "Малый комплект индийских украшений \"Белое золото\"",
-        "price": 2200,
+        "price": 4000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273090/aves-web/product_1010_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273091/aves-web/product_1010_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273092/aves-web/product_1010_3.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "2 200 ₽",
-            "Залог": "10000 ₽"
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽"
         },
         "slug": "malyy-komplekt-indiyskih-ukrasheniy-beloe-zoloto"
     },
     {
         "id": 1011,
         "title": "Комплект этнический",
-        "price": 1000,
+        "price": 1500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273093/aves-web/product_1011_1.jpg",
@@ -6884,11 +6881,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273098/aves-web/product_1011_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273098/aves-web/product_1011_5.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 500",
+            "Залог": "5 000"
         },
         "slug": "komplekt-etnicheskiy"
     },
@@ -6900,11 +6897,11 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273099/aves-web/product_1012_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "1 500 ₽",
-            "Залог": "10000 ₽"
+            "Залог": "10 000 ₽"
         },
         "slug": "malyy-komplekt-indiyskih-ukrasheniy-1012"
     },
@@ -6916,11 +6913,11 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273100/aves-web/product_1013_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Украшение, изящно дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "etnicheskoe-ukrashenie-dlya-golovy"
     },
@@ -6932,11 +6929,11 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273101/aves-web/product_1014_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Украшение, изящно дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "etnicheskoe-ukrashenie-1014"
     },
@@ -6948,27 +6945,27 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273101/aves-web/product_1015_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект украшений, изящно дополняющий ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "2000",
-            "Залог": "5000"
+            "Аренда": "2 000",
+            "Залог": "5 000"
         },
         "slug": "etnicheskiy-komplekt"
     },
     {
         "id": 1016,
         "title": "Пакистанское украшение на голову Силсила",
-        "price": 0,
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273103/aves-web/product_1016_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1 000",
+            "Залог": "10 000"
         },
         "slug": "pakistanskoe-ukrashenie-na-golovu-silsila"
     },
@@ -6980,18 +6977,18 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273106/aves-web/product_1017_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "200",
-            "Залог": "1000"
+            "Залог": "500"
         },
         "slug": "etnicheskoe-ukrashenie-dlya-nosa"
     },
     {
         "id": 1018,
         "title": "Паса",
-        "price": 0,
+        "price": 500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273107/aves-web/product_1018_1.jpg",
@@ -6999,11 +6996,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273109/aves-web/product_1018_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273110/aves-web/product_1018_4.jpg"
         ],
-        "description": "Джумар",
+        "description": "Изящнее украшение дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500",
+            "Залог": "2 000"
         },
         "slug": "pasa"
     },
@@ -7016,11 +7013,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273110/aves-web/product_1020_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273111/aves-web/product_1020_3.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 000",
+            "Залог": "5 000"
         },
         "slug": "etnicheskoe-ukrashenie-dlya-golovy-1020"
     },
@@ -7032,11 +7029,11 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273112/aves-web/product_1021_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "etnicheskoe-ukrashenie-1021"
     },
@@ -7048,27 +7045,27 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273113/aves-web/product_1022_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "etnicheskoe-ukrashenie-1022"
     },
     {
         "id": 1023,
         "title": "Этническое ожерелье",
-        "price": 0,
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273113/aves-web/product_1023_1.jpg"
         ],
-        "description": "Бохо.",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "etnicheskoe-ozherele"
     },
@@ -7080,29 +7077,29 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273114/aves-web/product_1024_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "etnicheskoe-ukrashenie-1024"
     },
     {
         "id": 1025,
         "title": "Этно, афро, бохо украшение",
-        "price": 0,
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273115/aves-web/product_1025_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273116/aves-web/product_1025_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273116/aves-web/product_1025_3.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "etno-afro-boho-ukrashenie"
     },
@@ -7115,11 +7112,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273117/aves-web/product_1026_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273118/aves-web/product_1026_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "500",
-            "Залог": "3000"
+            "Залог": "3 000"
         },
         "slug": "etnicheskoe-ukrashenie-dlya-golovy-1026"
     },
@@ -7131,11 +7128,11 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273118/aves-web/product_1028_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "etnicheskoe-ukrashenie-1028"
     },
@@ -7147,11 +7144,11 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273119/aves-web/product_1029_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "etnicheskoe-ukrashenie-1029"
     },
@@ -7163,26 +7160,26 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273119/aves-web/product_1030_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "etnicheskoe-ukrashenie-1030"
     },
     {
         "id": 1031,
         "title": "Этнические серьги",
-        "price": 200,
+        "price": 500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273120/aves-web/product_1031_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "200",
+            "Аренда": "500",
             "Залог": "500"
         },
         "slug": "etnicheskie-sergi"
@@ -7190,48 +7187,48 @@
     {
         "id": 1032,
         "title": "клипсы",
-        "price": 0,
+        "price": 500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273121/aves-web/product_1032_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273121/aves-web/product_1032_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500",
+            "Залог": "500"
         },
         "slug": "klipsy"
     },
     {
         "id": 1033,
         "title": "Этнические серьги",
-        "price": 200,
+        "price": 500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273123/aves-web/product_1033_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "200",
-            "Залог": "500"
+            "Аренда": "500",
+            "Залог": "1000"
         },
         "slug": "etnicheskie-sergi-1033"
     },
     {
         "id": 1034,
         "title": "Этнические серьги",
-        "price": 200,
+        "price": 500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273123/aves-web/product_1034_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "200",
+            "Аренда": "500",
             "Залог": "500"
         },
         "slug": "etnicheskie-sergi-1034"
@@ -7244,7 +7241,7 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273124/aves-web/product_1035_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "700",
@@ -7261,11 +7258,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273125/aves-web/product_1036_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273125/aves-web/product_1036_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "700",
-            "Залог": "1000"
+            "Залог": "1 000"
         },
         "slug": "indiyskiy-polubraslet"
     },
@@ -7277,11 +7274,11 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273126/aves-web/product_1037_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "700",
-            "Залог": "3000"
+            "Залог": "3 000"
         },
         "slug": "etnicheskiy-braslet-1037"
     },
@@ -7294,11 +7291,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273127/aves-web/product_1038_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273128/aves-web/product_1038_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "700",
-            "Залог": "3000"
+            "Залог": "3 000"
         },
         "slug": "etnicheskiy-braslet-1038"
     },
@@ -7311,11 +7308,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273128/aves-web/product_1039_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273129/aves-web/product_1039_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "700",
-            "Залог": "3000"
+            "Залог": "3 000"
         },
         "slug": "braslet-stakan"
     },
@@ -7327,11 +7324,11 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273130/aves-web/product_1040_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "700",
-            "Залог": "3000"
+            "Залог": "1 000"
         },
         "slug": "etnicheskiy-braslet-1040"
     },
@@ -7344,11 +7341,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273130/aves-web/product_1041_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273131/aves-web/product_1041_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "700",
-            "Залог": "3000"
+            "Аренда": "700 (за 2 шт разом)",
+            "Залог": "2 000"
         },
         "slug": "etnicheskiy-braslet-1041"
     },
@@ -7361,11 +7358,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273131/aves-web/product_1042_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273132/aves-web/product_1042_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "700",
-            "Залог": "3000"
+            "Залог": "3 000"
         },
         "slug": "etnicheskiy-braslet-1042"
     },
@@ -7379,11 +7376,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273135/aves-web/product_1043_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273137/aves-web/product_1043_4.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "700",
-            "Залог": "3000"
+            "Залог": "3 000"
         },
         "slug": "vintazhnyy-braslet-90-e"
     },
@@ -7396,7 +7393,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273138/aves-web/product_1044_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273138/aves-web/product_1044_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "500",
@@ -7412,30 +7409,13 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273139/aves-web/product_1045_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "500",
-            "Залог": "500"
+            "Залог": "1 000"
         },
         "slug": "etnicheskiy-braslet-1045"
-    },
-    {
-        "id": 1046,
-        "title": "Этнический браслет",
-        "price": 500,
-        "category": "ethnic",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773273140/aves-web/product_1046_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773273141/aves-web/product_1046_2.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Этнические украшения",
-            "Аренда": "500",
-            "Залог": "500"
-        },
-        "slug": "etnicheskiy-braslet-1046"
     },
     {
         "id": 1047,
@@ -7447,7 +7427,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273142/aves-web/product_1047_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273142/aves-web/product_1047_3.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "500",
@@ -7463,7 +7443,7 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273143/aves-web/product_1048_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "500",
@@ -7481,7 +7461,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273144/aves-web/product_1049_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273145/aves-web/product_1049_3.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
             "Аренда": "500",
@@ -7491,17 +7471,17 @@
     },
     {
         "id": 1050,
-        "title": "набор индийских браслетов",
+        "title": "Набор индийских браслетов",
         "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273145/aves-web/product_1050_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Этнические украшения",
-            "Аренда": "1000",
-            "Залог": "3000"
+            "Аренда": "1 000",
+            "Залог": "2 000"
         },
         "slug": "nabor-indiyskih-brasletov"
     },
@@ -7983,7 +7963,7 @@
     {
         "id": 1201,
         "title": "Черные казаки",
-        "price": 1500,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273186/aves-web/product_1201_1.jpg",
@@ -7993,8 +7973,8 @@
         ],
         "description": "Размер 39-40. Кожа, USA.",
         "details": {
-            "Аренда": "1 500 ₽",
-            "Залог": "15 000 ₽",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Размеры": "39-40",
             "Тип": "Обувь"
         },
@@ -8012,7 +7992,7 @@
         "description": "Синие",
         "details": {
             "Аренда": "1 000 ₽",
-            "Залог": "6 000 ₽",
+            "Залог": "5 000 ₽",
             "Размеры": "37-39",
             "Тип": "Обувь"
         },
@@ -8021,15 +8001,15 @@
     {
         "id": 1203,
         "title": "Сапожки казаки",
-        "price": 2000,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273190/aves-web/product_1203_1.jpg"
         ],
         "description": "Нет данных",
         "details": {
-            "Аренда": "2 000 ₽",
-            "Залог": "15 000 ₽",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Размеры": "39",
             "Тип": "Обувь"
         },
@@ -8038,15 +8018,15 @@
     {
         "id": 1204,
         "title": "Казаки, замша",
-        "price": 1500,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273191/aves-web/product_1204_1.jpg"
         ],
         "description": "Нет данных",
         "details": {
-            "Аренда": "1 500 ₽",
-            "Залог": "10 000 ₽",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Размеры": "40",
             "Тип": "Обувь"
         },
@@ -8055,7 +8035,7 @@
     {
         "id": 1205,
         "title": "Сапоги женские для верховой езды",
-        "price": 1500,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273191/aves-web/product_1205_1.jpg",
@@ -8063,8 +8043,8 @@
         ],
         "description": "Cапоги женские резиновые, высокие для верховой езды",
         "details": {
-            "Аренда": "1 500 ₽",
-            "Залог": "10 000 ₽",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Размеры": "39",
             "Тип": "Обувь"
         },
@@ -8073,15 +8053,15 @@
     {
         "id": 1206,
         "title": "Кожаные сапоги для верховой езды",
-        "price": 1500,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273193/aves-web/product_1206_1.jpg"
         ],
         "description": "Нет данных",
         "details": {
-            "Аренда": "1 500 ₽",
-            "Залог": "10 000 ₽",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Размеры": "39",
             "Тип": "Обувь"
         },
@@ -8100,7 +8080,7 @@
         "description": "Нет данных",
         "details": {
             "Аренда": "1 000 ₽",
-            "Залог": "10 000 ₽",
+            "Залог": "5 000 ₽",
             "Размеры": "37",
             "Тип": "Обувь"
         },
@@ -8109,19 +8089,22 @@
     {
         "id": 1208,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273196/aves-web/product_1208_1.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv"
     },
     {
         "id": 1209,
         "title": "турецкая обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273197/aves-web/product_1209_1.jpg"
@@ -8129,8 +8112,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "39",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "turetskaya-obuv"
@@ -8138,7 +8121,7 @@
     {
         "id": 1210,
         "title": "японские туфли 23см",
-        "price": 500,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273197/aves-web/product_1210_1.jpg",
@@ -8146,8 +8129,8 @@
         ],
         "description": "Нет данных",
         "details": {
-            "Аренда": "500 ₽",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "yaponskie-tufli-23sm"
@@ -8155,7 +8138,7 @@
     {
         "id": 1211,
         "title": "женские азиатские туфли",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273198/aves-web/product_1211_1.jpg"
@@ -8163,8 +8146,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "39",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "zhenskie-aziatskie-tufli"
@@ -8172,7 +8155,7 @@
     {
         "id": 1212,
         "title": "индийская обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273199/aves-web/product_1212_1.jpg"
@@ -8180,8 +8163,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "37",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "indiyskaya-obuv"
@@ -8189,7 +8172,7 @@
     {
         "id": 1213,
         "title": "индийская обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273199/aves-web/product_1213_1.jpg",
@@ -8198,8 +8181,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "37",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "indiyskaya-obuv-1213"
@@ -8207,7 +8190,7 @@
     {
         "id": 1214,
         "title": "индийская обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273201/aves-web/product_1214_1.jpg"
@@ -8215,8 +8198,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "38",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "indiyskaya-obuv-1214"
@@ -8224,7 +8207,7 @@
     {
         "id": 1215,
         "title": "Туфельки Loriblu",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273201/aves-web/product_1215_1.jpg",
@@ -8235,8 +8218,8 @@
         "description": "Нат. кожа. 37,5 размер",
         "details": {
             "Размеры": "",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "tufelki-loriblu"
@@ -8244,7 +8227,7 @@
     {
         "id": 1216,
         "title": "Слингбэки",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273204/aves-web/product_1216_2.jpg",
@@ -8254,8 +8237,8 @@
         "description": "Чудесные слингбэки из иск. кожи. Каблук 9,5 37,5 размер",
         "details": {
             "Размеры": "",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "slingbeki"
@@ -8263,7 +8246,7 @@
     {
         "id": 1217,
         "title": "Туфли лодочки белые, кож",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273206/aves-web/product_1217_1.jpg",
@@ -8273,8 +8256,8 @@
         "description": "Зам. Высота каблука 3см. 37, 38, 40 и 41 размер",
         "details": {
             "Размеры": "",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "tufli-lodochki-belye-kozh"
@@ -8282,17 +8265,17 @@
     {
         "id": 1218,
         "title": "Бежевые туфли из нат",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273208/aves-web/product_1218_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273209/aves-web/product_1218_2.jpg"
         ],
-        "description": "Кожи с высотой каблука 5см. 37,5-38 размер",
+        "description": "Кожи с высотой каблука 5см. 37,5азмер",
         "details": {
             "Размеры": "",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "bezhevye-tufli-iz-nat"
@@ -8300,7 +8283,7 @@
     {
         "id": 1219,
         "title": "Туфли Michael Kors",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273209/aves-web/product_1219_1.jpg",
@@ -8308,11 +8291,11 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273211/aves-web/product_1219_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273212/aves-web/product_1219_5.jpg"
         ],
-        "description": "Кожа. Высота каблука 8,5см 36,5-37 размер",
+        "description": "Кожа. Высота каблука 8,5см 36,5азмер",
         "details": {
             "Размеры": "",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "tufli-michael-kors"
@@ -8320,7 +8303,7 @@
     {
         "id": 1220,
         "title": "Туфли из иск",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273212/aves-web/product_1220_1.jpg",
@@ -8330,8 +8313,8 @@
         "description": "Замши. Каблук 10см. 37 размер",
         "details": {
             "Размеры": "",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "tufli-iz-isk"
@@ -8339,7 +8322,7 @@
     {
         "id": 1221,
         "title": "Туфли бежевые из ткани",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273214/aves-web/product_1221_1.jpg",
@@ -8348,8 +8331,8 @@
         "description": "Высота каблука 7см. 37 размер",
         "details": {
             "Размеры": "",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "tufli-bezhevye-iz-tkani"
@@ -8357,7 +8340,7 @@
     {
         "id": 1222,
         "title": "Лавандовые туфельки 35 размер",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273216/aves-web/product_1222_1.jpg"
@@ -8365,8 +8348,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "lavandovye-tufelki-35-razmer"
@@ -8374,7 +8357,7 @@
     {
         "id": 1223,
         "title": "Туфли женские Diora rim",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273217/aves-web/product_1223_1.jpg",
@@ -8384,8 +8367,8 @@
         "description": "На узкую ногу, удобный, широкой каблук высотой 5 см. 36 размер",
         "details": {
             "Размеры": "",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "tufli-zhenskie-diora-rim"
@@ -8393,7 +8376,7 @@
     {
         "id": 1224,
         "title": "Туфельки под замшу",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273219/aves-web/product_1224_1.jpg",
@@ -8403,8 +8386,8 @@
         "description": "37 размер",
         "details": {
             "Размеры": "",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "tufelki-pod-zamshu"
@@ -8412,7 +8395,7 @@
     {
         "id": 1225,
         "title": "Туфли форменные, нат",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273221/aves-web/product_1225_1.jpg",
@@ -8421,8 +8404,8 @@
         "description": "Кожа. Каблук 3см. 38 размер",
         "details": {
             "Размеры": "",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "tufli-formennye-nat"
@@ -8430,7 +8413,7 @@
     {
         "id": 1226,
         "title": "Мужские танцевальные туфли",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273223/aves-web/product_1226_1.jpg",
@@ -8440,8 +8423,8 @@
         "description": "США,5 (28,5см)",
         "details": {
             "Размеры": "44",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "muzhskie-tantsevalnye-tufli"
@@ -8449,7 +8432,7 @@
     {
         "id": 1227,
         "title": "Мужские танцевальные туфли",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273226/aves-web/product_1227_1.jpg",
@@ -8458,8 +8441,8 @@
         "description": "Размер 41 (26,5см)",
         "details": {
             "Размеры": "41 (26",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "muzhskie-tantsevalnye-tufli-1227"
@@ -8467,7 +8450,7 @@
     {
         "id": 1228,
         "title": "Мужские танцевальные туфли",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273227/aves-web/product_1228_1.jpg"
@@ -8475,8 +8458,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "42",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Обувь"
         },
         "slug": "muzhskie-tantsevalnye-tufli-1228"
@@ -8484,7 +8467,7 @@
     {
         "id": 1229,
         "title": "23см",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273228/aves-web/product_1229_1.jpg"
@@ -8492,8 +8475,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "23см",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Японская обувь"
         },
         "slug": "23sm"
@@ -8501,15 +8484,15 @@
     {
         "id": 1230,
         "title": "Винтажная обувь",
-        "price": 500,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273229/aves-web/product_1230_1.jpg"
         ],
         "description": "Нет данных",
         "details": {
-            "Аренда": "500 ₽",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Японская обувь"
         },
         "slug": "vintazhnaya-obuv-1230"
@@ -8517,15 +8500,15 @@
     {
         "id": 1231,
         "title": "Винтажная обувь",
-        "price": 500,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273230/aves-web/product_1231_1.jpg"
         ],
         "description": "Нет данных",
         "details": {
-            "Аренда": "500 ₽",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Японская обувь"
         },
         "slug": "vintazhnaya-obuv-1231"
@@ -8533,15 +8516,15 @@
     {
         "id": 1232,
         "title": "Винтажная обувь",
-        "price": 500,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273231/aves-web/product_1232_1.jpg"
         ],
         "description": "Нет данных",
         "details": {
-            "Аренда": "500 ₽",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Японская обувь"
         },
         "slug": "vintazhnaya-obuv-1232"
@@ -8549,15 +8532,15 @@
     {
         "id": 1233,
         "title": "Винтажная обувь",
-        "price": 500,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273232/aves-web/product_1233_1.jpg"
         ],
         "description": "Нет данных",
         "details": {
-            "Аренда": "500 ₽",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Японская обувь"
         },
         "slug": "vintazhnaya-obuv-1233"
@@ -8565,7 +8548,7 @@
     {
         "id": 1234,
         "title": "23см",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273232/aves-web/product_1234_1.jpg"
@@ -8573,8 +8556,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "23см",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Японская обувь"
         },
         "slug": "23sm-1234"
@@ -8582,19 +8565,22 @@
     {
         "id": 1235,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273198/aves-web/product_1211_1.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1235"
     },
     {
         "id": 1236,
         "title": "Zouri для дождясм",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273233/aves-web/product_1236_1.jpg",
@@ -8605,8 +8591,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "23,5",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Дзори"
         },
         "slug": "zouri-dlya-dozhdyasm"
@@ -8614,7 +8600,7 @@
     {
         "id": 1237,
         "title": "Zouri сливовые, антикварныесм",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273237/aves-web/product_1237_4.jpg",
@@ -8624,16 +8610,16 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "24",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Дзори"
         },
         "slug": "zouri-slivovye-antikvarnyesm"
     },
     {
         "id": 1238,
-        "title": "летние гета (мужские) 40-41 размер",
-        "price": 0,
+        "title": "летние гета (мужские) 40азмер",
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273239/aves-web/product_1238_1.jpg"
@@ -8641,8 +8627,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "40-41 размер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Гета"
         },
         "slug": "letnie-geta-muzhskie-40-41-razmer"
@@ -8650,7 +8636,7 @@
     {
         "id": 1239,
         "title": "мужские гета 42 размер",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273240/aves-web/product_1239_1.jpg"
@@ -8658,8 +8644,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "42 размер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Гета"
         },
         "slug": "muzhskie-geta-42-razmer"
@@ -8667,7 +8653,7 @@
     {
         "id": 1240,
         "title": "мужские гета 43 размер",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273240/aves-web/product_1240_1.jpg"
@@ -8675,16 +8661,16 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "43 размер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Гета"
         },
         "slug": "muzhskie-geta-43-razmer"
     },
     {
         "id": 1241,
-        "title": "мужские гета 42-43 размер",
-        "price": 0,
+        "title": "мужские гета 42азмер",
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273241/aves-web/product_1241_1.jpg"
@@ -8692,8 +8678,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "42-43 размер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Гета"
         },
         "slug": "muzhskie-geta-42-43-razmer"
@@ -8701,15 +8687,15 @@
     {
         "id": 1242,
         "title": "Винтажная обувь",
-        "price": 43,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273242/aves-web/product_1242_1.jpg"
         ],
         "description": "Нет данных",
         "details": {
-            "Аренда": "43 ₽",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Японская обувь"
         },
         "slug": "vintazhnaya-obuv-1242"
@@ -8717,7 +8703,7 @@
     {
         "id": 1243,
         "title": "мужские гета 44 размер",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273242/aves-web/product_1243_1.jpg"
@@ -8725,8 +8711,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "44 размер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Гета"
         },
         "slug": "muzhskie-geta-44-razmer"
@@ -8734,7 +8720,7 @@
     {
         "id": 1244,
         "title": "мужские гета 45 размер",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273243/aves-web/product_1244_1.jpg"
@@ -8742,8 +8728,8 @@
         "description": "Нет данных",
         "details": {
             "Размеры": "45 размер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Гета"
         },
         "slug": "muzhskie-geta-45-razmer"
@@ -8751,7 +8737,7 @@
     {
         "id": 1245,
         "title": "Варадзи — сандалии, сплетённые из рисовой соломы или пеньки, один из видов тр",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273243/aves-web/product_1245_1.jpg",
@@ -8759,8 +8745,8 @@
         ],
         "description": "Адиционной японской обуви. В прошлом — стандартная обувь простых людей, предназначенная для ходьбы после дождя (чтобы не испачкать таби). Теперь их в основном носят буддистские монахи. #сейкацу@nihontaku Показать ещё",
         "details": {
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽",
             "Тип": "Варадзи"
         },
         "slug": "varadzi-sandalii-spletennye-iz-risovoy-solomy-ili-penki-odin-iz-vidov-tr"
@@ -8768,37 +8754,46 @@
     {
         "id": 1246,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273244/aves-web/product_1246_1.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1246"
     },
     {
         "id": 1247,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273245/aves-web/product_1247_1.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1247"
     },
     {
         "id": 1248,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273246/aves-web/product_1248_1.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1248"
     },
     {
@@ -8821,19 +8816,22 @@
     {
         "id": 1250,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273248/aves-web/product_1250_1.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1250"
     },
     {
         "id": 1251,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273252/aves-web/product_1251_1.jpg",
@@ -8841,39 +8839,48 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273253/aves-web/product_1251_3.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1251"
     },
     {
         "id": 1252,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273254/aves-web/product_1252_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273255/aves-web/product_1252_2.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1252"
     },
     {
         "id": 1253,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273256/aves-web/product_1253_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273257/aves-web/product_1253_2.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1253"
     },
     {
         "id": 1254,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273257/aves-web/product_1254_1.jpg",
@@ -8883,13 +8890,16 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273260/aves-web/product_1254_5.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1254"
     },
     {
         "id": 1255,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273261/aves-web/product_1255_1.jpg",
@@ -8897,65 +8907,80 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273263/aves-web/product_1255_3.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1255"
     },
     {
         "id": 1256,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273263/aves-web/product_1256_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273264/aves-web/product_1256_2.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1256"
     },
     {
         "id": 1257,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273265/aves-web/product_1257_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273265/aves-web/product_1257_2.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1257"
     },
     {
         "id": 1258,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273266/aves-web/product_1258_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273266/aves-web/product_1258_2.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1258"
     },
     {
         "id": 1259,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273267/aves-web/product_1259_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273268/aves-web/product_1259_2.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1259"
     },
     {
         "id": 1260,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273268/aves-web/product_1260_1.jpg",
@@ -8965,13 +8990,16 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273271/aves-web/product_1260_5.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1260"
     },
     {
         "id": 1261,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273271/aves-web/product_1261_1.jpg",
@@ -8981,13 +9009,16 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273274/aves-web/product_1261_5.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1261"
     },
     {
         "id": 1262,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273275/aves-web/product_1262_1.jpg",
@@ -8996,32 +9027,41 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273278/aves-web/product_1262_4.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1262"
     },
     {
         "id": 1263,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273279/aves-web/product_1263_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273280/aves-web/product_1263_2.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1263"
     },
     {
         "id": 1264,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273282/aves-web/product_1264_1.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1264"
     },
     {
@@ -9045,7 +9085,7 @@
     {
         "id": 1266,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273285/aves-web/product_1266_1.jpg",
@@ -9053,13 +9093,16 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273286/aves-web/product_1266_4.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1266"
     },
     {
         "id": 1267,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273287/aves-web/product_1267_1.jpg",
@@ -9067,7 +9110,10 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273288/aves-web/product_1267_3.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1267"
     },
     {
@@ -9092,52 +9138,55 @@
     {
         "id": 1269,
         "title": "Винтажная обувь",
-        "price": 0,
+        "price": 1000,
         "category": "belt-shoes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273291/aves-web/product_1269_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273292/aves-web/product_1269_2.jpg"
         ],
         "description": "Нет данных",
-        "details": {},
+        "details": {
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
+        },
         "slug": "vintazhnaya-obuv-1269"
     },
     {
         "id": 1301,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Веер \"Современный\"",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273293/aves-web/product_1301_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar"
     },
     {
         "id": 1302,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Веер \"Современный\"",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273293/aves-web/product_1302_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273294/aves-web/product_1302_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1302"
     },
     {
         "id": 1303,
-        "title": "Винтажный аксессуар",
+        "title": "Веер \"Современный\"",
         "price": 500,
         "category": "gloves-fans",
         "images": [
@@ -9146,35 +9195,35 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273296/aves-web/product_1303_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273297/aves-web/product_1303_4.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Веер",
             "Аренда": "500 ₽",
-            "Залог": "1000 ₽"
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1303"
     },
     {
         "id": 1304,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Винтажный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273298/aves-web/product_1304_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273299/aves-web/product_1304_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1304"
     },
     {
         "id": 1305,
-        "title": "Бледно-желтый испанский веер",
-        "price": 0,
+        "title": "Испанский винтажный веер",
+        "price": 1000,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273300/aves-web/product_1305_3.jpg",
@@ -9183,31 +9232,31 @@
         "description": "Большой бледно-желтый испанский веер. Основание пластик,имитация слоновой кости,ажурный с нанесенным золотым орнаментом. Экран из плотной ткани,украшенный кружевом и расписанный вручную,Цветы\" и с автографом автора. Длина в сложенном виде 32 см Длина в развороте 59 см",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
         },
         "slug": "bledno-zheltyy-ispanskiy-veer"
     },
     {
         "id": 1306,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Винтажный веер",
+        "price": 1000,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273302/aves-web/product_1306_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1 000 ₽",
+            "Залог": "5 000 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1306"
     },
     {
         "id": 1307,
-        "title": "Веер, Испания",
-        "price": 0,
+        "title": "Винтажный Испанский веер",
+        "price": 1500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273303/aves-web/product_1307_1.jpg",
@@ -9218,625 +9267,625 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273306/aves-web/product_1307_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273307/aves-web/product_1307_7.jpg"
         ],
-        "description": "Винтаж.",
+        "description": "Изящный аксессуар, дополняющий ваш образ. Винтаж.",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1 500 ₽",
+            "Залог": "8 000 ₽"
         },
         "slug": "veer-ispaniya"
     },
     {
         "id": 1308,
-        "title": "большой китайский веер",
-        "price": 0,
+        "title": "Большой китайский веер",
+        "price": 1000,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273308/aves-web/product_1308_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1 000 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "bolshoy-kitayskiy-veer"
     },
     {
         "id": 1309,
-        "title": "веер -300р",
-        "price": 300,
+        "title": "Современный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273309/aves-web/product_1309_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Веер",
-            "Аренда": "300 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "veer-300r"
     },
     {
         "id": 1310,
-        "title": "Веер, Испания",
-        "price": 0,
+        "title": "Винтажный веер, Испания",
+        "price": 1000,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273309/aves-web/product_1310_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273310/aves-web/product_1310_2.jpg"
         ],
-        "description": "Винтаж.",
+        "description": "Изящный аксессуар, дополняющий ваш образ. Винтаж.",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1 000 ₽",
+            "Залог": "2 000 ₽"
         },
         "slug": "veer-ispaniya-1310"
     },
     {
         "id": 1311,
-        "title": "Винтажный веер, бумага, 35см",
-        "price": 0,
+        "title": "Винтажный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273311/aves-web/product_1311_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ. Бумажный, 35см",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-veer-bumaga-35sm"
     },
     {
         "id": 1312,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Винтажный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273312/aves-web/product_1312_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1312"
     },
     {
         "id": 1313,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Винтажный веер",
+        "price": 1000,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273313/aves-web/product_1313_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1 000 ₽",
+            "Залог": "2 000 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1313"
     },
     {
         "id": 1314,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Современный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273313/aves-web/product_1314_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1314"
     },
     {
         "id": 1315,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Современный аксессуар",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273314/aves-web/product_1315_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273315/aves-web/product_1315_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273316/aves-web/product_1315_3.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1315"
     },
     {
         "id": 1316,
-        "title": "веер-300р",
-        "price": 300,
+        "title": "Винтажный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273317/aves-web/product_1316_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273318/aves-web/product_1316_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Веер",
-            "Аренда": "300 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "veer-300r-1316"
     },
     {
         "id": 1317,
-        "title": "Винтажный аксессуар",
-        "price": 300,
+        "title": "Современный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273318/aves-web/product_1317_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273319/aves-web/product_1317_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Веер",
-            "Аренда": "300 ₽",
-            "Залог": "1000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1317"
     },
     {
         "id": 1318,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Современный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273320/aves-web/product_1318_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1318"
     },
     {
         "id": 1319,
-        "title": "веер-200р",
-        "price": 200,
+        "title": "Винтажный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273321/aves-web/product_1319_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273321/aves-web/product_1319_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ. Япония",
         "details": {
             "Тип": "Веер",
-            "Аренда": "200 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "veer-200r"
     },
     {
         "id": 1320,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Современный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273322/aves-web/product_1320_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Веер",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1320"
     },
     {
         "id": 1321,
-        "title": "в наличии 2шт",
-        "price": 0,
+        "title": "Современный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273322/aves-web/product_1321_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
-            "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Веер",
+            "Аренда": "500 ₽",
+            "Залог": "1 000 ₽"
         },
         "slug": "v-nalichii-2sht"
     },
     {
         "id": 1322,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Современный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273323/aves-web/product_1322_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
-            "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Веер",
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1322"
     },
     {
         "id": 1323,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Современный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273324/aves-web/product_1323_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
-            "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Веер",
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1323"
     },
     {
         "id": 1325,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Современный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273325/aves-web/product_1325_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
-            "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Веер",
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1325"
     },
     {
         "id": 1326,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Современный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273325/aves-web/product_1326_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
-            "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Веер",
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1326"
     },
     {
         "id": 1327,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Современный веер",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273326/aves-web/product_1327_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
-            "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Веер",
+            "Аренда": "500 ₽",
+            "Залог": "1 500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1327"
     },
     {
         "id": 1328,
         "title": "Винтажные перчатки",
-        "price": 0,
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273327/aves-web/product_1328_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273327/aves-web/product_1328_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273328/aves-web/product_1328_3.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 000 ₽"
         },
         "slug": "vintazhnye-perchatki"
     },
     {
         "id": 1329,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки длинные современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273328/aves-web/product_1329_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273329/aves-web/product_1329_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 000 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1329"
     },
     {
         "id": 1330,
-        "title": "1 пара в наличии-200р",
-        "price": 200,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273329/aves-web/product_1330_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273330/aves-web/product_1330_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "200 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "1-para-v-nalichii-200r"
     },
     {
         "id": 1331,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273331/aves-web/product_1331_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273332/aves-web/product_1331_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1331"
     },
     {
         "id": 1333,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273332/aves-web/product_1333_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1333"
     },
     {
         "id": 1334,
-        "title": "1 пара в наличии-200р",
-        "price": 200,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273333/aves-web/product_1334_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "200 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "1-para-v-nalichii-200r-1334"
     },
     {
         "id": 1335,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273333/aves-web/product_1335_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273334/aves-web/product_1335_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1335"
     },
     {
         "id": 1336,
-        "title": "3 пары в наличии-200р",
-        "price": 200,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273334/aves-web/product_1336_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "200 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "3-pary-v-nalichii-200r"
     },
     {
         "id": 1337,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273335/aves-web/product_1337_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273336/aves-web/product_1337_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1337"
     },
     {
         "id": 1338,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273337/aves-web/product_1338_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1338"
     },
     {
         "id": 1339,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273337/aves-web/product_1339_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273338/aves-web/product_1339_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1339"
     },
     {
         "id": 1340,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273339/aves-web/product_1340_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1340"
     },
     {
         "id": 1341,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273339/aves-web/product_1341_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273340/aves-web/product_1341_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1341"
     },
     {
         "id": 1342,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273341/aves-web/product_1342_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1342"
     },
     {
         "id": 1343,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273342/aves-web/product_1343_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1343"
     },
     {
         "id": 1344,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273343/aves-web/product_1344_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1344"
     },
     {
         "id": 1345,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273343/aves-web/product_1345_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящный аксессуар, дополняющий ваш образ.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1345"
     },
     {
         "id": 1346,
-        "title": "Длинные перчатки",
-        "price": 300,
+        "title": "Перчатки длинные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273344/aves-web/product_1346_1.jpg"
         ],
-        "description": "Цвет-белые, чёрные, красные, бордовые, черные гиппюр. 300р",
+        "description": "Цвет-белые, чёрные, красные, бордовые, черные гиппюр.",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "300 ₽",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "1 000 ₽"
         },
         "slug": "dlinnye-perchatki"
     },
     {
         "id": 1347,
-        "title": "Винтажный аксессуар",
-        "price": 0,
+        "title": "Перчатки современные",
+        "price": 500,
         "category": "gloves-fans",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273344/aves-web/product_1347_1.jpg"
@@ -9844,15 +9893,15 @@
         "description": "Нет данных",
         "details": {
             "Тип": "Перчатки",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "500 ₽",
+            "Залог": "500 ₽"
         },
         "slug": "vintazhnyy-aksessuar-1347"
     },
     {
         "id": 1401,
         "title": "Веер «Чёрный»",
-        "price": 600,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273345/aves-web/product_1401_1.jpg",
@@ -9864,15 +9913,15 @@
         "description": "Чёрный шёлковый веер, двусторонний, большой, шёлк+дерево. Китай",
         "details": {
             "Тип": "Веер",
-            "Аренда": "600 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "chernyy-shelkovyy-veer-dvustoronniy-bolshoy"
     },
     {
         "id": 1402,
         "title": "Веер «Красный»",
-        "price": 600,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273348/aves-web/product_1402_1.jpg",
@@ -9882,15 +9931,15 @@
         "description": "Красный шёлковый веер, двусторонний, большой, шёлк+дерево. Китай",
         "details": {
             "Тип": "Веер",
-            "Аренда": "600 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "krasnyy-shelkovyy-veer-dvustoronniy-bolshoy"
     },
     {
         "id": 1403,
         "title": "Веер «Золотистый»",
-        "price": 600,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273350/aves-web/product_1403_1.jpg",
@@ -9901,15 +9950,15 @@
         "description": "Золотистый шёлковый веер, двусторонний, большой, шёлк+дерево. Китай",
         "details": {
             "Тип": "Веер",
-            "Аренда": "600 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "zolotistyy-shelkovyy-veer-dvustoronniy-bolshoy"
     },
     {
         "id": 1404,
         "title": "Веер «Белый»",
-        "price": 600,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273353/aves-web/product_1404_1.jpg",
@@ -9918,15 +9967,15 @@
         "description": "Белый шёлковый веер, двусторонний, большой, шёлк+дерево. Китай",
         "details": {
             "Тип": "Веер",
-            "Аренда": "600 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "belyy-shelkovyy-veer-dvustoronniy-bolshoy"
     },
     {
         "id": 1405,
         "title": "Веер «Цветение сакуры»",
-        "price": 600,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273355/aves-web/product_1405_1.jpg",
@@ -9935,15 +9984,15 @@
         "description": "Японский веер с градиентом и нежным узором цветущей сакуры",
         "details": {
             "Тип": "Веер",
-            "Аренда": "600 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "veer-tsvetenie-sakury"
     },
     {
         "id": 1406,
         "title": "Веер «Японская волна»",
-        "price": 600,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273356/aves-web/product_1406_1.jpg",
@@ -9952,15 +10001,15 @@
         "description": "Японский веер с сине-золотым узором, напоминающим стилизованные волны",
         "details": {
             "Тип": "Веер",
-            "Аренда": "600 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "veer-yaponskaya-volna"
     },
     {
         "id": 1407,
         "title": "Веер «Сумеречный горизонт»",
-        "price": 600,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273358/aves-web/product_1407_1.jpg",
@@ -9969,15 +10018,15 @@
         "description": "Японский веер в сине-чёрных тонах с абстрактным дизайном",
         "details": {
             "Тип": "Веер",
-            "Аренда": "600 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "veer-sumerechnyy-gorizont"
     },
     {
         "id": 1408,
         "title": "Веер «Лазурь и золото»",
-        "price": 600,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273359/aves-web/product_1408_1.jpg",
@@ -9986,15 +10035,15 @@
         "description": "Бело-голубой веер с золотистыми акцентами",
         "details": {
             "Тип": "Веер",
-            "Аренда": "600 ₽",
-            "Залог": "3 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "veer-lazur-i-zoloto"
     },
     {
         "id": 1409,
         "title": "Веер «Салатовый с розовым»",
-        "price": 600,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273360/aves-web/product_1409_1.jpg",
@@ -10003,15 +10052,15 @@
         "description": "Изящный аксессуар, дополняющий ваш образ. Япония",
         "details": {
             "Тип": "Веер",
-            "Аренда": "600 ₽",
-            "Залог": "2 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "veer-salatovyy-s-rozovym"
     },
     {
         "id": 1411,
         "title": "Веер «Лавандовый сад»",
-        "price": 600,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273362/aves-web/product_1411_1.jpg",
@@ -10021,15 +10070,15 @@
         "description": "Светло-сиреневый веер с цветочным узором и деревянными ребрами",
         "details": {
             "Тип": "Веер",
-            "Аренда": "600 ₽",
-            "Залог": "2 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "veer-lavandovyy-sad"
     },
     {
         "id": 1412,
         "title": "Веер «Красный»",
-        "price": 200,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273364/aves-web/product_1412_1.jpg"
@@ -10037,15 +10086,15 @@
         "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Веер",
-            "Аренда": "600 ₽",
-            "Залог": "2 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "veer-krasnyy"
     },
     {
         "id": 1413,
         "title": "Веер «Синий»",
-        "price": 200,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273365/aves-web/product_1413_1.jpg",
@@ -10054,15 +10103,15 @@
         "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Веер",
-            "Аренда": "200 ₽",
-            "Залог": "2 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "veer-siniy"
     },
     {
         "id": 1414,
         "title": "Веер «Тканевый с клевером»",
-        "price": 200,
+        "price": 500,
         "category": "accessories",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773273366/aves-web/product_1414_1.jpg",
@@ -10071,8 +10120,8 @@
         "description": "Изящный аксессуар, дополняющий ваш образ",
         "details": {
             "Тип": "Веер",
-            "Аренда": "200 ₽",
-            "Залог": "2 000 ₽"
+            "Аренда": "500 ₽",
+            "Залог": "3 000 ₽"
         },
         "slug": "veer-tkanevyy-s-kleverom"
     },
@@ -10645,256 +10694,255 @@
     },
     {
         "id": 1501,
-        "title": "Украшение № 1",
-        "price": null,
+        "title": "Большой набор праздничных браслетов",
+        "price": 2000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276270/aves-web/ethnic_1501_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "2 000",
+            "Залог": "5 000"
         },
         "slug": "ukrashenie-1"
     },
     {
         "id": 1502,
-        "title": "Индийское украшение",
-        "price": 0,
+        "title": "Золотые браслеты",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276271/aves-web/ethnic_1502_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276272/aves-web/ethnic_1502_2_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Два больших золотых браслета, аренда поштучно",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных",
-            "Особенности": "Детские"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000 (шт)",
+            "Залог": "3 000"
         },
         "slug": "indiyskoe-ukrashenie"
     },
     {
         "id": 1503,
-        "title": "Украшение № 3",
-        "price": null,
+        "title": "Комплект винтажных браслетов",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276273/aves-web/ethnic_1503_3.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "ukrashenie-3"
     },
     {
         "id": 1504,
-        "title": "Украшение № 4",
-        "price": null,
+        "title": "Комплект браслетов",
+        "price": 500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276274/aves-web/ethnic_1504_4.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "500",
+            "Залог": "1 000"
         },
         "slug": "ukrashenie-4"
     },
     {
         "id": 1505,
         "title": "Украшение № 5",
-        "price": null,
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276275/aves-web/ethnic_1505_5.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "1 000"
         },
         "slug": "ukrashenie-5"
     },
     {
         "id": 1506,
-        "title": "Украшение № 6",
-        "price": null,
+        "title": "Винтажный браслет",
+        "price": 700,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276275/aves-web/ethnic_1506_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276276/aves-web/ethnic_1506_6_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276277/aves-web/ethnic_1506_6_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
             "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "700",
+            "Залог": "2 000"
         },
         "slug": "ukrashenie-6"
     },
     {
         "id": 1507,
-        "title": "Украшение № 7",
-        "price": null,
+        "title": "Винтажный браслет",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276278/aves-web/ethnic_1507_7.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "1 000"
         },
         "slug": "ukrashenie-7"
     },
     {
         "id": 1508,
-        "title": "Украшение № 8",
-        "price": null,
+        "title": "Этнический браслет",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276278/aves-web/ethnic_1508_8.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276279/aves-web/ethnic_1508_8_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276280/aves-web/ethnic_1508_8_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "2 000"
         },
         "slug": "ukrashenie-8"
     },
     {
         "id": 1509,
-        "title": "Украшение № 9",
-        "price": null,
+        "title": "Современный восточный браслет",
+        "price": 500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276280/aves-web/ethnic_1509_9.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "500",
+            "Залог": "1 000"
         },
         "slug": "ukrashenie-9"
     },
     {
         "id": 1510,
         "title": "Украшение для волос",
-        "price": 0,
+        "price": 500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276281/aves-web/ethnic_1510_10.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276282/aves-web/ethnic_1510_10_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "500",
+            "Залог": "1 000"
         },
         "slug": "ukrashenie-dlya-volos"
     },
     {
         "id": 1511,
-        "title": "Украшение № 11",
-        "price": null,
+        "title": "Этническое украшение (№11)",
+        "price": 500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276284/aves-web/ethnic_1511_11.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "500",
+            "Залог": "1 000"
         },
         "slug": "ukrashenie-11"
     },
     {
         "id": 1512,
-        "title": "Украшение № 12",
-        "price": null,
+        "title": "Этническое украшение № 12",
+        "price": 500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276285/aves-web/ethnic_1512_12.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "500",
+            "Залог": "1 000"
         },
         "slug": "ukrashenie-12"
     },
     {
         "id": 1513,
-        "title": "Украшение № 13",
-        "price": null,
+        "title": "Индийский пояс \"Винтаж\"",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276285/aves-web/ethnic_1513_13.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276286/aves-web/ethnic_1513_13_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "ukrashenie-13"
     },
     {
         "id": 1514,
-        "title": "Индийский пояс, серебро",
-        "price": 0,
+        "title": "Индийский пояс \"Серебро\"",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276287/aves-web/ethnic_1514_14.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "indiyskiy-poyas-serebro"
     },
     {
         "id": 1515,
-        "title": "Украшение № 15",
-        "price": null,
+        "title": "Большой пояс с монетами \"Серебро\"",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276287/aves-web/ethnic_1515_15.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "2 000"
         },
         "slug": "ukrashenie-15"
     },
     {
         "id": 1516,
-        "title": "Пояс Саудовская Аравия",
-        "price": 0,
+        "title": "Пояс Винтажный",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276288/aves-web/ethnic_1516_16.jpg",
@@ -10902,148 +10950,148 @@
         ],
         "description": "Пояс в стиле Саудовской Аравии 90 см",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "poyas-saudovskaya-araviya"
     },
     {
         "id": 1517,
-        "title": "Украшение № 17",
-        "price": null,
+        "title": "Винтажный пояс с монетами",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276290/aves-web/ethnic_1517_17.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "ukrashenie-17"
     },
     {
         "id": 1518,
-        "title": "Украшение № 18",
-        "price": null,
+        "title": "Винтажный пояс с монетами",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276291/aves-web/ethnic_1518_18.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "ukrashenie-18"
     },
     {
         "id": 1519,
-        "title": "Украшение № 19",
-        "price": null,
+        "title": "Пояс \"Бирюза\"",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276292/aves-web/ethnic_1519_19.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276293/aves-web/ethnic_1519_19_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276293/aves-web/ethnic_1519_19_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ. Пояс с искусственной бирюзой",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "ukrashenie-19"
     },
     {
         "id": 1520,
-        "title": "Украшение № 20",
-        "price": null,
+        "title": "Винтажный пояс",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276294/aves-web/ethnic_1520_20.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "3 000"
         },
         "slug": "ukrashenie-20"
     },
     {
         "id": 1521,
-        "title": "Украшение № 21",
-        "price": null,
+        "title": "Широкий пояс с монетами",
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276295/aves-web/ethnic_1521_21.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276295/aves-web/ethnic_1521_21_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276296/aves-web/ethnic_1521_21_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "2 000"
         },
         "slug": "ukrashenie-21"
     },
     {
         "id": 1522,
         "title": "Парадни на косу",
-        "price": 0,
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276297/aves-web/ethnic_1522_22.jpg"
         ],
-        "description": "Индия",
+        "description": "Изящнее украшение, дополняющее ваш образ. Индия",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "2 000"
         },
         "slug": "paradni-na-kosu"
     },
     {
         "id": 1523,
         "title": "Парадни на косу",
-        "price": 0,
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276298/aves-web/ethnic_1523_23.jpg"
         ],
-        "description": "Индия",
+        "description": "Изящнее украшение, дополняющее ваш образ. Индия",
         "details": {
             "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Аренда": "1 000",
+            "Залог": "2 000"
         },
         "slug": "paradni-na-kosu-1523"
     },
     {
         "id": 1524,
         "title": "Парадни на косу",
-        "price": 0,
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276299/aves-web/ethnic_1524_24.jpg"
         ],
-        "description": "Индия",
+        "description": "Изящнее украшение, дополняющее ваш образ. Индия",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "2 000"
         },
         "slug": "paradni-na-kosu-1524"
     },
     {
         "id": 1525,
         "title": "Индийская сумка",
-        "price": 0,
+        "price": 1000,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276299/aves-web/ethnic_1525_25_1.jpg",
@@ -11051,53 +11099,49 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276301/aves-web/ethnic_1525_25_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276302/aves-web/ethnic_1525_25_4.jpg"
         ],
-        "description": "Индия",
+        "description": "Изящнее украшение, дополняющее ваш образ. Индия, винтаж",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "1 000",
+            "Залог": "2 000"
         },
         "slug": "indiyskaya-sumka"
     },
     {
         "id": 1526,
-        "title": "Индийская сумочка",
-        "price": 0,
+        "title": "Малая индийская сумочка",
+        "price": 500,
         "category": "ethnic",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276303/aves-web/ethnic_1526_26_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276303/aves-web/ethnic_1526_26_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773276305/aves-web/ethnic_1526_26_3.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Изящнее украшение, дополняющее ваш образ. Индия",
         "details": {
-            "Тип": "Нет данных",
-            "Аренда": "Нет данных",
-            "Залог": "Нет данных"
+            "Тип": "Аксессуар",
+            "Аренда": "500",
+            "Залог": "2 000"
         },
         "slug": "indiyskaya-sumochka"
     },
     {
         "id": 1601,
         "title": "Шикарное плащ-пальто \"Дворцовое средневековье\" Тёплый",
-        "price": 5000,
+        "price": 10000,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980443/aves-web/s8sonnihnskosrxwjeat.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980444/aves-web/uptefa985u1bsqqlzkzr.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980446/aves-web/srsclgonps9udyyncvhp.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980448/aves-web/h4vzewj69bv4wzkaykld.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980449/aves-web/logzhnhrlot8bvuieczz.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980451/aves-web/dr3oyrwrhxz2cjzob75q.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980453/aves-web/qrh1rgnyraszhyp12ktw.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980446/aves-web/srsclgonps9udyyncvhp.jpg"
         ],
-        "description": "Подходит для мероприятий и тематических фотосессий.",
+        "description": "Подходит для фотосессий в прохладное время года\nПолностью ручная и объемная вышивка, выдерживает до -25-30°",
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "40-46-170",
-            "Аренда": "5000 ₽",
-            "Залог": "20000 ₽",
+            "Размеры": "Безразмерные",
+            "Аренда": "10 000 ₽",
+            "Залог": "30 000 ₽",
             "Особенности": ""
         },
         "slug": "shikarnoe-plasch-palto-dvortsovoe-srednevekove-teplyy"
@@ -11105,7 +11149,7 @@
     {
         "id": 1602,
         "title": "Плащ \"Дольче\"",
-        "price": 5000,
+        "price": 8000,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980455/aves-web/wddvcq3ld4y4tlettngs.jpg",
@@ -11125,29 +11169,29 @@
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На средний рост",
-            "Аренда": "5000 ₽",
-            "Залог": "20000 ₽",
-            "Особенности": ""
+            "Размеры": "Безразмерные",
+            "Аренда": "8 000 ₽",
+            "Залог": "20 000 ₽",
+            "Особенности": "Полностью машинная вышивка"
         },
         "slug": "plasch-dolche"
     },
     {
         "id": 1603,
-        "title": "Плащ \"Белая дымка\", с капюшоном и шлейфом",
+        "title": "Плащ \"Белая дымка\"",
         "price": 1500,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980477/aves-web/kmsgqxxddbjqbsfznnl0.jpg"
         ],
-        "description": "Подходит для мероприятий и тематических фотосессий.",
+        "description": "Плащ сделать из летящей, тонкой ткани, фатин. Подходит для тематических фотосессий.",
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "Уточняйте",
+            "Размеры": "Безразмерные",
             "Аренда": "1500 ₽",
             "Залог": "5000 ₽",
-            "Особенности": ""
+            "Особенности": "Плащ с капюшоном и шлейфом"
         },
         "slug": "plasch-belaya-dymka-s-kapyushonom-i-shleyfom"
     },
@@ -11170,28 +11214,28 @@
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "Уточняйте",
+            "Размеры": "Безразмерные",
             "Аренда": "1500 ₽",
-            "Залог": "3000 ₽",
+            "Залог": "5 000 ₽",
             "Особенности": ""
         },
         "slug": "plaschik-na-obraz-del-luna"
     },
     {
         "id": 1605,
-        "title": "Плащ \"Чёрная дымка\", с капюшоном и шлейфом",
+        "title": "Плащ \"Чёрная дымка\"",
         "price": 1500,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980493/aves-web/q5j1lxeg1lqlxibvz90t.jpg"
         ],
-        "description": "Подходит для мероприятий и тематических фотосессий.",
+        "description": "Сделан из итальянского фатина, имеет капюшон и длинный шлейф. Подходит для мероприятий и тематических фотосессий.",
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "Уточняйте",
-            "Аренда": "1500 ₽",
-            "Залог": "5000 ₽",
+            "Размеры": "Безразмерные",
+            "Аренда": "1 500 ₽",
+            "Залог": "5 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-chernaya-dymka-s-kapyushonom-i-shleyfom"
@@ -11209,35 +11253,37 @@
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На средний рост",
+            "Размеры": "Безразмерные",
             "Аренда": "1500 ₽",
-            "Залог": "3000 ₽",
+            "Залог": "5 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-atlasnyy"
     },
     {
         "id": 1607,
-        "title": "Плащ зеленый на подкладке",
+        "title": "Плащ \"Зелёный\"",
         "price": 1500,
         "category": "cloaks",
         "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1775694397/aves-web/product_1607_1775694396483.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1775694406/aves-web/product_1607_1775694405552.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980501/aves-web/ut8jh0gegaeg5v5dxofn.jpg"
         ],
-        "description": "На высокий рост. Тёплый, шерсть, подходит для зимних съёмок.",
+        "description": "На высокий рост. Тёплый на подкладке, шерсть, подходит для зимних съёмок.",
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На высокий рост",
-            "Аренда": "1500 ₽",
-            "Залог": "4000 ₽",
+            "Размеры": "Безразмерные",
+            "Аренда": "1 500 ₽",
+            "Залог": "5 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-zelenyy-na-podkladke"
     },
     {
         "id": 1608,
-        "title": "Плащ синий на подкладке",
+        "title": "Плащ \"Синий\"",
         "price": 1500,
         "category": "cloaks",
         "images": [
@@ -11246,13 +11292,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980507/aves-web/ielmlzwdvdgevw9cqics.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980509/aves-web/wycenewvldaag3nblmyr.jpg"
         ],
-        "description": "На высокий рост. Тёплый, подходит для зимних съёмок.",
+        "description": "На высокий рост. Тёплый на подкладке, подходит для зимних съёмок.",
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На высокий рост",
-            "Аренда": "1500 ₽",
-            "Залог": "4000 ₽",
+            "Размеры": "Безразмерные",
+            "Аренда": "1 500 ₽",
+            "Залог": "5 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-siniy-na-podkladke"
@@ -11260,7 +11306,7 @@
     {
         "id": 1609,
         "title": "Плащ из чёрных перьев \"Ворон\"",
-        "price": 2500,
+        "price": 4000,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980510/aves-web/pgjhlzdjy0qwl7agrz5u.jpg",
@@ -11274,9 +11320,9 @@
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На высокий рост",
-            "Аренда": "2500 ₽",
-            "Залог": "10000 ₽",
+            "Размеры": "Безразмерные",
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-iz-chernyh-perev-voron"
@@ -11294,9 +11340,9 @@
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На высокий рост",
+            "Размеры": "Безразмерные",
             "Аренда": "1500 ₽",
-            "Залог": "3000 ₽",
+            "Залог": "5 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-zamsha-shokolad"
@@ -11304,13 +11350,11 @@
     {
         "id": 1611,
         "title": "Плащ двухсторонний «Бохо»",
-        "price": 2000,
+        "price": 3000,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980525/aves-web/pvbo2iphh7aul54p6hth.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980526/aves-web/ihes1cnclsbk86nfexnf.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980528/aves-web/zlzlmi4qavoikocsydix.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980530/aves-web/xxvgk2wrfxb2eubzikcx.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980532/aves-web/kzmnkusi3euuhkcil1oq.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980534/aves-web/vhy9izdr8nuof31eg5xs.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980536/aves-web/z78trg1fozfnja7ngs63.jpg"
@@ -11319,9 +11363,9 @@
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На средний рост",
-            "Аренда": "2000 ₽",
-            "Залог": "5000 ₽",
+            "Размеры": "Безразмерные",
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-dvuhstoronniy-boho"
@@ -11340,9 +11384,9 @@
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На средний рост",
-            "Аренда": "1500 ₽",
-            "Залог": "3000 ₽",
+            "Размеры": "Безразмерные",
+            "Аренда": "1 500 ₽",
+            "Залог": "5 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-atlasnyy-bordovyy-s-zolotom"
@@ -11363,7 +11407,7 @@
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На высокий рост",
+            "Размеры": "Безразмерные",
             "Аренда": "1500 ₽",
             "Залог": "5000 ₽",
             "Особенности": ""
@@ -11377,15 +11421,13 @@
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980553/aves-web/ifjdqhp8vk6yoiipvja4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980555/aves-web/lm1bwpnded2ww5mows6u.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980556/aves-web/mt2zviwndsxa22jdnphh.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980558/aves-web/hayk3fzt6i8dwvpoccwe.jpg"
         ],
         "description": "На низкий рост, замша.",
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На низкий рост",
+            "Размеры": "Безразмерные",
             "Аренда": "1500 ₽",
             "Залог": "5000 ₽",
             "Особенности": ""
@@ -11395,7 +11437,7 @@
     {
         "id": 1615,
         "title": "Плащ \"Молочный с золотом\"",
-        "price": 2500,
+        "price": 5000,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980560/aves-web/rtzllxvwp9pvpihkihky.jpg",
@@ -11405,13 +11447,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980567/aves-web/em6wdzu4d28e1uyogbqq.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980569/aves-web/x682ijbckfezbiu2crtd.jpg"
         ],
-        "description": "На средний рост.",
+        "description": "На средний рост, на мероприятия не выдаётся ",
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На средний рост",
-            "Аренда": "2500 ₽",
-            "Залог": "10000 ₽",
+            "Размеры": "Безразмерные",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-molochnyy-s-zolotom"
@@ -11431,9 +11473,9 @@
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На средний рост",
-            "Аренда": "1500 ₽",
-            "Залог": "5000 ₽",
+            "Размеры": "Безразмерные",
+            "Аренда": "1 500 ₽",
+            "Залог": "5 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-bordovaya-zamsha"
@@ -11451,9 +11493,9 @@
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "На средний рост",
-            "Аренда": "1500 ₽",
-            "Залог": "3000 ₽",
+            "Размеры": "Безразмерные",
+            "Аренда": "1 500 ₽",
+            "Залог": "5 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-atlasnyy-chernyy"
@@ -11466,18 +11508,16 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980581/aves-web/xmlrf8bbv1ydhvqxqt9d.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980582/aves-web/aigr5g0nbskf1r2q1ann.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980584/aves-web/yaffcisitootdeynaapv.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980586/aves-web/elq7l1shqn9kkm8d5ubh.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980588/aves-web/w0ynsv9pjony6jhkaybi.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980590/aves-web/qttv8znzwow3glrg98nx.jpg"
         ],
         "description": "Подходит для мероприятий и тематических фотосессий.",
         "details": {
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
-            "Размеры": "40-46",
-            "Аренда": "5000 ₽",
-            "Залог": "8000 ₽",
+            "Размеры": "Безразмерные",
+            "Аренда": "5 000 ₽",
+            "Залог": "8 000 ₽",
             "Особенности": ""
         },
         "slug": "plasch-palto-rozhdestvenskiy"

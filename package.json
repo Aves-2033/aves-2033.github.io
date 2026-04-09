@@ -3,8 +3,8 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "dev": "astro dev",
-    "prebuild": "node scripts/hide-admin.js",
+    "dev": "node scripts/update-version.js && astro dev",
+    "prebuild": "node scripts/update-version.js && node scripts/hide-admin.js",
     "build": "astro build",
     "postbuild": "node scripts/restore-admin.js",
     "preview": "astro preview",
