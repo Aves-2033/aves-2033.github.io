@@ -2,10 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import products from '../data/products.json';
 
-// Security: Only accessible in dev
+// Security: Block in production — redirect to 404
 if (import.meta.env.PROD) {
-  // In production, this page will still exist but we can shield it or return 404
-  // However, for static builds it's better to just not link to it.
+  return Astro.redirect('/404', 404);
 }
 
 const title = "Админ-панель | Прокат от Кет";
@@ -552,12 +551,29 @@ const title = "Админ-панель | Прокат от Кет";
       const container = document.getElementById('detailsContainer');
       const row = document.createElement('div');
       row.className = 'detail-row';
-      row.innerHTML = `
-        <input type="text" class="detail-key" value="${key}" placeholder="Ключ (например, Размер)" />
-        <input type="text" class="detail-val" value="${value}" placeholder="Значение" />
-        <button type="button" class="btn-remove">&times;</button>
-      `;
-      row.querySelector('.btn-remove').onclick = () => row.remove();
+
+      // Безопасное создание через DOM API — без innerHTML с интерполяцией (XSS-защита)
+      const keyInput = document.createElement('input');
+      keyInput.type = 'text';
+      keyInput.className = 'detail-key';
+      keyInput.placeholder = 'Ключ (например, Размер)';
+      keyInput.value = key || '';
+
+      const valInput = document.createElement('input');
+      valInput.type = 'text';
+      valInput.className = 'detail-val';
+      valInput.placeholder = 'Значение';
+      valInput.value = value || '';
+
+      const removeBtn = document.createElement('button');
+      removeBtn.type = 'button';
+      removeBtn.className = 'btn-remove';
+      removeBtn.textContent = '×';
+      removeBtn.onclick = () => row.remove();
+
+      row.appendChild(keyInput);
+      row.appendChild(valInput);
+      row.appendChild(removeBtn);
       container.appendChild(row);
     }
 
@@ -568,15 +584,34 @@ const title = "Админ-панель | Прокат от Кет";
         const isMain = index === 0;
         const item = document.createElement('div');
         item.className = 'gallery-item' + (isMain ? ' is-main' : '');
-        item.innerHTML = `
-          <img src="${img}" alt="" />
-          ${!isMain ? `<button class="img-main-btn" title="Сделать главным">★</button>` : `<span class="main-badge">ГЛАВНОЕ</span>`}
-          <button class="img-del-btn" title="Удалить">&times;</button>
-        `;
+
+        // Безопасное создание через DOM API — XSS-защита для URL изображений
+        const imgEl = document.createElement('img');
+        imgEl.setAttribute('src', img);  // setAttribute не исполняет JS в src
+        imgEl.alt = '';
+        item.appendChild(imgEl);
+
         if (!isMain) {
-            item.querySelector('.img-main-btn').onclick = () => setMainImage(img);
+          const mainBtn = document.createElement('button');
+          mainBtn.className = 'img-main-btn';
+          mainBtn.title = 'Сделать главным';
+          mainBtn.textContent = '★';
+          mainBtn.onclick = () => setMainImage(img);
+          item.appendChild(mainBtn);
+        } else {
+          const badge = document.createElement('span');
+          badge.className = 'main-badge';
+          badge.textContent = 'ГЛАВНОЕ';
+          item.appendChild(badge);
         }
-        item.querySelector('.img-del-btn').onclick = () => deleteImage(img);
+
+        const delBtn = document.createElement('button');
+        delBtn.className = 'img-del-btn';
+        delBtn.title = 'Удалить';
+        delBtn.textContent = '×';
+        delBtn.onclick = () => deleteImage(img);
+        item.appendChild(delBtn);
+
         grid.appendChild(item);
       });
     }

@@ -37,11 +37,6 @@ export async function POST({ request }) {
 
     try {
         const rawText = await request.text();
-        writeFileSync('debug.json', JSON.stringify({ 
-          rawText,
-          contentLength: request.headers.get('content-length'),
-          headers: Object.fromEntries(request.headers.entries())
-        }, null, 2));
         const payload = JSON.parse(rawText || '{}');
         const action = payload.action;
         const productId = parseInt(payload.productId);
@@ -122,7 +117,11 @@ export async function DELETE({ request }) {
                 }
             } else if (imagePath.startsWith('/img/products/')) {
                 const fullPath = join(projectRoot, 'public', imagePath);
-                if (existsSync(fullPath)) {
+                // Защита от path traversal: путь должен быть строго внутри public/img/products/
+                const allowedBase = join(projectRoot, 'public', 'img', 'products');
+                if (!fullPath.startsWith(allowedBase + '/') && fullPath !== allowedBase) {
+                    console.error('Path traversal attempt blocked:', imagePath);
+                } else if (existsSync(fullPath)) {
                     try { unlinkSync(fullPath); } catch (err) { console.error(`Error deleting ${fullPath}:`, err); }
                 }
             }
