@@ -159,10 +159,10 @@ const combinedSchema = [breadcrumbSchema, productSchema];
   <Footer />
 
   <Fragment slot="scripts">
-    <script define:vars={{ slug: product.slug }}>
+    <script define:vars={{ slug: product.slug, category: product.category }}>
       // Если это не бот и не переход через iframe, перенаправляем в каталог с открытием модалки
       if (!navigator.userAgent.includes('bot') && window.self === window.top) {
-        window.location.replace('/catalog?product=' + slug);
+        window.location.replace('/catalog/' + category + '?product=' + slug);
       }
     </script>
     <script>

@@ -20,6 +20,16 @@ async function fetchProducts() {
         if (!response.ok) throw new Error('Ошибка загрузки данных');
         products = await response.json();
         window.__catalogProducts = products;
+
+        // Открываем конкретный товар, если он передан в URL (?product=slug)
+        const urlParams = new URLSearchParams(window.location.search);
+        const productSlug = urlParams.get('product');
+        if (productSlug) {
+            const index = products.findIndex(p => p.slug === productSlug);
+            if (index !== -1) {
+                setTimeout(() => openCategoryModal(index), 100);
+            }
+        }
     } catch (e) {
         console.error('Ошибка загрузки products.json:', e);
         products = [];
