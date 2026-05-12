@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "id": 101,
         "title": "Винтажная шуба из лисы 80-е",
@@ -1750,6 +1750,26 @@
             "Особенности": "Бальное платье на очень узкую грудную клетку. кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         },
         "slug": "balnoe-plate-chernaya-orhideya"
+    },
+    {
+        "id": 345,
+        "title": "Бальное платье \"Герцогиня\"",
+        "price": 6000,
+        "category": "ball",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1778582859/aves-web/product_345_1.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1778582860/aves-web/product_345_2.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1778582861/aves-web/product_345_3.jpg"
+        ],
+        "description": "Великолепное платье на 19 век. Подходит для балов, мероприятий и фотосессий.",
+        "details": {
+            "Тип": "Бальные платья 19-й век",
+            "Размеры": "42-46 (рост 170)",
+            "Аренда": "6 000 ₽",
+            "Залог": "15 000 ₽",
+            "Особенности": "Бальное платье регулируется шнуровкой."
+        },
+        "slug": "balnoe-plate-gercoginja"
     },
     {
         "id": 401,

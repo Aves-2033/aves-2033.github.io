@@ -23,6 +23,9 @@ Thumbs.db
 # temp images
 public/img/tmp/
 
+# raw product photos (uploaded to Cloudinary via API)
+tovar/
+
 # admin panel temp files (from build scripts)
 admin.astro.bak
 api_dir.bak
