@@ -2490,7 +2490,7 @@
     {
         "id": 501,
         "title": "Кимоно «Цветы и птицы»",
-        "price": 5000,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272547/aves-web/product_501_1.jpg",
@@ -2502,8 +2502,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Синтетика",
-            "Аренда": "5000 ₽",
-            "Залог": "20000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "20 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-tsvety-i-ptitsy"
@@ -2511,7 +2511,7 @@
     {
         "id": 502,
         "title": "Кимоно «Салатовое фурисодэ»",
-        "price": 4000,
+        "price": 6000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272550/aves-web/product_502_1.jpg",
@@ -2524,8 +2524,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4000 ₽",
-            "Залог": "20000 ₽",
+            "Аренда": "6 000 ₽",
+            "Залог": "20 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-salatovoe-furisode"
@@ -2533,7 +2533,7 @@
     {
         "id": 503,
         "title": "Кимоно «Зимнее»",
-        "price": 5000,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272554/aves-web/product_503_1.jpg",
@@ -2544,8 +2544,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5000 ₽",
-            "Залог": "25000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "25 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-zimnee"
@@ -2553,7 +2553,7 @@
     {
         "id": 504,
         "title": "Винтажное шёлковое кимоно с журавлями",
-        "price": 5500,
+        "price": 10000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272556/aves-web/product_504_1.jpg",
@@ -2564,8 +2564,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5500 ₽",
-            "Залог": "0 ₽",
+            "Аренда": "10 000 ₽",
+            "Залог": "Только сопровождение",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "vintazhnoe-shelkovoe-kimono-s-zhuravlyami"
@@ -2573,7 +2573,7 @@
     {
         "id": 505,
         "title": "Кимоно «Салатовое»",
-        "price": 3000,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272558/aves-web/product_505_1.jpg",
@@ -2590,8 +2590,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Синтетика",
-            "Аренда": "3000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-salatovoe"
@@ -2599,7 +2599,7 @@
     {
         "id": 506,
         "title": "Кимоно Сшито из искусственного японского шёлка",
-        "price": 2000,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272564/aves-web/product_506_1.jpg",
@@ -2614,8 +2614,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "2000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-sshito-iz-iskusstvennogo-yaponskogo-shelka"
@@ -2623,7 +2623,7 @@
     {
         "id": 507,
         "title": "Антикварное кимоно",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272569/aves-web/product_507_1.jpg",
@@ -2635,8 +2635,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "antikvarnoe-kimono"
@@ -2644,7 +2644,7 @@
     {
         "id": 508,
         "title": "Кимоно «Нежный голубой»",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272572/aves-web/product_508_1.jpg",
@@ -2657,8 +2657,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-nezhnyy-goluboy"
@@ -2666,7 +2666,7 @@
     {
         "id": 509,
         "title": "Кимоно «Бирюзовое»",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272576/aves-web/product_509_1.jpg",
@@ -2679,8 +2679,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Натуральный шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-biryuzovoe"
@@ -2688,7 +2688,7 @@
     {
         "id": 511,
         "title": "Кимоно «Незабудки»",
-        "price": 4000,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272579/aves-web/product_511_1.jpg",
@@ -2702,8 +2702,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-nezabudki"
@@ -2711,7 +2711,7 @@
     {
         "id": 512,
         "title": "Винтажная хлопковая юката",
-        "price": 2000,
+        "price": 4000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272583/aves-web/product_512_1.jpg",
@@ -2722,8 +2722,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Хлопок",
-            "Аренда": "2000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "vintazhnaya-hlopkovaya-yukata"
@@ -2731,7 +2731,7 @@
     {
         "id": 513,
         "title": "Кимоно «Синий сад»",
-        "price": 5000,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272586/aves-web/product_513_1.jpg",
@@ -2746,8 +2746,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5000 ₽",
-            "Залог": "25000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "25 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-siniy-sad"
@@ -2755,7 +2755,7 @@
     {
         "id": 515,
         "title": "Кимоно «Складной веер»",
-        "price": 5500,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272591/aves-web/product_515_1.jpg",
@@ -2768,8 +2768,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5 500 ₽",
-            "Залог": "10 000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "25 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-skladnoy-veer"
@@ -2777,7 +2777,7 @@
     {
         "id": 517,
         "title": "Кимоно «Тёмно-бордовое»",
-        "price": 4000,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272595/aves-web/product_517_1.jpg",
@@ -2789,8 +2789,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-temno-bordovoe"
@@ -2798,7 +2798,7 @@
     {
         "id": 518,
         "title": "Кимоно «Вишня»",
-        "price": 4000,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272598/aves-web/product_518_1.jpg",
@@ -2813,8 +2813,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-vishnya"
@@ -2822,7 +2822,7 @@
     {
         "id": 519,
         "title": "Кимоно «Алое»",
-        "price": 4000,
+        "price": 6000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272604/aves-web/product_519_1.jpg",
@@ -2832,8 +2832,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "6 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-aloe"
@@ -2841,7 +2841,7 @@
     {
         "id": 520,
         "title": "Кимоно «Розы»",
-        "price": 5500,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272606/aves-web/product_520_1.jpg",
@@ -2854,8 +2854,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5500 ₽",
-            "Залог": "25000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "25 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-rozy"
@@ -2863,7 +2863,7 @@
     {
         "id": 521,
         "title": "Кимоно «Телеги»",
-        "price": 5500,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272610/aves-web/product_521_1.jpg",
@@ -2874,8 +2874,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5500 ₽",
-            "Залог": "0 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "Только сопровождение",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-telegi"
@@ -2883,7 +2883,7 @@
     {
         "id": 522,
         "title": "Кимоно «Современные мотивы»",
-        "price": 5500,
+        "price": 10000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272612/aves-web/product_522_1.jpg",
@@ -2895,8 +2895,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5500 ₽",
-            "Залог": "25000 ₽",
+            "Аренда": "10 000 ₽",
+            "Залог": "25 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-sovremennye-motivy"
@@ -2904,7 +2904,7 @@
     {
         "id": 526,
         "title": "Кимоно «Красное в цветах»",
-        "price": 3000,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272616/aves-web/product_526_1.jpg",
@@ -2914,8 +2914,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-krasnoe-v-tsvetah"
@@ -2923,7 +2923,7 @@
     {
         "id": 527,
         "title": "Кимоно «Уточки»",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272618/aves-web/product_527_1.jpg",
@@ -2935,8 +2935,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-utochki"
@@ -2944,7 +2944,7 @@
     {
         "id": 528,
         "title": "Кимоно «Цветочные полосы»",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272621/aves-web/product_528_1.jpg",
@@ -2956,8 +2956,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-tsvetochnye-polosy"
@@ -2965,7 +2965,7 @@
     {
         "id": 531,
         "title": "Кимоно «Ночной сад»",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272625/aves-web/product_531_1.jpg",
@@ -2977,8 +2977,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-nochnoy-sad"
@@ -2986,7 +2986,7 @@
     {
         "id": 532,
         "title": "Кимоно «Веера»",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272628/aves-web/product_532_1.jpg",
@@ -2996,8 +2996,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Синтетика",
-            "Аренда": "3 500 ₽",
-            "Залог": "10 000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-veera"
@@ -3005,7 +3005,7 @@
     {
         "id": 533,
         "title": "Кимоно «Веера и уточки»",
-        "price": 4500,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272629/aves-web/product_533_1.jpg"
@@ -3014,8 +3014,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4 500 ₽",
-            "Залог": "10 000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-veera-i-utochki"
@@ -3023,7 +3023,7 @@
     {
         "id": 534,
         "title": "Кимоно «Журавли и волны»",
-        "price": 5000,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272630/aves-web/product_534_1.jpg",
@@ -3036,8 +3036,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5000 ₽",
-            "Залог": "25000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "25 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-zhuravli-i-volny"
@@ -3045,7 +3045,7 @@
     {
         "id": 535,
         "title": "Кимоно «мандаринка»",
-        "price": 5000,
+        "price": 6000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272634/aves-web/product_535_1.jpg",
@@ -3057,8 +3057,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5000 ₽",
-            "Залог": "25000 ₽",
+            "Аренда": "6 000 ₽",
+            "Залог": "25 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-mandarinka"
@@ -3066,7 +3066,7 @@
     {
         "id": 538,
         "title": "Кимоно «Веера и хризантемы»",
-        "price": 4500,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272637/aves-web/product_538_1.jpg",
@@ -3077,8 +3077,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4 500 ₽",
-            "Залог": "10 000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-veera-i-hrizantemy"
@@ -3086,7 +3086,7 @@
     {
         "id": 539,
         "title": "Кимоно «Цветы»",
-        "price": 4500,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272639/aves-web/product_539_1.jpg"
@@ -3095,8 +3095,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Искусственный шёлк",
-            "Аренда": "4500 ₽",
-            "Залог": "20000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "25 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-tsvety"
@@ -3104,7 +3104,7 @@
     {
         "id": 540,
         "title": "Кимоно «Павлин»",
-        "price": 4500,
+        "price": 6000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272640/aves-web/product_540_1.jpg"
@@ -3113,8 +3113,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4500 ₽",
-            "Залог": "20000 ₽",
+            "Аренда": "6 000 ₽",
+            "Залог": "20 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-pavlin"
@@ -3122,7 +3122,7 @@
     {
         "id": 541,
         "title": "Кимоно «Журавли и волны»",
-        "price": 4500,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272640/aves-web/product_541_2.jpg",
@@ -3132,8 +3132,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4500 ₽",
-            "Залог": "20000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "20 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-zhuravli-i-volny-541"
@@ -3141,7 +3141,7 @@
     {
         "id": 542,
         "title": "Кимоно «Черное с веерами и цветами»",
-        "price": 5000,
+        "price": 6000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272642/aves-web/product_542_1.jpg",
@@ -3154,8 +3154,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5 000 ₽",
-            "Залог": "10 000 ₽",
+            "Аренда": "6 000 ₽",
+            "Залог": "20 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-chernoe-s-veerami-i-tsvetami"
@@ -3175,8 +3175,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Синтетика",
-            "Аренда": "5000 ₽",
-            "Залог": "20000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "20 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-klassicheskoe-chernoe-furisode"
@@ -3184,7 +3184,7 @@
     {
         "id": 545,
         "title": "Кимоно «Чёрный шёлк»",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272651/aves-web/product_545_1.jpg",
@@ -3198,8 +3198,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-chernyy-shelk"
@@ -3207,7 +3207,7 @@
     {
         "id": 546,
         "title": "Кимоно «Чёрный шёлк-2»",
-        "price": 3000,
+        "price": 4000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272657/aves-web/product_546_1.jpg"
@@ -3216,8 +3216,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-chernyy-shelk-2"
@@ -3225,7 +3225,7 @@
     {
         "id": 547,
         "title": "Кимоно «Прозрачное»",
-        "price": 2000,
+        "price": 4000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272658/aves-web/product_547_1.jpg",
@@ -3236,8 +3236,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "2000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-prozrachnoe"
@@ -3245,7 +3245,7 @@
     {
         "id": 549,
         "title": "Винтажная хлопковая юката",
-        "price": 2500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272660/aves-web/product_549_1.jpg",
@@ -3255,8 +3255,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Хлопок",
-            "Аренда": "2500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "vintazhnaya-hlopkovaya-yukata-549"
@@ -3264,7 +3264,7 @@
     {
         "id": 550,
         "title": "Винтажная хлопковая юката",
-        "price": 2500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272661/aves-web/product_550_1.jpg",
@@ -3275,8 +3275,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Хлопок",
-            "Аренда": "2500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "vintazhnaya-hlopkovaya-yukata-550"
@@ -3284,7 +3284,7 @@
     {
         "id": 551,
         "title": "Кимоно «Фиолетовый павлин»",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272663/aves-web/product_551_1.jpg",
@@ -3298,8 +3298,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-fioletovyy-pavlin"
@@ -3307,7 +3307,7 @@
     {
         "id": 555,
         "title": "Кимоно «Пионы»",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272668/aves-web/product_555_2.jpg",
@@ -3321,8 +3321,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-piony"
@@ -3330,7 +3330,7 @@
     {
         "id": 556,
         "title": "Кимоно «Пионы на голубом»",
-        "price": 4000,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272672/aves-web/product_556_1.jpg",
@@ -3341,8 +3341,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-piony-na-golubom"
@@ -3350,7 +3350,7 @@
     {
         "id": 557,
         "title": "Кимоно «Буйный цвет»",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272673/aves-web/product_557_1.jpg",
@@ -3365,8 +3365,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-buynyy-tsvet"
@@ -3374,7 +3374,7 @@
     {
         "id": 558,
         "title": "Кимоно «Розы»",
-        "price": 5000,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272680/aves-web/product_558_1.jpg",
@@ -3388,8 +3388,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5000 ₽",
-            "Залог": "30000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "30 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-rozy-558"
@@ -3397,7 +3397,7 @@
     {
         "id": 559,
         "title": "Кимоно «Розовый закат»",
-        "price": 5000,
+        "price": 10000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272684/aves-web/product_559_1.jpg",
@@ -3410,8 +3410,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5000 ₽",
-            "Залог": "25000 ₽",
+            "Аренда": "10 000 ₽",
+            "Залог": "25 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-rozovyy-zakat"
@@ -3430,8 +3430,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Натуральный шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "3 500 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-aktery-kabuki-2"
@@ -3439,7 +3439,7 @@
     {
         "id": 563,
         "title": "Кимоно «Клёны»",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272690/aves-web/product_563_1.jpg"
@@ -3448,8 +3448,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Натуральный шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-kleny"
@@ -3457,7 +3457,7 @@
     {
         "id": 564,
         "title": "Однотонное белое винтажное кимоно из шёлка",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272691/aves-web/product_564_1.jpg",
@@ -3472,8 +3472,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "odnotonnoe-beloe-vintazhnoe-kimono-iz-shelka"
@@ -3481,7 +3481,7 @@
     {
         "id": 565,
         "title": "Однотонное белое винтажное кимоно из шёлка",
-        "price": 3500,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272696/aves-web/product_565_1.jpg",
@@ -3491,8 +3491,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "odnotonnoe-beloe-vintazhnoe-kimono-iz-shelka-565"
@@ -3500,7 +3500,7 @@
     {
         "id": 566,
         "title": "Кимоно «Серебристая дымка»",
-        "price": 4000,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272697/aves-web/product_566_1.jpg"
@@ -3509,8 +3509,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4000 ₽",
-            "Залог": "20000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "20 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-serebristaya-dymka"
@@ -3518,7 +3518,7 @@
     {
         "id": 567,
         "title": "Кимоно «Белое золото»",
-        "price": 4000,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272697/aves-web/product_567_1.jpg",
@@ -3528,8 +3528,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Натуральный шёлк",
-            "Аренда": "4000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-beloe-zoloto"
@@ -3537,7 +3537,7 @@
     {
         "id": 568,
         "title": "Кимоно «Нежный розовый»",
-        "price": 4000,
+        "price": 6000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272698/aves-web/product_568_1.jpg",
@@ -3554,8 +3554,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "6 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-nezhnyy-rozovyy"
@@ -3563,7 +3563,7 @@
     {
         "id": 569,
         "title": "Кимоно «Весенние переливы»",
-        "price": 5000,
+        "price": 8000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272705/aves-web/product_569_1.jpg"
@@ -3572,8 +3572,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-vesennie-perelivy"
@@ -3581,7 +3581,7 @@
     {
         "id": 571,
         "title": "Однотонное серебряное винтажное кимоно из синте",
-        "price": 3500,
+        "price": 4000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272705/aves-web/product_571_3.jpg",
@@ -3591,8 +3591,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Синтетика",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "4 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "odnotonnoe-serebryanoe-vintazhnoe-kimono-iz-sinte"
@@ -3600,7 +3600,7 @@
     {
         "id": 572,
         "title": "Винтажное серо-бежевое кимоно из шёлка",
-        "price": 3500,
+        "price": 4000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272707/aves-web/product_572_1.jpg",
@@ -3611,8 +3611,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3500 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "4 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "vintazhnoe-sero-bezhevoe-kimono-iz-shelka"
@@ -3633,8 +3633,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Натуральный шёлк",
-            "Аренда": "4000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "4 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-nezhnyy-shelk"
@@ -3642,7 +3642,7 @@
     {
         "id": 575,
         "title": "Нежное летнее кимоно-томесоде из Японского шёлка",
-        "price": 3000,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272714/aves-web/product_575_1.jpg",
@@ -3656,8 +3656,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "nezhnoe-letnee-kimono-tomesode-iz-yaponskogo-shelka"
@@ -3665,7 +3665,7 @@
     {
         "id": 578,
         "title": "Кимоно Винтаж",
-        "price": 5000,
+        "price": 7000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272719/aves-web/product_578_1.jpg",
@@ -3680,8 +3680,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "5000 ₽",
-            "Залог": "20000 ₽",
+            "Аренда": "7 000 ₽",
+            "Залог": "20 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-vintazh"
@@ -3689,7 +3689,7 @@
     {
         "id": 580,
         "title": "Кимоно «Весна»",
-        "price": 3000,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272724/aves-web/product_580_1.jpg",
@@ -3705,8 +3705,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Синтетика",
-            "Аренда": "3000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-vesna"
@@ -3714,7 +3714,7 @@
     {
         "id": 582,
         "title": "Жёлтое винтажное кимоно из Шёлка",
-        "price": 3000,
+        "price": 5000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272730/aves-web/product_582_1.jpg",
@@ -3725,8 +3725,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "3000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "zheltoe-vintazhnoe-kimono-iz-shelka"
@@ -3734,7 +3734,7 @@
     {
         "id": 583,
         "title": "Яркое солнечное кимоно-томесоде из Японского шёлка",
-        "price": 4500,
+        "price": 6000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272732/aves-web/product_583_1.jpg",
@@ -3745,8 +3745,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "4500 ₽",
-            "Залог": "20000 ₽",
+            "Аренда": "6 000 ₽",
+            "Залог": "20 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "yarkoe-solnechnoe-kimono-tomesode-iz-yaponskogo-shelka"
@@ -3754,7 +3754,7 @@
     {
         "id": 586,
         "title": "Классическое хаори из черного шелка",
-        "price": 2000,
+        "price": 3000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272733/aves-web/product_586_1.jpg",
@@ -3765,8 +3765,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "2000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "klassicheskoe-haori-iz-chernogo-shelka"
@@ -3774,7 +3774,7 @@
     {
         "id": 587,
         "title": "Кимоно Женское хаори с вышивкой",
-        "price": 2000,
+        "price": 4000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272736/aves-web/product_587_1.jpg"
@@ -3783,8 +3783,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "2000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-zhenskoe-haori-s-vyshivkoy"
@@ -3792,7 +3792,7 @@
     {
         "id": 588,
         "title": "Кимоно Женское хаори с вышивкой",
-        "price": 2000,
+        "price": 4000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272737/aves-web/product_588_1.jpg"
@@ -3801,8 +3801,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "2000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-zhenskoe-haori-s-vyshivkoy-588"
@@ -3810,7 +3810,7 @@
     {
         "id": 589,
         "title": "Кимоно Женское хаори с принтом Журавли и драконы",
-        "price": 2000,
+        "price": 4000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272738/aves-web/product_589_1.jpg",
@@ -3822,8 +3822,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Синтетика",
-            "Аренда": "2000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-zhenskoe-haori-s-printom-zhuravli-i-drakony"
@@ -3831,7 +3831,7 @@
     {
         "id": 590,
         "title": "Кимоно Хаори женское чёрное",
-        "price": 2000,
+        "price": 4000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272742/aves-web/product_590_1.jpg",
@@ -3841,8 +3841,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "2000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-haori-zhenskoe-chernoe"
@@ -3850,7 +3850,7 @@
     {
         "id": 594,
         "title": "Кимоно Винтажное хаори из шёлка",
-        "price": 2000,
+        "price": 3000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272744/aves-web/product_594_1.jpg"
@@ -3859,8 +3859,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "2000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "3 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-vintazhnoe-haori-iz-shelka"
@@ -3868,7 +3868,7 @@
     {
         "id": 595,
         "title": "Кимоно Отличное винтажное хаори",
-        "price": 2000,
+        "price": 3000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272744/aves-web/product_595_1.jpg"
@@ -3877,8 +3877,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Синтетика",
-            "Аренда": "2000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "3000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-otlichnoe-vintazhnoe-haori"
@@ -3886,7 +3886,7 @@
     {
         "id": 596,
         "title": "Кимоно Антикварное хаори из шёлка",
-        "price": 2500,
+        "price": 4000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272745/aves-web/product_596_1.jpg",
@@ -3896,8 +3896,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "2500 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-antikvarnoe-haori-iz-shelka"
@@ -3905,7 +3905,7 @@
     {
         "id": 597,
         "title": "Кимоно Винтажное Хаори 60-70гг",
-        "price": 2000,
+        "price": 3000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272746/aves-web/product_597_1.jpg"
@@ -3914,8 +3914,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "2000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "3 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "kimono-vintazhnoe-haori-60-70gg"
@@ -3923,7 +3923,7 @@
     {
         "id": 598,
         "title": "Винтажное хаори из шелка",
-        "price": 2000,
+        "price": 3000,
         "category": "kimono",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272747/aves-web/product_598_5.jpg",
@@ -3935,8 +3935,8 @@
         "details": {
             "Тип": "Японское Кимоно",
             "Материал": "Шёлк",
-            "Аренда": "2000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Аутентичный винтаж"
         },
         "slug": "vintazhnoe-haori-iz-shelka"
