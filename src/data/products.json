@@ -4434,7 +4434,7 @@
     {
         "id": 801,
         "title": "Костюм с красным камзолом",
-        "price": 5000,
+        "price": 6000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272813/aves-web/product_801_1.jpg",
@@ -4444,7 +4444,7 @@
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "46-52-185",
-            "Аренда": "5 000 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "17 000 ₽",
             "Особенности": "LUXE"
         },
@@ -4453,7 +4453,7 @@
     {
         "id": 802,
         "title": "Мужской костюм в стиле европейского возраждения",
-        "price": 5000,
+        "price": 6000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272815/aves-web/product_802_1.jpg",
@@ -4465,7 +4465,7 @@
             "Тип": "Мужской гардероб",
             "Особенности": "LUXE",
             "Размеры": "44-48-180, берет 60см",
-            "Аренда": "5 000 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽"
         },
         "slug": "stilizatsiya-na-evropeyskoe-vozrozhdenie"
@@ -4473,7 +4473,7 @@
     {
         "id": 803,
         "title": "Мужской костюм \"Граф\"",
-        "price": 5000,
+        "price": 6000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272817/aves-web/product_803_5.jpg",
@@ -4484,7 +4484,7 @@
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "50-54-190",
-            "Аренда": "5 000 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "17 000 ₽",
             "Особенности": "LUXE"
         },
@@ -4493,7 +4493,7 @@
     {
         "id": 804,
         "title": "Мужской костюм \"Маркиз\"",
-        "price": 5000,
+        "price": 6000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272820/aves-web/product_804_1.jpg",
@@ -4506,7 +4506,7 @@
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "46-48-185",
-            "Аренда": "5 000 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "LUXE"
         },
