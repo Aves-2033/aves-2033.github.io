@@ -32,7 +32,7 @@ async function processProducts() {
     try {
         console.log('Reading products.json from src/data...');
         const rawData = await fs.readFile(SRC_DATA_PATH, 'utf-8');
-        const products = JSON.parse(rawData);
+        const products = JSON.parse(rawData.replace(/^\uFEFF/, ''));
         
         const slugCounts = new Map();
         let updatedCount = 0;

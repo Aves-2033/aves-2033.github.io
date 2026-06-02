@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id": 101,
         "title": "Винтажная шуба из лисы 80-е",
@@ -1769,7 +1769,7 @@
             "Залог": "15 000 ₽",
             "Особенности": "Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-gercoginja"
+        "slug": "balnoe-plate-gertsoginya"
     },
     {
         "id": 401,
@@ -4276,7 +4276,7 @@
             "Залог": "15 000 ₽",
             "Аренда": "4 500 ₽"
         },
-        "slug": "frak-dlya-verhovoy-ezdy-siniy-pfiff-46-48"
+        "slug": "frak-dlya-verhovoy-ezdy-siniy"
     },
     {
         "id": 717,
@@ -4449,7 +4449,7 @@
             "Залог": "10 000 ₽",
             "Особенности": "Spooks, Германия"
         },
-        "slug": "redingot-dlya-verhovoy-ezdy-nebesno-goluboy-spooks"
+        "slug": "redingot-dlya-verhovoy-ezdy-nebesno-goluboy"
     },
     {
         "id": 801,
@@ -4468,7 +4468,7 @@
             "Залог": "17 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "krasnyy-kamzol-v-komplekte"
+        "slug": "kostyum-s-krasnym-kamzolom"
     },
     {
         "id": 802,
@@ -4488,7 +4488,7 @@
             "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽"
         },
-        "slug": "stilizatsiya-na-evropeyskoe-vozrozhdenie"
+        "slug": "muzhskoy-kostyum-v-stile-evropeyskogo-vozrazhdeniya"
     },
     {
         "id": 803,
@@ -4508,7 +4508,7 @@
             "Залог": "17 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "stilizatsiya-na-18-vek"
+        "slug": "muzhskoy-kostyum-graf"
     },
     {
         "id": 804,
@@ -4530,7 +4530,7 @@
             "Залог": "15 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "muzhskoy-kostyum-na-18-vek"
+        "slug": "muzhskoy-kostyum-markiz"
     },
     {
         "id": 805,
@@ -4549,7 +4549,7 @@
             "Аренда": "1 500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "muzhskaya-rubashka-160-e"
+        "slug": "muzhskaya-rubashka"
     },
     {
         "id": 806,
@@ -4569,7 +4569,7 @@
             "Залог": "25 000 ₽",
             "Особенности": "LUXE, можно на 48, если нет большого животика"
         },
-        "slug": "prazdnichnyy-zolotoy-indiyskiy-kostyum"
+        "slug": "indiyskiy-prazdnichnyy-kostyum-zolotoy"
     },
     {
         "id": 807,
@@ -4592,12 +4592,12 @@
             "Аренда": "5 000 ₽",
             "Залог": "20 000 ₽"
         },
-        "slug": "muzhskoy-svadebnyy-indiyskiy-kostyum-svetlyy"
+        "slug": "svadebnyy-indiyskiy-kostyum-svetlyy"
     },
     {
         "id": 808,
         "title": "Праздничный Индийский костюм \"Махараджи\"",
-        "price": 4000,
+        "price": 5000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272835/aves-web/product_808_1.jpg",
@@ -4610,11 +4610,11 @@
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "46-50",
-            "Аренда": "4 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "Полуобхват груди 55см, длина 120см. Подходит на высокий рост"
         },
-        "slug": "muzhskoy-svadebnyy-indiyskiy-kostyum-ekonom"
+        "slug": "prazdnichnyy-indiyskiy-kostyum-maharadzhi"
     },
     {
         "id": 810,
@@ -4652,7 +4652,7 @@
             "Тип": "Мужской гардероб",
             "Размер": "Длина 135см, размах рукавов 134см, передняя планка 25см"
         },
-        "slug": "muzhskoe-antikvarnoe-kimono-iz-yaponskogo-shelka-chernoe"
+        "slug": "muzhskoe-kimono-iz-yaponskogo-shelka-chernoe"
     },
     {
         "id": 812,
@@ -4670,7 +4670,7 @@
             "Особенности": "ПРЕМИУМ",
             "Размер": "Длина кимоно 137см, размах рукавов 131см"
         },
-        "slug": "zelenoe-kimono"
+        "slug": "muzhskoe-kimono-zelenoe"
     },
     {
         "id": 813,
@@ -4690,7 +4690,7 @@
             "Залог": "10 000 ₽",
             "Размер": "Длина 140см, размах 138см"
         },
-        "slug": "shelkovoe-seroe-kimono"
+        "slug": "muzhskoe-kimono-seroe"
     },
     {
         "id": 814,
@@ -4712,7 +4712,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "muzhskoe-sinee-kimono-6-predmetov"
+        "slug": "muzhskoe-kimono-sinee"
     },
     {
         "id": 815,
@@ -4730,7 +4730,7 @@
             "Аренда": "2 500 ₽",
             "Залог": "7 000 ₽"
         },
-        "slug": "muzhskoe-hlopkovoe-kimono"
+        "slug": "muzhskoe-kimono-ih-hlopka"
     },
     {
         "id": 816,
@@ -4750,7 +4750,7 @@
             "Аренда": "3 500 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "chernoe-muzhskoe-kimono"
+        "slug": "muzhskoe-kimono-chernoe"
     },
     {
         "id": 817,
@@ -4767,7 +4767,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "chernoe-shelkovoe-kimono-na-nizkiy-rost"
+        "slug": "muzhskoe-kimono-chernoe-817"
     },
     {
         "id": 818,
@@ -4785,7 +4785,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "shelkovoe-chernoe-kimono"
+        "slug": "shelkovoe-kimono-chernoe"
     },
     {
         "id": 819,
@@ -4821,25 +4821,7 @@
             "Аренда": "3000 ₽",
             "Залог": "10000 ₽"
         },
-        "slug": "kitayskoe-haori"
-    },
-    {
-        "id": 822,
-        "title": "Китайское хаори с драконом",
-        "price": 3000,
-        "category": "mens",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272873/aves-web/product_822_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272874/aves-web/product_822_2.jpg"
-        ],
-        "description": "Хаори с драконом. Китай",
-        "details": {
-            "Тип": "Мужской гардероб",
-            "Размеры": "6XL",
-            "Аренда": "3000 ₽",
-            "Залог": "10000 ₽"
-        },
-        "slug": "kitayskoe-haori-s-drakonom"
+        "slug": "muzhskoe-haori-drakon"
     },
     {
         "id": 824,
@@ -4857,7 +4839,7 @@
             "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽"
         },
-        "slug": "vintazhnoe-haori-iz-shelka-824"
+        "slug": "komplekt-haori-kimono"
     },
     {
         "id": 825,
@@ -4876,7 +4858,7 @@
             "Аренда": "3000 ₽",
             "Залог": "10000 ₽"
         },
-        "slug": "vintazhnoe-muzhskoe-haori-iz-yaponii"
+        "slug": "muzhskoe-haori"
     },
     {
         "id": 826,
@@ -4898,7 +4880,7 @@
             "Залог": "15 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
-        "slug": "komplekt-dlya-muzhchiny-iz-zelenogo-kimono-i-haori"
+        "slug": "komplekt-iz-zelenogo-haori-kimono"
     },
     {
         "id": 827,
@@ -4916,7 +4898,7 @@
             "Аренда": "3000 ₽",
             "Залог": "10000 ₽"
         },
-        "slug": "vintazhnoe-haori-iz-shelka-827"
+        "slug": "muzhskoe-haori-827"
     },
     {
         "id": 828,
@@ -4939,7 +4921,7 @@
             "Залог": "15 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
-        "slug": "muzhskoe-kimono-dzhyuban-sinee-sherst-8-predmetov"
+        "slug": "komplekt-haori-kimono-828"
     },
     {
         "id": 829,
@@ -4997,7 +4979,7 @@
             "Аренда": "5 500 ₽",
             "Залог": "15 000 ₽"
         },
-        "slug": "shelkovoe-udlinennoe-haori-temno-seroe"
+        "slug": "komplekt-kimono-haori-temno-seryy"
     },
     {
         "id": 832,
@@ -5068,7 +5050,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "krasivoe-nizhnee-vintazhnoe-kimono-iz-shelka"
+        "slug": "muzhskoy-dzhuban"
     },
     {
         "id": 837,
@@ -5084,7 +5066,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "vintazhnyy-muzhskoy-dzhuban-sintetika"
+        "slug": "muzhskoy-dzhuban-837"
     },
     {
         "id": 838,
@@ -5101,7 +5083,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "vintazhnyy-muzhskoy-dzhuban-sherst"
+        "slug": "muzhskoy-dzhuban-iz-shersti"
     },
     {
         "id": 839,
@@ -5117,7 +5099,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "prekrasnoe-yaponskoe-nizhnee-kimono"
+        "slug": "muzhskoe-kimono"
     },
     {
         "id": 840,
@@ -5133,7 +5115,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "vintazhnyy-muzhskoy-dzhuban-sherst-840"
+        "slug": "dzhuban-muzhskoy-iz-shersti"
     },
     {
         "id": 841,
@@ -5149,7 +5131,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "vintazhnyy-muzhskoy-dzhuban-sherst-841"
+        "slug": "muzhskoy-dzhuban-iz-shersti-841"
     },
     {
         "id": 842,
@@ -5170,7 +5152,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "ochen-myagkiy-muzhskoy-dzhuban-iz-yaponskoy-shersti"
+        "slug": "muzhskoy-dzhuban-842"
     },
     {
         "id": 843,
@@ -5186,7 +5168,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "vintazhnyy-muzhskoy-dzhuban-sintetika-843"
+        "slug": "muzhskoy-dzhuban-843"
     },
     {
         "id": 844,
@@ -5207,7 +5189,7 @@
             "Залог": "10 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
-        "slug": "hakama-iz-iskusstvennogo-shelka-molochnaya"
+        "slug": "hakama-muzhskaya-molochnaya"
     },
     {
         "id": 845,
@@ -5227,7 +5209,7 @@
             "Залог": "10 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "hakama-iz-iskusstvennogo-shelka-zolotoy-risunok"
+        "slug": "muzhskaya-hakama-zolotoy-risunok"
     },
     {
         "id": 846,
@@ -5244,7 +5226,7 @@
             "Залог": "10 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "hakama-iz-parchi-zolotye-linii"
+        "slug": "muzhskaya-hakama-iz-parchi-zolotye-linii"
     },
     {
         "id": 847,
@@ -5262,7 +5244,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "muzhskaya-vintazhnaya-hakama-tip-umanori"
+        "slug": "muzhskaya-hakama-umanori"
     },
     {
         "id": 849,
@@ -5281,7 +5263,7 @@
             "Аренда": "3000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "antikvarnaya-muzhskaya-hakama-plotnyy-shelk-v-rubchik"
+        "slug": "muzhskaya-antikvarnaya-hakama"
     },
     {
         "id": 850,
@@ -5302,7 +5284,7 @@
             "Залог": "10 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "hakama-iz-iskusstvennogo-shelka-perlamutrovaya"
+        "slug": "muzhskaya-hakama-perlamutrovaya"
     },
     {
         "id": 851,
@@ -5320,7 +5302,7 @@
             "Залог": "10 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "hakama-iz-iskusstvennogo-shelka-serebristo-fioletovaya"
+        "slug": "muzhskaya-hakama-serebristo-fioletovaya"
     },
     {
         "id": 852,
@@ -5340,7 +5322,7 @@
             "Залог": "10 000 ₽",
             "Особенности": "Подходит на высокий рост"
         },
-        "slug": "sovremennaya-muzhskaya-hakama"
+        "slug": "muzhskaya-hakama-sovremennaya"
     },
     {
         "id": 853,
@@ -5359,7 +5341,7 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "chernaya-i-belaya-kitayskie-hakamy-na-rost-1sm"
+        "slug": "muzhskie-chernaya-i-belaya-hakamy"
     },
     {
         "id": 854,
@@ -5376,7 +5358,27 @@
             "Залог": "10 000 ₽",
             "Особенности": "Подходит на высокий рост"
         },
-        "slug": "chernaya-hakama-na-vysokiy-rost-190sm"
+        "slug": "muzhskaya-hakama-chernaya"
+    },
+    {
+        "id": 855,
+        "title": "Мужской индийский шервани кремового цвета",
+        "price": 6000,
+        "category": "mens",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1780390723/aves-web/product_855_1780390715004.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1780390735/aves-web/product_855_1780390731930.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1780390747/aves-web/product_855_1780390743820.jpg"
+        ],
+        "description": "Плотная жаккардовая ткань с узором, богато украшен вышивкой, бисером и стразами в бордово-золотом оформлении. Очень эффектно смотрится вживую.\n\nВысота по спине 96, ширина по плечам 50, длина рукава 67.",
+        "details": {
+            "Тип": "Мужской гардероб",
+            "Размеры": "46-48",
+            "Аренда": "6 000 ₽",
+            "Залог": "25 000 ₽",
+            "Особенности": "Высота по спине 96, ширина по плечам 50, рукав 67"
+        },
+        "slug": "muzhskoy-indiyskiy-shervani-kremovogo-tsveta"
     },
     {
         "id": 901,
@@ -5577,7 +5579,7 @@
             "Залог": "10 000 ₽",
             "Особенности": "Головной убор ручной работы, создан из винтажных и антикварных аксессуаров"
         },
-        "slug": "golovnoy-ubor-3"
+        "slug": "golovnoy-skazochnyy"
     },
     {
         "id": 912,
@@ -5596,7 +5598,7 @@
             "Залог": "10 000 ₽",
             "Особенности": "Головной убор ручной работы, создан из винтажных и антикварных аксессуаров"
         },
-        "slug": "golovnoy-ubor-4"
+        "slug": "golovnoy-vostochnyy"
     },
     {
         "id": 913,
@@ -5678,7 +5680,7 @@
             "Аренда": "500 ₽",
             "Залог": "2 000"
         },
-        "slug": "kole"
+        "slug": "kole-chernoe"
     },
     {
         "id": 919,
@@ -5696,7 +5698,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "2 000 ₽"
         },
-        "slug": "kole-919"
+        "slug": "kole-barokko-chernoe"
     },
     {
         "id": 920,
@@ -5748,7 +5750,7 @@
             "Аренда": "1000 ₽",
             "Залог": "2 000  ₽"
         },
-        "slug": "kole-antik"
+        "slug": "komplekt-antik"
     },
     {
         "id": 924,
@@ -5764,7 +5766,7 @@
             "Аренда": "1000 ₽",
             "Залог": "2 000  ₽"
         },
-        "slug": "kulon-zolotoy-disk"
+        "slug": "komplekt-s-zhemchugom"
     },
     {
         "id": 925,
@@ -5830,7 +5832,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "2 000 ₽"
         },
-        "slug": "komplekt-kole-s-sergami"
+        "slug": "komplekt-s-sergami"
     },
     {
         "id": 929,
@@ -6047,7 +6049,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "2 000 ₽"
         },
-        "slug": "kole-941"
+        "slug": "kole"
     },
     {
         "id": 942,
@@ -6179,7 +6181,7 @@
             "Залог": "3 000 ₽",
             "Особенности": "с платьем без залога"
         },
-        "slug": "krinolin-ne-pyshnyy-5-kolets"
+        "slug": "krinolin-belyy"
     },
     {
         "id": 950,
@@ -6213,7 +6215,7 @@
             "Залог": "10 000 ₽",
             "Особенности": "с платьем без залога 500 ₽, без платья 1000 ₽"
         },
-        "slug": "chudesnyy-krinolin"
+        "slug": "krinolin-chudesnyy"
     },
     {
         "id": 952,
@@ -6448,7 +6450,7 @@
             "Залог": "3 000 ₽",
             "Особенности": "В комплекте с костюмом без залога"
         },
-        "slug": "galstuk-zhabo-964"
+        "slug": "galstuk"
     },
     {
         "id": 965,
@@ -6466,7 +6468,7 @@
             "Залог": "3 000 ₽",
             "Особенности": "В комплекте с костюмом без залога"
         },
-        "slug": "galstuk-zhabo-965"
+        "slug": "sportivnyy-galstuk-dlya-verhovoy-ezdy-965"
     },
     {
         "id": 966,
@@ -6594,7 +6596,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "katana-belaya-ne-boevaya"
+        "slug": "katana-belaya"
     },
     {
         "id": 975,
@@ -6614,7 +6616,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "katana-dlya-fotosessiy-chernaya-s-sinim"
+        "slug": "katana-sinyaya"
     },
     {
         "id": 976,
@@ -6631,7 +6633,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "katana-suvenirnaya-chernaya"
+        "slug": "katana-chernaya"
     },
     {
         "id": 977,
@@ -6647,7 +6649,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "katana-dlya-fotosessiy-krasnaya"
+        "slug": "katana-krasnaya"
     },
     {
         "id": 978,
@@ -6682,7 +6684,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik-ot-solntsa"
+        "slug": "zontik-vintazhnyy"
     },
     {
         "id": 980,
@@ -6700,7 +6702,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik-ot-solntsa-980"
+        "slug": "zontik-vintazhnyy-980"
     },
     {
         "id": 1001,
@@ -8651,7 +8653,7 @@
             "Залог": "5 000 ₽",
             "Тип": "Гета"
         },
-        "slug": "letnie-geta-muzhskie-40-41-razmer"
+        "slug": "letnie-geta-muzhskie-40azmer"
     },
     {
         "id": 1239,
@@ -8702,7 +8704,7 @@
             "Залог": "5 000 ₽",
             "Тип": "Гета"
         },
-        "slug": "muzhskie-geta-42-43-razmer"
+        "slug": "muzhskie-geta-42azmer"
     },
     {
         "id": 1242,
@@ -9185,7 +9187,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar"
+        "slug": "veer-sovremennyy"
     },
     {
         "id": 1302,
@@ -9202,7 +9204,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1302"
+        "slug": "veer-sovremennyy-1302"
     },
     {
         "id": 1303,
@@ -9221,7 +9223,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1303"
+        "slug": "veer-sovremennyy-1303"
     },
     {
         "id": 1304,
@@ -9238,7 +9240,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1304"
+        "slug": "vintazhnyy-veer"
     },
     {
         "id": 1305,
@@ -9255,7 +9257,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "5 000 ₽"
         },
-        "slug": "bledno-zheltyy-ispanskiy-veer"
+        "slug": "ispanskiy-vintazhnyy-veer"
     },
     {
         "id": 1306,
@@ -9271,7 +9273,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "5 000 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1306"
+        "slug": "vintazhnyy-veer-1306"
     },
     {
         "id": 1307,
@@ -9293,7 +9295,7 @@
             "Аренда": "1 500 ₽",
             "Залог": "8 000 ₽"
         },
-        "slug": "veer-ispaniya"
+        "slug": "vintazhnyy-ispanskiy-veer"
     },
     {
         "id": 1308,
@@ -9325,7 +9327,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "veer-300r"
+        "slug": "sovremennyy-veer"
     },
     {
         "id": 1310,
@@ -9342,7 +9344,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "2 000 ₽"
         },
-        "slug": "veer-ispaniya-1310"
+        "slug": "vintazhnyy-veer-ispaniya"
     },
     {
         "id": 1311,
@@ -9358,7 +9360,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-veer-bumaga-35sm"
+        "slug": "vintazhnyy-veer-1311"
     },
     {
         "id": 1312,
@@ -9374,7 +9376,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1312"
+        "slug": "vintazhnyy-veer-1312"
     },
     {
         "id": 1313,
@@ -9390,7 +9392,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "2 000 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1313"
+        "slug": "vintazhnyy-veer-1313"
     },
     {
         "id": 1314,
@@ -9406,7 +9408,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1314"
+        "slug": "sovremennyy-veer-1314"
     },
     {
         "id": 1315,
@@ -9424,7 +9426,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1315"
+        "slug": "sovremennyy-aksessuar"
     },
     {
         "id": 1316,
@@ -9441,7 +9443,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "veer-300r-1316"
+        "slug": "vintazhnyy-veer-1316"
     },
     {
         "id": 1317,
@@ -9458,7 +9460,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1317"
+        "slug": "sovremennyy-veer-1317"
     },
     {
         "id": 1318,
@@ -9474,7 +9476,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1318"
+        "slug": "sovremennyy-veer-1318"
     },
     {
         "id": 1319,
@@ -9491,7 +9493,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "veer-200r"
+        "slug": "vintazhnyy-veer-1319"
     },
     {
         "id": 1320,
@@ -9507,7 +9509,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1320"
+        "slug": "sovremennyy-veer-1320"
     },
     {
         "id": 1321,
@@ -9523,7 +9525,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 000 ₽"
         },
-        "slug": "v-nalichii-2sht"
+        "slug": "sovremennyy-veer-1321"
     },
     {
         "id": 1322,
@@ -9539,7 +9541,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1322"
+        "slug": "sovremennyy-veer-1322"
     },
     {
         "id": 1323,
@@ -9555,7 +9557,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1323"
+        "slug": "sovremennyy-veer-1323"
     },
     {
         "id": 1325,
@@ -9571,7 +9573,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1325"
+        "slug": "sovremennyy-veer-1325"
     },
     {
         "id": 1326,
@@ -9587,7 +9589,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1326"
+        "slug": "sovremennyy-veer-1326"
     },
     {
         "id": 1327,
@@ -9603,7 +9605,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1327"
+        "slug": "sovremennyy-veer-1327"
     },
     {
         "id": 1328,
@@ -9638,7 +9640,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 000 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1329"
+        "slug": "perchatki-dlinnye-sovremennye"
     },
     {
         "id": 1330,
@@ -9655,7 +9657,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "1-para-v-nalichii-200r"
+        "slug": "perchatki-sovremennye"
     },
     {
         "id": 1331,
@@ -9672,7 +9674,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1331"
+        "slug": "perchatki-sovremennye-1331"
     },
     {
         "id": 1333,
@@ -9688,7 +9690,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1333"
+        "slug": "perchatki-sovremennye-1333"
     },
     {
         "id": 1334,
@@ -9704,7 +9706,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "1-para-v-nalichii-200r-1334"
+        "slug": "perchatki-sovremennye-1334"
     },
     {
         "id": 1335,
@@ -9721,7 +9723,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1335"
+        "slug": "perchatki-sovremennye-1335"
     },
     {
         "id": 1336,
@@ -9737,7 +9739,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "3-pary-v-nalichii-200r"
+        "slug": "perchatki-sovremennye-1336"
     },
     {
         "id": 1337,
@@ -9754,7 +9756,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1337"
+        "slug": "perchatki-sovremennye-1337"
     },
     {
         "id": 1338,
@@ -9770,7 +9772,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1338"
+        "slug": "perchatki-sovremennye-1338"
     },
     {
         "id": 1339,
@@ -9787,7 +9789,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1339"
+        "slug": "perchatki-sovremennye-1339"
     },
     {
         "id": 1340,
@@ -9803,7 +9805,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1340"
+        "slug": "perchatki-sovremennye-1340"
     },
     {
         "id": 1341,
@@ -9820,7 +9822,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1341"
+        "slug": "perchatki-sovremennye-1341"
     },
     {
         "id": 1342,
@@ -9836,7 +9838,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1342"
+        "slug": "perchatki-sovremennye-1342"
     },
     {
         "id": 1343,
@@ -9852,7 +9854,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1343"
+        "slug": "perchatki-sovremennye-1343"
     },
     {
         "id": 1344,
@@ -9868,7 +9870,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1344"
+        "slug": "perchatki-sovremennye-1344"
     },
     {
         "id": 1345,
@@ -9884,7 +9886,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1345"
+        "slug": "perchatki-sovremennye-1345"
     },
     {
         "id": 1346,
@@ -9900,7 +9902,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 000 ₽"
         },
-        "slug": "dlinnye-perchatki"
+        "slug": "perchatki-dlinnye"
     },
     {
         "id": 1347,
@@ -9916,7 +9918,7 @@
             "Аренда": "500 ₽",
             "Залог": "500 ₽"
         },
-        "slug": "vintazhnyy-aksessuar-1347"
+        "slug": "perchatki-sovremennye-1347"
     },
     {
         "id": 1401,
@@ -9936,7 +9938,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "chernyy-shelkovyy-veer-dvustoronniy-bolshoy"
+        "slug": "veer-chernyy"
     },
     {
         "id": 1402,
@@ -9954,7 +9956,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "krasnyy-shelkovyy-veer-dvustoronniy-bolshoy"
+        "slug": "veer-krasnyy"
     },
     {
         "id": 1403,
@@ -9973,7 +9975,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zolotistyy-shelkovyy-veer-dvustoronniy-bolshoy"
+        "slug": "veer-zolotistyy"
     },
     {
         "id": 1404,
@@ -9990,7 +9992,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "belyy-shelkovyy-veer-dvustoronniy-bolshoy"
+        "slug": "veer-belyy"
     },
     {
         "id": 1405,
@@ -10109,7 +10111,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "veer-krasnyy"
+        "slug": "veer-krasnyy-1412"
     },
     {
         "id": 1413,
@@ -10161,7 +10163,7 @@
             "Аренда": "500 ₽",
             "Залог": "1 000 ₽"
         },
-        "slug": "greben-bant-sredniy"
+        "slug": "greben-bant-krasnyy"
     },
     {
         "id": 1416,
@@ -10437,7 +10439,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik"
+        "slug": "zontik-chernyy"
     },
     {
         "id": 1431,
@@ -10453,7 +10455,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik-1431"
+        "slug": "zontik-chernyy-s-lentami"
     },
     {
         "id": 1432,
@@ -10470,7 +10472,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik-1432"
+        "slug": "zontik-krasnyy"
     },
     {
         "id": 1433,
@@ -10490,7 +10492,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "yaponskiy-skladnoy-zont"
+        "slug": "zontik-rozovyy"
     },
     {
         "id": 1434,
@@ -10507,7 +10509,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik-1434"
+        "slug": "zontik-rozovyy-1434"
     },
     {
         "id": 1435,
@@ -10523,7 +10525,7 @@
             "Аренда": "1 000 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik-1435"
+        "slug": "zontik-vishnevyy"
     },
     {
         "id": 1436,
@@ -10539,7 +10541,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik-1436"
+        "slug": "zontik-prozrachnyy-lavandovyy"
     },
     {
         "id": 1437,
@@ -10557,7 +10559,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik-1437"
+        "slug": "zontik-belyy"
     },
     {
         "id": 1438,
@@ -10592,7 +10594,7 @@
             "Аренда": "1 500 ₽",
             "Залог": "5 000 ₽"
         },
-        "slug": "bolshoy-tayskiy-zont-okolo-110sm"
+        "slug": "bolshoy-tayskiy-zont"
     },
     {
         "id": 1440,
@@ -10609,7 +10611,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik-1440"
+        "slug": "zontik-salatovyy"
     },
     {
         "id": 1441,
@@ -10626,7 +10628,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik-1441"
+        "slug": "zontik-goluboy"
     },
     {
         "id": 1442,
@@ -10642,7 +10644,7 @@
             "Аренда": "500 ₽",
             "Залог": "3 000 ₽"
         },
-        "slug": "zontik-1442"
+        "slug": "zontik-siniy"
     },
     {
         "id": 1443,
@@ -10726,7 +10728,7 @@
             "Аренда": "2 000",
             "Залог": "5 000"
         },
-        "slug": "ukrashenie-1"
+        "slug": "bolshoy-nabor-prazdnichnyh-brasletov"
     },
     {
         "id": 1502,
@@ -10743,7 +10745,7 @@
             "Аренда": "1 000 (шт)",
             "Залог": "3 000"
         },
-        "slug": "indiyskoe-ukrashenie"
+        "slug": "zolotye-braslety"
     },
     {
         "id": 1503,
@@ -10759,7 +10761,7 @@
             "Аренда": "1 000",
             "Залог": "3 000"
         },
-        "slug": "ukrashenie-3"
+        "slug": "komplekt-vintazhnyh-brasletov"
     },
     {
         "id": 1504,
@@ -10775,7 +10777,7 @@
             "Аренда": "500",
             "Залог": "1 000"
         },
-        "slug": "ukrashenie-4"
+        "slug": "komplekt-brasletov"
     },
     {
         "id": 1505,
@@ -10809,7 +10811,7 @@
             "Аренда": "700",
             "Залог": "2 000"
         },
-        "slug": "ukrashenie-6"
+        "slug": "vintazhnyy-braslet"
     },
     {
         "id": 1507,
@@ -10825,7 +10827,7 @@
             "Аренда": "1 000",
             "Залог": "1 000"
         },
-        "slug": "ukrashenie-7"
+        "slug": "vintazhnyy-braslet-1507"
     },
     {
         "id": 1508,
@@ -10843,7 +10845,7 @@
             "Аренда": "1 000",
             "Залог": "2 000"
         },
-        "slug": "ukrashenie-8"
+        "slug": "etnicheskiy-braslet-1508"
     },
     {
         "id": 1509,
@@ -10859,7 +10861,7 @@
             "Аренда": "500",
             "Залог": "1 000"
         },
-        "slug": "ukrashenie-9"
+        "slug": "sovremennyy-vostochnyy-braslet"
     },
     {
         "id": 1510,
@@ -10892,7 +10894,7 @@
             "Аренда": "500",
             "Залог": "1 000"
         },
-        "slug": "ukrashenie-11"
+        "slug": "etnicheskoe-ukrashenie-11"
     },
     {
         "id": 1512,
@@ -10908,7 +10910,7 @@
             "Аренда": "500",
             "Залог": "1 000"
         },
-        "slug": "ukrashenie-12"
+        "slug": "etnicheskoe-ukrashenie-12"
     },
     {
         "id": 1513,
@@ -10925,7 +10927,7 @@
             "Аренда": "1 000",
             "Залог": "3 000"
         },
-        "slug": "ukrashenie-13"
+        "slug": "indiyskiy-poyas-vintazh"
     },
     {
         "id": 1514,
@@ -10957,7 +10959,7 @@
             "Аренда": "1 000",
             "Залог": "2 000"
         },
-        "slug": "ukrashenie-15"
+        "slug": "bolshoy-poyas-s-monetami-serebro"
     },
     {
         "id": 1516,
@@ -10974,7 +10976,7 @@
             "Аренда": "1 000",
             "Залог": "3 000"
         },
-        "slug": "poyas-saudovskaya-araviya"
+        "slug": "poyas-vintazhnyy"
     },
     {
         "id": 1517,
@@ -10990,7 +10992,7 @@
             "Аренда": "1 000",
             "Залог": "3 000"
         },
-        "slug": "ukrashenie-17"
+        "slug": "vintazhnyy-poyas-s-monetami"
     },
     {
         "id": 1518,
@@ -11006,7 +11008,7 @@
             "Аренда": "1 000",
             "Залог": "3 000"
         },
-        "slug": "ukrashenie-18"
+        "slug": "vintazhnyy-poyas-s-monetami-1518"
     },
     {
         "id": 1519,
@@ -11024,7 +11026,7 @@
             "Аренда": "1 000",
             "Залог": "3 000"
         },
-        "slug": "ukrashenie-19"
+        "slug": "poyas-biryuza"
     },
     {
         "id": 1520,
@@ -11040,7 +11042,7 @@
             "Аренда": "1 000",
             "Залог": "3 000"
         },
-        "slug": "ukrashenie-20"
+        "slug": "vintazhnyy-poyas"
     },
     {
         "id": 1521,
@@ -11058,7 +11060,7 @@
             "Аренда": "1 000",
             "Залог": "2 000"
         },
-        "slug": "ukrashenie-21"
+        "slug": "shirokiy-poyas-s-monetami"
     },
     {
         "id": 1522,
@@ -11143,7 +11145,7 @@
             "Аренда": "500",
             "Залог": "2 000"
         },
-        "slug": "indiyskaya-sumochka"
+        "slug": "malaya-indiyskaya-sumochka"
     },
     {
         "id": 1601,
@@ -11213,7 +11215,7 @@
             "Залог": "5 000 ₽",
             "Особенности": "Плащ с капюшоном и шлейфом"
         },
-        "slug": "plasch-belaya-dymka-s-kapyushonom-i-shleyfom"
+        "slug": "plasch-belaya-dymka"
     },
     {
         "id": 1604,
@@ -11258,7 +11260,7 @@
             "Залог": "5 000 ₽",
             "Особенности": ""
         },
-        "slug": "plasch-chernaya-dymka-s-kapyushonom-i-shleyfom"
+        "slug": "plasch-chernaya-dymka"
     },
     {
         "id": 1606,
@@ -11299,7 +11301,7 @@
             "Залог": "5 000 ₽",
             "Особенности": ""
         },
-        "slug": "plasch-zelenyy-na-podkladke"
+        "slug": "plasch-zelenyy"
     },
     {
         "id": 1608,
@@ -11321,7 +11323,7 @@
             "Залог": "5 000 ₽",
             "Особенности": ""
         },
-        "slug": "plasch-siniy-na-podkladke"
+        "slug": "plasch-siniy"
     },
     {
         "id": 1609,
@@ -12332,7 +12334,7 @@
     {
         "id": 1735,
         "title": "Индийское сари \"Изумруд\"",
-        "price": 2500,
+        "price": 3000,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774469401/aves-web/product_1735_1.jpg",
@@ -12348,7 +12350,7 @@
         "description": "Привезено из Индии.",
         "details": {
             "Тип": "Этнический костюм",
-            "Аренда": "2 500 ₽",
+            "Аренда": "3 000 ₽",
             "Залог": "8 000 ₽"
         },
         "slug": "indiyskoe-sari-izumrud"

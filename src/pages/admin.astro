@@ -1,0 +1,855 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import products from '../data/products.json';
+
+// Security: Block in production — redirect to 404
+if (import.meta.env.PROD) {
+  return Astro.redirect('/404', 404);
+}
+
+const title = "Админ-панель | Прокат от Кет";
+---
+
+<BaseLayout title={title} description="Управление каталогом товаров" canonicalUrl="https://ketrent.ru/admin">
+  <div class="admin-container" slot="default">
+    <header class="admin-header">
+      <h1>Управление каталогом</h1>
+      <div class="admin-auth-badge">Development Mode</div>
+    </header>
+
+    <div class="admin-grid">
+      <!-- Список товаров -->
+      <aside class="admin-sidebar">
+        <div class="search-box">
+          <input type="text" id="productSearch" placeholder="Поиск по названию или ID..." />
+          <select id="categoryFilter">
+            <option value="all">Все категории</option>
+            <option value="ball">Бальные платья XVIII-XIX век</option>
+            <option value="vintage">Винтажные и свадебные платья</option>
+            <option value="fashion">Фэшн и Будуар</option>
+            <option value="medieval">Средневековые и Сказочные платья</option>
+            <option value="ethnic-costumes">Этнические Костюмы</option>
+            <option value="kimono">Японские кимоно женские</option>
+            <option value="riding">Костюмы для Верховой езды</option>
+            <option value="mens">Мужской Гардероб</option>
+            <option value="cloaks">Плащи и Накидки</option>
+            <option value="ethnic">Этнические украшения</option>
+            <option value="accessories">Аксессуары</option>
+            <option value="gloves-fans">Перчатки и веера</option>
+            <option value="belt-shoes">Пояса и Обувь</option>
+            <option value="furs">Мех</option>
+            <option value="headwear">Головные Уборы</option>
+          </select>
+        </div>
+        <div class="product-list" id="productList">
+          {products.map(p => (
+            <button class="product-item" data-id={p.id} data-title={p.title.toLowerCase()} data-category={p.category}>
+              <div class="p-info">
+                <span class="p-id">#{p.id}</span>
+                <span class="p-title">{p.title}</span>
+              </div>
+              <span class="p-cat-tag">{p.category}</span>
+            </button>
+          ))}
+        </div>
+      </aside>
+
+      <!-- Форма редактирования -->
+      <main class="admin-main">
+        <div id="noSelection" class="empty-state">
+           <p>Выберите товар из списка слева, чтобы начать редактирование</p>
+        </div>
+
+        <div id="editor" class="product-editor hidden">
+          <section class="editor-section info-section">
+            <h2>Основная информация</h2>
+            <form id="infoForm">
+              <input type="hidden" name="productId" id="editProductId" />
+              <div class="form-group">
+                <label>Название</label>
+                <input type="text" name="title" id="editTitle" required />
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Цена (₽)</label>
+                  <input type="number" name="price" id="editPrice" required />
+                </div>
+                <div class="form-group">
+                  <label>Категория</label>
+                  <select name="category" id="editCategory">
+                    <option value="ball">Бальные платья XVIII-XIX век</option>
+                    <option value="vintage">Винтажные и свадебные платья</option>
+                    <option value="fashion">Фэшн и Будуар</option>
+                    <option value="medieval">Средневековые и Сказочные платья</option>
+                    <option value="ethnic-costumes">Этнические Костюмы</option>
+                    <option value="kimono">Японские кимоно женские</option>
+                    <option value="riding">Костюмы для Верховой езды</option>
+                    <option value="mens">Мужской Гардероб</option>
+                    <option value="cloaks">Плащи и Накидки</option>
+                    <option value="ethnic">Этнические украшения</option>
+                    <option value="accessories">Аксессуары</option>
+                    <option value="gloves-fans">Перчатки и веера</option>
+                    <option value="belt-shoes">Пояса и Обувь</option>
+                    <option value="furs">Мех</option>
+                    <option value="headwear">Головные Уборы</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Описание</label>
+                <textarea name="description" id="editDescription" rows="4"></textarea>
+              </div>
+              
+              <h3>Характеристики (Details)</h3>
+              <div id="detailsContainer" class="details-editor">
+                <!-- Сюда добавятся поля динамически -->
+              </div>
+              <button type="button" id="addDetailBtn" class="btn-secondary">+ Добавить поле</button>
+
+              <div class="form-actions">
+                <button type="submit" class="btn-primary">Сохранить изменения</button>
+                <button type="button" id="deleteProductBtn" class="btn-danger">Удалить товар целиком</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="editor-section gallery-section">
+            <h2>Галерея изображений</h2>
+            <div id="galleryGrid" class="admin-gallery-grid">
+              <!-- Изображения -->
+            </div>
+            
+            <div class="gallery-add-tools">
+              <h3>Добавить фото</h3>
+              <div class="tabs">
+                <button class="tab-btn active" data-tab="url">По ссылке</button>
+                <button class="tab-btn" data-tab="upload">Загрузить файл</button>
+              </div>
+              
+              <div id="urlTab" class="tab-content active">
+                <div class="input-group">
+                  <input type="url" id="imgUrlInput" placeholder="https://..." />
+                  <button id="addUrlBtn" class="btn-primary">Добавить</button>
+                </div>
+              </div>
+              
+              <div id="uploadTab" class="tab-content">
+                <div class="input-group">
+                  <input type="file" id="fileInput" accept="image/*" />
+                  <button id="uploadBtn" class="btn-primary">Загрузить</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <style>
+    .admin-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      min-height: 100vh;
+      color: #333;
+    }
+    .admin-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #e0d5c5;
+      padding-bottom: 20px;
+    }
+    .admin-header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: #2e4634;
+      margin: 0;
+    }
+    .admin-auth-badge {
+      background: #e0d5c5;
+      color: #2e4634;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
+    .admin-grid {
+      display: grid;
+      grid-template-columns: 350px 1fr;
+      gap: 30px;
+      align-items: start;
+    }
+    
+    /* Sidebar */
+    .admin-sidebar {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      border: 1px solid #e0d5c5;
+      overflow: hidden;
+      max-height: 80vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .search-box {
+      padding: 15px;
+      background: #fdfaf6;
+      border-bottom: 1px solid #e0d5c5;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .product-list {
+      overflow-y: auto;
+      flex: 1;
+    }
+    .product-item {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 12px 15px;
+      text-align: left;
+      border: none;
+      background: none;
+      border-bottom: 1px solid #f0efeb;
+      cursor: pointer;
+      transition: all 0.2s;
+      gap: 5px;
+    }
+    .product-item:hover {
+      background: #fdfaf6;
+    }
+    .product-item.active {
+      background: #2e4634;
+      color: #fff;
+    }
+    .p-info { display: flex; align-items: center; width: 100%; }
+    .p-id {
+      font-weight: bold;
+      margin-right: 10px;
+      opacity: 0.6;
+      min-width: 40px;
+    }
+    .p-title {
+      font-size: 0.9rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      flex: 1;
+    }
+    .p-cat-tag {
+      font-size: 0.7rem;
+      background: #e0d5c5;
+      color: #2e4634;
+      padding: 2px 6px;
+      border-radius: 4px;
+      align-self: flex-start;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .product-item.active .p-cat-tag {
+      background: rgba(255,255,255,0.2);
+      color: #fff;
+    }
+    
+    .search-box {
+      padding: 15px;
+      background: #fdfaf6;
+      border-bottom: 1px solid #e0d5c5;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    /* Main Area */
+    .admin-main {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      border: 1px solid #e0d5c5;
+      padding: 30px;
+    }
+    .empty-state {
+      text-align: center;
+      padding: 100px 0;
+      color: #777;
+      font-style: italic;
+    }
+    .hidden { display: none; }
+    
+    .editor-section {
+      margin-bottom: 40px;
+      animation: fadeIn 0.3s ease;
+    }
+    .editor-section h2 {
+      font-family: 'Playfair Display', serif;
+      color: #2e4634;
+      border-left: 4px solid #b39162;
+      padding-left: 15px;
+      margin-bottom: 25px;
+    }
+    
+    .form-group { margin-bottom: 20px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    label { display: block; font-weight: bold; margin-bottom: 8px; color: #555; font-size: 0.9rem; }
+    input, select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+    
+    .details-editor {
+      background: #f9f7f4;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .detail-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 40px;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .btn-remove {
+      background: #ff4444;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .btn-primary {
+      background: #2e4634;
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: #1f3023; }
+    .btn-success { background: #28a745 !important; }
+    .btn-success:hover { background: #218838 !important; }
+    .btn-danger {
+      background: #ff4444;
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin-left: auto;
+    }
+    .btn-danger:hover { background: #cc0000; }
+    .form-actions { display: flex; gap: 10px; align-items: center; margin-top: 30px; }
+    .btn-secondary {
+      background: none;
+      border: 1px dashed #2e4634;
+      color: #2e4634;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    
+    /* Gallery */
+    .admin-gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    .gallery-item {
+      position: relative;
+      aspect-ratio: 1;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .img-del-btn {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background: rgba(255,0,0,0.8);
+      color: #fff;
+      border: none;
+      width: 24px;
+      height: 24px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bold;
+      z-index: 2;
+    }
+    .img-main-btn {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      background: rgba(255,255,255,0.9);
+      color: #b39162;
+      border: none;
+      width: 24px;
+      height: 24px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      transition: all 0.2s;
+    }
+    .img-main-btn:hover { background: #b39162; color: #fff; }
+    .gallery-item.is-main { border: 3px solid #b39162; }
+    .main-badge {
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      background: #b39162;
+      color: #fff;
+      font-size: 0.6rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: bold;
+      z-index: 2;
+    }
+    
+    .tabs { display: flex; gap: 10px; margin-bottom: 15px; border-bottom: 1px solid #ddd; }
+    .tab-btn { background: none; border: none; padding: 10px 20px; cursor: pointer; opacity: 0.6; }
+    .tab-btn.active { opacity: 1; font-weight: bold; border-bottom: 2px solid #b39162; }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+    .input-group { display: flex; gap: 10px; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <script is:inline>
+    // Клиентская логика админки
+    let products = [];
+    let currentProductId = null;
+
+    async function loadData() {
+      const response = await fetch('/data/products.json?v=' + Date.now());
+      products = await response.json();
+    }
+
+    function init() {
+      const searchInput = document.getElementById('productSearch');
+      const categoryFilter = document.getElementById('categoryFilter');
+      const productItems = document.querySelectorAll('.product-item');
+      
+      function filterProducts() {
+        const query = searchInput.value.toLowerCase();
+        const category = categoryFilter.value;
+        
+        productItems.forEach(item => {
+          const titleMatch = item.dataset.title.includes(query) || item.dataset.id.includes(query);
+          const categoryMatch = category === 'all' || item.dataset.category === category;
+          
+          item.style.display = (titleMatch && categoryMatch) ? 'flex' : 'none';
+        });
+      }
+
+      searchInput.addEventListener('input', filterProducts);
+      categoryFilter.addEventListener('change', filterProducts);
+
+      productItems.forEach(item => {
+        item.addEventListener('click', () => {
+          selectProduct(parseInt(item.dataset.id));
+        });
+      });
+      
+      // Auto-open product from URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlId = urlParams.get('id');
+      if (urlId) {
+        selectProduct(parseInt(urlId), { scroll: true });
+      }
+      
+      document.getElementById('infoForm').addEventListener('submit', saveInfo);
+      document.getElementById('addDetailBtn').addEventListener('click', () => addDetailRow('', ''));
+      document.getElementById('addUrlBtn').addEventListener('click', addImageUrl);
+      document.getElementById('uploadBtn').addEventListener('click', uploadImageFile);
+      document.getElementById('deleteProductBtn').addEventListener('click', deleteEntireProduct);
+      
+      // Табы
+      const tabBtns = document.querySelectorAll('.tab-btn');
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          tabBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+          document.getElementById(btn.dataset.tab + 'Tab').classList.add('active');
+        });
+      });
+    }
+
+    function selectProduct(id, options = {}) {
+      currentProductId = id;
+      const product = products.find(p => p.id === id);
+      if (!product) return;
+
+      // Update URL
+      const url = new URL(window.location);
+      url.searchParams.set('id', id);
+      window.history.replaceState({}, '', url);
+
+      // Sidebar highlighting
+      const items = document.querySelectorAll('.product-item');
+      items.forEach(i => i.classList.remove('active'));
+      
+      const activeItem = document.querySelector(`.product-item[data-id="${id}"]`);
+      if (activeItem) {
+        activeItem.classList.add('active');
+        if (options.scroll) {
+            activeItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
+
+      document.getElementById('noSelection').classList.add('hidden');
+      document.getElementById('editor').classList.remove('hidden');
+
+      // Populate Info
+      document.getElementById('editProductId').value = product.id;
+      document.getElementById('editTitle').value = product.title;
+      document.getElementById('editPrice').value = product.price;
+      document.getElementById('editCategory').value = product.category;
+      document.getElementById('editDescription').value = product.description || '';
+
+      // Details
+      const detailsContainer = document.getElementById('detailsContainer');
+      detailsContainer.innerHTML = '';
+      if (product.details) {
+        Object.entries(product.details).forEach(([key, value]) => {
+          addDetailRow(key, value);
+        });
+      }
+
+      // Gallery
+      renderGallery(product.images);
+    }
+
+    function addDetailRow(key, value) {
+      const container = document.getElementById('detailsContainer');
+      const row = document.createElement('div');
+      row.className = 'detail-row';
+
+      // Безопасное создание через DOM API — без innerHTML с интерполяцией (XSS-защита)
+      const keyInput = document.createElement('input');
+      keyInput.type = 'text';
+      keyInput.className = 'detail-key';
+      keyInput.placeholder = 'Ключ (например, Размер)';
+      keyInput.value = key || '';
+
+      const valInput = document.createElement('input');
+      valInput.type = 'text';
+      valInput.className = 'detail-val';
+      valInput.placeholder = 'Значение';
+      valInput.value = value || '';
+
+      const removeBtn = document.createElement('button');
+      removeBtn.type = 'button';
+      removeBtn.className = 'btn-remove';
+      removeBtn.textContent = '×';
+      removeBtn.onclick = () => row.remove();
+
+      row.appendChild(keyInput);
+      row.appendChild(valInput);
+      row.appendChild(removeBtn);
+      container.appendChild(row);
+    }
+
+    function renderGallery(images) {
+      const grid = document.getElementById('galleryGrid');
+      grid.innerHTML = '';
+      images.forEach((img, index) => {
+        const isMain = index === 0;
+        const item = document.createElement('div');
+        item.className = 'gallery-item' + (isMain ? ' is-main' : '');
+
+        // Безопасное создание через DOM API — XSS-защита для URL изображений
+        const imgEl = document.createElement('img');
+        imgEl.setAttribute('src', img);  // setAttribute не исполняет JS в src
+        imgEl.alt = '';
+        item.appendChild(imgEl);
+
+        if (!isMain) {
+          const mainBtn = document.createElement('button');
+          mainBtn.className = 'img-main-btn';
+          mainBtn.title = 'Сделать главным';
+          mainBtn.textContent = '★';
+          mainBtn.onclick = () => setMainImage(img);
+          item.appendChild(mainBtn);
+        } else {
+          const badge = document.createElement('span');
+          badge.className = 'main-badge';
+          badge.textContent = 'ГЛАВНОЕ';
+          item.appendChild(badge);
+        }
+
+        const delBtn = document.createElement('button');
+        delBtn.className = 'img-del-btn';
+        delBtn.title = 'Удалить';
+        delBtn.textContent = '×';
+        delBtn.onclick = () => deleteImage(img);
+        item.appendChild(delBtn);
+
+        grid.appendChild(item);
+      });
+    }
+
+    async function saveInfo(e) {
+      e.preventDefault();
+      const saveBtn = e.submitter;
+      const originalBtnText = saveBtn.textContent;
+      
+      const details = {};
+      document.querySelectorAll('.detail-row').forEach(row => {
+        const key = row.querySelector('.detail-key').value.trim();
+        const val = row.querySelector('.detail-val').value.trim();
+        if (key) details[key] = val;
+      });
+
+      const metadata = {
+        title: document.getElementById('editTitle').value,
+        price: parseInt(document.getElementById('editPrice').value),
+        category: document.getElementById('editCategory').value,
+        description: document.getElementById('editDescription').value,
+        details: details
+      };
+
+      const payload = {
+        action: 'updateInfo',
+        productId: currentProductId,
+        metadata: metadata
+      };
+
+      try {
+        saveBtn.disabled = true;
+        saveBtn.textContent = 'Сохранение...';
+        
+        const res = await fetch('/api/admin/products', { 
+          method: 'POST', 
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload) 
+        });
+        const result = await res.json();
+        
+        if (result.success) {
+          // Индикация успеха
+          saveBtn.textContent = 'Сохранено! ✓';
+          saveBtn.classList.add('btn-success');
+          
+          await loadData();
+          
+          // Обновляем элемент в сайдбаре
+          const sidebarItem = document.querySelector(`.product-item[data-id="${currentProductId}"]`);
+          if (sidebarItem) {
+            sidebarItem.dataset.title = metadata.title.toLowerCase();
+            sidebarItem.dataset.category = metadata.category;
+            sidebarItem.querySelector('.p-title').textContent = metadata.title;
+            sidebarItem.querySelector('.p-cat-tag').textContent = metadata.category;
+          }
+          
+          // Перевыбираем товар, чтобы обновить все поля (включая возможные серверные изменения)
+          selectProduct(currentProductId);
+          
+          setTimeout(() => {
+            saveBtn.textContent = originalBtnText;
+            saveBtn.classList.remove('btn-success');
+            saveBtn.disabled = false;
+          }, 2000);
+          
+        } else {
+          alert('Ошибка: ' + result.error);
+          saveBtn.textContent = originalBtnText;
+          saveBtn.disabled = false;
+        }
+      } catch (e) {
+        alert('Ошибка сети: ' + e.message);
+        saveBtn.textContent = originalBtnText;
+        saveBtn.disabled = false;
+      }
+    }
+
+    async function addImageUrl() {
+      const url = document.getElementById('imgUrlInput').value.trim();
+      if (!url) return;
+
+      const payload = {
+        action: 'addImage',
+        productId: currentProductId,
+        source: 'url',
+        url: url
+      };
+
+      try {
+        const res = await fetch('/api/admin/products', { 
+          method: 'POST', 
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const result = await res.json();
+        if (result.success) {
+          document.getElementById('imgUrlInput').value = '';
+          await loadData();
+          selectProduct(currentProductId);
+        } else {
+          alert('Ошибка: ' + result.error);
+        }
+      } catch (e) {
+        alert('Ошибка при скачивании: ' + e.message);
+      }
+    }
+
+    async function uploadImageFile() {
+      const fileInput = document.getElementById('fileInput');
+      if (!fileInput.files[0]) return;
+
+      const file = fileInput.files[0];
+      const reader = new FileReader();
+
+      reader.onload = async function(e) {
+        const base64String = e.target.result;
+
+        const payload = {
+          action: 'addImage',
+          productId: currentProductId,
+          source: 'base64',
+          file: base64String
+        };
+
+        try {
+          const res = await fetch('/api/admin/products', { 
+            method: 'POST', 
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload) 
+          });
+          const result = await res.json();
+          if (result.success) {
+            fileInput.value = '';
+            await loadData();
+            selectProduct(currentProductId);
+          } else {
+            alert('Ошибка: ' + result.error);
+          }
+        } catch (err) {
+          alert('Ошибка при загрузке: ' + err.message);
+        }
+      };
+      
+      reader.onerror = function() {
+        alert('Ошибка при чтении файла');
+      };
+
+      reader.readAsDataURL(file);
+    }
+
+    async function setMainImage(path) {
+      const product = products.find(p => p.id === currentProductId);
+      if (!product) return;
+
+      // Reorder images: move selected path to index 0
+      const newImages = [path, ...product.images.filter(img => img !== path)];
+      
+      const metadata = {
+        images: newImages
+      };
+
+      const payload = {
+        action: 'updateInfo',
+        productId: currentProductId,
+        metadata: metadata
+      };
+
+      try {
+        const res = await fetch('/api/admin/products', { 
+          method: 'POST', 
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const result = await res.json();
+        if (result.success) {
+          await loadData();
+          selectProduct(currentProductId);
+        } else {
+          alert('Ошибка: ' + result.error);
+        }
+      } catch (e) {
+        alert('Ошибка сети: ' + e.message);
+      }
+    }
+
+    async function deleteImage(path) {
+      if (!confirm('Удалить это изображение? Оно будет стерто из базы и хранилища.')) return;
+
+      try {
+        const res = await fetch('/api/admin/products', {
+          method: 'DELETE',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action: 'deleteImage', productId: currentProductId, imagePath: path })
+        });
+        const result = await res.json();
+        if (result.success) {
+          await loadData();
+          selectProduct(currentProductId);
+        } else {
+          alert('Ошибка: ' + result.error);
+        }
+      } catch (e) {
+        alert('Ошибка при удалении: ' + e.message);
+      }
+    }
+
+    async function deleteEntireProduct() {
+      const product = products.find(p => p.id === currentProductId);
+      if (!product) return;
+
+      const confirmMsg = `ВНИМАНИЕ! Вы собираетесь полностью удалить товар "${product.title}" (ID: ${product.id}).\n\n` +
+                        `Это действие удалит:\n` +
+                        `- Все данные о товаре из базы\n` +
+                        `- ВСЕ фотографии этого товара из облака/хранилища\n\n` +
+                        `Это действие необратимо. Продолжить?`;
+
+      if (!confirm(confirmMsg)) return;
+      if (!confirm('Вы АБСОЛЮТНО уверены? Последний шанс отменить.')) return;
+
+      try {
+        const res = await fetch('/api/admin/products', {
+          method: 'DELETE',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action: 'deleteProduct', productId: currentProductId })
+        });
+        const result = await res.json();
+        if (result.success) {
+          alert('Товар и все его файлы успешно удалены.');
+          window.location.reload(); // Reload to refresh the product list
+        } else {
+          alert('Ошибка: ' + result.error);
+        }
+      } catch (e) {
+        alert('Ошибка при удалении товара: ' + e.message);
+      }
+    }
+
+    loadData().then(init);
+  </script>
+</BaseLayout>

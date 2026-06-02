@@ -43,7 +43,7 @@ export async function POST({ request }) {
 
         if (!productId) throw new Error('Product ID is required');
 
-        const products = JSON.parse(readFileSync(SRC_JSON, 'utf-8'));
+        const products = JSON.parse(readFileSync(SRC_JSON, 'utf-8').replace(/^\uFEFF/, ''));
         const productIndex = products.findIndex(p => p.id === productId);
         if (productIndex === -1) throw new Error('Product not found');
 
@@ -101,7 +101,7 @@ export async function DELETE({ request }) {
     try {
         const { productId, imagePath, action } = await request.json();
 
-        const products = JSON.parse(readFileSync(SRC_JSON, 'utf-8'));
+        const products = JSON.parse(readFileSync(SRC_JSON, 'utf-8').replace(/^\uFEFF/, ''));
         const productIndex = products.findIndex(p => p.id === productId);
         if (productIndex === -1) throw new Error('Product not found');
 
