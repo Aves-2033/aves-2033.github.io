@@ -677,6 +677,14 @@ img {
   color: #888;
 }
 
+.footer-disclaimer {
+  display: block;
+  margin-top: 8px;
+  font-size: 11px;
+  color: #666;
+  letter-spacing: 0.02em;
+}
+
 .footer-social-link {
   color: inherit;
   text-decoration: none;

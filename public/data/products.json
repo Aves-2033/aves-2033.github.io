@@ -4195,13 +4195,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272783/aves-web/product_712_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272783/aves-web/product_712_4.jpg"
         ],
-        "description": "Премиальный фрак фирмы Avanti для выступлений по выездке. В комплекте: фрак, бриджи, сапоги и цилиндр.",
+        "description": "Премиальный фрак фирмы Avanti для выступлений по выездке. В комплекте: фрак, бриджи, перчатки",
         "details": {
             "Тип": "Фрак",
             "Размеры": "40-44",
             "Аренда": "4 000 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "ПРЕМИУМ, Выездка"
+            "Особенности": "ПРЕМИУМ, Выездка. Сапоги и цилиндр возможны за доп.оплату"
         },
         "slug": "frak-dlya-verhovoy-ezdy-shokoladnyy"
     },
@@ -4215,13 +4215,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272785/aves-web/product_713_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272786/aves-web/product_713_3.jpg"
         ],
-        "description": "Премиальный фрак фирмы Avanti для выступлений по выездке. В комплекте: фрак, бриджи, сапоги, шлем, перчатки и цилиндр.",
+        "description": "Премиальный фрак фирмы Avanti для выступлений по выездке. В комплекте: фрак, бриджи, перчатки",
         "details": {
             "Тип": "Одежда для верховой езды",
             "Размеры": "40-44",
             "Аренда": "4 500 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "ПРЕМИУМ, в наличии 2шт"
+            "Особенности": "ПРЕМИУМ, в наличии 2шт, Сапоги и цилиндр возможны за доп.оплату"
         },
         "slug": "frak-dlya-verhovoy-ezdy-chernyy"
     },
@@ -4233,12 +4233,13 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272786/aves-web/product_714_1.jpg"
         ],
-        "description": "Элегантный женский фрак чёрного цвета от компании InterTex. В комплекте: фрак, бриджи, сапоги и цилиндр.",
+        "description": "Элегантный женский фрак чёрного цвета от компании InterTex. В комплекте: фрак, бриджи, перчатки",
         "details": {
             "Тип": "Одежда для верховой езды",
             "Размеры": "40-44",
             "Аренда": "4 500 ₽",
-            "Залог": "15 000 ₽"
+            "Залог": "15 000 ₽",
+            "Особенности": "Сапоги и цилиндр возможны за доп.оплату"
         },
         "slug": "frak-dlya-verhovoy-ezdy-intertex"
     },
@@ -4250,12 +4251,13 @@
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272788/aves-web/product_715_1.jpg"
         ],
-        "description": "Фрак фирмы Pfiff для выступлений по выездке. В комплекте: фрак, бриджи и сапоги.",
+        "description": "Фрак фирмы Pfiff для выступлений по выездке. В комплекте: фрак и бриджи",
         "details": {
             "Тип": "Фрак",
             "Размеры": "44-46",
             "Аренда": "4 500 ₽",
-            "Залог": "15 000 ₽"
+            "Залог": "15 000 ₽",
+            "Особенности": "Сапоги и цилиндр возможны за доп.оплату"
         },
         "slug": "frak-dlya-verhovoy-ezdy-siniy-pfiff"
     },
@@ -4269,12 +4271,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272789/aves-web/product_716_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272790/aves-web/product_716_3.jpg"
         ],
-        "description": "Фрак фирмы Pfiff для выступлений по выездке. В комплекте: фрак, бриджи и сапоги.",
+        "description": "Фрак фирмы Pfiff для выступлений по выездке. В комплекте: фрак и бриджи",
         "details": {
             "Тип": "Костюм для верховой езды",
             "Размеры": "46-48",
             "Залог": "15 000 ₽",
-            "Аренда": "4 500 ₽"
+            "Аренда": "4 500 ₽",
+            "Особенности": "Сапоги и цилиндр возможны за доп.оплату"
         },
         "slug": "frak-dlya-verhovoy-ezdy-siniy"
     },
@@ -4289,12 +4292,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272792/aves-web/product_717_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272793/aves-web/product_717_4.jpg"
         ],
-        "description": "Стильный чёрный редингот фирмы Felix Bühler. В комплекте: редингот, бриджи, сапоги, шлем и перчатки.",
+        "description": "Стильный чёрный редингот фирмы Felix Bühler. В комплекте: редингот, бриджи и перчатки.",
         "details": {
             "Тип": "Редингот",
             "Размеры": "42-44",
             "Аренда": "4 000 ₽",
-            "Залог": "10 000 ₽"
+            "Залог": "10 000 ₽",
+            "Особенности": "Сапоги и шлем возможны за доп.оплату"
         },
         "slug": "redingot-dlya-verhovoy-ezdy-felix-b-hler"
     },
@@ -4307,12 +4311,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272794/aves-web/product_718_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272794/aves-web/product_718_2.jpg"
         ],
-        "description": "Классический редингот фирмы ELT (Германия). В комплекте: редингот, бриджи, сапоги, шлем и перчатки.",
+        "description": "Классический редингот фирмы ELT (Германия). В комплекте: редингот, бриджи и перчатки.",
         "details": {
             "Тип": "Редингот",
             "Размеры": "42-44",
             "Аренда": "4 000 ₽",
-            "Залог": "10 000 ₽"
+            "Залог": "10 000 ₽",
+            "Особенности": "Сапоги и шлем возможны за доп.оплату"
         },
         "slug": "redingot-dlya-verhovoy-ezdy-chernyy"
     },
@@ -4325,12 +4330,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272795/aves-web/product_719_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272797/aves-web/product_719_3.jpg"
         ],
-        "description": "Стильный немецкий редингот фирмы Livreeo. В комплекте: редингот, бриджи, сапоги, шлем, перчатки и цилиндр.",
+        "description": "Стильный немецкий редингот фирмы Livreeo. В комплекте: редингот, бриджи и перчатки",
         "details": {
             "Тип": "Редингот",
             "Размеры": "44-46 (рост 170)",
             "Аренда": "4 000 ₽",
-            "Залог": "10 000 ₽"
+            "Залог": "10 000 ₽",
+            "Особенности": "Сапоги и шлем возможны за доп.оплату"
         },
         "slug": "redingot-dlya-verhovoy-ezdy-livreeo"
     },
@@ -4344,13 +4350,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272799/aves-web/product_720_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272800/aves-web/product_720_3.jpg"
         ],
-        "description": "Luxe редингот фирмы Alexandre Mason. В комплекте: редингот, бриджи, сапоги, шлем и перчатки.",
+        "description": "Luxe редингот фирмы Alexandre Mason. В комплекте: редингот, бриджи и перчатки.",
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-42",
             "Аренда": "4 500 ₽",
             "Залог": "15 000 ₽",
-            "Особенности": "LUXE"
+            "Особенности": "LUXE. Сапоги и шлем возможны за доп.оплату"
         },
         "slug": "redingot-dlya-verhovoy-ezdy-svetlo-seryy"
     },
@@ -4363,12 +4369,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272801/aves-web/product_721_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272801/aves-web/product_721_2.jpg"
         ],
-        "description": "Стильный редингот фирмы Alexandre Mason уникального сливового цвета. В комплекте: редингот, бриджи, сапоги, шлем и перчатки.",
+        "description": "Стильный редингот фирмы Alexandre Mason уникального сливового цвета. В комплекте: редингот, бриджи и перчатки.",
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-42",
             "Аренда": "4 000 ₽",
-            "Залог": "10 000 ₽"
+            "Залог": "10 000 ₽",
+            "Особенности": "Сапоги и шлем возможны за доп.оплату"
         },
         "slug": "redingot-dlya-verhovoy-ezdy-slivovyy"
     },
@@ -4401,13 +4408,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272806/aves-web/product_723_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272806/aves-web/product_723_3.jpg"
         ],
-        "description": "Стильный редингот французской компании Horse Pilot. В комплекте: редингот, бриджи, сапоги, шлем, перчатки и цилиндр.",
+        "description": "Стильный редингот французской компании Horse Pilot. В комплекте: редингот, бриджи и перчатки",
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-42",
             "Аренда": "4 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Horse Pilot, Франция"
+            "Особенности": "Horse Pilot, Франция. Сапоги и цилиндр/шлем возможны за доп.оплату"
         },
         "slug": "redingot-dlya-verhovoy-ezdy-alyy"
     },
@@ -4421,13 +4428,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272808/aves-web/product_724_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272810/aves-web/product_724_3.jpg"
         ],
-        "description": "Премиальный красный редингот компании Avanti. В комплекте: редингот, бриджи, сапоги, шлем и перчатки.",
+        "description": "Премиальный красный редингот компании Avanti. В комплекте: редингот, бриджи и перчатки.",
         "details": {
             "Тип": "Редингот",
             "Размеры": "44-46",
             "Аренда": "4 000 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "ПРЕМИУМ"
+            "Особенности": "ПРЕМИУМ. Сапоги и шлем возможны за доп.оплату"
         },
         "slug": "redingot-dlya-verhovoy-ezdy-krasnyy"
     },
@@ -4441,13 +4448,13 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272811/aves-web/product_725_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272812/aves-web/product_725_3.jpg"
         ],
-        "description": "Качественный редингот фирмы Spooks (Германия) редкого небесно-голубого цвета. В комплекте: редингот, бриджи, сапоги и цилиндр.",
+        "description": "Качественный редингот фирмы Spooks (Германия) редкого небесно-голубого цвета. В комплекте: редингот, бриджи",
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-44",
             "Аренда": "4 500 ₽",
             "Залог": "10 000 ₽",
-            "Особенности": "Spooks, Германия"
+            "Особенности": "Spooks, Германия. Сапоги и цилиндр возможны за доп.оплату"
         },
         "slug": "redingot-dlya-verhovoy-ezdy-nebesno-goluboy"
     },
