@@ -10,6 +10,7 @@ import {
     renderModalContent,
     openContactModal,
     setNavigateModal,
+    handleShare,
 } from './shared.js';
 
 // Параметры пагинации
@@ -182,6 +183,14 @@ function initCatalog() {
         card.addEventListener('click', (e) => {
             const isImageLink = e.target.closest('a.image-seo-link');
             const isTitleLink = e.target.closest('a.seo-link');
+            const isShareBtn = e.target.closest('.btn-card-share');
+
+            if (isShareBtn) {
+                const slug = isShareBtn.dataset.slug;
+                const title = isShareBtn.dataset.title;
+                handleShare(title, slug, e);
+                return;
+            }
             
             if (isImageLink) {
                 e.preventDefault(); // Show modal instead

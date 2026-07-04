@@ -3,7 +3,7 @@
 // Используется на всех страницах сайта
 // ============================================================
 
-const APP_VERSION = '2026.06.09.1839';
+const APP_VERSION = '2026.07.04.1521';
 
 // --- Проверка версии и очистка кэша при обновлении ---
 (function() {
@@ -77,6 +77,49 @@ let _navigateModalFn = () => {};
 export function setNavigateModal(fn) { _navigateModalFn = fn; }
 
 // --- Утилиты ---
+
+export function showToast(message) {
+    const oldToast = document.querySelector('.share-toast');
+    if (oldToast) oldToast.remove();
+
+    const toast = document.createElement('div');
+    toast.className = 'share-toast';
+    toast.textContent = message;
+    document.body.appendChild(toast);
+    
+    toast.offsetWidth; // force reflow
+    toast.classList.add('show');
+    
+    setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 300);
+    }, 2200);
+}
+
+export function handleShare(title, slug, e) {
+    if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+    }
+    const shareUrl = `${window.location.origin}/product/${slug}?utm_source=share&utm_medium=web`;
+    const shareText = `Аренда платья "${title}" в Москве — Прокат от Кет`;
+
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
+
+    if (isMobile && navigator.share) {
+        navigator.share({
+            title: title,
+            text: shareText,
+            url: shareUrl
+        }).catch(err => console.log('Share canceled or failed:', err));
+    } else {
+        navigator.clipboard.writeText(shareUrl).then(() => {
+            showToast('Ссылка скопирована!');
+        }).catch(err => {
+            console.error('Copy failed:', err);
+        });
+    }
+}
 
 export function escapeHtml(text) {
     if (typeof text !== 'string') {
@@ -488,6 +531,9 @@ export function renderModalContent(product, index, productsArray, navHTML) {
         </div>
     ` : '';
 
+    const shareUrl = `${window.location.origin}/product/${product.slug}?utm_source=share&utm_medium=web`;
+    const shareText = `Аренда платья "${product.title}" в Москве — Прокат от Кет`;
+
     modalBody.innerHTML = `
         <div class="modal-gallery">
             ${thumbnailsHTML}
@@ -504,6 +550,39 @@ export function renderModalContent(product, index, productsArray, navHTML) {
                     `<li><strong>${escapeHtml(key)}:</strong> ${escapeHtml(value)}</li>`
                 ).join('') : ''}
             </ul>
+            
+            <div class="modal-share-container">
+                <button class="btn-share" id="modalShareBtn" aria-label="Поделиться">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+                    </svg>
+                    Поделиться
+                </button>
+                <div class="share-dropdown" id="shareDropdown">
+                    <a href="https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}" class="share-option tg" target="_blank" rel="noopener">
+                        <span class="share-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg>
+                        </span> Telegram
+                    </a>
+                    <a href="https://api.whatsapp.com/send?text=${encodeURIComponent(shareText + ' ' + shareUrl)}" class="share-option wa" target="_blank" rel="noopener">
+                        <span class="share-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                        </span> WhatsApp
+                    </a>
+                    <a href="https://vk.com/share.php?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(shareText)}" class="share-option vk" target="_blank" rel="noopener">
+                        <span class="share-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M31.5 63.4C0 94.9 0 145.7 0 247.3v17.4C0 366.3 0 417.1 31.5 448.6 63 480 113.8 480 215.4 480h17.3c101.6 0 152.4 0 183.9-31.4C448 417.1 448 366.3 448 264.7v-17.4C448 145.7 448 94.9 416.5 63.4 385 32 334.2 32 232.6 32h-17.3C113.8 32 63 32 31.5 63.4zM75.7 183.7h38.1c1.9 84.4 39.7 121 69.3 128.4V183.7H219v73.5c29.2-3.2 59.7-36 70.1-73.5h36c-8 46.5-41.3 79.4-64.4 92.6 23.2 11 60.9 39.8 73.7 80h-39.2c-10.2-30.7-36.6-56.7-76.1-60.6v60.6h-4.3c-100.9 0-156.5-65-139-173z"/></svg>
+                        </span> ВКонтакте
+                    </a>
+                    <button class="share-option copy-link" id="modalCopyLinkBtn">
+                        <span class="share-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V2ZM6 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H6ZM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1H2Z"/></svg>
+                        </span> Копировать ссылку
+                    </button>
+                </div>
+            </div>
+            <div class="share-dropdown-backdrop" id="shareDropdownBackdrop"></div>
+
             <div class="modal-nav">
                 ${navHTML}
             </div>
@@ -623,6 +702,58 @@ export function renderModalContent(product, index, productsArray, navHTML) {
     const contactBtn = document.getElementById('contactBtn');
     if (contactBtn) {
         contactBtn.addEventListener('click', () => openContactModal());
+    }
+
+    // Логика кнопки «Поделиться»
+    const modalShareBtn = document.getElementById('modalShareBtn');
+    const shareDropdown = document.getElementById('shareDropdown');
+    const shareDropdownBackdrop = document.getElementById('shareDropdownBackdrop');
+    const modalCopyLinkBtn = document.getElementById('modalCopyLinkBtn');
+
+    if (modalShareBtn && shareDropdown) {
+        modalShareBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
+            if (isMobile && navigator.share) {
+                navigator.share({
+                    title: product.title,
+                    text: shareText,
+                    url: shareUrl
+                }).catch(err => console.log('Share canceled or failed:', err));
+            } else {
+                shareDropdown.classList.toggle('active');
+                if (shareDropdownBackdrop) shareDropdownBackdrop.classList.toggle('active');
+            }
+        });
+    }
+
+    if (modalCopyLinkBtn) {
+        modalCopyLinkBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navigator.clipboard.writeText(shareUrl).then(() => {
+                showToast('Ссылка скопирована!');
+                if (shareDropdown) shareDropdown.classList.remove('active');
+                if (shareDropdownBackdrop) shareDropdownBackdrop.classList.remove('active');
+            }).catch(err => console.error('Copy failed:', err));
+        });
+    }
+
+    if (shareDropdownBackdrop) {
+        shareDropdownBackdrop.addEventListener('click', () => {
+            if (shareDropdown) shareDropdown.classList.remove('active');
+            shareDropdownBackdrop.classList.remove('active');
+        });
+    }
+
+    if (shareDropdown) {
+        shareDropdown.querySelectorAll('.share-option').forEach(link => {
+            if (link.id !== 'modalCopyLinkBtn') {
+                link.addEventListener('click', () => {
+                    shareDropdown.classList.remove('active');
+                    if (shareDropdownBackdrop) shareDropdownBackdrop.classList.remove('active');
+                });
+            }
+        });
     }
 
     // Клавиатура

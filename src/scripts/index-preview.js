@@ -9,6 +9,7 @@ import {
     setupModal,
     renderModalContent,
     setNavigateModal,
+    handleShare,
 } from './shared.js';
 
 // Данные о товарах для превью (переданы из Astro через is:inline)
@@ -56,7 +57,14 @@ function renderDynamicCards(products) {
                 <a href="/product/${product.slug}" class="seo-link">${product.title}</a>
               </h3>
               <p class="card-price">${formattedPrice}</p>
-              <a href="/product/${product.slug}" class="btn-text">Подробнее &rarr;</a>
+              <div class="card-actions">
+                <a href="/product/${product.slug}" class="btn-text">Подробнее &rarr;</a>
+                <button class="btn-card-share" data-slug="${product.slug}" data-title="${product.title}" aria-label="Поделиться">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+                  </svg>
+                </button>
+              </div>
             </div>
           </article>
         `;
@@ -127,6 +135,14 @@ function initPreview() {
             const isImageLink = e.target.closest('a.image-seo-link');
             const isTitleLink = e.target.closest('a.seo-link');
             const isBtnText = e.target.closest('.btn-text');
+            const isShareBtn = e.target.closest('.btn-card-share');
+
+            if (isShareBtn) {
+                const slug = isShareBtn.dataset.slug;
+                const title = isShareBtn.dataset.title;
+                handleShare(title, slug, e);
+                return;
+            }
 
             if (isImageLink) {
                 e.preventDefault(); // intercept and open modal

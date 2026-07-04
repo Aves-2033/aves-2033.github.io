@@ -9,6 +9,7 @@ import {
     setupModal,
     renderModalContent,
     setNavigateModal,
+    handleShare,
 } from './shared.js';
 
 let products = [];
@@ -104,6 +105,13 @@ export function initCategoryPage() {
     allCards.forEach(card => {
         card.style.cursor = 'pointer';
         card.addEventListener('click', (e) => {
+            const isShareBtn = e.target.closest('.btn-card-share');
+            if (isShareBtn) {
+                const slug = isShareBtn.dataset.slug;
+                const title = isShareBtn.dataset.title;
+                handleShare(title, slug, e);
+                return;
+            }
             if (e.target.closest('a[href^="/product/"]')) {
                 return; // Let browser follow the SEO link
             }
