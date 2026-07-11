@@ -1394,7 +1394,7 @@
     {
         "id": 330,
         "title": "Бальное платье \"Леди\"",
-        "price": 12000,
+        "price": 15000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272326/aves-web/product_330_2.jpg",
@@ -1410,9 +1410,9 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 172)",
-            "Аренда": "12 000 ₽",
-            "Залог": "30 000 ₽",
-            "Особенности": "LUXE, плотный кринолин стоимость 500 ₽. Можно добавить нижнюю юбку для объема. Бальное платье регулируется шнуровкой."
+            "Аренда": "15 000 ₽",
+            "Залог": "35 000 ₽",
+            "Особенности": "LUXE, плотный кринолин стоимость 500 ₽. Можно добавить нижнюю юбку для объема. Бальное платье регулируется шнуровкой. На конкурсы красоты аренда 30.000 рублей на 3 дня"
         },
         "slug": "balnoe-plate-ledi"
     },
@@ -4459,6 +4459,26 @@
         "slug": "redingot-dlya-verhovoy-ezdy-nebesno-goluboy"
     },
     {
+        "id": 855,
+        "title": "Мужской индийский шервани кремового цвета",
+        "price": 6000,
+        "category": "mens",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1780390723/aves-web/product_855_1780390715004.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1780390735/aves-web/product_855_1780390731930.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1780390747/aves-web/product_855_1780390743820.jpg"
+        ],
+        "description": "Плотная жаккардовая ткань с узором, богато украшен вышивкой, бисером и стразами в бордово-золотом оформлении. Очень эффектно смотрится вживую.\n\nВысота по спине 96, ширина по плечам 50, длина рукава 67.",
+        "details": {
+            "Тип": "Мужской гардероб",
+            "Размеры": "46-48",
+            "Аренда": "6 000 ₽",
+            "Залог": "25 000 ₽",
+            "Особенности": "Высота по спине 96, ширина по плечам 50, рукав 67"
+        },
+        "slug": "muzhskoy-indiyskiy-shervani-kremovogo-tsveta"
+    },
+    {
         "id": 801,
         "title": "Костюм с красным камзолом",
         "price": 6000,
@@ -5366,26 +5386,6 @@
             "Особенности": "Подходит на высокий рост"
         },
         "slug": "muzhskaya-hakama-chernaya"
-    },
-    {
-        "id": 855,
-        "title": "Мужской индийский шервани кремового цвета",
-        "price": 6000,
-        "category": "mens",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1780390723/aves-web/product_855_1780390715004.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1780390735/aves-web/product_855_1780390731930.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1780390747/aves-web/product_855_1780390743820.jpg"
-        ],
-        "description": "Плотная жаккардовая ткань с узором, богато украшен вышивкой, бисером и стразами в бордово-золотом оформлении. Очень эффектно смотрится вживую.\n\nВысота по спине 96, ширина по плечам 50, длина рукава 67.",
-        "details": {
-            "Тип": "Мужской гардероб",
-            "Размеры": "46-48",
-            "Аренда": "6 000 ₽",
-            "Залог": "25 000 ₽",
-            "Особенности": "Высота по спине 96, ширина по плечам 50, рукав 67"
-        },
-        "slug": "muzhskoy-indiyskiy-shervani-kremovogo-tsveta"
     },
     {
         "id": 901,
@@ -11798,23 +11798,6 @@
         "slug": "komplekt-iz-yubki-i-topa-indiya"
     },
     {
-        "id": 1712,
-        "title": "Женский индийский топ с вышивкой",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774468962/aves-web/product_1712_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774468965/aves-web/product_1712_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774468968/aves-web/product_1712_3.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "zhenskiy-indiyskiy-top-s-vyshivkoy"
-    },
-    {
         "id": 1713,
         "title": "Индийское сари",
         "price": 5000,
@@ -12223,36 +12206,6 @@
         "slug": "fioletovyy-kostyum-top-ubka-dupata"
     },
     {
-        "id": 1730,
-        "title": "Винтажное сари из чистого шелка (светло-синее)",
-        "price": 3000,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469313/aves-web/product_1730_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469316/aves-web/product_1730_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469318/aves-web/product_1730_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469320/aves-web/product_1730_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469323/aves-web/product_1730_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469325/aves-web/product_1730_6.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469328/aves-web/product_1730_7.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469330/aves-web/product_1730_8.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469332/aves-web/product_1730_9.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469334/aves-web/product_1730_10.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469337/aves-web/product_1730_11.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469341/aves-web/product_1730_12.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469342/aves-web/product_1730_13.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469345/aves-web/product_1730_14.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469347/aves-web/product_1730_15.jpg"
-        ],
-        "description": "Винтажное светло-синее сари из 100% чистого шелка. Плетеный цветочный узор, украшенный металлическими серебряными зардози и стразами.",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "3 000 ₽",
-            "Залог": "10 000 ₽"
-        },
-        "slug": "vintazhnoe-sari-iz-chistogo-shelka-svetlo-sinee"
-    },
-    {
         "id": 1731,
         "title": "Шикарное синее сари с вышивкой и камнями",
         "price": 4000,
@@ -12416,19 +12369,26 @@
     {
         "id": 1738,
         "title": "Праздничный индийский костюм",
-        "price": 0,
+        "price": 5000,
         "category": "ethnic-costumes",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469469/aves-web/product_1738_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469471/aves-web/product_1738_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469474/aves-web/product_1738_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469476/aves-web/product_1738_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469478/aves-web/product_1738_5.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783802566/aves-web/product_1738_1783802564950_0.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783802571/aves-web/product_1738_1783802567541_1.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783802573/aves-web/product_1738_1783802572466_2.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783802578/aves-web/product_1738_1783802574175_3.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783802580/aves-web/product_1738_1783802579133_4.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783802584/aves-web/product_1738_1783802580881_5.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783802586/aves-web/product_1738_1783802585364_6.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783802588/aves-web/product_1738_1783802586828_7.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783802590/aves-web/product_1738_1783802589172_8.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783802594/aves-web/product_1738_1783802591244_9.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783802598/aves-web/product_1738_1783802595498_10.jpg"
         ],
-        "description": "Нет данных",
+        "description": " Фиолетовый костюм (топ, убка, дупата)",
         "details": {
             "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу"
+            "Аренда": "15 000 ₽",
+            "Размер": "42-44"
         },
         "slug": "prazdnichnyy-indiyskiy-kostyum"
     },
@@ -12523,361 +12483,36 @@
     },
     {
         "id": 1743,
-        "title": "Парный свадебный индийский образ 1",
-        "price": 0,
-        "category": "ethnic-costumes",
+        "title": "Мужской индийский головной убор",
+        "price": 1000,
+        "category": "headwear",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469547/aves-web/product_1743_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469550/aves-web/product_1743_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469552/aves-web/product_1743_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469555/aves-web/product_1743_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469557/aves-web/product_1743_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469559/aves-web/product_1743_6.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783801421/aves-web/product_1743_1783801419893.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Декорирован кристаллами сваровски, перьями и натуральными камнями (сердолик, агат, гранат, нефрит, хризопраз)",
         "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу",
-            "Особенности": "LUXE"
+            "Размер": "56",
+            "Аренда": "1000 ₽",
+            "Залог": "5000 ₽"
         },
-        "slug": "parnyy-svadebnyy-indiyskiy-obraz-1"
+        "slug": "muzhskoy-indiyskiy-golovnoy-ubor"
     },
     {
         "id": 1744,
-        "title": "Парный свадебный индийский образ 2",
-        "price": 0,
-        "category": "ethnic-costumes",
+        "title": "Жокейский костюм",
+        "price": 5500,
+        "category": "mens",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469561/aves-web/product_1744_1.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783803082/aves-web/product_1744_1783803078134_0.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783803083/aves-web/product_1744_1783803083319_1.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1783803085/aves-web/product_1744_1783803084263_2.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Комплект из рубашки, редингота, бриджей, жабо, перчаток и сапог.",
         "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу",
-            "Особенности": "LUXE"
+            "Арена": "5 500 ₽",
+            "Залог": "25 000 ₽",
+            "Размер": "48-52-185"
         },
-        "slug": "parnyy-svadebnyy-indiyskiy-obraz-2"
-    },
-    {
-        "id": 1745,
-        "title": "Парный свадебный индийский образ 3",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469563/aves-web/product_1745_1.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу",
-            "Особенности": "LUXE"
-        },
-        "slug": "parnyy-svadebnyy-indiyskiy-obraz-3"
-    },
-    {
-        "id": 1746,
-        "title": "Универсальная прозрачная дупата с золотым орнаментом",
-        "price": 2000,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469565/aves-web/product_1746_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469567/aves-web/product_1746_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469571/aves-web/product_1746_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469573/aves-web/product_1746_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469575/aves-web/product_1746_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469577/aves-web/product_1746_6.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "2 000 ₽",
-            "Залог": "6 000 ₽",
-            "Особенности": "ПРЕМИУМ"
-        },
-        "slug": "universalnaya-prozrachnaya-dupata-s-zolotym-ornamentom"
-    },
-    {
-        "id": 1747,
-        "title": "Дупата красная свадебная",
-        "price": 2000,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469579/aves-web/product_1747_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469582/aves-web/product_1747_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469584/aves-web/product_1747_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469586/aves-web/product_1747_4.jpg"
-        ],
-        "description": "Имеет объёмный рисунок, вышивку и камешки.",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "2 000 ₽",
-            "Залог": "8 000 ₽",
-            "Особенности": "ПРЕМИУМ"
-        },
-        "slug": "dupata-krasnaya-svadebnaya"
-    },
-    {
-        "id": 1748,
-        "title": "Богато вышитая дупата",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469588/aves-web/product_1748_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469590/aves-web/product_1748_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469593/aves-web/product_1748_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469595/aves-web/product_1748_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469597/aves-web/product_1748_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469600/aves-web/product_1748_6.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469603/aves-web/product_1748_7.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу",
-            "Особенности": "LUXE"
-        },
-        "slug": "bogato-vyshitaya-dupata"
-    },
-    {
-        "id": 1749,
-        "title": "Шёлковый палантин",
-        "price": 1000,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469605/aves-web/product_1749_1.jpg"
-        ],
-        "description": "Палантин",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
-        },
-        "slug": "shelkovyy-palantin"
-    },
-    {
-        "id": 1750,
-        "title": "Индийская дупата",
-        "price": 1500,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469606/aves-web/product_1750_1.jpg"
-        ],
-        "description": "Дупата индийская",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "1 500 ₽",
-            "Залог": "5 000 ₽"
-        },
-        "slug": "indiyskaya-dupata"
-    },
-    {
-        "id": 1751,
-        "title": "Топ чоли с вышивкой",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469608/aves-web/product_1751_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469610/aves-web/product_1751_2.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Размеры": "42-46",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "top-choli-s-vyshivkoy"
-    },
-    {
-        "id": 1752,
-        "title": "Индийский топ чоли с вышивкой",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469612/aves-web/product_1752_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469614/aves-web/product_1752_2.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "indiyskiy-top-choli-s-vyshivkoy"
-    },
-    {
-        "id": 1753,
-        "title": "Восточный пояс с вышивкой",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469615/aves-web/product_1753_1.jpg"
-        ],
-        "description": "Пояс для занятий танцами или восточного образа.",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "vostochnyy-poyas-s-vyshivkoy"
-    },
-    {
-        "id": 1754,
-        "title": "Восточный лиф для танцев",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469617/aves-web/product_1754_1.jpg"
-        ],
-        "description": "Расшитый лиф для танцев живота.",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "vostochnyy-lif-dlya-tantsev"
-    },
-    {
-        "id": 1755,
-        "title": "Индийская юбка (зеленая)",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469618/aves-web/product_1755_1.jpg"
-        ],
-        "description": "Юбка для индийского костюма зеленого цвета.",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "indiyskaya-yubka-zelenaya"
-    },
-    {
-        "id": 1756,
-        "title": "Индийский топ чоли (красный)",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469620/aves-web/product_1756_1.jpg"
-        ],
-        "description": "Красный топ чоли с узорами.",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "indiyskiy-top-choli-krasnyy"
-    },
-    {
-        "id": 1757,
-        "title": "Индийский ремешок",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469622/aves-web/product_1757_1.jpg"
-        ],
-        "description": "Аксессуар для индийского сари.",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "indiyskiy-remeshok"
-    },
-    {
-        "id": 1758,
-        "title": "Индийский топ чоли",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469624/aves-web/product_1758_1.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Размеры": "42-44",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "indiyskiy-top-choli"
-    },
-    {
-        "id": 1759,
-        "title": "Белый топ для индийских костюмов",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469625/aves-web/product_1759_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469627/aves-web/product_1759_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469630/aves-web/product_1759_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469633/aves-web/product_1759_4.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Размеры": "42-46",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "belyy-top-dlya-indiyskih-kostyumov"
-    },
-    {
-        "id": 1760,
-        "title": "Топ для индийского костюма",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469634/aves-web/product_1760_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469636/aves-web/product_1760_2.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Размеры": "42-44",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "top-dlya-indiyskogo-kostyuma"
-    },
-    {
-        "id": 1761,
-        "title": "Топ чоли большого размера",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469638/aves-web/product_1761_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469640/aves-web/product_1761_2.jpg"
-        ],
-        "description": "Топ индийский",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Размеры": "48-50",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "top-choli-bolshogo-razmera"
-    },
-    {
-        "id": 1762,
-        "title": "Народное платье Мексика",
-        "price": 1000,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469642/aves-web/product_1762_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469644/aves-web/product_1762_2.jpg"
-        ],
-        "description": "Нет данных",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Размеры": "42-44",
-            "Аренда": "1 000 ₽",
-            "Залог": "3 000 ₽"
-        },
-        "slug": "narodnoe-plate-meksika"
-    },
-    {
-        "id": 1763,
-        "title": "Люксовый индийский костюм «Роза Джайпура»",
-        "price": 0,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469646/aves-web/product_1763_1.jpg"
-        ],
-        "description": "Включает топ, юбку из бархатного материала и сетчатую дупату. Красивая причудливая вышивка, работа с блестками и многониточная вышивка.",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "Стоимость по запросу"
-        },
-        "slug": "lyuksovyy-indiyskiy-kostyum-roza-dzhaypura"
+        "slug": "zhokeyskiy-kostyum"
     }
 ]

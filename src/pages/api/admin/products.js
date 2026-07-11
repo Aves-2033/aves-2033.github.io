@@ -30,6 +30,29 @@ function syncJson(data) {
     writeFileSync(PUBLIC_JSON, formatted, 'utf-8');
 }
 
+const cyrillicToLatinMap = {
+    'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ё': 'e', 'ж': 'zh',
+    'з': 'z', 'и': 'i', 'й': 'y', 'к': 'k', 'л': 'l', 'м': 'm', 'н': 'n', 'о': 'o',
+    'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'у': 'u', 'ф': 'f', 'х': 'h', 'ц': 'ts',
+    'ч': 'ch', 'ш': 'sh', 'щ': 'sch', 'ъ': '', 'ы': 'y', 'ь': '', 'э': 'e', 'ю': 'yu',
+    'я': 'ya'
+};
+
+function transliterate(text) {
+    return text.toLowerCase().split('').map(char => {
+        return cyrillicToLatinMap[char] !== undefined ? cyrillicToLatinMap[char] : char;
+    }).join('');
+}
+
+function createSlug(title) {
+    let slug = transliterate(title);
+    // Replace non-alphanumeric characters with spaces, trim, and replace spaces with hyphens
+    slug = slug.replace(/[^a-z0-9]+/g, ' ')
+               .trim()
+               .replace(/\s+/g, '-');
+    return slug;
+}
+
 export async function POST({ request }) {
     if (import.meta.env.PROD) {
         return new Response(JSON.stringify({ error: 'Not allowed in production' }), { status: 403 });
@@ -39,11 +62,44 @@ export async function POST({ request }) {
         const rawText = await request.text();
         const payload = JSON.parse(rawText || '{}');
         const action = payload.action;
-        const productId = parseInt(payload.productId);
-
-        if (!productId) throw new Error('Product ID is required');
 
         const products = JSON.parse(readFileSync(SRC_JSON, 'utf-8').replace(/^\uFEFF/, ''));
+
+        if (action === 'createProduct') {
+            const title = payload.title || 'Новый товар';
+            const category = payload.category || 'ball';
+            const price = parseInt(payload.price) || 0;
+            const description = payload.description || '';
+            const details = payload.details || {};
+
+            const maxId = products.reduce((max, p) => p.id > max ? p.id : max, 0);
+            const newId = maxId + 1;
+
+            let baseSlug = createSlug(title);
+            let finalSlug = baseSlug;
+            if (products.some(p => p.slug === finalSlug)) {
+                finalSlug = `${baseSlug}-${newId}`;
+            }
+
+            const newProduct = {
+                id: newId,
+                title,
+                price,
+                category,
+                images: [],
+                description,
+                details,
+                slug: finalSlug
+            };
+
+            products.push(newProduct);
+            syncJson(products);
+            return new Response(JSON.stringify({ success: true, product: newProduct }));
+        }
+
+        const productId = parseInt(payload.productId);
+        if (!productId) throw new Error('Product ID is required');
+
         const productIndex = products.findIndex(p => p.id === productId);
         if (productIndex === -1) throw new Error('Product not found');
 

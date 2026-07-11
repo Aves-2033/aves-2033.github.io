@@ -40,6 +40,7 @@ const title = "Админ-панель | Прокат от Кет";
             <option value="furs">Мех</option>
             <option value="headwear">Головные Уборы</option>
           </select>
+          <button id="openAddModalBtn" class="btn-primary" style="margin-top: 10px; width: 100%;">+ Добавить товар</button>
         </div>
         <div class="product-list" id="productList">
           {products.map(p => (
@@ -143,6 +144,57 @@ const title = "Админ-панель | Прокат от Кет";
           </section>
         </div>
       </main>
+    </div>
+
+    <!-- Модалка создания товара -->
+    <div id="addProductModal" class="admin-modal hidden">
+      <div class="admin-modal-content">
+        <header class="admin-modal-header">
+          <h2>Добавить новый товар</h2>
+          <button id="closeModalBtn" class="btn-close">&times;</button>
+        </header>
+        <form id="addProductForm" class="admin-modal-form">
+          <div class="form-group">
+            <label>Название товара</label>
+            <input type="text" id="newTitle" name="title" required placeholder="Например: Историческое бальное платье XVIII века" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Цена аренды (₽)</label>
+              <input type="number" id="newPrice" name="price" required placeholder="3000" min="0" />
+            </div>
+            <div class="form-group">
+              <label>Категория</label>
+              <select id="newCategory" name="category" required>
+                <option value="ball">Бальные платья XVIII-XIX век</option>
+                <option value="vintage">Винтажные и свадебные платья</option>
+                <option value="fashion">Фэшн и Будуар</option>
+                <option value="medieval">Средневековые и Сказочные платья</option>
+                <option value="ethnic-costumes">Этнические Костюмы</option>
+                <option value="kimono">Японские кимоно женские</option>
+                <option value="riding">Костюмы для Верховой езды</option>
+                <option value="mens">Мужской Гардероб</option>
+                <option value="cloaks">Плащи и Накидки</option>
+                <option value="ethnic">Этнические украшения</option>
+                <option value="accessories">Аксессуары</option>
+                <option value="gloves-fans">Перчатки и веера</option>
+                <option value="belt-shoes">Пояса и Обувь</option>
+                <option value="furs">Мех</option>
+                <option value="headwear">Головные Уборы</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Описание</label>
+            <textarea id="newDescription" name="description" rows="3" placeholder="Краткое описание товара..."></textarea>
+          </div>
+          
+          <div class="admin-modal-actions">
+            <button type="button" id="cancelModalBtn" class="btn-secondary">Отмена</button>
+            <button type="submit" id="createProductSubmitBtn" class="btn-primary">Создать товар</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 
@@ -435,6 +487,77 @@ const title = "Админ-панель | Прокат от Кет";
     .tab-content.active { display: block; }
     .input-group { display: flex; gap: 10px; }
 
+    /* Modal styles */
+    .admin-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(4px);
+      z-index: 3000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+    .admin-modal.hidden {
+      display: none !important;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .admin-modal-content {
+      background: #fff;
+      border-radius: 12px;
+      border: 1px solid #e0d5c5;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+      width: 90%;
+      max-width: 600px;
+      padding: 30px;
+      position: relative;
+      animation: modalSlideIn 0.3s ease;
+    }
+    .admin-modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #e0d5c5;
+      padding-bottom: 15px;
+    }
+    .admin-modal-header h2 {
+      font-family: 'Playfair Display', serif;
+      color: #2e4634;
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    .btn-close {
+      background: none;
+      border: none;
+      font-size: 2rem;
+      cursor: pointer;
+      color: #777;
+      line-height: 1;
+      padding: 0;
+    }
+    .btn-close:hover {
+      color: #ff4444;
+    }
+    .admin-modal-actions {
+      display: flex;
+      gap: 15px;
+      justify-content: flex-end;
+      margin-top: 25px;
+      border-top: 1px solid #e0d5c5;
+      padding-top: 20px;
+    }
+    
+    @keyframes modalSlideIn {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(10px); }
       to { opacity: 1; transform: translateY(0); }
@@ -490,6 +613,19 @@ const title = "Админ-панель | Прокат от Кет";
       document.getElementById('uploadBtn').addEventListener('click', uploadImageFile);
       document.getElementById('deleteProductBtn').addEventListener('click', deleteEntireProduct);
       
+      // Modal listeners
+      const addModal = document.getElementById('addProductModal');
+      document.getElementById('openAddModalBtn').addEventListener('click', () => {
+        addModal.classList.remove('hidden');
+      });
+      document.getElementById('closeModalBtn').addEventListener('click', () => {
+        addModal.classList.add('hidden');
+      });
+      document.getElementById('cancelModalBtn').addEventListener('click', () => {
+        addModal.classList.add('hidden');
+      });
+      document.getElementById('addProductForm').addEventListener('submit', createProduct);
+
       // Табы
       const tabBtns = document.querySelectorAll('.tab-btn');
       tabBtns.forEach(btn => {
@@ -687,6 +823,49 @@ const title = "Админ-панель | Прокат от Кет";
         alert('Ошибка сети: ' + e.message);
         saveBtn.textContent = originalBtnText;
         saveBtn.disabled = false;
+      }
+    }
+
+    async function createProduct(e) {
+      e.preventDefault();
+      const submitBtn = document.getElementById('createProductSubmitBtn');
+      const originalText = submitBtn.textContent;
+      
+      const payload = {
+        action: 'createProduct',
+        title: document.getElementById('newTitle').value.trim(),
+        price: parseInt(document.getElementById('newPrice').value),
+        category: document.getElementById('newCategory').value,
+        description: document.getElementById('newDescription').value.trim(),
+        details: {}
+      };
+
+      try {
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Создание...';
+        
+        const res = await fetch('/api/admin/products', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const result = await res.json();
+        
+        if (result.success && result.product) {
+          submitBtn.textContent = 'Успешно! ✓';
+          submitBtn.classList.add('btn-success');
+          setTimeout(() => {
+            window.location.href = '/admin?id=' + result.product.id;
+          }, 1000);
+        } else {
+          alert('Ошибка при создании: ' + result.error);
+          submitBtn.textContent = originalText;
+          submitBtn.disabled = false;
+        }
+      } catch (err) {
+        alert('Ошибка сети: ' + err.message);
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
       }
     }
 
