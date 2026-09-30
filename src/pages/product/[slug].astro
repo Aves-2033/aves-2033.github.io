@@ -2,11 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import fs from 'node:fs';
-import path from 'node:path';
-
-const productsPath = path.resolve(process.cwd(), 'src/data/products.json');
-const products = JSON.parse(fs.readFileSync(productsPath, 'utf-8').replace(/^\uFEFF/, ''));
+import products from '../../data/products.json';
 
 export async function getStaticPaths() {
   return products.map((product) => ({
