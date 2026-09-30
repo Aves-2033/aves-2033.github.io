@@ -2,7 +2,11 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import products from '../../data/products.json';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const productsPath = path.resolve(process.cwd(), 'src/data/products.json');
+const products = JSON.parse(fs.readFileSync(productsPath, 'utf-8').replace(/^\uFEFF/, ''));
 
 export async function getStaticPaths() {
   return products.map((product) => ({
@@ -16,6 +20,11 @@ const { product } = Astro.props;
 // Подгружаем похожие товары из той же категории (макс 4)
 const similarProducts = products
   .filter(p => p.category === product.category && p.id !== product.id)
+  .sort((a: any, b: any) => {
+    const timeA = a.updatedAt ? new Date(a.updatedAt).getTime() : 0;
+    const timeB = b.updatedAt ? new Date(b.updatedAt).getTime() : 0;
+    return timeB - timeA;
+  })
   .slice(0, 4);
 
 const formattedPrice = product.price != null ? product.price.toLocaleString('ru-RU') + ' ₽' : 'Нет данных';

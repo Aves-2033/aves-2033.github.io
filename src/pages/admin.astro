@@ -1,11 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import products from '../data/products.json';
+import fs from 'node:fs';
+import path from 'node:path';
 
 // Security: Block in production — redirect to 404
 if (import.meta.env.PROD) {
   return Astro.redirect('/404', 404);
 }
+
+const productsPath = path.resolve(process.cwd(), 'src/data/products.json');
+const products = JSON.parse(fs.readFileSync(productsPath, 'utf-8').replace(/^\uFEFF/, ''));
 
 const title = "Админ-панель | Прокат от Кет";
 ---
@@ -39,6 +43,7 @@ const title = "Админ-панель | Прокат от Кет";
             <option value="belt-shoes">Пояса и Обувь</option>
             <option value="furs">Мех</option>
             <option value="headwear">Головные Уборы</option>
+            <option value="kids">Детские Костюмы</option>
           </select>
           <button id="openAddModalBtn" class="btn-primary" style="margin-top: 10px; width: 100%;">+ Добавить товар</button>
         </div>
@@ -93,6 +98,7 @@ const title = "Админ-панель | Прокат от Кет";
                     <option value="belt-shoes">Пояса и Обувь</option>
                     <option value="furs">Мех</option>
                     <option value="headwear">Головные Уборы</option>
+                    <option value="kids">Детские Костюмы</option>
                   </select>
                 </div>
               </div>
@@ -105,7 +111,28 @@ const title = "Админ-панель | Прокат от Кет";
               <div id="detailsContainer" class="details-editor">
                 <!-- Сюда добавятся поля динамически -->
               </div>
-              <button type="button" id="addDetailBtn" class="btn-secondary">+ Добавить поле</button>
+              <div class="details-actions-row">
+                <button type="button" id="addDetailBtn" class="btn-secondary">+ Добавить поле</button>
+                <button type="button" id="fillPresetBtn" class="btn-secondary">✨ Заполнить шаблон для категории</button>
+              </div>
+              <datalist id="detailsKeyPresets">
+                <option value="Размер"></option>
+                <option value="Рост"></option>
+                <option value="Обхват груди"></option>
+                <option value="Обхват талии"></option>
+                <option value="Обхват бедер"></option>
+                <option value="Длина"></option>
+                <option value="Длина юбки"></option>
+                <option value="Комплектация"></option>
+                <option value="Корсет"></option>
+                <option value="Материал"></option>
+                <option value="Цвет"></option>
+                <option value="Эпоха"></option>
+                <option value="Стиль"></option>
+                <option value="Культура/Регион"></option>
+                <option value="Тип меха"></option>
+                <option value="Состояние"></option>
+              </datalist>
 
               <div class="form-actions">
                 <button type="submit" class="btn-primary">Сохранить изменения</button>
@@ -116,6 +143,7 @@ const title = "Админ-панель | Прокат от Кет";
 
           <section class="editor-section gallery-section">
             <h2>Галерея изображений</h2>
+            <p class="gallery-hint">💡 Совет: перетаскивайте фотографии мышью (Drag & Drop), чтобы изменить их порядок. Первое фото всегда главное.</p>
             <div id="galleryGrid" class="admin-gallery-grid">
               <!-- Изображения -->
             </div>
@@ -123,21 +151,35 @@ const title = "Админ-панель | Прокат от Кет";
             <div class="gallery-add-tools">
               <h3>Добавить фото</h3>
               <div class="tabs">
-                <button class="tab-btn active" data-tab="url">По ссылке</button>
-                <button class="tab-btn" data-tab="upload">Загрузить файл</button>
+                <button class="tab-btn active" data-tab="upload">Загрузить файлы</button>
+                <button class="tab-btn" data-tab="url">По ссылке</button>
               </div>
               
-              <div id="urlTab" class="tab-content active">
+              <div id="uploadTab" class="tab-content active">
+                <div id="uploadDropzone" class="upload-dropzone">
+                  <div class="dropzone-prompt">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-bottom: 6px; color: #b39162;">
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                      <polyline points="17 8 12 3 7 8"></polyline>
+                      <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    <p style="margin: 0; font-weight: 500;">Перетащите фотографии сюда или нажмите для выбора</p>
+                    <span class="dropzone-subtext">Поддерживается выбор нескольких фото сразу (JPG, PNG, WebP)</span>
+                  </div>
+                  <input type="file" id="fileInput" accept="image/*" multiple class="dropzone-file-input" />
+                </div>
+                <div id="uploadProgress" class="upload-progress hidden">
+                  <div class="progress-bar-wrapper">
+                    <div id="uploadProgressBar" class="progress-bar-fill"></div>
+                  </div>
+                  <span id="uploadProgressText">Загрузка...</span>
+                </div>
+              </div>
+
+              <div id="urlTab" class="tab-content">
                 <div class="input-group">
                   <input type="url" id="imgUrlInput" placeholder="https://..." />
                   <button id="addUrlBtn" class="btn-primary">Добавить</button>
-                </div>
-              </div>
-              
-              <div id="uploadTab" class="tab-content">
-                <div class="input-group">
-                  <input type="file" id="fileInput" accept="image/*" />
-                  <button id="uploadBtn" class="btn-primary">Загрузить</button>
                 </div>
               </div>
             </div>
@@ -181,12 +223,30 @@ const title = "Админ-панель | Прокат от Кет";
                 <option value="belt-shoes">Пояса и Обувь</option>
                 <option value="furs">Мех</option>
                 <option value="headwear">Головные Уборы</option>
+                <option value="kids">Детские Костюмы</option>
               </select>
             </div>
           </div>
           <div class="form-group">
             <label>Описание</label>
             <textarea id="newDescription" name="description" rows="3" placeholder="Краткое описание товара..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label>Фотографии товара (необязательно, можно выбрать сразу несколько)</label>
+            <div id="newDropzone" class="upload-dropzone modal-dropzone">
+              <div class="dropzone-prompt">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-bottom: 4px; color: #b39162;">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="17 8 12 3 7 8"></polyline>
+                  <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+                <p style="margin: 0; font-size: 0.9rem;">Перетащите фото сюда или нажмите для выбора</p>
+                <span class="dropzone-subtext">Первое выбранное фото автоматически станет главным</span>
+              </div>
+              <input type="file" id="newFileInput" accept="image/*" multiple class="dropzone-file-input" />
+            </div>
+            <div id="newFilesPreview" class="new-files-preview"></div>
           </div>
           
           <div class="admin-modal-actions">
@@ -480,6 +540,126 @@ const title = "Админ-панель | Прокат от Кет";
       z-index: 2;
     }
     
+    .gallery-hint {
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: -10px;
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+    .gallery-item[draggable="true"] {
+      cursor: grab;
+      user-select: none;
+    }
+    .gallery-item:active {
+      cursor: grabbing;
+    }
+    .gallery-item.dragging {
+      opacity: 0.35;
+      transform: scale(0.92);
+      border: 2px dashed #b39162;
+    }
+    .gallery-item.drag-over {
+      outline: 3px solid #2e4634;
+      outline-offset: 2px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
+    
+    .details-actions-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .upload-dropzone {
+      border: 2px dashed #c4b59d;
+      border-radius: 8px;
+      padding: 24px 16px;
+      text-align: center;
+      cursor: pointer;
+      background: #faf8f5;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+    .upload-dropzone:hover,
+    .upload-dropzone.drag-active {
+      border-color: #2e4634;
+      background: #f0ede6;
+    }
+    .modal-dropzone {
+      padding: 16px;
+    }
+    .dropzone-prompt {
+      pointer-events: none;
+    }
+    .dropzone-subtext {
+      display: block;
+      font-size: 0.8rem;
+      color: #777;
+      margin-top: 4px;
+    }
+    .dropzone-file-input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .upload-progress {
+      margin-top: 12px;
+    }
+    .progress-bar-wrapper {
+      width: 100%;
+      height: 8px;
+      background: #e0d5c5;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 6px;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: #2e4634;
+      transition: width 0.3s ease;
+    }
+
+    .new-files-preview {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .new-file-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 8px;
+      background: #f0ede6;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      border: 1px solid #d4c8b8;
+      max-width: 100%;
+    }
+    .new-file-badge .btn-remove-file,
+    .new-file-badge .btn-file-remove {
+      background: none;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      color: #777;
+      font-size: 1.1rem;
+      line-height: 1;
+      padding: 0;
+    }
+    .new-file-badge .btn-remove-file:hover,
+    .new-file-badge .btn-file-remove:hover {
+      color: #ff4444;
+    }
+    
     .tabs { display: flex; gap: 10px; margin-bottom: 15px; border-bottom: 1px solid #ddd; }
     .tab-btn { background: none; border: none; padding: 10px 20px; cursor: pointer; opacity: 0.6; }
     .tab-btn.active { opacity: 1; font-weight: bold; border-bottom: 2px solid #b39162; }
@@ -568,10 +748,66 @@ const title = "Админ-панель | Прокат от Кет";
     // Клиентская логика админки
     let products = [];
     let currentProductId = null;
+    let pendingNewFiles = [];
+    let draggedImageIndex = null;
+
+    const categoryPresets = {
+      'dresses': [
+        { key: 'Размер', value: '42-46 (корсет)' },
+        { key: 'Цвет', value: 'Изумрудный' },
+        { key: 'Материал', value: 'Бархат, кружево' },
+        { key: 'Комплектация', value: 'Платье, кринолин' },
+        { key: 'Эпоха / Стиль', value: 'Викторианский стиль' }
+      ],
+      'suits': [
+        { key: 'Размер', value: '48-52' },
+        { key: 'Цвет', value: 'Черный' },
+        { key: 'Материал', value: 'Шерсть, атлас' },
+        { key: 'Комплектация', value: 'Сюртук, жилет, брюки' },
+        { key: 'Эпоха / Стиль', value: 'Стимпанк / Викторианский' }
+      ],
+      'accessories': [
+        { key: 'Материал', value: 'Металл, стекло' },
+        { key: 'Цвет', value: 'Бронза / Золото' },
+        { key: 'Стиль', value: 'Винтаж' }
+      ]
+    };
+
+    function updateNewFilesPreview() {
+      const preview = document.getElementById('newFilesPreview');
+      if (!preview) return;
+      preview.innerHTML = '';
+      pendingNewFiles.forEach((file, idx) => {
+        const badge = document.createElement('div');
+        badge.className = 'new-file-badge';
+        
+        const titleSpan = document.createElement('span');
+        titleSpan.textContent = `📷 ${file.name} (${Math.round(file.size / 1024)} KB)`;
+        badge.appendChild(titleSpan);
+
+        const removeBtn = document.createElement('button');
+        removeBtn.type = 'button';
+        removeBtn.className = 'btn-remove-file';
+        removeBtn.title = 'Удалить';
+        removeBtn.textContent = '×';
+        removeBtn.onclick = () => {
+          pendingNewFiles.splice(idx, 1);
+          updateNewFilesPreview();
+        };
+        badge.appendChild(removeBtn);
+        preview.appendChild(badge);
+      });
+    }
 
     async function loadData() {
-      const response = await fetch('/data/products.json?v=' + Date.now());
-      products = await response.json();
+      try {
+        const response = await fetch('/data/products.json?v=' + Date.now());
+        if (response.ok) {
+          products = await response.json();
+        }
+      } catch (err) {
+        console.error('Не удалось загрузить products.json:', err);
+      }
     }
 
     function init() {
@@ -607,24 +843,145 @@ const title = "Админ-панель | Прокат от Кет";
         selectProduct(parseInt(urlId), { scroll: true });
       }
       
-      document.getElementById('infoForm').addEventListener('submit', saveInfo);
-      document.getElementById('addDetailBtn').addEventListener('click', () => addDetailRow('', ''));
-      document.getElementById('addUrlBtn').addEventListener('click', addImageUrl);
-      document.getElementById('uploadBtn').addEventListener('click', uploadImageFile);
-      document.getElementById('deleteProductBtn').addEventListener('click', deleteEntireProduct);
+      const infoForm = document.getElementById('infoForm');
+      if (infoForm) infoForm.addEventListener('submit', saveInfo);
+
+      const addDetailBtn = document.getElementById('addDetailBtn');
+      if (addDetailBtn) addDetailBtn.addEventListener('click', () => addDetailRow('', ''));
+      
+      const fillPresetBtn = document.getElementById('fillPresetBtn');
+      if (fillPresetBtn) {
+        fillPresetBtn.addEventListener('click', fillCategoryPresets);
+      }
+
+      const addUrlBtn = document.getElementById('addUrlBtn');
+      if (addUrlBtn) addUrlBtn.addEventListener('click', addImageUrl);
+
+      const uploadBtn = document.getElementById('uploadBtn');
+      if (uploadBtn) {
+        uploadBtn.addEventListener('click', () => {
+          const fileInput = document.getElementById('fileInput');
+          if (fileInput && fileInput.files.length > 0) {
+            uploadMultipleFiles(fileInput.files, currentProductId);
+          }
+        });
+      }
+
+      const deleteProductBtn = document.getElementById('deleteProductBtn');
+      if (deleteProductBtn) deleteProductBtn.addEventListener('click', deleteEntireProduct);
+
+      // Drag & Drop for gallery dropzone
+      const uploadDropzone = document.getElementById('uploadDropzone');
+      const fileInput = document.getElementById('fileInput');
+      if (uploadDropzone && fileInput) {
+        ['dragenter', 'dragover'].forEach(eventName => {
+          uploadDropzone.addEventListener(eventName, (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            uploadDropzone.classList.add('dragover');
+          });
+        });
+        ['dragleave', 'drop'].forEach(eventName => {
+          uploadDropzone.addEventListener(eventName, (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            uploadDropzone.classList.remove('dragover');
+          });
+        });
+        uploadDropzone.addEventListener('drop', (e) => {
+          const dt = e.dataTransfer;
+          if (dt && dt.files && dt.files.length > 0) {
+            uploadMultipleFiles(dt.files, currentProductId);
+          }
+        });
+        fileInput.addEventListener('change', () => {
+          if (fileInput.files && fileInput.files.length > 0) {
+            uploadMultipleFiles(fileInput.files, currentProductId);
+          }
+        });
+      }
+
+      // Drag & Drop for new product modal dropzone
+      const newDropzone = document.getElementById('newDropzone');
+      const newFileInput = document.getElementById('newFileInput');
+      if (newDropzone && newFileInput) {
+        ['dragenter', 'dragover'].forEach(eventName => {
+          newDropzone.addEventListener(eventName, (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            newDropzone.classList.add('dragover');
+          });
+        });
+        ['dragleave', 'drop'].forEach(eventName => {
+          newDropzone.addEventListener(eventName, (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            newDropzone.classList.remove('dragover');
+          });
+        });
+        newDropzone.addEventListener('drop', (e) => {
+          const dt = e.dataTransfer;
+          if (dt && dt.files && dt.files.length > 0) {
+            Array.from(dt.files).forEach(f => {
+              if (f.type.startsWith('image/')) pendingNewFiles.push(f);
+            });
+            updateNewFilesPreview();
+          }
+        });
+        newFileInput.addEventListener('change', () => {
+          if (newFileInput.files && newFileInput.files.length > 0) {
+            Array.from(newFileInput.files).forEach(f => {
+              if (f.type.startsWith('image/')) pendingNewFiles.push(f);
+            });
+            updateNewFilesPreview();
+            newFileInput.value = '';
+          }
+        });
+      }
       
       // Modal listeners
       const addModal = document.getElementById('addProductModal');
-      document.getElementById('openAddModalBtn').addEventListener('click', () => {
-        addModal.classList.remove('hidden');
-      });
-      document.getElementById('closeModalBtn').addEventListener('click', () => {
-        addModal.classList.add('hidden');
-      });
-      document.getElementById('cancelModalBtn').addEventListener('click', () => {
-        addModal.classList.add('hidden');
-      });
-      document.getElementById('addProductForm').addEventListener('submit', createProduct);
+      const openAddModalBtn = document.getElementById('openAddModalBtn');
+      if (openAddModalBtn && addModal) {
+        openAddModalBtn.addEventListener('click', () => {
+          pendingNewFiles = [];
+          updateNewFilesPreview();
+          addModal.classList.remove('hidden');
+        });
+      }
+
+      const closeModalBtn = document.getElementById('closeModalBtn');
+      if (closeModalBtn && addModal) {
+        closeModalBtn.addEventListener('click', () => {
+          pendingNewFiles = [];
+          updateNewFilesPreview();
+          addModal.classList.add('hidden');
+        });
+      }
+
+      const cancelModalBtn = document.getElementById('cancelModalBtn');
+      if (cancelModalBtn && addModal) {
+        cancelModalBtn.addEventListener('click', () => {
+          pendingNewFiles = [];
+          updateNewFilesPreview();
+          addModal.classList.add('hidden');
+        });
+      }
+
+      if (addModal) {
+        addModal.addEventListener('click', (e) => {
+          if (e.target === addModal) {
+            pendingNewFiles = [];
+            updateNewFilesPreview();
+            addModal.classList.add('hidden');
+          }
+        });
+      }
+
+      const addProductForm = document.getElementById('addProductForm');
+      if (addProductForm) {
+        addProductForm.addEventListener('submit', createProduct);
+      }
 
       // Табы
       const tabBtns = document.querySelectorAll('.tab-btn');
@@ -680,7 +1037,29 @@ const title = "Админ-панель | Прокат от Кет";
       }
 
       // Gallery
-      renderGallery(product.images);
+      renderGallery(product.images || []);
+    }
+
+    function fillCategoryPresets() {
+      const category = document.getElementById('editCategory').value;
+      const presets = categoryPresets[category] || categoryPresets['dresses'];
+      const container = document.getElementById('detailsContainer');
+      
+      const existingKeys = new Set(
+        Array.from(container.querySelectorAll('.detail-key')).map(input => input.value.trim().toLowerCase())
+      );
+
+      let added = 0;
+      presets.forEach(p => {
+        if (!existingKeys.has(p.key.toLowerCase())) {
+          addDetailRow(p.key, p.value);
+          added++;
+        }
+      });
+
+      if (added === 0) {
+        addDetailRow('', '');
+      }
     }
 
     function addDetailRow(key, value) {
@@ -693,6 +1072,7 @@ const title = "Админ-панель | Прокат от Кет";
       keyInput.type = 'text';
       keyInput.className = 'detail-key';
       keyInput.placeholder = 'Ключ (например, Размер)';
+      keyInput.setAttribute('list', 'detailsKeyPresets');
       keyInput.value = key || '';
 
       const valInput = document.createElement('input');
@@ -713,17 +1093,25 @@ const title = "Админ-панель | Прокат от Кет";
       container.appendChild(row);
     }
 
-    function renderGallery(images) {
+    function renderGallery(images = []) {
       const grid = document.getElementById('galleryGrid');
+      if (!grid) return;
       grid.innerHTML = '';
+      if (!Array.isArray(images) || images.length === 0) return;
       images.forEach((img, index) => {
         const isMain = index === 0;
         const item = document.createElement('div');
         item.className = 'gallery-item' + (isMain ? ' is-main' : '');
+        item.draggable = true;
+        item.dataset.index = index;
 
-        // Безопасное создание через DOM API — XSS-защита для URL изображений
+        // Оптимизированное превью в сетке админки
+        const thumbUrl = img.includes('cloudinary.com') && !img.includes('/w_')
+          ? img.replace('/upload/', '/upload/w_300,f_auto,q_auto/')
+          : img;
+
         const imgEl = document.createElement('img');
-        imgEl.setAttribute('src', img);  // setAttribute не исполняет JS в src
+        imgEl.setAttribute('src', thumbUrl);
         imgEl.alt = '';
         item.appendChild(imgEl);
 
@@ -732,7 +1120,10 @@ const title = "Админ-панель | Прокат от Кет";
           mainBtn.className = 'img-main-btn';
           mainBtn.title = 'Сделать главным';
           mainBtn.textContent = '★';
-          mainBtn.onclick = () => setMainImage(img);
+          mainBtn.onclick = (e) => {
+            e.stopPropagation();
+            setMainImage(img);
+          };
           item.appendChild(mainBtn);
         } else {
           const badge = document.createElement('span');
@@ -745,11 +1136,89 @@ const title = "Админ-панель | Прокат от Кет";
         delBtn.className = 'img-del-btn';
         delBtn.title = 'Удалить';
         delBtn.textContent = '×';
-        delBtn.onclick = () => deleteImage(img);
+        delBtn.onclick = (e) => {
+          e.stopPropagation();
+          deleteImage(img);
+        };
         item.appendChild(delBtn);
+
+        // Drag & Drop сортировка фото
+        item.addEventListener('dragstart', (e) => {
+          draggedImageIndex = index;
+          item.classList.add('dragging');
+          e.dataTransfer.effectAllowed = 'move';
+          e.dataTransfer.setData('text/plain', String(index));
+        });
+
+        item.addEventListener('dragend', () => {
+          item.classList.remove('dragging');
+          document.querySelectorAll('.gallery-item').forEach(el => el.classList.remove('drag-over'));
+        });
+
+        item.addEventListener('dragover', (e) => {
+          e.preventDefault();
+          e.dataTransfer.dropEffect = 'move';
+          item.classList.add('drag-over');
+        });
+
+        item.addEventListener('dragleave', () => {
+          item.classList.remove('drag-over');
+        });
+
+        item.addEventListener('drop', (e) => {
+          e.preventDefault();
+          item.classList.remove('drag-over');
+          const targetIndex = index;
+          if (draggedImageIndex !== null && draggedImageIndex !== targetIndex) {
+            reorderGallery(draggedImageIndex, targetIndex);
+          }
+        });
 
         grid.appendChild(item);
       });
+    }
+
+    async function reorderGallery(fromIdx, toIdx) {
+      const product = products.find(p => p.id === currentProductId);
+      if (!product || !product.images) return;
+
+      const newImages = [...product.images];
+      const [movedImg] = newImages.splice(fromIdx, 1);
+      newImages.splice(toIdx, 0, movedImg);
+
+      // Локальное оптимистичное обновление
+      product.images = newImages;
+      renderGallery(newImages);
+
+      try {
+        const res = await fetch('/api/admin/products', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            action: 'updateInfo',
+            productId: currentProductId,
+            metadata: { images: newImages }
+          })
+        });
+        const result = await res.json();
+        if (result.success) {
+          await loadData();
+          // Обновляем превью в сайдбаре, если сменилось первое фото
+          const sidebarItem = document.querySelector(`.product-item[data-id="${currentProductId}"]`);
+          if (sidebarItem && newImages[0]) {
+            const sideImg = sidebarItem.querySelector('img');
+            if (sideImg) sideImg.src = newImages[0];
+          }
+        } else {
+          alert('Ошибка при изменении порядка: ' + result.error);
+          await loadData();
+          selectProduct(currentProductId);
+        }
+      } catch (err) {
+        alert('Ошибка сети: ' + err.message);
+        await loadData();
+        selectProduct(currentProductId);
+      }
     }
 
     async function saveInfo(e) {
@@ -766,7 +1235,7 @@ const title = "Админ-панель | Прокат от Кет";
 
       const metadata = {
         title: document.getElementById('editTitle').value,
-        price: parseInt(document.getElementById('editPrice').value),
+        price: parseInt(document.getElementById('editPrice').value) || 0,
         category: document.getElementById('editCategory').value,
         description: document.getElementById('editDescription').value,
         details: details
@@ -826,6 +1295,110 @@ const title = "Админ-панель | Прокат от Кет";
       }
     }
 
+    function readFileAsBase64(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = () => reject(new Error('Не удалось прочитать файл ' + file.name));
+        reader.readAsDataURL(file);
+      });
+    }
+
+    async function uploadMultipleFiles(fileList, productId) {
+      if (!productId) {
+        alert('Пожалуйста, выберите товар перед загрузкой изображений.');
+        return;
+      }
+      const files = Array.from(fileList).filter(f => f.type.startsWith('image/'));
+      if (files.length === 0) return;
+
+      // Предотвращение случайного закрытия вкладки при передаче тяжелых оригиналов
+      const onBeforeUnload = (e) => {
+        e.preventDefault();
+        e.returnValue = 'Идёт загрузка фотографий. Пожалуйста, не закрывайте вкладку.';
+        return e.returnValue;
+      };
+      window.addEventListener('beforeunload', onBeforeUnload);
+
+      const progressContainer = document.getElementById('uploadProgress');
+      const progressBar = document.getElementById('uploadProgressBar');
+      const progressText = document.getElementById('uploadProgressText');
+      const uploadBtn = document.getElementById('uploadBtn');
+
+      if (progressContainer) progressContainer.classList.remove('hidden');
+      if (progressBar) progressBar.style.width = '0%';
+      if (progressText) progressText.textContent = `Подготовка 0/${files.length}...`;
+      if (uploadBtn) uploadBtn.disabled = true;
+
+      let successCount = 0;
+      let failedFiles = [];
+
+      for (let i = 0; i < files.length; i++) {
+        const file = files[i];
+        const fileSizeMB = (file.size / (1024 * 1024)).toFixed(1);
+        const pct = Math.round(((i) / files.length) * 100);
+        if (progressBar) progressBar.style.width = pct + '%';
+        if (progressText) progressText.textContent = `Загрузка ${i + 1} из ${files.length} (${file.name}, ${fileSizeMB} МБ без потери качества)...`;
+
+        let uploaded = false;
+        // До 2 попыток на каждый файл в случае временных сетевых задержек
+        for (let attempt = 1; attempt <= 2 && !uploaded; attempt++) {
+          try {
+            if (attempt > 1 && progressText) {
+              progressText.textContent = `Повторная попытка для ${file.name}...`;
+            }
+            const base64 = await readFileAsBase64(file);
+            const payload = {
+              action: 'addImage',
+              productId: productId,
+              source: 'base64',
+              file: base64
+            };
+
+            const res = await fetch('/api/admin/products', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload)
+            });
+            const result = await res.json();
+            if (result.success) {
+              uploaded = true;
+              successCount++;
+            } else {
+              console.error(`Ошибка загрузки ${file.name} (попытка ${attempt}):`, result.error);
+            }
+          } catch (err) {
+            console.error(`Сетевая ошибка при загрузке ${file.name} (попытка ${attempt}):`, err);
+          }
+        }
+
+        if (!uploaded) {
+          failedFiles.push(file.name);
+        }
+      }
+
+      window.removeEventListener('beforeunload', onBeforeUnload);
+
+      if (progressBar) progressBar.style.width = '100%';
+      if (failedFiles.length === 0) {
+        if (progressText) progressText.textContent = `Готово! Успешно загружено ${successCount} из ${files.length} фото в исходном качестве. ✓`;
+      } else {
+        if (progressText) progressText.textContent = `Загружено ${successCount} из ${files.length}. Не удалось: ${failedFiles.join(', ')}`;
+      }
+      if (uploadBtn) uploadBtn.disabled = false;
+
+      const fileInput = document.getElementById('fileInput');
+      if (fileInput) fileInput.value = '';
+
+      await loadData();
+      selectProduct(productId);
+
+      setTimeout(() => {
+        if (progressContainer) progressContainer.classList.add('hidden');
+        if (progressBar) progressBar.style.width = '0%';
+      }, 4000);
+    }
+
     async function createProduct(e) {
       e.preventDefault();
       const submitBtn = document.getElementById('createProductSubmitBtn');
@@ -834,7 +1407,7 @@ const title = "Админ-панель | Прокат от Кет";
       const payload = {
         action: 'createProduct',
         title: document.getElementById('newTitle').value.trim(),
-        price: parseInt(document.getElementById('newPrice').value),
+        price: parseInt(document.getElementById('newPrice').value) || 0,
         category: document.getElementById('newCategory').value,
         description: document.getElementById('newDescription').value.trim(),
         details: {}
@@ -842,7 +1415,7 @@ const title = "Админ-панель | Прокат от Кет";
 
       try {
         submitBtn.disabled = true;
-        submitBtn.textContent = 'Создание...';
+        submitBtn.textContent = 'Создание товара...';
         
         const res = await fetch('/api/admin/products', {
           method: 'POST',
@@ -852,11 +1425,49 @@ const title = "Админ-панель | Прокат от Кет";
         const result = await res.json();
         
         if (result.success && result.product) {
-          submitBtn.textContent = 'Успешно! ✓';
+          const newId = result.product.id;
+
+          // Если были выбраны фото сразу при создании товара — загружаем их по очереди
+          if (pendingNewFiles.length > 0) {
+            const onBeforeUnload = (e) => {
+              e.preventDefault();
+              e.returnValue = 'Идёт сохранение нового товара с фотографиями...';
+              return e.returnValue;
+            };
+            window.addEventListener('beforeunload', onBeforeUnload);
+
+            for (let i = 0; i < pendingNewFiles.length; i++) {
+              submitBtn.textContent = `Загрузка фото (${i + 1}/${pendingNewFiles.length})...`;
+              let uploaded = false;
+              for (let attempt = 1; attempt <= 2 && !uploaded; attempt++) {
+                try {
+                  const base64 = await readFileAsBase64(pendingNewFiles[i]);
+                  const uploadRes = await fetch('/api/admin/products', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                      action: 'addImage',
+                      productId: newId,
+                      source: 'base64',
+                      file: base64
+                    })
+                  });
+                  const uploadData = await uploadRes.json();
+                  if (uploadData.success) uploaded = true;
+                } catch (photoErr) {
+                  console.error('Ошибка загрузки фото при создании (попытка ' + attempt + '):', photoErr);
+                }
+              }
+            }
+            window.removeEventListener('beforeunload', onBeforeUnload);
+          }
+
+          submitBtn.textContent = 'Успешно создано! ✓';
           submitBtn.classList.add('btn-success');
+          pendingNewFiles = [];
           setTimeout(() => {
-            window.location.href = '/admin?id=' + result.product.id;
-          }, 1000);
+            window.location.href = '/admin?id=' + newId;
+          }, 800);
         } else {
           alert('Ошибка при создании: ' + result.error);
           submitBtn.textContent = originalText;
@@ -897,49 +1508,6 @@ const title = "Админ-панель | Прокат от Кет";
       } catch (e) {
         alert('Ошибка при скачивании: ' + e.message);
       }
-    }
-
-    async function uploadImageFile() {
-      const fileInput = document.getElementById('fileInput');
-      if (!fileInput.files[0]) return;
-
-      const file = fileInput.files[0];
-      const reader = new FileReader();
-
-      reader.onload = async function(e) {
-        const base64String = e.target.result;
-
-        const payload = {
-          action: 'addImage',
-          productId: currentProductId,
-          source: 'base64',
-          file: base64String
-        };
-
-        try {
-          const res = await fetch('/api/admin/products', { 
-            method: 'POST', 
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(payload) 
-          });
-          const result = await res.json();
-          if (result.success) {
-            fileInput.value = '';
-            await loadData();
-            selectProduct(currentProductId);
-          } else {
-            alert('Ошибка: ' + result.error);
-          }
-        } catch (err) {
-          alert('Ошибка при загрузке: ' + err.message);
-        }
-      };
-      
-      reader.onerror = function() {
-        alert('Ошибка при чтении файла');
-      };
-
-      reader.readAsDataURL(file);
     }
 
     async function setMainImage(path) {

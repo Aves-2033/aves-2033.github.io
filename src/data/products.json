@@ -721,11 +721,12 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "40-46 (рост 168)",
-            "Аренда": "7 000 ₽",
+            "Аренда": "8 000 ₽",
             "Залог": "20 000 ₽",
             "Особенности": "LUXE. К платью идет специальный кринолин, стоимость 500 ₽. Шлейф можно подколоть, сделав его коротким. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-goluboy-turnyur"
+        "slug": "balnoe-plate-goluboy-turnyur",
+        "updatedAt": "2026-09-30T02:02:27.769Z"
     },
     {
         "id": 302,
@@ -858,11 +859,12 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "40-48 (рост 170)",
-            "Аренда": "6 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "Кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-skarlett"
+        "slug": "balnoe-plate-skarlett",
+        "updatedAt": "2026-09-30T02:02:14.720Z"
     },
     {
         "id": 308,
@@ -1085,11 +1087,12 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "40-46 (рост 165)",
-            "Аренда": "7 000 ₽",
+            "Аренда": "8 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "LUXE, кринолин и нижняя юбка 500 ₽ шт. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-sara"
+        "slug": "balnoe-plate-sara",
+        "updatedAt": "2026-09-30T02:02:48.990Z"
     },
     {
         "id": 318,
@@ -1591,11 +1594,12 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "38-44 (рост 165)",
-            "Аренда": "6 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "LUXE. кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-ariana"
+        "slug": "balnoe-plate-ariana",
+        "updatedAt": "2026-09-30T02:03:05.480Z"
     },
     {
         "id": 338,
@@ -4627,6 +4631,8 @@
         "price": 5000,
         "category": "mens",
         "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729736/aves-web/product_808_1790729736263_1w23g.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729738/aves-web/product_808_1790729738883_1i5pq.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272835/aves-web/product_808_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272836/aves-web/product_808_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272836/aves-web/product_808_3.jpg",
@@ -4641,7 +4647,8 @@
             "Залог": "15 000 ₽",
             "Особенности": "Полуобхват груди 55см, длина 120см. Подходит на высокий рост"
         },
-        "slug": "prazdnichnyy-indiyskiy-kostyum-maharadzhi"
+        "slug": "prazdnichnyy-indiyskiy-kostyum-maharadzhi",
+        "updatedAt": "2026-09-30T01:17:46.225Z"
     },
     {
         "id": 810,
@@ -11160,9 +11167,19 @@
         "price": 10000,
         "category": "cloaks",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980443/aves-web/s8sonnihnskosrxwjeat.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980444/aves-web/uptefa985u1bsqqlzkzr.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773980446/aves-web/srsclgonps9udyyncvhp.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729420/aves-web/product_1601_1790729421564_q8edh.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729424/aves-web/product_1601_1790729425138_76nhs.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729423/aves-web/product_1601_1790729423970_ktmnf.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729422/aves-web/product_1601_1790729422871_ymv5q.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729419/aves-web/product_1601_1790729420072_b5ala.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729417/aves-web/product_1601_1790729417899_f4rjv.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729416/aves-web/product_1601_1790729414895_0ldi2.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729079/aves-web/product_1601_1790729076422.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729074/aves-web/product_1601_1790729067265.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729029/aves-web/product_1601_1790729029786.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729027/aves-web/product_1601_1790729027211.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729015/aves-web/product_1601_1790729015786.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790729013/aves-web/product_1601_1790729012790.jpg"
         ],
         "description": "Подходит для фотосессий в прохладное время года\nПолностью ручная и объемная вышивка, выдерживает до -25-30°",
         "details": {
@@ -11173,12 +11190,13 @@
             "Залог": "30 000 ₽",
             "Особенности": ""
         },
-        "slug": "shikarnoe-plasch-palto-dvortsovoe-srednevekove-teplyy"
+        "slug": "shikarnoe-plasch-palto-dvortsovoe-srednevekove-teplyy",
+        "updatedAt": "2026-09-30T02:04:01.386Z"
     },
     {
         "id": 1602,
         "title": "Плащ \"Дольче\"",
-        "price": 8000,
+        "price": 10000,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980455/aves-web/wddvcq3ld4y4tlettngs.jpg",
@@ -11199,11 +11217,12 @@
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
             "Размеры": "Безразмерные",
-            "Аренда": "8 000 ₽",
+            "Аренда": "10 000 ₽",
             "Залог": "20 000 ₽",
             "Особенности": "Полностью машинная вышивка"
         },
-        "slug": "plasch-dolche"
+        "slug": "plasch-dolche",
+        "updatedAt": "2026-09-30T02:06:23.689Z"
     },
     {
         "id": 1603,
@@ -11770,11 +11789,12 @@
         "details": {
             "Тип": "Этнический костюм",
             "Размеры": "40-44",
-            "Аренда": "7 500 ₽",
+            "Аренда": "8 000 ₽",
             "Залог": "25 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "svadebnyy-indiyskiy-kostyum"
+        "slug": "svadebnyy-indiyskiy-kostyum",
+        "updatedAt": "2026-09-30T02:04:27.191Z"
     },
     {
         "id": 1711,
@@ -11984,11 +12004,12 @@
         "description": "Юбка из бежевой сетки с оранжевым полотном. В комплекте кофта с прозрачными рукавами.",
         "details": {
             "Тип": "Этнический костюм",
-            "Аренда": "5 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
-        "slug": "sari-sdelnoe-bezhevo-oranzhevoe"
+        "slug": "sari-sdelnoe-bezhevo-oranzhevoe",
+        "updatedAt": "2026-09-30T02:05:01.210Z"
     },
     {
         "id": 1721,
@@ -12012,28 +12033,6 @@
             "Залог": "10 000 ₽"
         },
         "slug": "vintazhnoe-sari-ot-sanskriti-krasno-korichnevoe"
-    },
-    {
-        "id": 1722,
-        "title": "Аутентичное сари (кремовое)",
-        "price": 4000,
-        "category": "ethnic-costumes",
-        "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469148/aves-web/product_1722_1.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469151/aves-web/product_1722_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469153/aves-web/product_1722_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469156/aves-web/product_1722_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469158/aves-web/product_1722_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1774469161/aves-web/product_1722_6.jpg"
-        ],
-        "description": "Винтажное сари из шелковой смеси ручной работы. Цветочный дизайн, украшенный золотым плетением и пайетками.",
-        "details": {
-            "Тип": "Этнический костюм",
-            "Аренда": "4 000 ₽",
-            "Залог": "10 000 ₽",
-            "Особенности": "ПРЕМИУМ"
-        },
-        "slug": "autentichnoe-sari-kremovoe"
     },
     {
         "id": 1723,
@@ -12104,11 +12103,12 @@
         "description": "Нежное винтажное чёрное сари с ручной вышивкой из жоржетт-шёлка. Украшено стеклянными бусинами, блестками и стразами.",
         "details": {
             "Тип": "Этнический костюм",
-            "Аренда": "4 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
-        "slug": "vintazhnoe-sari-chernoe"
+        "slug": "vintazhnoe-sari-chernoe",
+        "updatedAt": "2026-09-30T02:05:51.756Z"
     },
     {
         "id": 1726,
@@ -12384,7 +12384,7 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1783802594/aves-web/product_1738_1783802591244_9.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1783802598/aves-web/product_1738_1783802595498_10.jpg"
         ],
-        "description": " Фиолетовый костюм (топ, убка, дупата)",
+        "description": " Фиолетовый костюм (топ, юбка, дупата)",
         "details": {
             "Тип": "Этнический костюм",
             "Аренда": "15 000 ₽",
@@ -12514,5 +12514,176 @@
             "Размер": "48-52-185"
         },
         "slug": "zhokeyskiy-kostyum"
+    },
+    {
+        "id": 1745,
+        "title": "Комплект из юбки и топа, Индия - 2",
+        "price": 10000,
+        "category": "ethnic-costumes",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730136/aves-web/product_1745_1790730135814_vgvrg.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730120/aves-web/product_1745_1790730119126_o42it.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730121/aves-web/product_1745_1790730122549_az3qb.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730122/aves-web/product_1745_1790730123573_i4bbe.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730124/aves-web/product_1745_1790730124913_9iuzd.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730125/aves-web/product_1745_1790730126216_0b72b.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730126/aves-web/product_1745_1790730127301_oxg01.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730127/aves-web/product_1745_1790730128662_js4k4.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730128/aves-web/product_1745_1790730129734_9zbwe.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730130/aves-web/product_1745_1790730130894_e8dx2.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730131/aves-web/product_1745_1790730132790_ri5h4.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730132/aves-web/product_1745_1790730133721_lw3fz.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790730133/aves-web/product_1745_1790730134951_q5fom.jpg"
+        ],
+        "description": " Комплект из юбки и топа",
+        "details": {
+            "Залог": "25 000",
+            "Размер": "42-44"
+        },
+        "slug": "komplekt-iz-yubki-i-topa-indiya-2",
+        "updatedAt": "2026-09-30T01:12:48.637Z"
+    },
+    {
+        "id": 1746,
+        "title": "Золотое-мини",
+        "price": 4500,
+        "category": "ball",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732564/aves-web/product_1746_1790732565392_ujuos.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732560/aves-web/product_1746_1790732560144_qy29o.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732561/aves-web/product_1746_1790732562182_08lav.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732561/aves-web/product_1746_1790732562933_gds0o.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732562/aves-web/product_1746_1790732563533_qcw0n.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732562/aves-web/product_1746_1790732564062_es9o1.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732563/aves-web/product_1746_1790732564772_pvqbw.jpg"
+        ],
+        "description": "Бальное платье, атлас. Талия утягивается до 52 см.",
+        "details": {
+            "Залог": "10 000",
+            "Размер": "36-44 Рост 154-157см"
+        },
+        "slug": "zolotoe-mini",
+        "createdAt": "2026-09-30T01:31:33.611Z",
+        "updatedAt": "2026-09-30T01:49:18.484Z"
+    },
+    {
+        "id": 1747,
+        "title": "Белое облако",
+        "price": 4500,
+        "category": "ball",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732672/aves-web/product_1747_1790732672928_nyf8t.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732673/aves-web/product_1747_1790732674768_t0a5q.jpg"
+        ],
+        "description": "Бальное платье, атлас. Талия утягивается до 50 см.",
+        "details": {
+            "Залог": "10 000",
+            "Размер": "38-44 Рост 145-150см"
+        },
+        "slug": "beloe-oblako",
+        "createdAt": "2026-09-30T01:44:32.890Z",
+        "updatedAt": "2026-09-30T01:49:35.100Z"
+    },
+    {
+        "id": 1748,
+        "title": "Платье эльф \"Ночь\"",
+        "price": 4000,
+        "category": "medieval",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732836/aves-web/product_1748_1790732837302_b16o1.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732832/aves-web/product_1748_1790732832418_w1w3u.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732832/aves-web/product_1748_1790732834123_wxe5h.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732833/aves-web/product_1748_1790732834806_xf8mt.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732834/aves-web/product_1748_1790732835875_ldbwd.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732835/aves-web/product_1748_1790732836652_eb4a1.jpg"
+        ],
+        "description": "Материал замша",
+        "details": {
+            "Размер": "38-44 Рост 155-157см",
+            "Залог": "10 000"
+        },
+        "slug": "plate-elf-noch",
+        "createdAt": "2026-09-30T01:47:12.382Z",
+        "updatedAt": "2026-09-30T01:48:50.779Z"
+    },
+    {
+        "id": 1749,
+        "title": "Плащ \"Ночь\"",
+        "price": 1500,
+        "category": "cloaks",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733124/aves-web/product_1749_1790733125717_w2s3l.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733119/aves-web/product_1749_1790733119359_t7c9f.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733120/aves-web/product_1749_1790733121125_s95s4.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733120/aves-web/product_1749_1790733122040_06m15.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733121/aves-web/product_1749_1790733122604_dd0mq.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733122/aves-web/product_1749_1790733123306_xf4x3.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733122/aves-web/product_1749_1790733124001_fgv81.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733123/aves-web/product_1749_1790733124880_g5tdo.jpg"
+        ],
+        "description": "На низкий рост (154-158см)",
+        "details": {
+            "Залог": "5 000"
+        },
+        "slug": "plasch-noch",
+        "createdAt": "2026-09-30T01:51:59.322Z",
+        "updatedAt": "2026-09-30T01:54:30.479Z"
+    },
+    {
+        "id": 1750,
+        "title": "Детско-подростковый комплект",
+        "price": 4000,
+        "category": "riding",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733395/aves-web/product_1750_1790733396269_t3ovs.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733393/aves-web/product_1750_1790733393158_5gxlw.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733394/aves-web/product_1750_1790733395252_ux8uf.jpg"
+        ],
+        "description": "В комплекте : Редингот, бриджи, перчатки, ботинки, краги, галстук\nНа рост 155-158см",
+        "details": {
+            "Залог": "10 000"
+        },
+        "slug": "detsko-podrostkovyy-komplekt",
+        "createdAt": "2026-09-30T01:56:33.104Z",
+        "updatedAt": "2026-09-30T01:57:09.877Z"
+    },
+    {
+        "id": 1751,
+        "title": "Антикварное детское кимоно",
+        "price": 4000,
+        "category": "kimono",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733538/aves-web/product_1751_1790733537937_5keal.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733533/aves-web/product_1751_1790733533324_k983y.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733535/aves-web/product_1751_1790733535532_7lzo7.jpg"
+        ],
+        "description": "Шёлк, 1930г.\nДлина от плеча до пола 118см\nНа рост 125-135см",
+        "details": {
+            "Залог": "8 000"
+        },
+        "slug": "antikvarnoe-detskoe-kimono",
+        "createdAt": "2026-09-30T01:58:53.272Z",
+        "updatedAt": "2026-09-30T01:59:17.322Z"
+    },
+    {
+        "id": 1752,
+        "title": "Шёлковое красное кимоно на девочку",
+        "price": 4000,
+        "category": "kimono",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733671/aves-web/product_1752_1790733672616_ekgxu.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733665/aves-web/product_1752_1790733664571_n84li.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733666/aves-web/product_1752_1790733667419_6x4h4.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733668/aves-web/product_1752_1790733668673_myd0f.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733669/aves-web/product_1752_1790733670012_rzxjg.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1790733670/aves-web/product_1752_1790733671434_ifw20.jpg"
+        ],
+        "description": "Антиквариат. Длина 100см, разброс рукава 90см, вертикальный рукав 57см\nНа рост 110-125см",
+        "details": {
+            "Залог": "8 000"
+        },
+        "slug": "shelkovoe-krasnoe-kimono-na-devochku",
+        "createdAt": "2026-09-30T02:01:04.439Z",
+        "updatedAt": "2026-09-30T02:01:38.737Z"
     }
 ]

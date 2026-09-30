@@ -3,7 +3,7 @@
 // Используется на всех страницах сайта
 // ============================================================
 
-const APP_VERSION = '2026.07.11.2319';
+const APP_VERSION = '2026.09.30.0410';
 
 // --- Проверка версии и очистка кэша при обновлении ---
 (function() {
@@ -519,13 +519,18 @@ export function renderModalContent(product, index, productsArray, navHTML) {
             ? img.replace('/upload/', '/upload/f_auto,q_auto,w_1200/')
             : img
     );
+    const thumbImages = baseImages.map(img => 
+        (typeof img === 'string' && img.includes('/upload/'))
+            ? img.replace('/upload/', '/upload/f_auto,q_auto,w_150/')
+            : img
+    );
     const hasMultipleImages = images.length > 1;
 
     const thumbnailsHTML = hasMultipleImages ? `
         <div class="modal-thumbnails">
             ${images.map((img, idx) => `
                 <div class="thumbnail ${idx === 0 ? 'active' : ''}" data-image-index="${idx}">
-                    <img src="${img}" alt="${escapeHtml(product.title)} - фото ${idx + 1}" loading="lazy">
+                    <img src="${thumbImages[idx]}" alt="${escapeHtml(product.title)} - фото ${idx + 1}" loading="lazy">
                 </div>
             `).join('')}
         </div>

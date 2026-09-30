@@ -81,6 +81,7 @@ export async function POST({ request }) {
                 finalSlug = `${baseSlug}-${newId}`;
             }
 
+            const now = new Date().toISOString();
             const newProduct = {
                 id: newId,
                 title,
@@ -89,7 +90,9 @@ export async function POST({ request }) {
                 images: [],
                 description,
                 details,
-                slug: finalSlug
+                slug: finalSlug,
+                createdAt: now,
+                updatedAt: now
             };
 
             products.push(newProduct);
@@ -109,17 +112,21 @@ export async function POST({ request }) {
 
             if (source === 'url') {
                 const url = payload.url;
+                const uniqueSuffix = `${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
                 const result = await cloudinary.uploader.upload(url, {
                     folder: CLOUDINARY_FOLDER,
-                    public_id: `product_${productId}_${Date.now()}`,
+                    public_id: `product_${productId}_${uniqueSuffix}`,
+                    resource_type: 'image',
                     timeout: 120000
                 });
                 cloudinaryUrl = result.secure_url;
             } else if (source === 'base64') {
                 const fileBase64 = payload.file; // data:image/jpeg;base64,...
+                const uniqueSuffix = `${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
                 const result = await cloudinary.uploader.upload(fileBase64, {
                     folder: CLOUDINARY_FOLDER,
-                    public_id: `product_${productId}_${Date.now()}`,
+                    public_id: `product_${productId}_${uniqueSuffix}`,
+                    resource_type: 'image',
                     timeout: 120000
                 });
                 cloudinaryUrl = result.secure_url;
@@ -127,6 +134,7 @@ export async function POST({ request }) {
 
             if (!products[productIndex].images) products[productIndex].images = [];
             products[productIndex].images.push(cloudinaryUrl);
+            products[productIndex].updatedAt = new Date().toISOString();
             
             syncJson(products);
             return new Response(JSON.stringify({ success: true, url: cloudinaryUrl }));
@@ -134,7 +142,11 @@ export async function POST({ request }) {
 
         if (action === 'updateInfo') {
             const metadata = payload.metadata;
-            products[productIndex] = { ...products[productIndex], ...metadata };
+            products[productIndex] = {
+                ...products[productIndex],
+                ...metadata,
+                updatedAt: new Date().toISOString()
+            };
             syncJson(products);
             return new Response(JSON.stringify({ success: true }));
         }
@@ -182,6 +194,7 @@ export async function DELETE({ request }) {
                 }
             }
             
+            products[productIndex].updatedAt = new Date().toISOString();
             syncJson(products);
             return new Response(JSON.stringify({ success: true }));
         }

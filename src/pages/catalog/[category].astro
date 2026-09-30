@@ -3,7 +3,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ProductCard from '../../components/ProductCard.astro';
-import products from '../../data/products.json';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const productsPath = path.resolve(process.cwd(), 'src/data/products.json');
+const products = JSON.parse(fs.readFileSync(productsPath, 'utf-8').replace(/^\uFEFF/, ''));
 
 const categories = [
   { slug: 'ball', label: 'Бальные платья XVIII-XIX век' },
@@ -21,12 +25,13 @@ const categories = [
   { slug: 'gloves-fans', label: 'Перчатки и веера' },
   { slug: 'cloaks', label: 'Плащи и Накидки' },
   { slug: 'furs', label: 'Мех' },
+  { slug: 'kids', label: 'Детские Костюмы' },
 ];
 
 export async function getStaticPaths() {
   const cats = [
       'furs', 'vintage', 'ball', 'medieval', 'fashion', 'riding', 'mens', 
-      'accessories', 'ethnic', 'ethnic-costumes', 'headwear', 'kimono', 'belt-shoes', 'gloves-fans', 'cloaks'
+      'accessories', 'ethnic', 'ethnic-costumes', 'headwear', 'kimono', 'belt-shoes', 'gloves-fans', 'cloaks', 'kids'
   ];
   return cats.map((category) => ({
     params: { category },
@@ -37,7 +42,13 @@ const { category } = Astro.params;
 const categoryInfo = categories.find(c => c.slug === category);
 const categoryLabel = categoryInfo ? categoryInfo.label : 'Каталог';
 
-const categoryProducts = products.filter(p => p.category === category);
+const categoryProducts = products
+  .filter(p => p.category === category)
+  .sort((a: any, b: any) => {
+    const timeA = a.updatedAt ? new Date(a.updatedAt).getTime() : 0;
+    const timeB = b.updatedAt ? new Date(b.updatedAt).getTime() : 0;
+    return timeB - timeA;
+  });
 
 // Schema: BreadcrumbList
 const breadcrumbSchema = {
@@ -155,6 +166,11 @@ const categorySEO: Record<string, { title: string; description: string; keywords
     title: 'Аренда меха и меховых изделий в Москве | Прокат от Кет',
     description: 'Прокат меховых накидок, палантинов и шуб в Москве. Роскошные меховые аксессуары для образов в стиле XIX-XX века, зимних фотосессий и торжеств.',
     keywords: 'аренда меховой накидки Москва, прокат меха для фотосессии, меховой палантин напрокат, шуба аренда Москва',
+  },
+  kids: {
+    title: 'Аренда детских костюмов в Москве | Прокат от Кет',
+    description: 'Прокат детских исторических, праздничных и сказочных костюмов в Москве. Образы для фотосессий, утренников и выступлений.',
+    keywords: 'аренда детских костюмов Москва, прокат детских костюмов, детский исторический костюм аренда, костюмы для детей напрокат',
   },
 };
 

@@ -24,7 +24,7 @@ let products = [];
 // Загрузка полных данных товаров для модалок
 async function fetchProducts() {
     try {
-        const response = await fetch('/data/products.json');
+        const response = await fetch('/data/products.json?v=' + Date.now());
         if (!response.ok) throw new Error('Ошибка загрузки данных');
         products = await response.json();
         window.__catalogProducts = products;

@@ -13,5 +13,10 @@ export default defineConfig({
     css: {
       devSourcemap: true,
     },
+    server: {
+      watch: {
+        ignored: ['**/src/data/products.json', '**/public/data/products.json'],
+      },
+    },
   },
 });

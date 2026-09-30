@@ -177,7 +177,7 @@ const faqSchema = {
             <div class="card-image">
               <a href={`/product/${product.slug}`} class="image-seo-link" tabindex="-1" aria-hidden="true">
                 <img
-                  src={product.images[0]}
+                  src={product.images?.[0]?.includes('/upload/') ? product.images[0].replace('/upload/', '/upload/f_auto,q_auto,w_500/') : (product.images?.[0] || '')}
                   alt={product.title}
                   loading="lazy"
                   width="400"
