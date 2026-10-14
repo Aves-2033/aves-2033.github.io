@@ -43,7 +43,7 @@ const categoryInfo = categories.find(c => c.slug === category);
 const categoryLabel = categoryInfo ? categoryInfo.label : 'Каталог';
 
 const categoryProducts = products
-  .filter(p => p.category === category)
+  .filter((p: any) => !p.hidden && p.category === category)
   .sort((a: any, b: any) => {
     const timeA = a.updatedAt ? new Date(a.updatedAt).getTime() : 0;
     const timeB = b.updatedAt ? new Date(b.updatedAt).getTime() : 0;

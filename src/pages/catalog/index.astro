@@ -8,6 +8,7 @@ import path from 'node:path';
 
 const productsPath = path.resolve(process.cwd(), 'src/data/products.json');
 const products = JSON.parse(fs.readFileSync(productsPath, 'utf-8').replace(/^\uFEFF/, ''));
+const visibleProducts = products.filter((p: any) => !p.hidden);
 
 const categories = [
   { slug: 'all', label: 'Все' },
@@ -38,7 +39,7 @@ const breadcrumbSchema = {
   ]
 };
 
-const sortedProducts = [...products].sort((a: any, b: any) => {
+const sortedProducts = [...visibleProducts].sort((a: any, b: any) => {
   const timeA = a.updatedAt ? new Date(a.updatedAt).getTime() : 0;
   const timeB = b.updatedAt ? new Date(b.updatedAt).getTime() : 0;
   return timeB - timeA;

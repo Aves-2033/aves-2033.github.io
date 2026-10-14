@@ -53,6 +53,23 @@ function createSlug(title) {
     return slug;
 }
 
+export async function GET() {
+    if (import.meta.env.PROD) {
+        return new Response(JSON.stringify({ error: 'Not allowed in production' }), { status: 403 });
+    }
+    try {
+        const products = JSON.parse(readFileSync(SRC_JSON, 'utf-8').replace(/^\uFEFF/, ''));
+        return new Response(JSON.stringify(products), {
+            headers: {
+                'Content-Type': 'application/json',
+                'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate'
+            }
+        });
+    } catch (e) {
+        return new Response(JSON.stringify({ error: e.message }), { status: 500 });
+    }
+}
+
 export async function POST({ request }) {
     if (import.meta.env.PROD) {
         return new Response(JSON.stringify({ error: 'Not allowed in production' }), { status: 403 });
@@ -81,6 +98,7 @@ export async function POST({ request }) {
                 finalSlug = `${baseSlug}-${newId}`;
             }
 
+            const isHidden = Boolean(payload.hidden);
             const now = new Date().toISOString();
             const newProduct = {
                 id: newId,
@@ -91,6 +109,7 @@ export async function POST({ request }) {
                 description,
                 details,
                 slug: finalSlug,
+                hidden: isHidden,
                 createdAt: now,
                 updatedAt: now
             };
@@ -140,15 +159,29 @@ export async function POST({ request }) {
             return new Response(JSON.stringify({ success: true, url: cloudinaryUrl }));
         }
 
+        if (action === 'toggleVisibility') {
+            const isHidden = Boolean(payload.hidden);
+            products[productIndex] = {
+                ...products[productIndex],
+                hidden: isHidden,
+                updatedAt: new Date().toISOString()
+            };
+            syncJson(products);
+            return new Response(JSON.stringify({ success: true, hidden: isHidden, product: products[productIndex] }));
+        }
+
         if (action === 'updateInfo') {
             const metadata = payload.metadata;
+            if (metadata && 'hidden' in metadata) {
+                metadata.hidden = Boolean(metadata.hidden);
+            }
             products[productIndex] = {
                 ...products[productIndex],
                 ...metadata,
                 updatedAt: new Date().toISOString()
             };
             syncJson(products);
-            return new Response(JSON.stringify({ success: true }));
+            return new Response(JSON.stringify({ success: true, product: products[productIndex] }));
         }
 
         return new Response(JSON.stringify({ error: 'Unknown action' }), { status: 400 });

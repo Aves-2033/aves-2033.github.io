@@ -3,15 +3,19 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
-import products from '../data/products.json';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const productsPath = path.resolve(process.cwd(), 'src/data/products.json');
+const products = JSON.parse(fs.readFileSync(productsPath, 'utf-8').replace(/^\uFEFF/, ''));
 
 const previewIds = [301, 303, 201, 210, 401, 402];
-const previewProducts = products.filter(p => previewIds.includes(p.id));
+let previewProducts = products.filter((p: any) => !p.hidden && previewIds.includes(p.id));
 
 // Filter pool for randomization (Ball, Medieval, Vintage)
 const eligibleCategories = ['ball', 'medieval', 'vintage'];
 const allEligibleProducts = products
-  .filter(p => eligibleCategories.includes(p.category))
+  .filter(p => !p.hidden && eligibleCategories.includes(p.category))
   .map(p => ({
     id: p.id,
     title: p.title,
@@ -22,6 +26,11 @@ const allEligibleProducts = products
     slug: p.slug,
     category: p.category
   }));
+
+if (previewProducts.length < 6) {
+  const additional = allEligibleProducts.filter(p => !previewProducts.some(pp => pp.id === p.id));
+  previewProducts = [...previewProducts, ...additional.slice(0, 6 - previewProducts.length)];
+}
 
 const schemaJson = {
   "@context": "https://schema.org",

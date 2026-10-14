@@ -26,7 +26,7 @@ async function fetchProducts() {
         const urlParams = new URLSearchParams(window.location.search);
         const productSlug = urlParams.get('product');
         if (productSlug) {
-            const index = products.findIndex(p => p.slug === productSlug);
+            const index = products.findIndex(p => p.slug === productSlug && !p.hidden);
             if (index !== -1) {
                 setTimeout(() => openCategoryModal(index), 100);
             }
@@ -41,7 +41,7 @@ function openCategoryModal(index) {
     if (!products.length) return;
     
     const product = products[index];
-    if (!product) return;
+    if (!product || product.hidden) return;
 
     state.previousActiveElement = document.activeElement;
     cleanupModalHandlers();

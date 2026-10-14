@@ -33,7 +33,7 @@ async function fetchProducts() {
         const urlParams = new URLSearchParams(window.location.search);
         const productSlug = urlParams.get('product');
         if (productSlug) {
-            const index = products.findIndex(p => p.slug === productSlug);
+            const index = products.findIndex(p => p.slug === productSlug && !p.hidden);
             if (index !== -1) {
                 // Небольшая задержка, чтобы DOM успел прогрузиться (если нужно)
                 setTimeout(() => openCatalogModal(index), 100);
@@ -94,7 +94,7 @@ function openCatalogModal(index) {
     if (!products.length) return;
     
     const product = products[index];
-    if (!product) return;
+    if (!product || product.hidden) return;
 
     state.previousActiveElement = document.activeElement;
     cleanupModalHandlers();

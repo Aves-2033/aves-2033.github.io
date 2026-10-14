@@ -16,12 +16,14 @@
             "Залог": "10 000 ₽",
             "Особенности": "Винтаж, 80-е годы"
         },
-        "slug": "vintazhnaya-shuba-iz-lisy-80-e"
+        "slug": "vintazhnaya-shuba-iz-lisy-80-e",
+        "updatedAt": "2026-10-14T11:40:11.377Z",
+        "hidden": false
     },
     {
         "id": 102,
         "title": "Шикарная горжетка из рыжей лисы",
-        "price": 4500,
+        "price": 5000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272083/aves-web/product_102_1.jpg",
@@ -34,16 +36,17 @@
             "Тип": "Горжетка",
             "Мех": "Рыжая лиса",
             "Размеры": "Универсальный",
-            "Аренда": "4 500 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "ПРЕМИУМ, на завязках"
         },
-        "slug": "shikarnaya-gorzhetka-iz-ryzhey-lisy"
+        "slug": "shikarnaya-gorzhetka-iz-ryzhey-lisy",
+        "updatedAt": "2026-10-14T11:12:48.651Z"
     },
     {
         "id": 103,
         "title": "Шуба искусственная \"Леопард\"",
-        "price": 4000,
+        "price": 5000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272086/aves-web/product_103_1.jpg",
@@ -55,16 +58,17 @@
             "Тип": "Шуба",
             "Мех": "Искусственный (леопард)",
             "Размеры": "40-46 (рост 170)",
-            "Аренда": "4 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "20 000 ₽",
             "Особенности": "Длина 125 см, разрезы, пояс, до -20°"
         },
-        "slug": "shuba-iskusstvennaya-leopard"
+        "slug": "shuba-iskusstvennaya-leopard",
+        "updatedAt": "2026-10-14T11:13:05.963Z"
     },
     {
         "id": 104,
         "title": "Английская горжетка из меха дикой кошки",
-        "price": 4500,
+        "price": 6000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272088/aves-web/product_104_1.jpg",
@@ -78,11 +82,12 @@
             "Тип": "Горжетка",
             "Мех": "Дикая кошка",
             "Размеры": "Универсальный",
-            "Аренда": "4 500 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "20 000 ₽",
             "Особенности": "LUXE, винтаж"
         },
-        "slug": "angliyskaya-gorzhetka-iz-meha-dikoy-koshki"
+        "slug": "angliyskaya-gorzhetka-iz-meha-dikoy-koshki",
+        "updatedAt": "2026-10-14T11:13:23.125Z"
     },
     {
         "id": 105,
@@ -106,7 +111,7 @@
     {
         "id": 106,
         "title": "Горжетка из меха норки \"Шоколад\"",
-        "price": 4500,
+        "price": 5000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272091/aves-web/product_106_1.jpg",
@@ -118,15 +123,16 @@
             "Тип": "Горжетка",
             "Мех": "Норка",
             "Размеры": "Универсальный",
-            "Аренда": "4 500 ₽",
-            "Залог": "15 000 ₽"
+            "Аренда": "5 000 ₽",
+            "Залог": "20 000 ₽"
         },
-        "slug": "gorzhetka-iz-meha-norki-shokolad"
+        "slug": "gorzhetka-iz-meha-norki-shokolad",
+        "updatedAt": "2026-10-14T11:13:45.645Z"
     },
     {
         "id": 107,
         "title": "Овальная горжетка из тёмного соболя",
-        "price": 4500,
+        "price": 5500,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272093/aves-web/product_107_1.jpg",
@@ -137,15 +143,16 @@
             "Тип": "Горжетка",
             "Мех": "Тёмный соболь",
             "Размеры": "Универсальный",
-            "Аренда": "4 500 ₽",
-            "Залог": "15 000 ₽"
+            "Аренда": "5 500 ₽",
+            "Залог": "20 000 ₽"
         },
-        "slug": "ovalnaya-gorzhetka-iz-temnogo-sobolya"
+        "slug": "ovalnaya-gorzhetka-iz-temnogo-sobolya",
+        "updatedAt": "2026-10-14T11:14:16.033Z"
     },
     {
         "id": 108,
         "title": "Длинная горжетка из светлого соболя",
-        "price": 5000,
+        "price": 7000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272095/aves-web/product_108_1.jpg",
@@ -156,10 +163,11 @@
             "Тип": "Горжетка",
             "Мех": "Светлый соболь",
             "Размеры": "Универсальный",
-            "Аренда": "5 000 ₽",
-            "Залог": "20 000 ₽"
+            "Аренда": "7 000 ₽",
+            "Залог": "25 000 ₽"
         },
-        "slug": "dlinnaya-gorzhetka-iz-svetlogo-sobolya"
+        "slug": "dlinnaya-gorzhetka-iz-svetlogo-sobolya",
+        "updatedAt": "2026-10-14T11:14:38.580Z"
     },
     {
         "id": 109,
@@ -185,7 +193,7 @@
     {
         "id": 111,
         "title": "Горжетка из норки молочного цвета",
-        "price": 4000,
+        "price": 5000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272098/aves-web/product_111_2.jpg",
@@ -196,16 +204,17 @@
             "Тип": "Горжетка",
             "Мех": "Норка",
             "Размеры": "Универсальный",
-            "Аренда": "4 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "ПРЕМИУМ, молочный цвет"
         },
-        "slug": "gorzhetka-iz-norki-molochnogo-tsveta"
+        "slug": "gorzhetka-iz-norki-molochnogo-tsveta",
+        "updatedAt": "2026-10-14T11:12:31.813Z"
     },
     {
         "id": 112,
         "title": "Горжетка из песца айвори с муфтой",
-        "price": 4000,
+        "price": 5000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272100/aves-web/product_112_1.jpg",
@@ -222,12 +231,13 @@
             "Залог": "15 000 ₽",
             "Особенности": "В комплекте муфта, цвет айвори"
         },
-        "slug": "gorzhetka-iz-pestsa-ayvori-s-muftoy"
+        "slug": "gorzhetka-iz-pestsa-ayvori-s-muftoy",
+        "updatedAt": "2026-10-14T11:02:07.170Z"
     },
     {
         "id": 113,
         "title": "Горжетка из искусственного меха \"Монро\"",
-        "price": 3500,
+        "price": 4000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272103/aves-web/product_113_1.jpg",
@@ -238,16 +248,17 @@
             "Тип": "Горжетка",
             "Мех": "Искусственный (под песца)",
             "Размеры": "Универсальный",
-            "Аренда": "3 500 ₽",
+            "Аренда": "4 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Длина 180 см"
         },
-        "slug": "gorzhetka-iz-iskusstvennogo-meha-monro"
+        "slug": "gorzhetka-iz-iskusstvennogo-meha-monro",
+        "updatedAt": "2026-10-14T11:12:08.138Z"
     },
     {
         "id": 114,
         "title": "Широкая горжетка из песца \"Мерилин\"",
-        "price": 6000,
+        "price": 12000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272104/aves-web/product_114_1.jpg",
@@ -260,16 +271,17 @@
             "Тип": "Горжетка",
             "Мех": "Песец",
             "Размеры": "Универсальный",
-            "Аренда": "6 000 ₽",
-            "Залог": "Только сопровождение костюмера",
+            "Аренда": "12 000 ₽",
+            "Залог": "Только сопровождение костюмера (35 000)",
             "Особенности": "LUXE"
         },
-        "slug": "shirokaya-gorzhetka-iz-pestsa-merilin"
+        "slug": "shirokaya-gorzhetka-iz-pestsa-merilin",
+        "updatedAt": "2026-10-14T11:08:16.352Z"
     },
     {
         "id": 115,
         "title": "Песцовая горжетка \"Мадонна\"",
-        "price": 5500,
+        "price": 12000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272107/aves-web/product_115_1.jpg",
@@ -283,16 +295,17 @@
             "Тип": "Горжетка",
             "Мех": "Песец",
             "Размеры": "Универсальный",
-            "Аренда": "5 500 ₽",
+            "Аренда": "12 000 ₽",
             "Залог": "Сопровождение костюмера или залог 35 000 ₽",
             "Особенности": "LUXE, длина 180+40 см"
         },
-        "slug": "pestsovaya-gorzhetka-madonna"
+        "slug": "pestsovaya-gorzhetka-madonna",
+        "updatedAt": "2026-10-14T11:11:19.012Z"
     },
     {
         "id": 117,
         "title": "Шикарная горжетка из енота с хвостиками",
-        "price": 5000,
+        "price": 7000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272111/aves-web/product_117_2.jpg",
@@ -304,11 +317,12 @@
             "Тип": "Горжетка",
             "Мех": "Енот",
             "Размеры": "Универсальный",
-            "Аренда": "5 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "25 000 ₽",
             "Особенности": "С хвостиками"
         },
-        "slug": "shikarnaya-gorzhetka-iz-enota-s-hvostikami"
+        "slug": "shikarnaya-gorzhetka-iz-enota-s-hvostikami",
+        "updatedAt": "2026-10-14T11:07:32.311Z"
     },
     {
         "id": 118,
@@ -333,7 +347,7 @@
     {
         "id": 119,
         "title": "Горжетка-палантин из норки-крестовки",
-        "price": 3500,
+        "price": 10000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272115/aves-web/product_119_1.jpg",
@@ -344,10 +358,11 @@
             "Тип": "Горжетка-палантин",
             "Мех": "Норка-крестовка",
             "Размеры": "Универсальный",
-            "Аренда": "3 500 ₽",
-            "Залог": "8 000 ₽"
+            "Аренда": "5 000 ₽",
+            "Залог": "10 000 ₽"
         },
-        "slug": "gorzhetka-palantin-iz-norki-krestovki"
+        "slug": "gorzhetka-palantin-iz-norki-krestovki",
+        "updatedAt": "2026-10-14T11:07:13.821Z"
     },
     {
         "id": 121,
@@ -370,7 +385,7 @@
     {
         "id": 122,
         "title": "Широкая горжетка из чернобурой лисы",
-        "price": 5000,
+        "price": 7000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272117/aves-web/product_122_1.jpg",
@@ -385,12 +400,13 @@
             "Залог": "20 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "shirokaya-gorzhetka-iz-chernoburoy-lisy"
+        "slug": "shirokaya-gorzhetka-iz-chernoburoy-lisy",
+        "updatedAt": "2026-10-14T11:06:10.070Z"
     },
     {
         "id": 123,
         "title": "Горжетка из чернобурки",
-        "price": 3000,
+        "price": 4000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272118/aves-web/product_123_1.jpg"
@@ -404,12 +420,13 @@
             "Залог": "15 000 ₽",
             "Особенности": "Длина 180 см"
         },
-        "slug": "gorzhetka-iz-chernoburki"
+        "slug": "gorzhetka-iz-chernoburki",
+        "updatedAt": "2026-10-14T11:05:52.031Z"
     },
     {
         "id": 124,
         "title": "Длинная горжетка из чернобурой лисы",
-        "price": 5500,
+        "price": 10000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272119/aves-web/product_124_1.jpg",
@@ -422,16 +439,17 @@
             "Тип": "Горжетка",
             "Мех": "Чернобурая лиса",
             "Размеры": "Универсальный",
-            "Аренда": "5 500 ₽",
-            "Залог": "Только сопровождение костюмера или залог 25 000 ₽",
+            "Аренда": "10 000 ₽",
+            "Залог": "Только сопровождение костюмера или залог 30 000 ₽",
             "Особенности": "LUXE, длина ~2,40 м"
         },
-        "slug": "dlinnaya-gorzhetka-iz-chernoburoy-lisy"
+        "slug": "dlinnaya-gorzhetka-iz-chernoburoy-lisy",
+        "updatedAt": "2026-10-14T11:05:33.540Z"
     },
     {
         "id": 125,
         "title": "Горжетка из чёрной норки с хвостиками",
-        "price": 5000,
+        "price": 7000,
         "category": "furs",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272122/aves-web/product_125_1.jpg",
@@ -442,11 +460,12 @@
             "Тип": "Горжетка",
             "Мех": "Чёрная норка",
             "Размеры": "Универсальный",
-            "Аренда": "5 000 ₽",
-            "Залог": "20 000 ₽",
+            "Аренда": "7 000 ₽",
+            "Залог": "25 000 ₽",
             "Особенности": "LUXE, с хвостиками"
         },
-        "slug": "gorzhetka-iz-chernoy-norki-s-hvostikami"
+        "slug": "gorzhetka-iz-chernoy-norki-s-hvostikami",
+        "updatedAt": "2026-10-14T11:03:22.038Z"
     },
     {
         "id": 126,
@@ -2181,7 +2200,9 @@
             "Залог": "10000 ₽",
             "Особенности": "Регулируется шнуровкой по бокам"
         },
-        "slug": "srednevekovoe-plate-berkanar-temno-sinee"
+        "slug": "srednevekovoe-plate-berkanar-temno-sinee",
+        "hidden": true,
+        "updatedAt": "2026-10-14T11:48:54.872Z"
     },
     {
         "id": 418,
@@ -5746,7 +5767,9 @@
             "Аренда": "1 000 ₽",
             "Залог": "2 000 ₽"
         },
-        "slug": "zhemchuzhnyy-komplekt"
+        "slug": "zhemchuzhnyy-komplekt",
+        "hidden": true,
+        "updatedAt": "2026-10-14T11:55:19.896Z"
     },
     {
         "id": 923,
