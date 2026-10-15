@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ball",
+    "title": "Бальные платья XVIII–XIX веков",
+    "categorySlug": "ball",
+    "categoryLabel": "Бальные платья",
+    "description": "Пышные кринолины, утонченные корсеты, струящиеся ткани и исторический силуэт в движении.",
+    "videoUrl": "/videos/ball.mp4",
+    "posterUrl": "/videos/ball-poster.png",
+    "duration": "0:56"
+  },
+  {
+    "id": "vintage",
+    "title": "Винтажные и свадебные образы",
+    "categorySlug": "vintage",
+    "categoryLabel": "Винтаж",
+    "description": "Элегантный ретро-стиль, фактура кружева и романтическое настроение эпохи модерна и винтажа.",
+    "videoUrl": "/videos/vintage.mp4",
+    "posterUrl": "/videos/vintage-poster.png",
+    "duration": "1:02"
+  },
+  {
+    "id": "kimono",
+    "title": "Традиционные японские кимоно",
+    "categorySlug": "kimono",
+    "categoryLabel": "Кимоно",
+    "description": "Аутентичные японские кимоно, изысканные пояса оби и традиционные цветочные мотивы шелка.",
+    "videoUrl": "/videos/kimono.mp4",
+    "posterUrl": "/videos/kimono-poster.png",
+    "duration": "0:35"
+  },
+  {
+    "id": "furs",
+    "title": "Роскошный мех и накидки",
+    "categorySlug": "furs",
+    "categoryLabel": "Мех и накидки",
+    "description": "Винтажные шубы, горжетки и меховые палантины — тепло, мягкость и кинематографичный шик.",
+    "videoUrl": "/videos/furs.mp4",
+    "posterUrl": "/videos/furs-poster.png",
+    "duration": "0:58"
+  },
+  {
+    "id": "medieval",
+    "title": "Средневековые и сказочные платья",
+    "categorySlug": "medieval",
+    "categoryLabel": "Средневековье",
+    "description": "Тяжелый бархат, готические рукава и сказочная атмосфера для тематических фотосессий и балов.",
+    "videoUrl": "/videos/medieval.mp4",
+    "posterUrl": "/videos/medieval-poster.png",
+    "duration": "0:36"
+  }
+]

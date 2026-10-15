@@ -1,0 +1,917 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import videos from '../../data/videos.json';
+
+const title = "Видео-обзоры и примерки нарядов | Прокат от Кет";
+const description = "Атмосферные видео-обзоры исторических платьев, кимоно, средневековых нарядов и меха в Москве. Посмотрите посадку, детали и фактуру тканей в движении.";
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://ketrent.ru/" },
+    { "@type": "ListItem", "position": 2, "name": "Видео", "item": "https://ketrent.ru/videos" }
+  ]
+};
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalUrl="https://ketrent.ru/videos"
+  ogTitle="Видеогалерея нарядов — Прокат от Кет"
+  ogDescription={description}
+  schemaJson={breadcrumbSchema}
+  currentPage="videos"
+  preloadImage="/img/og-image.jpg"
+>
+  <Header currentPage="videos" />
+
+  <!-- Hero Header -->
+  <section class="videos-hero">
+    <div class="videos-hero-overlay"></div>
+    <div class="container hero-container">
+      <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <a href="/">Главная</a>
+        <span class="bc-sep">/</span>
+        <span class="bc-current" aria-current="page">Видео</span>
+      </nav>
+      <h1 class="hero-title">Наряды <em>в движении</em></h1>
+      <p class="hero-subtitle">
+        Атмосферные видео-обзоры наших коллекций: игра света, шелест кринолинов, фактура бархата и винтажного кружева.
+      </p>
+    </div>
+  </section>
+
+  <!-- Videos Gallery Section -->
+  <main class="videos-section">
+    <div class="container">
+      <div class="videos-grid" id="videosGrid">
+        {videos.map((item, index) => (
+          <article 
+            class="video-card" 
+            data-index={index}
+            data-id={item.id}
+            data-video-url={item.videoUrl}
+            data-title={item.title}
+            data-desc={item.description}
+            data-category-slug={item.categorySlug}
+            data-category-label={item.categoryLabel}
+            data-poster-url={item.posterUrl}
+          >
+            <!-- Media Preview Container (9:16 aspect ratio) -->
+            <div class="video-preview-wrapper js-video-trigger" role="button" tabindex="0" aria-label={`Смотреть видео: ${item.title}`}>
+              <!-- Static Poster Image -->
+              <img 
+                src={item.posterUrl} 
+                alt={item.title} 
+                class="video-poster"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <!-- Hover Video Player (zero bandwidth until hovered) -->
+              <video 
+                class="video-preview-player" 
+                data-src={item.videoUrl}
+                muted 
+                playsinline 
+                loop 
+                preload="none"
+              ></video>
+
+              <!-- Progress bar on hover preview -->
+              <div class="video-hover-progress" aria-hidden="true">
+                <div class="video-hover-progress-bar"></div>
+              </div>
+
+              <!-- Badges & Overlays -->
+              <div class="video-badges-top">
+                <span class="video-category-badge">{item.categoryLabel}</span>
+                <span class="video-duration-badge">{item.duration}</span>
+              </div>
+
+              <div class="video-play-hint" aria-hidden="true">
+                <div class="play-icon-glow"></div>
+                <svg class="play-svg" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+            </div>
+
+            <!-- Card Body / Meta -->
+            <div class="video-card-body">
+              <h2 class="video-card-title">
+                <button type="button" class="video-title-btn js-video-trigger">
+                  {item.title}
+                </button>
+              </h2>
+              <p class="video-card-desc">{item.description}</p>
+
+              <div class="video-card-footer">
+                <button type="button" class="btn-watch js-video-trigger" data-index={index}>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                  <span>Смотреть со звуком</span>
+                </button>
+                <a href={`/catalog/${item.categorySlug}`} class="btn-to-catalog" title={`Открыть категорию ${item.categoryLabel}`}>
+                  <span>Каталог</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </main>
+
+  <!-- Fullscreen Modal Video Player -->
+  <div class="video-modal" id="videoModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="video-modal-backdrop" id="videoModalBackdrop"></div>
+
+    <div class="video-modal-dialog">
+      <!-- Top controls bar -->
+      <div class="modal-top-bar">
+        <div class="modal-header-info">
+          <span class="modal-category" id="modalCategory">Категория</span>
+          <h3 class="modal-title" id="modalTitle">Название ролика</h3>
+        </div>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Закрыть видео (Esc)">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Video Container -->
+      <div class="modal-video-container">
+        <!-- Prev / Next Navigation Arrows -->
+        <button class="nav-arrow nav-arrow-prev" id="modalPrevBtn" aria-label="Предыдущее видео (←)">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+        </button>
+
+        <video 
+          class="modal-video-player" 
+          id="modalVideoPlayer" 
+          playsinline 
+          controls 
+          preload="auto"
+        ></video>
+
+        <button class="nav-arrow nav-arrow-next" id="modalNextBtn" aria-label="Следующее видео (→)">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M9 18l6-6-6-6"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Bottom action info -->
+      <div class="modal-bottom-bar">
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-actions">
+          <a href="/catalog" class="btn btn-primary btn-modal-catalog" id="modalCatalogBtn">
+            <span>Смотреть платья этой категории в каталоге</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  /* --- Hero Section --- */
+  .videos-hero {
+    height: 40vh;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url("/img/og-image.jpg");
+    background-size: cover;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  @media (max-width: 768px) {
+    .videos-hero {
+      background-attachment: scroll;
+      height: auto;
+      min-height: 280px;
+      padding: 110px 0 45px;
+    }
+  }
+  .videos-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(15, 20, 16, 0.5) 45%,
+      rgba(0, 0, 0, 0.75) 100%
+    );
+    z-index: 1;
+    pointer-events: none;
+  }
+  .hero-container {
+    position: relative;
+    z-index: 2;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .breadcrumbs {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  }
+  .breadcrumbs a {
+    color: var(--gold-color, #c5a059);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  .breadcrumbs a:hover {
+    color: #fff;
+  }
+  .bc-sep {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .bc-current {
+    color: #fff;
+  }
+  .hero-title {
+    font-family: var(--font-heading, "Playfair Display", serif);
+    font-size: clamp(30px, 4.5vw, 48px);
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 14px;
+    line-height: 1.2;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.7);
+  }
+  .hero-title em {
+    font-style: italic;
+    color: var(--gold-color, #c5a059);
+  }
+  .hero-subtitle {
+    font-family: var(--font-body, "Libre Baskerville", serif);
+    font-size: 15px;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 680px;
+    margin: 0 auto;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.7);
+  }
+
+  /* --- Videos Grid Section --- */
+  .videos-section {
+    padding: 60px 0 100px;
+    background-color: var(--bg-color, #fdf5e6);
+  }
+  .videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 36px 28px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* --- Video Card --- */
+  .video-card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s cubic-bezier(0.2, 0, 0.2, 1), box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(197, 160, 89, 0.25);
+  }
+  .video-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 34px rgba(46, 70, 52, 0.16);
+    border-color: var(--gold-color, #c5a059);
+  }
+
+  /* --- Media Preview Wrapper (9:16) --- */
+  .video-preview-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 9 / 14;
+    background: #111;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .video-poster,
+  .video-preview-player {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .video-poster {
+    z-index: 1;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+  }
+  .video-card:hover .video-poster {
+    transform: scale(1.03);
+  }
+  .video-preview-player {
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    pointer-events: none;
+  }
+  .video-preview-player.is-playing {
+    opacity: 1;
+  }
+
+  /* Progress bar on hover preview (YouTube style) */
+  .video-hover-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.5px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 5;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+  .video-preview-player.is-playing ~ .video-hover-progress {
+    opacity: 1;
+  }
+  .video-hover-progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #c5a059, #e5c378);
+    transition: width 0.1s linear;
+  }
+
+  /* Badges */
+  .video-badges-top {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+    pointer-events: none;
+  }
+  .video-category-badge {
+    background: rgba(18, 18, 20, 0.78);
+    color: var(--gold-color, #c5a059);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 5px 11px;
+    border-radius: 6px;
+    border: 1px solid rgba(197, 160, 89, 0.45);
+    font-weight: 600;
+  }
+  .video-duration-badge {
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: 600;
+  }
+
+  /* Play Icon in center */
+  .video-play-hint {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  .video-preview-player.is-playing ~ .video-play-hint {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  .play-icon-glow {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(197, 160, 89, 0.3);
+    filter: blur(10px);
+  }
+  .play-svg {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    color: #fff;
+    background: rgba(18, 18, 20, 0.75);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 2px solid var(--gold-color, #c5a059);
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+  }
+  .video-card:hover .play-svg {
+    transform: scale(1.1);
+    background: var(--gold-color, #c5a059);
+    color: #121214;
+  }
+
+  /* --- Card Body --- */
+  .video-card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .video-card-title {
+    font-family: var(--font-heading, "Playfair Display", serif);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 8px;
+  }
+  .video-title-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: var(--text-main, #1a1a1a);
+    text-align: left;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  .video-title-btn:hover {
+    color: var(--accent-color, #2e4634);
+  }
+  .video-card-desc {
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: var(--text-muted, #555045);
+    margin-bottom: 18px;
+    flex: 1;
+  }
+  .video-card-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+    padding-top: 14px;
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+  }
+  .btn-watch {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 10px 14px;
+    background: var(--accent-color, #2e4634);
+    color: #fff;
+    border: 1px solid var(--accent-color, #2e4634);
+    border-radius: 6px;
+    font-family: var(--font-body, "Libre Baskerville", serif);
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .btn-watch:hover {
+    background: #1f3124;
+    border-color: #1f3124;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(46, 70, 52, 0.28);
+  }
+  .btn-to-catalog {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 9px 13px;
+    background: #fbf5ea;
+    color: #78561d;
+    border: 1.5px solid var(--gold-color, #c5a059);
+    border-radius: 6px;
+    font-size: 12.5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .btn-to-catalog:hover {
+    background: var(--gold-color, #c5a059);
+    color: #fff;
+    border-color: var(--gold-color, #c5a059);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(197, 160, 89, 0.3);
+  }
+
+  /* --- Fullscreen Video Modal --- */
+  .video-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+  }
+  .video-modal.is-active {
+    display: flex;
+  }
+  .video-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+  .video-modal-dialog {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 480px;
+    max-height: 94vh;
+    display: flex;
+    flex-direction: column;
+    background: #111113;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(197, 160, 89, 0.3);
+    animation: modalScaleIn 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  @keyframes modalScaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.94) translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+
+  /* Modal Top Bar */
+  .modal-top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 18px;
+    background: #18181b;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    color: #fff;
+  }
+  .modal-category {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--gold-color, #c5a059);
+    display: block;
+    margin-bottom: 2px;
+    font-weight: 600;
+  }
+  .modal-title {
+    font-family: var(--font-heading, "Playfair Display", serif);
+    font-size: 17px;
+    font-weight: 500;
+    color: #fdf5e6;
+    margin: 0;
+    max-width: 340px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .modal-close-btn {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #fdf5e6;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .modal-close-btn:hover {
+    background: var(--gold-color, #c5a059);
+    color: #121214;
+    border-color: var(--gold-color, #c5a059);
+    transform: rotate(90deg);
+  }
+
+  /* Modal Video Player & Nav Arrows */
+  .modal-video-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 9 / 14;
+    max-height: 65vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-video-player {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    outline: none;
+    background: #000;
+  }
+  .nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(18, 18, 20, 0.75);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(197, 160, 89, 0.4);
+    color: #fdf5e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.2s ease;
+  }
+  .nav-arrow:hover {
+    background: var(--gold-color, #c5a059);
+    color: #121214;
+    border-color: var(--gold-color, #c5a059);
+    transform: translateY(-50%) scale(1.08);
+  }
+  .nav-arrow-prev {
+    left: 10px;
+  }
+  .nav-arrow-next {
+    right: 10px;
+  }
+
+  /* Modal Bottom */
+  .modal-bottom-bar {
+    padding: 16px 18px;
+    background: #18181b;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .modal-desc {
+    font-size: 13.5px;
+    color: rgba(253, 245, 230, 0.85);
+    line-height: 1.5;
+    margin-bottom: 14px;
+  }
+  .btn-modal-catalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 12px 16px;
+    background: linear-gradient(135deg, #c5a059 0%, #aa853c 100%);
+    color: #1a1a1a;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 16px rgba(197, 160, 89, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.25s ease;
+  }
+  .btn-modal-catalog:hover {
+    background: linear-gradient(135deg, #d4af66 0%, #ba9447 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(197, 160, 89, 0.4);
+    color: #000;
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 640px) {
+    .videos-hero {
+      padding: 110px 0 40px;
+    }
+    .videos-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .modal-video-container {
+      max-height: 58vh;
+    }
+    .nav-arrow {
+      width: 36px;
+      height: 36px;
+    }
+  }
+  <Fragment slot="scripts">
+    <script>
+      import '../../scripts/shared.js';
+      import '../../scripts/mobile-nav.js';
+      import '../../scripts/parallax.js';
+    </script>
+
+    <script>
+      // --- Client-side script: YouTube-like hover preview & modal player ---
+      document.addEventListener('DOMContentLoaded', () => {
+        const cards = document.querySelectorAll('.video-card');
+        const modal = document.getElementById('videoModal');
+        const modalBackdrop = document.getElementById('videoModalBackdrop');
+        const modalCloseBtn = document.getElementById('modalCloseBtn');
+        const modalVideoPlayer = document.getElementById('modalVideoPlayer') as HTMLVideoElement | null;
+        const modalTitle = document.getElementById('modalTitle');
+        const modalCategory = document.getElementById('modalCategory');
+        const modalDesc = document.getElementById('modalDesc');
+        const modalCatalogBtn = document.getElementById('modalCatalogBtn') as HTMLAnchorElement | null;
+        const modalPrevBtn = document.getElementById('modalPrevBtn');
+        const modalNextBtn = document.getElementById('modalNextBtn');
+
+        let currentModalIndex = 0;
+        const videosData = Array.from(cards).map(card => ({
+          id: card.getAttribute('data-id') || '',
+          title: card.getAttribute('data-title') || '',
+          desc: card.getAttribute('data-desc') || '',
+          videoUrl: card.getAttribute('data-video-url') || '',
+          categorySlug: card.getAttribute('data-category-slug') || '',
+          categoryLabel: card.getAttribute('data-category-label') || '',
+          posterUrl: card.getAttribute('data-poster-url') || ''
+        }));
+
+        // --- Hover Preview Logic (Desktop) ---
+        const isTouch = window.matchMedia('(pointer: coarse)').matches;
+
+        cards.forEach(card => {
+          const previewWrapper = card.querySelector('.video-preview-wrapper');
+          const video = card.querySelector('.video-preview-player') as HTMLVideoElement | null;
+          const progressBar = card.querySelector('.video-hover-progress-bar') as HTMLElement | null;
+          let hoverTimeout: any = null;
+
+          if (!isTouch && previewWrapper && video) {
+            // Debounced start on hover (250ms to prevent accidental downloads on fast sweeps)
+            previewWrapper.addEventListener('mouseenter', () => {
+              hoverTimeout = setTimeout(() => {
+                if (!video.src) {
+                  const src = video.getAttribute('data-src');
+                  if (src) video.src = src;
+                }
+                video.currentTime = 0;
+                const playPromise = video.play();
+                if (playPromise !== undefined) {
+                  playPromise
+                    .then(() => {
+                      video.classList.add('is-playing');
+                    })
+                    .catch(() => {
+                      // Autoplay prevented or aborted
+                    });
+                }
+              }, 250);
+            });
+
+            // Track playback progress
+            video.addEventListener('timeupdate', () => {
+              if (progressBar && video.duration) {
+                const percent = (video.currentTime / video.duration) * 100;
+                progressBar.style.width = `${percent}%`;
+              }
+            });
+
+            // Reset on leave
+            previewWrapper.addEventListener('mouseleave', () => {
+              if (hoverTimeout) clearTimeout(hoverTimeout);
+              if (!video.paused) {
+                video.pause();
+              }
+              video.classList.remove('is-playing');
+              video.currentTime = 0;
+              if (progressBar) progressBar.style.width = '0%';
+            });
+          }
+
+          // Clicking triggers modal
+          const triggers = card.querySelectorAll('.js-video-trigger');
+          triggers.forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+              e.preventDefault();
+              const idx = parseInt(card.getAttribute('data-index') || '0', 10);
+              openModal(idx);
+            });
+          });
+        });
+
+        // --- Modal Player Logic ---
+        function openModal(index: number) {
+          if (!modal || !modalVideoPlayer) return;
+          currentModalIndex = index;
+          const data = videosData[index];
+          if (!data) return;
+
+          // Pause all card hover previews
+          cards.forEach(c => {
+            const v = c.querySelector('.video-preview-player') as HTMLVideoElement | null;
+            if (v && !v.paused) v.pause();
+          });
+
+          // Update text & links
+          if (modalTitle) modalTitle.textContent = data.title;
+          if (modalCategory) modalCategory.textContent = data.categoryLabel;
+          if (modalDesc) modalDesc.textContent = data.desc;
+          if (modalCatalogBtn) {
+            modalCatalogBtn.href = `/catalog/${data.categorySlug}`;
+            modalCatalogBtn.setAttribute('title', `Смотреть платья категории: ${data.categoryLabel}`);
+          }
+
+          // Load & Play Video with sound
+          modalVideoPlayer.src = data.videoUrl;
+          modalVideoPlayer.poster = data.posterUrl;
+          modalVideoPlayer.currentTime = 0;
+          modal.classList.add('is-active');
+          modal.setAttribute('aria-hidden', 'false');
+          document.body.style.overflow = 'hidden';
+
+          const playPromise = modalVideoPlayer.play();
+          if (playPromise !== undefined) {
+            playPromise.catch(() => {
+              // May require user interaction on some browsers
+            });
+          }
+        }
+
+        function closeModal() {
+          if (!modal || !modalVideoPlayer) return;
+          modalVideoPlayer.pause();
+          modalVideoPlayer.src = '';
+          modalVideoPlayer.poster = '';
+          modal.classList.remove('is-active');
+          modal.setAttribute('aria-hidden', 'true');
+          document.body.style.overflow = '';
+        }
+
+        function navigateModal(direction: number) {
+          const nextIndex = (currentModalIndex + direction + videosData.length) % videosData.length;
+          openModal(nextIndex);
+        }
+
+        modalCloseBtn?.addEventListener('click', closeModal);
+        modalBackdrop?.addEventListener('click', closeModal);
+        modalPrevBtn?.addEventListener('click', (e) => {
+          e.stopPropagation();
+          navigateModal(-1);
+        });
+        modalNextBtn?.addEventListener('click', (e) => {
+          e.stopPropagation();
+          navigateModal(1);
+        });
+
+        // Keyboard controls
+        window.addEventListener('keydown', (e) => {
+          if (!modal?.classList.contains('is-active')) return;
+          if (e.key === 'Escape') closeModal();
+          if (e.key === 'ArrowLeft') navigateModal(-1);
+          if (e.key === 'ArrowRight') navigateModal(1);
+          if (e.key === ' ' || e.code === 'Space') {
+            e.preventDefault();
+            if (modalVideoPlayer) {
+              if (modalVideoPlayer.paused) modalVideoPlayer.play();
+              else modalVideoPlayer.pause();
+            }
+          }
+        });
+      });
+    </script>
+  </Fragment>
+</BaseLayout>
