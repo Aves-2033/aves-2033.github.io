@@ -6,8 +6,68 @@
     "categoryLabel": "Бальные платья",
     "description": "Пышные кринолины, утонченные корсеты, струящиеся ткани и исторический силуэт в движении.",
     "videoUrl": "/videos/ball.mp4",
-    "posterUrl": "/videos/ball-poster.png",
+    "posterUrl": "/videos/ball-poster.webp",
     "duration": "0:56"
+  },
+  {
+    "id": "ball-2",
+    "title": "Бальный наряд цвета индиго с кружевным веером",
+    "categorySlug": "ball",
+    "categoryLabel": "Бальные платья",
+    "description": "Благородный глубокий атлас цвета индиго, белоснежная кружевная отделка декольте и изящный веер для парковых прогулок.",
+    "videoUrl": "/videos/ball-2.mp4",
+    "posterUrl": "/videos/ball-2-poster.webp",
+    "duration": "0:54"
+  },
+  {
+    "id": "ball-3",
+    "title": "Изумрудное ампирное платье в золотой осени",
+    "categorySlug": "ball",
+    "categoryLabel": "Бальные платья",
+    "description": "Утонченный силуэт эпохи ампир в насыщенном изумрудно-бирюзовом бархате с золотым поясом и перчатками на фоне осеннего парка.",
+    "videoUrl": "/videos/ball-3.mp4",
+    "posterUrl": "/videos/ball-3-poster.webp",
+    "duration": "0:41"
+  },
+  {
+    "id": "ball-4",
+    "title": "Романтический образ среди цветущих пионов",
+    "categorySlug": "ball",
+    "categoryLabel": "Бальные платья",
+    "description": "Нежнейшее светлое бальное платье с кружевными рукавами, жемчужным колье и атмосферой цветущего летнего сада.",
+    "videoUrl": "/videos/ball-4.mp4",
+    "posterUrl": "/videos/ball-4-poster.webp",
+    "duration": "1:00"
+  },
+  {
+    "id": "ball-5",
+    "title": "Коллекция исторических бальных нарядов",
+    "categorySlug": "ball",
+    "categoryLabel": "Бальные платья",
+    "description": "Обзор гардеробной костюмерной: богатство палитры от пудрово-терракотового до небесно-голубого шелка и винтажного кружева.",
+    "videoUrl": "/videos/ball-5.mp4",
+    "posterUrl": "/videos/ball-5-poster.webp",
+    "duration": "0:52"
+  },
+  {
+    "id": "ball-6",
+    "title": "Гранд-кринолины и расписные веера",
+    "categorySlug": "ball",
+    "categoryLabel": "Бальные платья",
+    "description": "Величественные кринолины середины XIX века в пудрово-розовых и кремовых тонах с художественными веерами ручной работы.",
+    "videoUrl": "/videos/ball-6.mp4",
+    "posterUrl": "/videos/ball-6-poster.webp",
+    "duration": "0:56"
+  },
+  {
+    "id": "ball-7",
+    "title": "Парчовое платье с меховой муфтой у готического павильона",
+    "categorySlug": "ball",
+    "categoryLabel": "Бальные платья",
+    "description": "Королевское платье из серебристо-шалфейного жаккарда со шлейфом, роскошной меховой горжеткой и муфтой в старинной усадьбе.",
+    "videoUrl": "/videos/ball-7.mp4",
+    "posterUrl": "/videos/ball-7-poster.webp",
+    "duration": "0:50"
   },
   {
     "id": "vintage",
@@ -16,7 +76,7 @@
     "categoryLabel": "Винтаж",
     "description": "Элегантный ретро-стиль, фактура кружева и романтическое настроение эпохи модерна и винтажа.",
     "videoUrl": "/videos/vintage.mp4",
-    "posterUrl": "/videos/vintage-poster.png",
+    "posterUrl": "/videos/vintage-poster.webp",
     "duration": "1:02"
   },
   {
@@ -26,8 +86,48 @@
     "categoryLabel": "Кимоно",
     "description": "Аутентичные японские кимоно, изысканные пояса оби и традиционные цветочные мотивы шелка.",
     "videoUrl": "/videos/kimono.mp4",
-    "posterUrl": "/videos/kimono-poster.png",
+    "posterUrl": "/videos/kimono-poster.webp",
     "duration": "0:35"
+  },
+  {
+    "id": "kimono-2",
+    "title": "Японское кимоно индиго и шелковый пояс оби",
+    "categorySlug": "kimono",
+    "categoryLabel": "Кимоно",
+    "description": "Атмосферный мужской образ в японском кимоно с геометрическим орнаментом, алым веером и традиционной ширмой.",
+    "videoUrl": "/videos/kimono-2.mp4",
+    "posterUrl": "/videos/kimono-2-poster.webp",
+    "duration": "0:31"
+  },
+  {
+    "id": "ethnic-1",
+    "title": "Белоснежный восточный костюм с золотой филигранью",
+    "categorySlug": "ethnic-costumes",
+    "categoryLabel": "Этнические Костюмы",
+    "description": "Сияющий восточный наряд с ручной вышивкой кристаллами, золотыми подвесками, монистами и струящейся легкой юбкой.",
+    "videoUrl": "/videos/ethnic-1.mp4",
+    "posterUrl": "/videos/ethnic-1-poster.webp",
+    "duration": "0:24"
+  },
+  {
+    "id": "ethnic-2",
+    "title": "Лазурный восточный костюм с чеканным золотым поясом",
+    "categorySlug": "ethnic-costumes",
+    "categoryLabel": "Этнические Костюмы",
+    "description": "Царственный лазурно-синий наряд с богатой золотой каймой, нагрудными украшениями, диадемой и шелковым поясом в движении танца.",
+    "videoUrl": "/videos/ethnic-2.mp4",
+    "posterUrl": "/videos/ethnic-2-poster.webp",
+    "duration": "0:46"
+  },
+  {
+    "id": "ethnic-3",
+    "title": "Индийское праздничное сари королевского фиолетового оттенка",
+    "categorySlug": "ethnic-costumes",
+    "categoryLabel": "Этнические Костюмы",
+    "description": "Традиционное фиолетовое сари с золотыми пейсли, национальными украшениями нат и павлиньим пером среди цветущей сирени.",
+    "videoUrl": "/videos/ethnic-3.mp4",
+    "posterUrl": "/videos/ethnic-3-poster.webp",
+    "duration": "0:19"
   },
   {
     "id": "furs",
@@ -36,7 +136,7 @@
     "categoryLabel": "Мех и накидки",
     "description": "Винтажные шубы, горжетки и меховые палантины — тепло, мягкость и кинематографичный шик.",
     "videoUrl": "/videos/furs.mp4",
-    "posterUrl": "/videos/furs-poster.png",
+    "posterUrl": "/videos/furs-poster.webp",
     "duration": "0:58"
   },
   {
@@ -46,7 +146,7 @@
     "categoryLabel": "Средневековье",
     "description": "Тяжелый бархат, готические рукава и сказочная атмосфера для тематических фотосессий и балов.",
     "videoUrl": "/videos/medieval.mp4",
-    "posterUrl": "/videos/medieval-poster.png",
+    "posterUrl": "/videos/medieval-poster.webp",
     "duration": "0:36"
   }
 ]

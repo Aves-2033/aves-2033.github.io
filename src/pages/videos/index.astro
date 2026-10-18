@@ -7,12 +7,29 @@ import videos from '../../data/videos.json';
 const title = "Видео-обзоры и примерки нарядов | Прокат от Кет";
 const description = "Атмосферные видео-обзоры исторических платьев, кимоно, средневековых нарядов и меха в Москве. Посмотрите посадку, детали и фактуру тканей в движении.";
 
-const breadcrumbSchema = {
+const pageSchema = {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://ketrent.ru/" },
-    { "@type": "ListItem", "position": 2, "name": "Видео", "item": "https://ketrent.ru/videos" }
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://ketrent.ru/" },
+        { "@type": "ListItem", "position": 2, "name": "Видео", "item": "https://ketrent.ru/videos" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Видео-обзоры исторических платьев и костюмов",
+      "itemListElement": videos.map((v, i) => ({
+        "@type": "VideoObject",
+        "position": i + 1,
+        "name": v.title,
+        "description": v.description,
+        "thumbnailUrl": `https://ketrent.ru${v.posterUrl}`,
+        "contentUrl": `https://ketrent.ru${v.videoUrl}`,
+        "uploadDate": "2026-10-18T00:00:00+03:00"
+      }))
+    }
   ]
 };
 ---
@@ -23,7 +40,7 @@ const breadcrumbSchema = {
   canonicalUrl="https://ketrent.ru/videos"
   ogTitle="Видеогалерея нарядов — Прокат от Кет"
   ogDescription={description}
-  schemaJson={breadcrumbSchema}
+  schemaJson={pageSchema}
   currentPage="videos"
   preloadImage="/img/og-image.jpg"
 >
@@ -68,7 +85,10 @@ const breadcrumbSchema = {
                 src={item.posterUrl} 
                 alt={item.title} 
                 class="video-poster"
-                loading="lazy"
+                width="720"
+                height="1280"
+                loading={index < 2 ? "eager" : "lazy"}
+                fetchpriority={index === 0 ? "high" : "auto"}
                 decoding="async"
               />
 
