@@ -489,7 +489,7 @@
     {
         "id": 201,
         "title": "Свадебное платье \"Снежана\"",
-        "price": 8000,
+        "price": 10000,
         "category": "vintage",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272124/aves-web/product_201_1.jpg",
@@ -501,11 +501,13 @@
             "Тип": "Свадебное платье",
             "Эпоха": "70-е годы",
             "Размеры": "38-44 (рост 168)",
-            "Аренда": "8 000 ₽",
+            "Аренда": "10 000 ₽",
             "Залог": "Сопровождение костюмера",
             "Особенности": "LUXE, шнуровка на спине, шлейф"
         },
-        "slug": "svadebnoe-plate-snezhana"
+        "slug": "svadebnoe-plate-snezhana",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:00:44.301Z"
     },
     {
         "id": 202,
@@ -557,7 +559,7 @@
     {
         "id": 204,
         "title": "Платье \"Сорен\"",
-        "price": 5000,
+        "price": 7000,
         "category": "vintage",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272135/aves-web/product_204_1.jpg",
@@ -575,16 +577,18 @@
             "Тип": "Винтажное платье",
             "Эпоха": "60-е годы",
             "Размеры": "40-46 (рост 168)",
-            "Аренда": "4 500 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "Сопровождение костюмера",
             "Особенности": "ПРЕМИУМ, музейный экземпляр"
         },
-        "slug": "plate-soren"
+        "slug": "plate-soren",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:00:21.432Z"
     },
     {
         "id": 205,
         "title": "Винтажное платье \"Екатерина\"",
-        "price": 5000,
+        "price": 7000,
         "category": "vintage",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272142/aves-web/product_205_1.jpg"
@@ -593,16 +597,18 @@
         "details": {
             "Тип": "Винтажное платье",
             "Размеры": "42-44 (рост 170)",
-            "Аренда": "5 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
-        "slug": "vintazhnoe-plate-ekaterina"
+        "slug": "vintazhnoe-plate-ekaterina",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:00:05.984Z"
     },
     {
         "id": 206,
         "title": "Платье \"Серебряный век\"",
-        "price": 4500,
+        "price": 5000,
         "category": "vintage",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272143/aves-web/product_206_1.jpg",
@@ -620,11 +626,13 @@
             "Тип": "Винтажное платье",
             "Эпоха": "Серебряный век",
             "Размеры": "40-44 (рост 170)",
-            "Аренда": "4 500 ₽",
-            "Залог": "Сопровождение костюмера, залог 15 000",
+            "Аренда": "5 000 ₽",
+            "Залог": "Сопровождение костюмера, залог 15 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
-        "slug": "plate-serebryanyy-vek"
+        "slug": "plate-serebryanyy-vek",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:59:46.840Z"
     },
     {
         "id": 207,
@@ -650,7 +658,7 @@
     {
         "id": 208,
         "title": "Свадебное платье \"Винтаж\"",
-        "price": 10000,
+        "price": 15000,
         "category": "vintage",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272152/aves-web/product_208_1.jpg",
@@ -665,16 +673,18 @@
             "Тип": "Свадебное платье",
             "Эпоха": "Винтаж",
             "Размеры": "42-46 (рост 175)",
-            "Аренда": "10 000 ₽",
+            "Аренда": "15 000 ₽",
             "Залог": "Сопровождение костюмера",
             "Особенности": "LUXE, подходит для свадебных фотосессий и фотосессий в студии. На мероприятия не выдаётся"
         },
-        "slug": "svadebnoe-plate-vintazh"
+        "slug": "svadebnoe-plate-vintazh",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:58:58.846Z"
     },
     {
         "id": 209,
         "title": "Платье 1930-х, США",
-        "price": 8000,
+        "price": 10000,
         "category": "vintage",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272157/aves-web/product_209_1.jpg",
@@ -691,16 +701,18 @@
             "Тип": "Винтажное платье",
             "Эпоха": "1930-е, США",
             "Размеры": "40-42 (рост 165)",
-            "Аренда": "8 000 ₽",
+            "Аренда": "10 000 ₽",
             "Залог": "Сопровождение костюмера",
             "Особенности": "LUXE, музей, только студия"
         },
-        "slug": "plate-1930-h-ssha"
+        "slug": "plate-1930-h-ssha",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:58:44.909Z"
     },
     {
         "id": 210,
         "title": "Винтажное платье \"Прованс\"",
-        "price": 4500,
+        "price": 5000,
         "category": "vintage",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272162/aves-web/product_210_1.jpg",
@@ -713,10 +725,12 @@
             "Тип": "Винтажное платье",
             "Эпоха": "~1970-е",
             "Размеры": "42-46 (рост 170)",
-            "Аренда": "4 500 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "vintazhnoe-plate-provans"
+        "slug": "vintazhnoe-plate-provans",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:57:41.476Z"
     },
     {
         "id": 301,
@@ -772,7 +786,7 @@
     {
         "id": 303,
         "title": "Бальное платье \"Золушка\"",
-        "price": 5000,
+        "price": 6000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272178/aves-web/product_303_1.jpg",
@@ -783,11 +797,13 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 172)",
-            "Аренда": "5 000 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "ПРЕМИУМ, в комплект можно добавить кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-zolushka"
+        "slug": "balnoe-plate-zolushka",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:19:06.716Z"
     },
     {
         "id": 304,
@@ -863,7 +879,7 @@
     {
         "id": 307,
         "title": "Бальное платье \"Скарлетт\"",
-        "price": 6000,
+        "price": 8000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272195/aves-web/product_307_1.jpg",
@@ -879,12 +895,13 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "40-48 (рост 170)",
-            "Аренда": "7 000 ₽",
+            "Аренда": "8 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "Кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         },
         "slug": "balnoe-plate-skarlett",
-        "updatedAt": "2026-09-30T02:02:14.720Z"
+        "updatedAt": "2026-10-18T10:22:42.279Z",
+        "hidden": false
     },
     {
         "id": 308,
@@ -1094,7 +1111,7 @@
     {
         "id": 317,
         "title": "Бальное платье \"Сара\"",
-        "price": 7000,
+        "price": 10000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272239/aves-web/product_317_2.jpg",
@@ -1107,12 +1124,13 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "40-46 (рост 165)",
-            "Аренда": "8 000 ₽",
-            "Залог": "15 000 ₽",
+            "Аренда": "10 000 ₽",
+            "Залог": "20 000 ₽",
             "Особенности": "LUXE, кринолин и нижняя юбка 500 ₽ шт. Бальное платье регулируется шнуровкой."
         },
         "slug": "balnoe-plate-sara",
-        "updatedAt": "2026-09-30T02:02:48.990Z"
+        "updatedAt": "2026-10-18T10:22:22.279Z",
+        "hidden": false
     },
     {
         "id": 318,
@@ -1170,7 +1188,7 @@
     {
         "id": 320,
         "title": "Бальное платье \"Аристократка\"",
-        "price": 5000,
+        "price": 6000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272259/aves-web/product_320_1.jpg",
@@ -1195,11 +1213,13 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "42-44 (рост 167)",
-            "Аренда": "5 000 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Тафта, узкий кринолин или узкая юбкая 500 ₽. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-aristokratka"
+        "slug": "balnoe-plate-aristokratka",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:21:58.070Z"
     },
     {
         "id": 321,
@@ -1222,7 +1242,7 @@
     {
         "id": 322,
         "title": "Бальное платье \"Тёмное золото\"",
-        "price": 5000,
+        "price": 7000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272278/aves-web/product_322_1.jpg",
@@ -1238,7 +1258,9 @@
             "Залог": "15 000 ₽",
             "Особенности": "LUXE, кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-temnoe-zoloto"
+        "slug": "balnoe-plate-temnoe-zoloto",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:21:42.839Z"
     },
     {
         "id": 323,
@@ -1285,7 +1307,7 @@
     {
         "id": 325,
         "title": "Бальное платье \"Платье царицы Александры Фёдоровны\"",
-        "price": 10000,
+        "price": 15000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272286/aves-web/product_325_1.jpg",
@@ -1303,11 +1325,13 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "38-46 (рост 175)",
-            "Аренда": "10 000 ₽",
+            "Аренда": "15 000 ₽",
             "Залог": "Сопровождение костюмера от 2000 ₽",
             "Особенности": "LUXE, Атлас. Кринолин или мягкая юбка 500 ₽. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-plate-tsaritsy-aleksandry-fedorovny"
+        "slug": "balnoe-plate-plate-tsaritsy-aleksandry-fedorovny",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:21:23.218Z"
     },
     {
         "id": 326,
@@ -1342,7 +1366,7 @@
     {
         "id": 327,
         "title": "Бальное платье \"Золотое время\"",
-        "price": 5000,
+        "price": 6000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272307/aves-web/product_327_1.jpg",
@@ -1357,11 +1381,13 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "38-44 (рост 173)",
-            "Аренда": "5 000 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Бальное платье на очень узкую грудную клетку, кринолин не широкий 500 ₽. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-zolotoe-vremya"
+        "slug": "balnoe-plate-zolotoe-vremya",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:21:07.635Z"
     },
     {
         "id": 328,
@@ -1442,7 +1468,7 @@
     {
         "id": 331,
         "title": "Бальное платье \"Жасмин\"",
-        "price": 6000,
+        "price": 7000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272333/aves-web/product_331_1.jpg",
@@ -1462,11 +1488,13 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "42-44 (рост 169)",
-            "Аренда": "6 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "20 000 ₽",
             "Особенности": "Можно носить на мягкую юбку или узкий кринолин шт 500 ₽. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-zhasmin"
+        "slug": "balnoe-plate-zhasmin",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:20:48.206Z"
     },
     {
         "id": 332,
@@ -1520,7 +1548,7 @@
     {
         "id": 334,
         "title": "Бальное платье \"Пионы\"",
-        "price": 6000,
+        "price": 7000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272355/aves-web/product_334_1.jpg",
@@ -1534,11 +1562,13 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "44-48 (рост 175)",
-            "Аренда": "6 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "Носится с кринолином и обязательна нижняя юбка поверх кринолина. По 500 ₽ шт. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-piony"
+        "slug": "balnoe-plate-piony",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:20:30.240Z"
     },
     {
         "id": 335,
@@ -1590,7 +1620,7 @@
     {
         "id": 337,
         "title": "Бальное платье \"Ариана\"",
-        "price": 6000,
+        "price": 8000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272369/aves-web/product_337_1.jpg",
@@ -1614,12 +1644,13 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "38-44 (рост 165)",
-            "Аренда": "7 000 ₽",
+            "Аренда": "8 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "LUXE. кринолин стоимость 500 ₽. Бальное платье регулируется шнуровкой."
         },
         "slug": "balnoe-plate-ariana",
-        "updatedAt": "2026-09-30T02:03:05.480Z"
+        "updatedAt": "2026-10-18T10:20:15.871Z",
+        "hidden": false
     },
     {
         "id": 338,
@@ -1738,7 +1769,7 @@
     {
         "id": 343,
         "title": "Бальное платье \"Француженка\"",
-        "price": 4500,
+        "price": 5000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272404/aves-web/product_343_1.jpg",
@@ -1748,11 +1779,13 @@
         "details": {
             "Тип": "Бальные платья 18-й век",
             "Размеры": "42-46 (рост 172)",
-            "Аренда": "4 500 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Без кринолина, кринолин или мягкая юбка 500 ₽. Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-frantsuzhenka"
+        "slug": "balnoe-plate-frantsuzhenka",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:01:20.739Z"
     },
     {
         "id": 344,
@@ -1798,7 +1831,7 @@
     {
         "id": 401,
         "title": "Эльфийское платье \"Зелёная фея\"",
-        "price": 4000,
+        "price": 4500,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980219/aves-web/l1yjqhb7n6oqpapzpauh.jpg",
@@ -1814,16 +1847,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "40-44-173",
-            "Аренда": "4000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 500 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Регулируется шнуровка"
         },
-        "slug": "elfiyskoe-plate-zelenaya-feya"
+        "slug": "elfiyskoe-plate-zelenaya-feya",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:18:43.595Z"
     },
     {
         "id": 402,
         "title": "Средневековое платье \"Игра престолов\" по мотивам сериала",
-        "price": 4000,
+        "price": 4500,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980234/aves-web/igzdhvzn0sm2tm1dicgf.jpg",
@@ -1840,16 +1875,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "42-46-170",
-            "Аренда": "4000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 500 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Платье на молнии (не регулируется)"
         },
-        "slug": "srednevekovoe-plate-igra-prestolov-po-motivam-seriala"
+        "slug": "srednevekovoe-plate-igra-prestolov-po-motivam-seriala",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:18:24.316Z"
     },
     {
         "id": 403,
         "title": "Эльфийское платье \"Бирюзовый\"",
-        "price": 4500,
+        "price": 5000,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980249/aves-web/r0pukdpyoxjyjccbq6c8.jpg",
@@ -1869,16 +1906,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "40-46-172",
-            "Аренда": "4500 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Регулируется шнуровкой, сшито из очень тонкой ткани"
         },
-        "slug": "elfiyskoe-plate-biryuzovyy"
+        "slug": "elfiyskoe-plate-biryuzovyy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:17:59.890Z"
     },
     {
         "id": 404,
         "title": "Эльфийское платье «Бордо»",
-        "price": 5500,
+        "price": 6000,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980270/aves-web/tp0o55dt1wp3pdkcbns2.jpg",
@@ -1893,16 +1932,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "38-42-172",
-            "Аренда": "5500 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "Сопровождение костюмера",
             "Особенности": "Регулируется шнуровкой"
         },
-        "slug": "elfiyskoe-plate-bordo"
+        "slug": "elfiyskoe-plate-bordo",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:17:38.531Z"
     },
     {
         "id": 405,
         "title": "Эльфийское платье \"Белый с серебром\"",
-        "price": 4000,
+        "price": 5000,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980280/aves-web/f7wdfgoiwrw66tnea32w.jpg",
@@ -1916,16 +1957,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "40-50-170",
-            "Аренда": "4000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Без регулировки, без шнуровки, без молнии."
         },
-        "slug": "elfiyskoe-plate-belyy-s-serebrom"
+        "slug": "elfiyskoe-plate-belyy-s-serebrom",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:07:43.936Z"
     },
     {
         "id": 406,
         "title": "Эльфийское платье \"Синий\"",
-        "price": 4000,
+        "price": 4500,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980289/aves-web/wtubhntwnxyp9ycx6p6e.jpg",
@@ -1937,16 +1980,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "42-46-172",
-            "Аренда": "4000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 500 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Регулируется шнуровкой на спине"
         },
-        "slug": "elfiyskoe-plate-siniy"
+        "slug": "elfiyskoe-plate-siniy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:16:13.462Z"
     },
     {
         "id": 407,
         "title": "Сказочное платье \"Миледи\"",
-        "price": 6000,
+        "price": 8000,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980295/aves-web/qd9kr38w26onafk2lqqa.jpg",
@@ -1958,16 +2003,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "42- 44-175",
-            "Аренда": "6000 ₽",
-            "Залог": "20000 ₽",
+            "Аренда": "8 000 ₽",
+            "Залог": "20 000 ₽",
             "Особенности": "Регулируется шнуровкой"
         },
-        "slug": "skazochnoe-plate-miledi"
+        "slug": "skazochnoe-plate-miledi",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:15:50.884Z"
     },
     {
         "id": 408,
         "title": "Эльфийское платье \"Молочный с золотом\"",
-        "price": 10000,
+        "price": 12000,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980302/aves-web/sxwltnmi2mzti9htp9ad.jpg",
@@ -1983,16 +2030,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "40-46-172",
-            "Аренда": "10000 ₽",
-            "Залог": "35000 ₽",
+            "Аренда": "12 000 ₽",
+            "Залог": "35 000 ₽",
             "Особенности": "Регулируется шнуровкой на спине"
         },
-        "slug": "elfiyskoe-plate-molochnyy-s-zolotom"
+        "slug": "elfiyskoe-plate-molochnyy-s-zolotom",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:15:29.364Z"
     },
     {
         "id": 409,
         "title": "Эльфийское платье \"Зелёно-белый\"",
-        "price": 4000,
+        "price": 5000,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980317/aves-web/vk9ij8ha6gskkk15l2oc.jpg",
@@ -2004,16 +2053,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "38-44-163",
-            "Аренда": "4000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Регулируется шнуровкой на спине, имеется плащ"
         },
-        "slug": "elfiyskoe-plate-zeleno-belyy"
+        "slug": "elfiyskoe-plate-zeleno-belyy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:15:05.786Z"
     },
     {
         "id": 410,
         "title": "Сказочное платье «Del Luna»",
-        "price": 5000,
+        "price": 6000,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980326/aves-web/aohn3ctfugyb55t1grx0.jpg",
@@ -2026,16 +2077,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "42-46-168",
-            "Аренда": "5000 ₽",
-            "Залог": "15000 ₽",
+            "Аренда": "6 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "К платью имеется плащ"
         },
-        "slug": "skazochnoe-plate-del-luna"
+        "slug": "skazochnoe-plate-del-luna",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:14:21.722Z"
     },
     {
         "id": 411,
         "title": "Эльфийское платье \"Розовый\"",
-        "price": 10000,
+        "price": 12000,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980338/aves-web/pab2ujw1dfriqr5iveyn.jpg",
@@ -2052,16 +2105,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "42-46-175",
-            "Аренда": "10000 ₽",
-            "Залог": "30000 ₽",
+            "Аренда": "12 000 ₽",
+            "Залог": "30 000 ₽",
             "Особенности": "Регулируется шнуровкой на спине, рукава отстёгиваются."
         },
-        "slug": "elfiyskoe-plate-rozovyy"
+        "slug": "elfiyskoe-plate-rozovyy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:13:47.523Z"
     },
     {
         "id": 412,
         "title": "Эльфийское платье \"Золотая принцесса\"",
-        "price": 8000,
+        "price": 9000,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980353/aves-web/vvmnq07jajzbdimnyflk.jpg",
@@ -2077,11 +2132,13 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "40-48-172",
-            "Аренда": "8000 ₽",
-            "Залог": "25000 ₽",
+            "Аренда": "9 000 ₽",
+            "Залог": "25 000 ₽",
             "Особенности": "LUXE, регулируется шнуровкой, можно добавить мягкую юбку 500 ₽"
         },
-        "slug": "elfiyskoe-plate-zolotaya-printsessa"
+        "slug": "elfiyskoe-plate-zolotaya-printsessa",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:13:25.097Z"
     },
     {
         "id": 413,
@@ -2112,7 +2169,7 @@
     {
         "id": 414,
         "title": "Эльфийское платье «Голубая замша»",
-        "price": 4000,
+        "price": 4500,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980385/aves-web/rbg7usayojahdjamqwbc.jpg",
@@ -2132,16 +2189,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "38-44-160",
-            "Аренда": "4000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 500 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Регулируется шнуровкой на спине, при желании можно взять плащ"
         },
-        "slug": "elfiyskoe-plate-golubaya-zamsha"
+        "slug": "elfiyskoe-plate-golubaya-zamsha",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:13:05.455Z"
     },
     {
         "id": 415,
         "title": "Эльфийское платье \"Сказка\"",
-        "price": 4500,
+        "price": 5000,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980406/aves-web/djdmp1ewgx1qkaux5ony.jpg",
@@ -2154,16 +2213,18 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "52-64-172",
-            "Аренда": "4500 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Регулируется шнуровкой на спине"
         },
-        "slug": "elfiyskoe-plate-skazka"
+        "slug": "elfiyskoe-plate-skazka",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:11:12.652Z"
     },
     {
         "id": 416,
         "title": "Средневековое платье \"Бордовое с золотом\"",
-        "price": 4000,
+        "price": 4500,
         "category": "medieval",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980416/aves-web/tbfsqlkqtte4ixjtpveh.jpg",
@@ -2176,11 +2237,13 @@
             "Тип": "фэнтези, средневековье",
             "Стиль": "Средневековый / Сказочный",
             "Размеры": "46-50-170",
-            "Аренда": "4000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "4 500 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "Регулируется шнуровкой"
         },
-        "slug": "srednevekovoe-plate-bordovoe-s-zolotom"
+        "slug": "srednevekovoe-plate-bordovoe-s-zolotom",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:08:59.295Z"
     },
     {
         "id": 417,
@@ -3990,7 +4053,7 @@
     {
         "id": 701,
         "title": "Костюм серии БОХО «Ковбойка»",
-        "price": 8000,
+        "price": 10000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272750/aves-web/product_701_1.jpg",
@@ -4005,16 +4068,18 @@
         "details": {
             "Тип": "Костюм (комплект)",
             "Размеры": "38-50",
-            "Аренда": "8 000 ₽",
-            "Залог": "Сопровождение костюмера",
+            "Аренда": "10 000 ₽",
+            "Залог": "Сопровождение костюмера или залог 50 000 ₽",
             "Особенности": "LUXE, БОХО, есть два вида блузок, регулируется шнуровкой, всё что на фотографии можно взять в аренду"
         },
-        "slug": "kostyum-serii-boho-kovboyka"
+        "slug": "kostyum-serii-boho-kovboyka",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:57:13.729Z"
     },
     {
         "id": 702,
         "title": "Костюм серии БОХО «Испанка»",
-        "price": 8000,
+        "price": 10000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272756/aves-web/product_702_1.jpg",
@@ -4026,16 +4091,18 @@
         "details": {
             "Тип": "Костюм (комплект)",
             "Размеры": "38-50",
-            "Аренда": "8 000 ₽",
-            "Залог": "Сопровождение костюмера",
+            "Аренда": "10 000 ₽",
+            "Залог": "Сопровождение костюмера или залог 50 000 ₽",
             "Особенности": "LUXE, БОХО, все что на фото можно взять в аренду, регулируется шнуровкой"
         },
-        "slug": "kostyum-serii-boho-ispanka"
+        "slug": "kostyum-serii-boho-ispanka",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:56:35.588Z"
     },
     {
         "id": 703,
         "title": "Костюм серии БОХО «Песнь севера»",
-        "price": 8000,
+        "price": 10000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272759/aves-web/product_703_1.jpg",
@@ -4047,11 +4114,13 @@
         "details": {
             "Тип": "Костюм (комплект)",
             "Размеры": "40-54 (рост 175)",
-            "Аренда": "8 000 ₽",
-            "Залог": "Сопровождение костюмера",
+            "Аренда": "10 000 ₽",
+            "Залог": "Сопровождение костюмера или залог 50 000 ₽",
             "Особенности": "LUXE, БОХО, корсет регулируется шнуровкой"
         },
-        "slug": "kostyum-serii-boho-pesn-severa"
+        "slug": "kostyum-serii-boho-pesn-severa",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:55:41.138Z"
     },
     {
         "id": 704,
@@ -4096,7 +4165,7 @@
     {
         "id": 706,
         "title": "Комплект «Чёрная амазонка»",
-        "price": 5500,
+        "price": 6000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272767/aves-web/product_706_1.jpg",
@@ -4107,16 +4176,18 @@
         "details": {
             "Тип": "Комплект (5 предметов)",
             "Размеры": "40-44 (рост 170)",
-            "Аренда": "5 500 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "Классический костюм, регулируется по талии"
         },
-        "slug": "komplekt-chernaya-amazonka"
+        "slug": "komplekt-chernaya-amazonka",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:54:51.947Z"
     },
     {
         "id": 707,
         "title": "Зимняя амазонка «Чёрная леди»",
-        "price": 6000,
+        "price": 7000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272769/aves-web/product_707_1.jpg",
@@ -4127,16 +4198,18 @@
         "details": {
             "Тип": "Зимний комплект",
             "Размеры": "40-44 (рост 170)",
-            "Аренда": "6 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "20 000 ₽",
             "Особенности": "LUXE, выдерживает мороз до -25"
         },
-        "slug": "zimnyaya-amazonka-chernaya-ledi"
+        "slug": "zimnyaya-amazonka-chernaya-ledi",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:54:36.066Z"
     },
     {
         "id": 708,
         "title": "Викторианский костюм для верховой езды",
-        "price": 5500,
+        "price": 6000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272772/aves-web/product_708_1.jpg",
@@ -4146,11 +4219,13 @@
         "details": {
             "Тип": "Викторианский костюм",
             "Размеры": "42-50 (рост 170)",
-            "Аренда": "5 500 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "ПРЕМИУМ, всё регулируется по размеру, есть плащ накидка"
         },
-        "slug": "viktorianskiy-kostyum-dlya-verhovoy-ezdy"
+        "slug": "viktorianskiy-kostyum-dlya-verhovoy-ezdy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:54:16.432Z"
     },
     {
         "id": 709,
@@ -4170,12 +4245,14 @@
             "Залог": "25 000 ₽",
             "Особенности": "LUXE, подходит для съемок на улице до -25"
         },
-        "slug": "zimnyaya-amazonka-s-otdelkoy-iz-lisy"
+        "slug": "zimnyaya-amazonka-s-otdelkoy-iz-lisy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:52:01.531Z"
     },
     {
         "id": 710,
         "title": "Английский твидовый редингот",
-        "price": 4500,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272777/aves-web/product_710_1.jpg",
@@ -4186,11 +4263,13 @@
         "details": {
             "Тип": "Костюм для верховой езды",
             "Размеры": "40-42",
-            "Аренда": "4 500 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "ПРЕМИУМ, Твид"
         },
-        "slug": "angliyskiy-tvidovyy-redingot"
+        "slug": "angliyskiy-tvidovyy-redingot",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:50:08.639Z"
     },
     {
         "id": 711,
@@ -4214,7 +4293,7 @@
     {
         "id": 712,
         "title": "Фрак для верховой езды «Шоколадный»",
-        "price": 4000,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272782/aves-web/product_712_1.jpg",
@@ -4225,16 +4304,18 @@
         "details": {
             "Тип": "Фрак",
             "Размеры": "40-44",
-            "Аренда": "4 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "ПРЕМИУМ, Выездка. Сапоги и цилиндр возможны за доп.оплату"
         },
-        "slug": "frak-dlya-verhovoy-ezdy-shokoladnyy"
+        "slug": "frak-dlya-verhovoy-ezdy-shokoladnyy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:49:41.105Z"
     },
     {
         "id": 713,
         "title": "Фрак для верховой езды «Чёрный»",
-        "price": 4500,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272784/aves-web/product_713_4.jpg",
@@ -4245,16 +4326,18 @@
         "details": {
             "Тип": "Одежда для верховой езды",
             "Размеры": "40-44",
-            "Аренда": "4 500 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "ПРЕМИУМ, в наличии 2шт, Сапоги и цилиндр возможны за доп.оплату"
         },
-        "slug": "frak-dlya-verhovoy-ezdy-chernyy"
+        "slug": "frak-dlya-verhovoy-ezdy-chernyy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:49:13.789Z"
     },
     {
         "id": 714,
         "title": "Фрак для верховой езды «InterTex»",
-        "price": 4500,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272786/aves-web/product_714_1.jpg"
@@ -4263,16 +4346,18 @@
         "details": {
             "Тип": "Одежда для верховой езды",
             "Размеры": "40-44",
-            "Аренда": "4 500 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "Сапоги и цилиндр возможны за доп.оплату"
         },
-        "slug": "frak-dlya-verhovoy-ezdy-intertex"
+        "slug": "frak-dlya-verhovoy-ezdy-intertex",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:48:48.590Z"
     },
     {
         "id": 715,
         "title": "Фрак для верховой езды «Синий» (Pfiff)",
-        "price": 4500,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272788/aves-web/product_715_1.jpg"
@@ -4281,16 +4366,18 @@
         "details": {
             "Тип": "Фрак",
             "Размеры": "44-46",
-            "Аренда": "4 500 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "Сапоги и цилиндр возможны за доп.оплату"
         },
-        "slug": "frak-dlya-verhovoy-ezdy-siniy-pfiff"
+        "slug": "frak-dlya-verhovoy-ezdy-siniy-pfiff",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:48:18.482Z"
     },
     {
         "id": 716,
         "title": "Фрак для верховой езды «Синий»",
-        "price": 4500,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272788/aves-web/product_716_1.jpg",
@@ -4302,36 +4389,40 @@
             "Тип": "Костюм для верховой езды",
             "Размеры": "46-48",
             "Залог": "15 000 ₽",
-            "Аренда": "4 500 ₽",
+            "Аренда": "5 000 ₽",
             "Особенности": "Сапоги и цилиндр возможны за доп.оплату"
         },
-        "slug": "frak-dlya-verhovoy-ezdy-siniy"
+        "slug": "frak-dlya-verhovoy-ezdy-siniy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:48:02.756Z"
     },
     {
         "id": 717,
         "title": "Редингот для верховой езды «Felix Bühler»",
-        "price": 4000,
+        "price": 5000,
         "category": "riding",
         "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272793/aves-web/product_717_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272791/aves-web/product_717_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272791/aves-web/product_717_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272792/aves-web/product_717_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272793/aves-web/product_717_4.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272792/aves-web/product_717_3.jpg"
         ],
         "description": "Стильный чёрный редингот фирмы Felix Bühler. В комплекте: редингот, бриджи и перчатки.",
         "details": {
             "Тип": "Редингот",
             "Размеры": "42-44",
-            "Аренда": "4 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Сапоги и шлем возможны за доп.оплату"
         },
-        "slug": "redingot-dlya-verhovoy-ezdy-felix-b-hler"
+        "slug": "redingot-dlya-verhovoy-ezdy-felix-b-hler",
+        "updatedAt": "2026-10-18T10:46:50.480Z",
+        "hidden": false
     },
     {
         "id": 718,
         "title": "Редингот для верховой езды «Чёрный»",
-        "price": 4000,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272794/aves-web/product_718_1.jpg",
@@ -4341,16 +4432,18 @@
         "details": {
             "Тип": "Редингот",
             "Размеры": "42-44",
-            "Аренда": "4 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Сапоги и шлем возможны за доп.оплату"
         },
-        "slug": "redingot-dlya-verhovoy-ezdy-chernyy"
+        "slug": "redingot-dlya-verhovoy-ezdy-chernyy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:46:28.032Z"
     },
     {
         "id": 719,
         "title": "Редингот для верховой езды «Livreeo»",
-        "price": 4000,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272795/aves-web/product_719_1.jpg",
@@ -4360,16 +4453,18 @@
         "details": {
             "Тип": "Редингот",
             "Размеры": "44-46 (рост 170)",
-            "Аренда": "4 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Сапоги и шлем возможны за доп.оплату"
         },
-        "slug": "redingot-dlya-verhovoy-ezdy-livreeo"
+        "slug": "redingot-dlya-verhovoy-ezdy-livreeo",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:46:15.371Z"
     },
     {
         "id": 720,
         "title": "Редингот для верховой езды «Светло-серый»",
-        "price": 4500,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272798/aves-web/product_720_1.jpg",
@@ -4380,16 +4475,18 @@
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-42",
-            "Аренда": "4 500 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "LUXE. Сапоги и шлем возможны за доп.оплату"
         },
-        "slug": "redingot-dlya-verhovoy-ezdy-svetlo-seryy"
+        "slug": "redingot-dlya-verhovoy-ezdy-svetlo-seryy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:45:12.377Z"
     },
     {
         "id": 721,
         "title": "Редингот для верховой езды «Сливовый»",
-        "price": 4000,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272801/aves-web/product_721_1.jpg",
@@ -4399,11 +4496,13 @@
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-42",
-            "Аренда": "4 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Сапоги и шлем возможны за доп.оплату"
         },
-        "slug": "redingot-dlya-verhovoy-ezdy-slivovyy"
+        "slug": "redingot-dlya-verhovoy-ezdy-slivovyy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:44:37.257Z"
     },
     {
         "id": 722,
@@ -4427,7 +4526,7 @@
     {
         "id": 723,
         "title": "Редингот для верховой езды «Алый»",
-        "price": 4000,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272805/aves-web/product_723_1.jpg",
@@ -4438,16 +4537,18 @@
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-42",
-            "Аренда": "4 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Horse Pilot, Франция. Сапоги и цилиндр/шлем возможны за доп.оплату"
         },
-        "slug": "redingot-dlya-verhovoy-ezdy-alyy"
+        "slug": "redingot-dlya-verhovoy-ezdy-alyy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:44:07.907Z"
     },
     {
         "id": 724,
         "title": "Редингот для верховой езды «Красный»",
-        "price": 4000,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272807/aves-web/product_724_4.jpg",
@@ -4458,16 +4559,18 @@
         "details": {
             "Тип": "Редингот",
             "Размеры": "44-46",
-            "Аренда": "4 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "ПРЕМИУМ. Сапоги и шлем возможны за доп.оплату"
         },
-        "slug": "redingot-dlya-verhovoy-ezdy-krasnyy"
+        "slug": "redingot-dlya-verhovoy-ezdy-krasnyy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:42:19.448Z"
     },
     {
         "id": 725,
         "title": "Редингот для верховой езды «Небесно-голубой»",
-        "price": 4500,
+        "price": 5000,
         "category": "riding",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272811/aves-web/product_725_1.jpg",
@@ -4478,11 +4581,13 @@
         "details": {
             "Тип": "Редингот",
             "Размеры": "40-44",
-            "Аренда": "4 500 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Spooks, Германия. Сапоги и цилиндр возможны за доп.оплату"
         },
-        "slug": "redingot-dlya-verhovoy-ezdy-nebesno-goluboy"
+        "slug": "redingot-dlya-verhovoy-ezdy-nebesno-goluboy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:41:37.649Z"
     },
     {
         "id": 855,
@@ -4607,7 +4712,7 @@
     {
         "id": 806,
         "title": "Индийский праздничный костюм \"Золотой\"",
-        "price": 5500,
+        "price": 6000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272826/aves-web/product_806_1.jpg",
@@ -4618,11 +4723,13 @@
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "44-46",
-            "Аренда": "5 500 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "25 000 ₽",
             "Особенности": "LUXE, можно на 48, если нет большого животика"
         },
-        "slug": "indiyskiy-prazdnichnyy-kostyum-zolotoy"
+        "slug": "indiyskiy-prazdnichnyy-kostyum-zolotoy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:07:26.679Z"
     },
     {
         "id": 807,
@@ -4675,7 +4782,7 @@
     {
         "id": 810,
         "title": "Шёлковое коричневое кимоно",
-        "price": 3000,
+        "price": 4500,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272839/aves-web/product_810_1.jpg",
@@ -4686,15 +4793,17 @@
         "description": "Шёлковое коричневое кимоно. Длина 137см, размах 134см",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3 000 ₽",
-            "Залог": "10 000 ₽"
+            "Аренда": "4 500 ₽",
+            "Залог": "15 000 ₽"
         },
-        "slug": "shelkovoe-korichnevoe-kimono"
+        "slug": "shelkovoe-korichnevoe-kimono",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:06:13.479Z"
     },
     {
         "id": 811,
         "title": "Мужское кимоно из японского шёлка, чёрное",
-        "price": 3500,
+        "price": 4500,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272842/aves-web/product_811_1.jpg",
@@ -4706,9 +4815,13 @@
         "description": "Антикварное кимоно из японского шёлка. ",
         "details": {
             "Тип": "Мужской гардероб",
-            "Размер": "Длина 135см, размах рукавов 134см, передняя планка 25см"
+            "Размер": "Длина 135см, размах рукавов 134см, передняя планка 25см",
+            "Аренда": "4 500 ₽",
+            "Залог": "15 000 ₽"
         },
-        "slug": "muzhskoe-kimono-iz-yaponskogo-shelka-chernoe"
+        "slug": "muzhskoe-kimono-iz-yaponskogo-shelka-chernoe",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:06:00.014Z"
     },
     {
         "id": 812,
@@ -4731,7 +4844,7 @@
     {
         "id": 813,
         "title": "Мужское кимоно \"Серое\"",
-        "price": 3500,
+        "price": 4500,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272847/aves-web/product_813_1.jpg",
@@ -4742,16 +4855,18 @@
         "description": "Шёлковое серое кимоно из шерсти цумуги",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3 000 ₽",
+            "Аренда": "4 500 ₽",
             "Залог": "10 000 ₽",
             "Размер": "Длина 140см, размах 138см"
         },
-        "slug": "muzhskoe-kimono-seroe"
+        "slug": "muzhskoe-kimono-seroe",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:52:57.773Z"
     },
     {
         "id": 814,
         "title": "Мужское кимоно \"Синее\"",
-        "price": 3000,
+        "price": 4500,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272849/aves-web/product_814_2.jpg",
@@ -4765,10 +4880,12 @@
         "description": "Винтажное кимоно \"Синее\" из шёлка",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3 000 ₽",
+            "Аренда": "4 500 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "muzhskoe-kimono-sinee"
+        "slug": "muzhskoe-kimono-sinee",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:52:37.615Z"
     },
     {
         "id": 815,
@@ -4791,7 +4908,7 @@
     {
         "id": 816,
         "title": "Мужское кимоно \"Черное\"",
-        "price": 3500,
+        "price": 4000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272859/aves-web/product_816_6.jpg",
@@ -4803,15 +4920,17 @@
         "description": "Чёрное винтажное кимоно из шёлка. Япония. Длина 137см",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3 500 ₽",
+            "Аренда": "4 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "muzhskoe-kimono-chernoe"
+        "slug": "muzhskoe-kimono-chernoe",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:52:03.827Z"
     },
     {
         "id": 817,
         "title": "Мужское кимоно \"Черное\"",
-        "price": 3000,
+        "price": 5000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272864/aves-web/product_817_1.jpg"
@@ -4820,10 +4939,12 @@
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "44-48-160",
-            "Аренда": "3 000 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "muzhskoe-kimono-chernoe-817"
+        "slug": "muzhskoe-kimono-chernoe-817",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:51:43.518Z"
     },
     {
         "id": 818,
@@ -4882,7 +5003,7 @@
     {
         "id": 824,
         "title": "Комплект, Хаори + Кимоно",
-        "price": 5000,
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272875/aves-web/product_824_1.jpg",
@@ -4892,10 +5013,12 @@
         "description": "Комплект коричневого хаори и кимоно коричневого цвета. Имеет красивый рисунок на подкладке. Китай",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "5 000 ₽",
-            "Залог": "15 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
-        "slug": "komplekt-haori-kimono"
+        "slug": "komplekt-haori-kimono",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:44:27.647Z"
     },
     {
         "id": 825,
@@ -4908,13 +5031,15 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272878/aves-web/product_825_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272878/aves-web/product_825_5.jpg"
         ],
-        "description": "Винтажное мужское хаори в отличном состоянии. Красивая роспись на шёлковом подкладке. Цвет земляной. Длина 93см, размах рукавов 140см. Япония",
+        "description": "Винтажное мужское хаори из Японии. Красивая роспись на шёлковом подкладке. Цвет земляной. \nДлина 93см, размах рукавов 140см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3000 ₽",
-            "Залог": "10000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
-        "slug": "muzhskoe-haori"
+        "slug": "muzhskoe-haori",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:41:52.932Z"
     },
     {
         "id": 826,
@@ -4929,14 +5054,16 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272881/aves-web/product_826_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272882/aves-web/product_826_6.jpg"
         ],
-        "description": "Комплект выполнен из японской шерсти цумуги. Длина кимоно 137см, размах рукавов 131см. Длина хаори 86см, размах рукавов 133см. Япония",
+        "description": "Комплект выполнен из японской шерсти цумуги. \nДлина кимоно 137см, размах рукавов 131см. Длина хаори 86см, размах рукавов 133см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
             "Аренда": "5 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
-        "slug": "komplekt-iz-zelenogo-haori-kimono"
+        "slug": "komplekt-iz-zelenogo-haori-kimono",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:29:40.226Z"
     },
     {
         "id": 827,
@@ -4951,10 +5078,12 @@
         "description": "Винтажное Хаори из японского шёлка. Имеет красивый рисунок на подкладке в виде орла. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3000 ₽",
-            "Залог": "10000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
-        "slug": "muzhskoe-haori-827"
+        "slug": "muzhskoe-haori-827",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:26:51.284Z"
     },
     {
         "id": 828,
@@ -4991,13 +5120,15 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272892/aves-web/product_829_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272893/aves-web/product_829_5.jpg"
         ],
-        "description": "№30 Шёлковое хаори \"Синее\"",
+        "description": " Шёлковое хаори \"Синее\"",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3000 ₽",
-            "Залог": "10000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
-        "slug": "shelkovoe-haori-sinee"
+        "slug": "shelkovoe-haori-sinee",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:26:31.915Z"
     },
     {
         "id": 830,
@@ -5005,54 +5136,60 @@
         "price": 3000,
         "category": "mens",
         "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272894/aves-web/product_830_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272895/aves-web/product_830_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272896/aves-web/product_830_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272895/aves-web/product_830_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272894/aves-web/product_830_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272894/aves-web/product_830_1.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272894/aves-web/product_830_2.jpg"
         ],
         "description": "Состояние новое. Длина 75см, размах рукавов 138см",
         "details": {
             "Тип": "Мужской гардероб",
             "Особенности": "LUXE",
-            "Аренда": "3000 ₽",
-            "Залог": "10000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
-        "slug": "vintazhnoe-muzhskoe-haori-iz-yaponskoy-shersti"
+        "slug": "vintazhnoe-muzhskoe-haori-iz-yaponskoy-shersti",
+        "updatedAt": "2026-10-18T08:26:05.740Z",
+        "hidden": false
     },
     {
         "id": 831,
         "title": "Комплект Кимоно + Хаори \"Тёмно-серый\"",
-        "price": 5000,
+        "price": 3000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272897/aves-web/product_831_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272897/aves-web/product_831_2.jpg"
         ],
-        "description": "Шёлковое удлиненное Хаори, поверх кимоно тёмно-серого цвета. Длина 104см, размах 138см. Япония",
+        "description": "Шёлковое удлиненное Хаори, поверх кимоно тёмно-серого цвета. \nДлина 104см, размах 138см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "5 500 ₽",
-            "Залог": "15 000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
-        "slug": "komplekt-kimono-haori-temno-seryy"
+        "slug": "komplekt-kimono-haori-temno-seryy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:17:23.491Z"
     },
     {
         "id": 832,
         "title": "Винтажное Хаори из шёлка",
-        "price": 3000,
+        "price": 3500,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272898/aves-web/product_832_1.jpg"
         ],
-        "description": "Имеет красивый рисунок на подкладке с орлами. Длина 97см, размах рукавов 137см. Япония",
+        "description": "Имеет красивый рисунок на подкладке с орлами. \nДлина 97см, размах рукавов 137см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "3 500 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "vintazhnoe-haori-iz-shelka-832"
+        "slug": "vintazhnoe-haori-iz-shelka-832",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:25:16.035Z"
     },
     {
         "id": 833,
@@ -5060,19 +5197,21 @@
         "price": 3000,
         "category": "mens",
         "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272899/aves-web/product_833_1.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272900/aves-web/product_833_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272899/aves-web/product_833_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272900/aves-web/product_833_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272900/aves-web/product_833_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272901/aves-web/product_833_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272899/aves-web/product_833_1.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272901/aves-web/product_833_5.jpg"
         ],
         "description": "Винтажное шёлковое Хаори из японского шёлка. Длина 98см, размах 134см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3000 ₽",
-            "Залог": "10000 ₽"
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
         },
-        "slug": "vintazhnoe-shelkovoe-haori"
+        "slug": "vintazhnoe-shelkovoe-haori",
+        "hidden": false,
+        "updatedAt": "2026-10-18T08:15:56.391Z"
     },
     {
         "id": 835,
@@ -5086,11 +5225,13 @@
         "description": "Шёлковое хаори из японского шелка, винтаж. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3000 ₽",
-            "Залог": "10000 ₽",
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
-        "slug": "shelkovoe-haori-chernoe"
+        "slug": "shelkovoe-haori-chernoe",
+        "hidden": false,
+        "updatedAt": "2026-10-18T07:41:25.606Z"
     },
     {
         "id": 836,
@@ -5229,48 +5370,52 @@
     {
         "id": 844,
         "title": "Хакама мужская \"Молочная\"",
-        "price": 1500,
+        "price": 3500,
         "category": "mens",
         "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272913/aves-web/product_844_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272914/aves-web/product_844_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272915/aves-web/product_844_4.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272915/aves-web/product_844_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272913/aves-web/product_844_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272917/aves-web/product_844_5.jpg"
         ],
         "description": "Хакама из искусственного шелка молочного цвета. Длина 91см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3 000 ₽",
+            "Аренда": "3 500 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
-        "slug": "hakama-muzhskaya-molochnaya"
+        "slug": "hakama-muzhskaya-molochnaya",
+        "updatedAt": "2026-10-18T07:40:36.927Z",
+        "hidden": false
     },
     {
         "id": 845,
         "title": "Мужская Хакама \"Золотой рисунок\"",
-        "price": 3000,
+        "price": 4000,
         "category": "mens",
         "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272918/aves-web/product_845_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272918/aves-web/product_845_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272920/aves-web/product_845_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272919/aves-web/product_845_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272918/aves-web/product_845_1.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272919/aves-web/product_845_3.jpg"
         ],
         "description": "Хакама из искусственного шелка с золотым рисунком. Длина 80см",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3 000 ₽",
+            "Аренда": "4 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "muzhskaya-hakama-zolotoy-risunok"
+        "slug": "muzhskaya-hakama-zolotoy-risunok",
+        "updatedAt": "2026-10-18T07:40:09.514Z",
+        "hidden": false
     },
     {
         "id": 846,
         "title": "Мужская хакама из парчи \"Золотые линии\"",
-        "price": 3000,
+        "price": 4000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272922/aves-web/product_846_1.jpg"
@@ -5278,11 +5423,13 @@
         "description": "Хакама из парчи \"Золотые линии\". Длина 75см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3 000 ₽",
+            "Аренда": "4 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "muzhskaya-hakama-iz-parchi-zolotye-linii"
+        "slug": "muzhskaya-hakama-iz-parchi-zolotye-linii",
+        "hidden": false,
+        "updatedAt": "2026-10-18T07:39:03.348Z"
     },
     {
         "id": 847,
@@ -5290,9 +5437,9 @@
         "price": 3000,
         "category": "mens",
         "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272923/aves-web/product_847_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272925/aves-web/product_847_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272924/aves-web/product_847_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272923/aves-web/product_847_1.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272924/aves-web/product_847_2.jpg"
         ],
         "description": "Мужская винтажная хакама из шёлка, тип \"уманори\". Япония",
         "details": {
@@ -5300,90 +5447,99 @@
             "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "muzhskaya-hakama-umanori"
+        "slug": "muzhskaya-hakama-umanori",
+        "updatedAt": "2026-10-18T07:13:35.623Z"
     },
     {
         "id": 849,
         "title": "Мужская Антикварная Хакама",
-        "price": 3000,
+        "price": 4000,
         "category": "mens",
         "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272926/aves-web/product_849_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272927/aves-web/product_849_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272926/aves-web/product_849_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272927/aves-web/product_849_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272926/aves-web/product_849_1.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272927/aves-web/product_849_4.jpg"
         ],
         "description": "Антикварная мужская Хакама Плотный шёлк в рубчик. Длина 86см. Япония",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3000 ₽",
+            "Аренда": "4 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "muzhskaya-antikvarnaya-hakama"
+        "slug": "muzhskaya-antikvarnaya-hakama",
+        "hidden": false,
+        "updatedAt": "2026-10-18T07:13:31.148Z"
     },
     {
         "id": 850,
         "title": "Мужская Хакама \"Перламутровая\"",
-        "price": 3000,
+        "price": 5000,
         "category": "mens",
         "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272931/aves-web/product_850_6.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272928/aves-web/product_850_2.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272929/aves-web/product_850_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272930/aves-web/product_850_4.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272930/aves-web/product_850_5.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272931/aves-web/product_850_6.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272930/aves-web/product_850_5.jpg"
         ],
         "description": "Хакама из искусственного шелка \"Перламутровая\". Длина 93см",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3 000 ₽",
-            "Залог": "10 000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "muzhskaya-hakama-perlamutrovaya"
+        "slug": "muzhskaya-hakama-perlamutrovaya",
+        "hidden": false,
+        "updatedAt": "2026-10-18T07:13:40.820Z"
     },
     {
         "id": 851,
         "title": "Мужская Хакама \"Серебристо-фиолетовая\"",
-        "price": 3000,
+        "price": 5000,
         "category": "mens",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272933/aves-web/product_851_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272932/aves-web/product_851_1.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272932/aves-web/product_851_1.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272933/aves-web/product_851_2.jpg"
         ],
         "description": "Хакама из искусственного шелка \"Серебристо-фиолетовая\". Длина 88см. Россия",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3 000 ₽",
-            "Залог": "10 000 ₽",
+            "Аренда": "5 000 ₽",
+            "Залог": "15 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "muzhskaya-hakama-serebristo-fioletovaya"
+        "slug": "muzhskaya-hakama-serebristo-fioletovaya",
+        "hidden": false,
+        "updatedAt": "2026-10-18T07:13:43.015Z"
     },
     {
         "id": 852,
         "title": "Мужская Хакама Современная",
-        "price": 3000,
+        "price": 4000,
         "category": "mens",
         "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272934/aves-web/product_852_1.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272934/aves-web/product_852_2.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272935/aves-web/product_852_3.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272934/aves-web/product_852_1.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1773272935/aves-web/product_852_3.jpg"
         ],
         "description": "Чёрная мужская современная Хакама в горизонтальный рубчик",
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "52-56-190",
-            "Аренда": "3 000 ₽",
+            "Аренда": "4 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Подходит на высокий рост"
         },
-        "slug": "muzhskaya-hakama-sovremennaya"
+        "slug": "muzhskaya-hakama-sovremennaya",
+        "hidden": false,
+        "updatedAt": "2026-10-18T07:13:45.008Z"
     },
     {
         "id": 853,
         "title": "Мужские черная и белая хакамы",
-        "price": 3000,
+        "price": 4000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272936/aves-web/product_853_1.jpg",
@@ -5394,15 +5550,17 @@
         "details": {
             "Тип": "Мужской гардероб",
             "Размеры": "85-188",
-            "Аренда": "3 000 ₽",
+            "Аренда": "4 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "muzhskie-chernaya-i-belaya-hakamy"
+        "slug": "muzhskie-chernaya-i-belaya-hakamy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T07:11:34.679Z"
     },
     {
         "id": 854,
         "title": "Мужская Хакама \"Черная\"",
-        "price": 3000,
+        "price": 4000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773272938/aves-web/product_854_1.jpg"
@@ -5410,11 +5568,13 @@
         "description": "Чёрная хакама на высокий рост 190см. Россия",
         "details": {
             "Тип": "Мужской гардероб",
-            "Аренда": "3 000 ₽",
+            "Аренда": "4 000 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "Подходит на высокий рост"
         },
-        "slug": "muzhskaya-hakama-chernaya"
+        "slug": "muzhskaya-hakama-chernaya",
+        "hidden": false,
+        "updatedAt": "2026-10-18T07:11:01.101Z"
     },
     {
         "id": 901,
@@ -11188,7 +11348,7 @@
     {
         "id": 1601,
         "title": "Шикарное плащ-пальто \"Дворцовое средневековье\" Тёплый",
-        "price": 10000,
+        "price": 15000,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1790729420/aves-web/product_1601_1790729421564_q8edh.jpg",
@@ -11210,17 +11370,17 @@
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
             "Размеры": "Безразмерные",
-            "Аренда": "10 000 ₽",
-            "Залог": "30 000 ₽",
-            "Особенности": ""
+            "Аренда": "15 000 ₽",
+            "Залог": "30 000 ₽"
         },
         "slug": "shikarnoe-plasch-palto-dvortsovoe-srednevekove-teplyy",
-        "updatedAt": "2026-09-30T02:04:01.386Z"
+        "updatedAt": "2026-10-18T10:24:20.314Z",
+        "hidden": false
     },
     {
         "id": 1602,
         "title": "Плащ \"Дольче\"",
-        "price": 10000,
+        "price": 12000,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980455/aves-web/wddvcq3ld4y4tlettngs.jpg",
@@ -11241,12 +11401,13 @@
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
             "Размеры": "Безразмерные",
-            "Аренда": "10 000 ₽",
+            "Аренда": "12 000 ₽",
             "Залог": "20 000 ₽",
             "Особенности": "Полностью машинная вышивка"
         },
         "slug": "plasch-dolche",
-        "updatedAt": "2026-09-30T02:06:23.689Z"
+        "updatedAt": "2026-10-18T10:23:55.822Z",
+        "hidden": false
     },
     {
         "id": 1603,
@@ -11335,7 +11496,7 @@
     {
         "id": 1607,
         "title": "Плащ \"Зелёный\"",
-        "price": 2000,
+        "price": 2500,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1775694397/aves-web/product_1607_1775694396483.jpg",
@@ -11347,16 +11508,17 @@
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
             "Размеры": "Безразмерные",
-            "Аренда": "2 000 ₽",
-            "Залог": "5 000 ₽",
-            "Особенности": ""
+            "Аренда": "2 500 ₽",
+            "Залог": "5 000 ₽"
         },
-        "slug": "plasch-zelenyy"
+        "slug": "plasch-zelenyy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:23:34.204Z"
     },
     {
         "id": 1608,
         "title": "Плащ \"Синий\"",
-        "price": 2000,
+        "price": 2500,
         "category": "cloaks",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1773980503/aves-web/jv1x3udypcvoiokyxvld.jpg",
@@ -11369,11 +11531,12 @@
             "Тип": "аксессуар, верхняя одежда",
             "Стиль": "Плащи и Накидки",
             "Размеры": "Безразмерные",
-            "Аренда": "2 000 ₽",
-            "Залог": "5 000 ₽",
-            "Особенности": ""
+            "Аренда": "2 500 ₽",
+            "Залог": "5 000 ₽"
         },
-        "slug": "plasch-siniy"
+        "slug": "plasch-siniy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:23:19.106Z"
     },
     {
         "id": 1609,
@@ -11597,7 +11760,7 @@
     {
         "id": 1701,
         "title": "Костюм на Мулан",
-        "price": 3500,
+        "price": 4500,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468809/aves-web/product_1701_1.jpg",
@@ -11613,15 +11776,17 @@
         "details": {
             "Тип": "Этнический костюм",
             "Размеры": "42-46-170",
-            "Аренда": "3 500 ₽",
+            "Аренда": "4 500 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "kostyum-na-mulan"
+        "slug": "kostyum-na-mulan",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:11:33.781Z"
     },
     {
         "id": 1702,
         "title": "Ханбок, Корея",
-        "price": 3500,
+        "price": 4500,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468827/aves-web/product_1702_1.jpg",
@@ -11634,32 +11799,36 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468843/aves-web/product_1702_8.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468846/aves-web/product_1702_9.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Корейский костюм \"Ханбок\"",
         "details": {
             "Тип": "Этнический костюм",
             "Размеры": "42-46-172",
-            "Аренда": "3 500 ₽",
+            "Аренда": "4 500 ₽",
             "Залог": "10 000 ₽",
             "Особенности": "ПРЕМИУМ"
         },
-        "slug": "hanbok-koreya"
+        "slug": "hanbok-koreya",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:10:56.481Z"
     },
     {
         "id": 1703,
         "title": "Восточный костюм, брючный",
-        "price": 2500,
+        "price": 3000,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468848/aves-web/product_1703_1.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Роскошный восточный костюм",
         "details": {
             "Тип": "Этнический костюм",
             "Размеры": "42-46-170",
-            "Аренда": "2 500 ₽",
+            "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "vostochnyy-kostyum-bryuchnyy"
+        "slug": "vostochnyy-kostyum-bryuchnyy",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:10:24.816Z"
     },
     {
         "id": 1704,
@@ -11714,7 +11883,7 @@
     {
         "id": 1706,
         "title": "Платье бохо \"Белое\"",
-        "price": 2500,
+        "price": 3000,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468888/aves-web/product_1706_1.jpg",
@@ -11722,14 +11891,16 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468893/aves-web/product_1706_3.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468896/aves-web/product_1706_4.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Роскошное платье \"БОХО\" белого цвета",
         "details": {
             "Тип": "Этнический костюм",
             "Размеры": "42-46",
-            "Аренда": "2 500 ₽",
+            "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "plate-boho-beloe"
+        "slug": "plate-boho-beloe",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:09:04.330Z"
     },
     {
         "id": 1707,
@@ -11776,7 +11947,7 @@
     {
         "id": 1709,
         "title": "Платье бохо \"Чёрное\"",
-        "price": 2500,
+        "price": 3000,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468920/aves-web/product_1709_1.jpg",
@@ -11786,19 +11957,21 @@
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468928/aves-web/product_1709_5.jpg",
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468930/aves-web/product_1709_6.jpg"
         ],
-        "description": "Нет данных",
+        "description": "Роскошное платье \"БОХО\" чёрного цвета",
         "details": {
             "Тип": "Этнический костюм",
             "Размеры": "42-48",
-            "Аренда": "2 500 ₽",
+            "Аренда": "3 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "plate-boho-chernoe"
+        "slug": "plate-boho-chernoe",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:09:44.237Z"
     },
     {
         "id": 1710,
         "title": "Свадебный индийский костюм",
-        "price": 7500,
+        "price": 10000,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468932/aves-web/product_1710_1.jpg",
@@ -11813,17 +11986,18 @@
         "details": {
             "Тип": "Этнический костюм",
             "Размеры": "40-44",
-            "Аренда": "8 000 ₽",
+            "Аренда": "10 000 ₽",
             "Залог": "25 000 ₽",
             "Особенности": "LUXE"
         },
         "slug": "svadebnyy-indiyskiy-kostyum",
-        "updatedAt": "2026-09-30T02:04:27.191Z"
+        "updatedAt": "2026-10-18T11:08:08.355Z",
+        "hidden": false
     },
     {
         "id": 1711,
         "title": "Комплект из юбки и топа, Индия",
-        "price": 4000,
+        "price": 4500,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774468949/aves-web/product_1711_1.jpg",
@@ -11836,10 +12010,12 @@
         "details": {
             "Тип": "Этнический костюм",
             "Размеры": "42-44",
-            "Аренда": "4 000 ₽",
+            "Аренда": "4 500 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "komplekt-iz-yubki-i-topa-indiya"
+        "slug": "komplekt-iz-yubki-i-topa-indiya",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:06:49.673Z"
     },
     {
         "id": 1713,
@@ -11939,7 +12115,7 @@
     {
         "id": 1717,
         "title": "Индийский костюм",
-        "price": 8000,
+        "price": 9000,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774469045/aves-web/product_1717_1.jpg",
@@ -11958,11 +12134,13 @@
         "details": {
             "Тип": "Этнический костюм",
             "Размеры": "40-44-165",
-            "Аренда": "8 000 ₽",
+            "Аренда": "9 000 ₽",
             "Залог": "25 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "indiyskiy-kostyum"
+        "slug": "indiyskiy-kostyum",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:06:02.456Z"
     },
     {
         "id": 1718,
@@ -12137,7 +12315,7 @@
     {
         "id": 1726,
         "title": "Красивое цветное шифоновое сари с ручной вышивкой черного цвета",
-        "price": 4000,
+        "price": 4500,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774469228/aves-web/product_1726_1.jpg",
@@ -12154,15 +12332,17 @@
         "description": "Нет данных",
         "details": {
             "Тип": "Этнический костюм",
-            "Аренда": "4 000 ₽",
+            "Аренда": "4 500 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "krasivoe-tsvetnoe-shifonovoe-sari-s-ruchnoy-vyshivkoy-chernogo-tsveta"
+        "slug": "krasivoe-tsvetnoe-shifonovoe-sari-s-ruchnoy-vyshivkoy-chernogo-tsveta",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:04:47.481Z"
     },
     {
         "id": 1727,
         "title": "Комплект на Индию/Бохо",
-        "price": 4000,
+        "price": 4500,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774469259/aves-web/product_1727_1.jpg",
@@ -12173,15 +12353,17 @@
         "description": "Нет данных",
         "details": {
             "Тип": "Этнический костюм",
-            "Аренда": "4 000 ₽",
+            "Аренда": "4 500 ₽",
             "Залог": "12 000 ₽"
         },
-        "slug": "komplekt-na-indiyu-boho"
+        "slug": "komplekt-na-indiyu-boho",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:04:19.224Z"
     },
     {
         "id": 1728,
         "title": "Шифоновое сари (фиолетовое)",
-        "price": 5000,
+        "price": 6000,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774469267/aves-web/product_1728_1.jpg",
@@ -12197,11 +12379,13 @@
         "description": "Нет данных",
         "details": {
             "Тип": "Этнический костюм",
-            "Аренда": "5 000 ₽",
+            "Аренда": "6 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "shifonovoe-sari-fioletovoe"
+        "slug": "shifonovoe-sari-fioletovoe",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:03:22.835Z"
     },
     {
         "id": 1729,
@@ -12251,7 +12435,7 @@
     {
         "id": 1732,
         "title": "Индийское сари с шикарной вышивкой (бирюзовое)",
-        "price": 8000,
+        "price": 8500,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774469358/aves-web/product_1732_1.jpg",
@@ -12263,11 +12447,13 @@
         "description": "Бирюзовое сари с богатой вышивкой, бисером и зеркалами.",
         "details": {
             "Тип": "Этнический костюм",
-            "Аренда": "8 000 ₽",
+            "Аренда": "8 500 ₽",
             "Залог": "20 000 ₽",
             "Особенности": "LUXE"
         },
-        "slug": "indiyskoe-sari-s-shikarnoy-vyshivkoy-biryuzovoe"
+        "slug": "indiyskoe-sari-s-shikarnoy-vyshivkoy-biryuzovoe",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:02:51.346Z"
     },
     {
         "id": 1733,
@@ -12342,7 +12528,7 @@
     {
         "id": 1736,
         "title": "Комплект из юбки и топа в зелёном звете, Индия",
-        "price": 4500,
+        "price": 5000,
         "category": "ethnic-costumes",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1774469422/aves-web/product_1736_1.jpg",
@@ -12358,10 +12544,12 @@
         "details": {
             "Тип": "Этнический костюм",
             "Размеры": "44-48-168",
-            "Аренда": "4 500 ₽",
+            "Аренда": "5 000 ₽",
             "Залог": "10 000 ₽"
         },
-        "slug": "komplekt-iz-yubki-i-topa-v-zelenom-zvete-indiya"
+        "slug": "komplekt-iz-yubki-i-topa-v-zelenom-zvete-indiya",
+        "hidden": false,
+        "updatedAt": "2026-10-18T11:01:48.082Z"
     },
     {
         "id": 1737,
@@ -12524,7 +12712,7 @@
     {
         "id": 1744,
         "title": "Жокейский костюм",
-        "price": 5500,
+        "price": 6000,
         "category": "mens",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1783803082/aves-web/product_1744_1783803078134_0.jpg",
@@ -12533,11 +12721,13 @@
         ],
         "description": "Комплект из рубашки, редингота, бриджей, жабо, перчаток и сапог.",
         "details": {
-            "Арена": "5 500 ₽",
+            "Арена": "6 000 ₽",
             "Залог": "25 000 ₽",
             "Размер": "48-52-185"
         },
-        "slug": "zhokeyskiy-kostyum"
+        "slug": "zhokeyskiy-kostyum",
+        "hidden": false,
+        "updatedAt": "2026-10-18T10:41:17.930Z"
     },
     {
         "id": 1745,
@@ -12570,7 +12760,7 @@
     {
         "id": 1746,
         "title": "Золотое-мини",
-        "price": 4500,
+        "price": 5000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1790732564/aves-web/product_1746_1790732565392_ujuos.jpg",
@@ -12584,11 +12774,13 @@
         "description": "Бальное платье, атлас. Талия утягивается до 52 см.",
         "details": {
             "Залог": "10 000",
-            "Размер": "36-44 Рост 154-157см"
+            "Размер": "36-44 Рост 154-157см",
+            "Аренда": "5 000"
         },
         "slug": "zolotoe-mini",
         "createdAt": "2026-09-30T01:31:33.611Z",
-        "updatedAt": "2026-09-30T01:49:18.484Z"
+        "updatedAt": "2026-10-18T10:19:57.740Z",
+        "hidden": false
     },
     {
         "id": 1747,
@@ -12709,5 +12901,123 @@
         "slug": "shelkovoe-krasnoe-kimono-na-devochku",
         "createdAt": "2026-09-30T02:01:04.439Z",
         "updatedAt": "2026-09-30T02:01:38.737Z"
+    },
+    {
+        "id": 1753,
+        "title": "Хакама мужская \"Серая в чёрном комплекте\"",
+        "price": 5000,
+        "category": "mens",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792308672/aves-web/product_1753_1792308672493_35u0f.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792308671/aves-web/product_1753_1792308671945_8oqu8.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792308671/aves-web/product_1753_1792308670096_nattu.jpg"
+        ],
+        "description": "Весь набор полностью из винтажного шёлка",
+        "details": {
+            "Залог": "15 000 ₽",
+            "Аренда": "5 000 ₽"
+        },
+        "slug": "hakama-muzhskaya-seraya-v-chernom-komplekte",
+        "hidden": false,
+        "createdAt": "2026-10-18T07:31:10.066Z",
+        "updatedAt": "2026-10-18T07:39:34.759Z"
+    },
+    {
+        "id": 1754,
+        "title": "Антикварное мужское Хаори из Японии",
+        "price": 3000,
+        "category": "mens",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792309803/aves-web/product_1754_1792309802550_rq7v0.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792309804/aves-web/product_1754_1792309804561_kfk9p.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792309805/aves-web/product_1754_1792309805167_qqv2c.jpg"
+        ],
+        "description": "Красивая роспись на шёлковом подкладке. Цвет чёрный.\nДлина 87см, размах рукавов 136см",
+        "details": {
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
+        },
+        "slug": "antikvarnoe-muzhskoe-haori-iz-yaponii",
+        "hidden": false,
+        "createdAt": "2026-10-18T07:50:02.495Z",
+        "updatedAt": "2026-10-18T08:13:48.701Z"
+    },
+    {
+        "id": 1755,
+        "title": "Шёлковое светло-коричневое кимоно",
+        "price": 4000,
+        "category": "mens",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792312761/aves-web/product_1755_1792312761176_h1h1p.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792312760/aves-web/product_1755_1792312759731_qyplj.jpg"
+        ],
+        "description": "Длина 146см, размах 134см",
+        "details": {
+            "Аренда": "4 000 ₽",
+            "Залог": "10 000 ₽"
+        },
+        "slug": "shelkovoe-svetlo-korichnevoe-kimono",
+        "hidden": false,
+        "createdAt": "2026-10-18T08:39:19.705Z",
+        "updatedAt": "2026-10-18T08:47:56.122Z"
+    },
+    {
+        "id": 1756,
+        "title": "Шёлковое коричневое Хаори",
+        "price": 3000,
+        "category": "mens",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792313418/aves-web/product_1756_1792313417754_lx5ev.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792313416/aves-web/product_1756_1792313415837_bmm8a.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792313418/aves-web/product_1756_1792313419107_hfo4n.jpg"
+        ],
+        "description": "Длина 100см, размах 136см",
+        "details": {
+            "Аренда": "3 000 ₽",
+            "Залог": "10 000 ₽"
+        },
+        "slug": "shelkovoe-korichnevoe-haori",
+        "hidden": false,
+        "createdAt": "2026-10-18T08:50:15.807Z",
+        "updatedAt": "2026-10-18T08:51:00.040Z"
+    },
+    {
+        "id": 1757,
+        "title": "Тёмно-серый мужской редингот",
+        "price": 5000,
+        "category": "mens",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792319201/aves-web/product_1757_1792319201271_q9lzw.jpg",
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792319811/aves-web/product_1757_1792319811053_gftya.jpg"
+        ],
+        "description": "Комплект: редингот, рубашка, галстук, брошка, бриджи",
+        "details": {
+            "Аренда": "5 000 ₽",
+            "Залог": "10 000 ₽",
+            "Размер": "48-50"
+        },
+        "slug": "temno-seryy-muzhskoy-redingot",
+        "hidden": false,
+        "createdAt": "2026-10-18T10:26:41.244Z",
+        "updatedAt": "2026-10-18T10:36:59.837Z"
+    },
+    {
+        "id": 1758,
+        "title": "Редингот чёрный",
+        "price": 5000,
+        "category": "mens",
+        "images": [
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792319972/aves-web/product_1758_1792319972198_1sljt.jpg"
+        ],
+        "description": "Комплект: редингот, рубашка, галстук, брошка, бриджи, сапоги",
+        "details": {
+            "Аренда": "5 000 ₽",
+            "Залог": "10 0000 ₽",
+            "Размер": "46-48"
+        },
+        "slug": "redingot-chernyy",
+        "hidden": false,
+        "createdAt": "2026-10-18T10:39:32.171Z",
+        "updatedAt": "2026-10-18T10:40:55.029Z"
     }
 ]
