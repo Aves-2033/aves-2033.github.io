@@ -4,6 +4,8 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import videos from '../../data/videos.json';
 
+const visibleVideos = videos.filter((v: any) => !v.hidden);
+
 const title = "Видео-обзоры и примерки нарядов | Прокат от Кет";
 const description = "Атмосферные видео-обзоры исторических платьев, кимоно, средневековых нарядов и меха в Москве. Посмотрите посадку, детали и фактуру тканей в движении.";
 
@@ -20,7 +22,7 @@ const pageSchema = {
     {
       "@type": "ItemList",
       "name": "Видео-обзоры исторических платьев и костюмов",
-      "itemListElement": videos.map((v, i) => ({
+      "itemListElement": visibleVideos.map((v, i) => ({
         "@type": "VideoObject",
         "position": i + 1,
         "name": v.title,
@@ -66,7 +68,7 @@ const pageSchema = {
   <main class="videos-section">
     <div class="container">
       <div class="videos-grid" id="videosGrid">
-        {videos.map((item, index) => (
+        {visibleVideos.map((item, index) => (
           <article 
             class="video-card" 
             data-index={index}
