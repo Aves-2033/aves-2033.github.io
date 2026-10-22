@@ -17,8 +17,8 @@
             "Особенности": "Винтаж, 80-е годы"
         },
         "slug": "vintazhnaya-shuba-iz-lisy-80-e",
-        "updatedAt": "2026-10-14T11:40:11.377Z",
-        "hidden": false
+        "updatedAt": "2026-10-22T07:38:08.317Z",
+        "hidden": true
     },
     {
         "id": 102,
@@ -1811,7 +1811,7 @@
     {
         "id": 345,
         "title": "Бальное платье \"Герцогиня\"",
-        "price": 6000,
+        "price": 7000,
         "category": "ball",
         "images": [
             "https://res.cloudinary.com/dfphvshby/image/upload/v1778582859/aves-web/product_345_1.jpg",
@@ -1822,11 +1822,13 @@
         "details": {
             "Тип": "Бальные платья 19-й век",
             "Размеры": "42-46 (рост 170)",
-            "Аренда": "6 000 ₽",
+            "Аренда": "7 000 ₽",
             "Залог": "15 000 ₽",
             "Особенности": "Бальное платье регулируется шнуровкой."
         },
-        "slug": "balnoe-plate-gertsoginya"
+        "slug": "balnoe-plate-gertsoginya",
+        "hidden": false,
+        "updatedAt": "2026-10-22T07:37:35.422Z"
     },
     {
         "id": 401,
@@ -2218,8 +2220,8 @@
             "Особенности": "Регулируется шнуровкой на спине"
         },
         "slug": "elfiyskoe-plate-skazka",
-        "hidden": false,
-        "updatedAt": "2026-10-18T10:11:12.652Z"
+        "hidden": true,
+        "updatedAt": "2026-10-22T07:37:52.500Z"
     },
     {
         "id": 416,
@@ -11713,7 +11715,9 @@
             "Залог": "5 000 ₽",
             "Особенности": ""
         },
-        "slug": "plasch-bordovaya-zamsha"
+        "slug": "plasch-bordovaya-zamsha",
+        "hidden": true,
+        "updatedAt": "2026-10-22T07:38:25.181Z"
     },
     {
         "id": 1617,
@@ -12788,8 +12792,7 @@
         "price": 4500,
         "category": "ball",
         "images": [
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732672/aves-web/product_1747_1790732672928_nyf8t.jpg",
-            "https://res.cloudinary.com/dfphvshby/image/upload/v1790732673/aves-web/product_1747_1790732674768_t0a5q.jpg"
+            "https://res.cloudinary.com/dfphvshby/image/upload/v1792654383/aves-web/product_1747_1792654382404_m5wuu.jpg"
         ],
         "description": "Бальное платье, атлас. Талия утягивается до 50 см.",
         "details": {
@@ -12798,7 +12801,8 @@
         },
         "slug": "beloe-oblako",
         "createdAt": "2026-09-30T01:44:32.890Z",
-        "updatedAt": "2026-09-30T01:49:35.100Z"
+        "updatedAt": "2026-10-22T07:33:07.027Z",
+        "hidden": false
     },
     {
         "id": 1748,

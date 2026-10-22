@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ProductCard from '../../components/ProductCard.astro';
+import { sortMensProducts } from '../../utils/mensSorting.js';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -42,13 +43,17 @@ const { category } = Astro.params;
 const categoryInfo = categories.find(c => c.slug === category);
 const categoryLabel = categoryInfo ? categoryInfo.label : 'Каталог';
 
-const categoryProducts = products
+const rawCategoryProducts = products
   .filter((p: any) => !p.hidden && p.category === category)
   .sort((a: any, b: any) => {
     const timeA = a.updatedAt ? new Date(a.updatedAt).getTime() : 0;
     const timeB = b.updatedAt ? new Date(b.updatedAt).getTime() : 0;
     return timeB - timeA;
   });
+
+const categoryProducts = category === 'mens'
+  ? sortMensProducts(rawCategoryProducts)
+  : rawCategoryProducts;
 
 // Schema: BreadcrumbList
 const breadcrumbSchema = {

@@ -50,10 +50,27 @@ function applyFilter(category) {
     activeFilter = category;
     currentPage = 1;
 
+    const grid = document.getElementById('catalogGrid');
+
     if (category === 'all') {
         filteredCards = [...allCards];
+        if (grid) {
+            allCards.forEach(card => grid.appendChild(card));
+        }
     } else {
         filteredCards = allCards.filter(card => card.dataset.category === category);
+        if (category === 'mens') {
+            filteredCards.sort((a, b) => {
+                const wA = Number(a.dataset.mensWeight || 50);
+                const wB = Number(b.dataset.mensWeight || 50);
+                return wA - wB;
+            });
+            if (grid) {
+                filteredCards.forEach(card => grid.appendChild(card));
+            }
+        } else if (grid) {
+            allCards.forEach(card => grid.appendChild(card));
+        }
     }
 
     allCards.forEach(card => {

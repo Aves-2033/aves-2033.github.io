@@ -70,6 +70,16 @@
     "duration": "0:50"
   },
   {
+    "id": "newyear",
+    "title": "Новогодние исторические образы и бальные платья",
+    "categorySlug": "ball",
+    "categoryLabel": "Бальные платья",
+    "description": "Праздничная коллекция для новогодних балов и зимних фотосессий: утонченный ампир у рождественской ели, благородный кринолин с меховой накидкой и веером.",
+    "videoUrl": "/videos/newyear.mp4",
+    "posterUrl": "/videos/newyear-poster.webp",
+    "duration": "0:48"
+  },
+  {
     "id": "vintage",
     "title": "Винтажные и свадебные образы",
     "categorySlug": "vintage",

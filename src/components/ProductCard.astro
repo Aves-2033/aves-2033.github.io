@@ -1,4 +1,6 @@
 ---
+import { getMensGroupWeight } from '../utils/mensSorting.js';
+
 interface Props {
   title: string;
   price: number | null;
@@ -17,6 +19,8 @@ const formattedPrice = price != null ? price.toLocaleString('ru-RU') + ' ₽' :
 const optimizedImage = image.includes('/upload/') 
   ? image.replace('/upload/', '/upload/f_auto,q_auto,w_500/') 
   : image;
+
+const mensWeight = category === 'mens' ? getMensGroupWeight({ title, description }) : undefined;
 ---
 
 <article
@@ -25,6 +29,7 @@ const optimizedImage = image.includes('/upload/')
   data-category={category}
   data-index={index}
   data-id={id}
+  data-mens-weight={mensWeight}
 >
   <div class="card-image">
     <a href={`/product/${slug}`} class="image-seo-link" tabindex="-1" aria-hidden="true">
